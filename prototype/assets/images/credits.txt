@@ -1,0 +1,10 @@
+Profile Vector is acessible at https:https://www.pngegg.com/en/png-ekxin
+
+Team Vector is acessible at https://www.pngegg.com/en/png-zffkw
+
+Method icon is acessible at https://www.flaticon.com/free-icons/method
+
+
+To credit the respective creators inside the site credits page use this template
+
+<a href="[SITE URL]" title="[image/icon]-icons">[IMAGE NAME] by [CREATOR] at [SITE NAME]</a> 
