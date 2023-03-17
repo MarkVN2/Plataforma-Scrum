@@ -10,6 +10,7 @@ Projeto de alunos do 1º Semestre de Análise e Desenvolvimento da FATEC
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](
 https://www.linkedin.com/in/jhuan-araújo-de-souza-372233230)
 [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/TheRabbitDev)
+[<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/_hollow.rabbit_)
 
 ### Marcos Antonio: 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](
