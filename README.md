@@ -2,7 +2,7 @@
 Projeto de alunos do 1º Semestre de Análise e Desenvolvimento da FATEC
 
 ## Membros:
-### Gabriel Alves (Project Owner):
+### Gabriel Alves (Product Owner):
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267)
 [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gabriel15asouza)
 
