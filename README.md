@@ -25,6 +25,34 @@
 
 
 
+## Entregas
+### Sprint 1
+- [x] Product Backlog
+- [x] Protótipo Navegável
+- [x] Repositório no GitHub
+- [ ] Identidade Visual
+
+### Sprint 2
+- [ ] Corpo das páginas com conteúdo
+- [ ] Botões de navegação entre páginas
+- [ ] Barra de Navegação 
+- [ ] Página com conteúdo de auto-avaliação
+- [ ] Corpo da página home
+
+### Sprint 3
+- [ ] Overlays com aprofundamentos
+- [ ] Glossário de termos técnicos
+- [ ] Tooltip em termos técnicos
+- [ ] Página de recomendações e materiais disponíveis
+
+### Sprint 4
+- [ ] Animação e destaques de hover nos botões
+- [ ] Icone das páginas
+- [ ] Footer das páginas
+
+
+
+
 ## Requisitos
 <details>
    <summary>Funcionais:</summary>
