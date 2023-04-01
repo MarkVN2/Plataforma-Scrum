@@ -25,7 +25,10 @@
 
 
 
-## Entregas
+## Backlog / Entregas
+<img src="https://user-images.githubusercontent.com/76211125/229313654-51fad459-eb95-4cc5-a001-10c4ac755f7a.png#gh-light-mode-only" />
+<img src="https://user-images.githubusercontent.com/76211125/229313657-641ce761-45e5-4ad8-8ea7-1d5719c81ae2.png#gh-dark-mode-only" />
+
 ### Sprint 1
 - [x] Product Backlog
 - [x] Protótipo Navegável
