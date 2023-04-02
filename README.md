@@ -28,6 +28,9 @@
 
 
 ## Backlog / Entregas
+
+<img src="https://user-images.githubusercontent.com/76211125/229362966-0310a3f1-28d6-4aff-ae06-82c73c010da6.png#gh-light-mode-only"/>
+<img src="https://user-images.githubusercontent.com/76211125/229362969-6ef214f0-3e15-470a-8883-bc509d7954c9.png#gh-dark-mode-only"/>
 <img src="https://user-images.githubusercontent.com/76211125/229313654-51fad459-eb95-4cc5-a001-10c4ac755f7a.png#gh-light-mode-only" />
 <img src="https://user-images.githubusercontent.com/76211125/229313657-641ce761-45e5-4ad8-8ea7-1d5719c81ae2.png#gh-dark-mode-only" />
 
@@ -35,7 +38,8 @@
 - [x] Product Backlog
 - [x] Protótipo Navegável
 - [x] Repositório no GitHub
-- [ ] Identidade Visual
+- [x] Conteúdo das paginas
+- [x] Identidade Visual
 
 ### Sprint 2
 - [ ] Corpo das páginas com conteúdo
