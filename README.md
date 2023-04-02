@@ -1,8 +1,13 @@
 # Plataforma-Scrum
-   Projeto de alunos do 1º Semestre de Análise e Desenvolvimento da FATEC
-
-   <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a>
-
+   <p align="center">
+     <a href ="#visão-do-produto">Visão do produto</a>  • 
+     <a href ="#cronograma">Cronograma</a>  • 
+     <a href ="#backlog--entregas">Backlog/Entregas</a>  •
+     <a href ="#requisitos">Requisítos</a>  •
+     <a href ="#tecnologias">Técnologias</a>  •
+     <a href ="#equipe">Equipe</a> 
+   </p>
+   Projeto de alunos do 1º Semestre de Análise e Desenvolvimento da FATEC.
 
 
 ## Visão do Produto
@@ -10,6 +15,11 @@
    abrangendo seus princípios, processos e artefatos, e demonstrando como aplicá-la 
    em seus respectivos contextos. O sistema contará com recursos interativos que 
    proporcionarão um aprendizado eficiente do conteúdo e uma boa experiência aos usuários.
+   
+   <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a>
+   <br>
+   <img align="center" src="https://user-images.githubusercontent.com/76211125/229372571-f503890a-bf65-4038-a0ae-52b91fd46044.gif" />
+
 
 
 
@@ -28,9 +38,9 @@
 
 
 ## Backlog / Entregas
-
 <img src="https://user-images.githubusercontent.com/76211125/229362966-0310a3f1-28d6-4aff-ae06-82c73c010da6.png#gh-light-mode-only"/>
 <img src="https://user-images.githubusercontent.com/76211125/229362969-6ef214f0-3e15-470a-8883-bc509d7954c9.png#gh-dark-mode-only"/>
+<br>
 <img src="https://user-images.githubusercontent.com/76211125/229313654-51fad459-eb95-4cc5-a001-10c4ac755f7a.png#gh-light-mode-only" />
 <img src="https://user-images.githubusercontent.com/76211125/229313657-641ce761-45e5-4ad8-8ea7-1d5719c81ae2.png#gh-dark-mode-only" />
 
