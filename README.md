@@ -18,7 +18,7 @@
    
    <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a>
    <br>
-   <img align="center" src="https://user-images.githubusercontent.com/76211125/229372571-f503890a-bf65-4038-a0ae-52b91fd46044.gif" />
+   <img align="center" src="https://user-images.githubusercontent.com/76211125/229383417-ba242c58-2333-438b-bd94-cf28c7dbcfa7.gif" />
 
 
 
