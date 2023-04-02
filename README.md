@@ -5,10 +5,11 @@
 
 
 
-## Objetivo
-   Desenvolver um sistema web que indique todos os processos e artefatos da metodologia ágil
-   (Scrum), todos os processos deverão ter conceitos e fundamentos com referências, bem como a
-   aplicação com exemplos práticos para a plena compreensão do usuário do sistema.
+## Visão do Produto
+   Um sistema web didático formativo com o intuito de ensinar a metodologia Scrum,
+   abrangendo seus princípios, processos e artefatos, e demonstrando como aplicá-la 
+   em seus respectivos contextos. O sistema contará com recursos interativos que 
+   proporcionarão um aprendizado eficiente do conteúdo e uma boa experiência aos usuários.
 
 
 
