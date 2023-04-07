@@ -1,0 +1,19 @@
+/*Import for the fonts for the site */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+
+
+/* Font family for the navbar items */
+.navbar-custom {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Font family for the dropdown items */
+.navbar-custom .dropdown-item{
+    font-family: 'Inter', sans-serif;
+}
+
+/* Change this to change the background color of the dropdown buttons */
+.navbar-nav > li > .dropdown-menu{ background-color:none; }
+
+/* Change this to change font color of the dropdown buttons */
+.navbar-nav > li > .dropdown-item{ color:none; }
