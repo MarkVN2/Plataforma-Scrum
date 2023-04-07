@@ -13,3 +13,6 @@ def navbar():
 @app.route("/head")
 def header():
     return render_template('example_page.html')
+
+if __name__=='__main__': #MAKES THE SERVER START UPON RUNNING THE CODE.
+    app.run(debug=True, use_debugger=True,use_reloader=True)
