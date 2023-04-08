@@ -12,8 +12,24 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* Distance between elements of the navbar */
+.navbar-nav > li {
+    padding-left:30px;
+    padding-right:30px;
+}
 /* Change this to change the background color of the dropdown buttons */
 .navbar-nav > li > .dropdown-menu{ background-color:none; }
 
 /* Change this to change font color of the dropdown buttons */
-.navbar-nav > li > .dropdown-item{ color:none; }
+.navbar-nav > li > .dropdown-item{ color:none;}
+
+/* Change this to change hover color on nav elements */
+.navbar-nav li > a:hover, a:focus, a:active {color:none;}
+
+/* Changes background of dropdown elements */
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color:none!important;
+    color:none !important;}
+
+/* Changes background of dropdown */
+ul.dropdown-menu {background-color:none;}
