@@ -1,0 +1,14 @@
+.header-base{
+  height: 45%; 
+  padding: 0; 
+  background-image: url(../images/SquaresTogetherSmaller.png); 
+  background-size: cover;
+}
+.content-icon{
+  margin-bottom: -7%; 
+  background-color: white;
+  z-index: 1;
+}
+.content-title{
+  font-size: 6rem;
+}

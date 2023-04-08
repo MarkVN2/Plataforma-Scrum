@@ -1,0 +1,2 @@
+Combinar os arquivos de CSS futuramente, portanto mantenha
+Um padrão de nomeação, para evitar um conflito entre IDs ou Classes.
