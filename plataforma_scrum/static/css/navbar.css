@@ -14,8 +14,10 @@
 
 /* Distance between elements of the navbar */
 .navbar-nav > li {
-    padding-left:30px;
-    padding-right:30px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 /* Change this to change the background color of the dropdown buttons */
 .navbar-nav > li > .dropdown-menu{ background-color:none; }
