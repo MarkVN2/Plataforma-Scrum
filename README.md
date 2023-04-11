@@ -3,8 +3,8 @@
      <a href ="#visão-do-produto">Visão do produto</a>  • 
      <a href ="#cronograma">Cronograma</a>  • 
      <a href ="#backlog--entregas">Backlog/Entregas</a>  •
-     <a href ="#requisitos">Requisítos</a>  •
-     <a href ="#tecnologias">Técnologias</a>  •
+     <a href ="#requisitos">Requisitos</a>  •
+     <a href ="#tecnologias">Tecnologias</a>  •
      <a href ="#equipe">Equipe</a> 
    </p>
    Projeto de alunos do 1º Semestre de Análise e Desenvolvimento da FATEC.
