@@ -6,9 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route("/exp") #ONLY FOR TESTING REMOVE LATER
-def navbar():
-    return render_template('conclusao.html') #
+@app.route("/pag") #ONLY FOR TESTING REMOVE LATER
+def pag():
+    return render_template('conclusion.html') #
 
 @app.route("/head")
 def header():
