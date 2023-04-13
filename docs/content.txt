@@ -62,28 +62,25 @@ As equipes Scrum possuem em sua essência a capacidade de serem autogerenciávei
 
 Essa competência às proporciona a possibilidade de se abstraírem das situações e cenários em que estão inseridas e analisarem o processo de um ponto de vista crítico, fazendo desse princípio um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para garantir que o projeto mantenha a identidade e os objetivos que foram estabelecidos.
 
+A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o períoddo de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desentrolando. É ideal para esse momento que cada um dos integrantes da equipe sejam avaliados uns pelos outros de acordo com a forma com que esses tem trabalhado. Os pontos individuais a serem considerados são entrega de resultados, autonomia, cooperação e proatividade
+
+(OVERLAY - IMAGEM RETROSPECTIVA SPRINT
+Nesse processo de 'lavagem de roupa suja' é importante que os indíviduos não apenas ressaltem os pontos negativos, mas também levantem pontos postivos do grupo e enaltaçam os destaques individuais. Além disso, esse é o momento propício para expressar ideias e opiniões.)
+
 Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
 
 ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF
-O Kick Off ou Sprint 0 é a primeira fase do projeto, na qual o cliente apresentará os porquês de seu interesse no projeto, qual a visão geral do produto, as necessidades, os desejos e as expectativas que foram geradas. 
-
-Todas essas informações fazem parte da identidade do produto e a partir delas serão projetados os possíveis caminhos pelos quais a equipe irá trilhar até alcançar o objetivo final, superar as expectativas do cliente.
 (OVERLAY - GIF - ASSOCIAÇÃO COM ALICERCE DE UMA CONSTRUÇÃO
-Se associarmos o produto que está sendo desenvolvido a um prédio em construção, o Kick Off assertivamente poderia ser relacionado ao alicerce que é feito, o qual representará essa base forte que fundamentará as demais etapas que comporão as etapas superiores.)
+Se associarmos o produto que está sendo desenvolvido a um prédio em construção, o Kick Off assertivamente poderia ser relacionado ao alicerce que é feito, o qual representará essa base forte que fundamentará as demais etapas que comporão as etapas superiores.
+Nessa etapa, o cliente apresentará os porquês de seu interesse no projeto, qual a visão geral do produto, as necessidades, os desejos e as expectativas que foram geradas.)
 
 DÊ OPINIÕES E IDEIAS
-Durante a avaliação interna do grupo, é normal que apareçam divergências de opinião e conflitos de ideias em relação a alguns pontos do projeto (conflitos não em referência a brigas e ofensas, mas a contradições e dilemas). 
-
-Essas discussões devem ser tidas por positivas, pois esses pensamentos desiguais levarão a equipe a sair da zona de conforto, forçando-a a buscar possíveis resoluções para o dilema em questão. Essas situações sempre terão por resultado o crescimento da equipe e uma série de possíveis aprimoramentos e novas ideias.
-
-Diante disso, não se omita ou iniba a sua opinião, receando que ela seja rejeitada ou que seu colega irá se sentir rejeitado caso a ideia dele não seja aderida. 
-
-Tenha em mente que todo posicionamento é feito em prol do time, então se a ideia for ou não aplicada, em ambos os casos ela possibilitará o crescimento da equipe a partir de um outro ponto de vista e a melhora em algum aspecto do produto. Opiniões e críticas respeitosas e construtivas serão sempre bem-vindas.
+(OVERLAY - Opiniões e críticas respeitosas e construtivas serão sempre bem-vindas. Durante a avaliação interna do grupo, é normal que apareçam divergências de opinião e conflitos de ideias em relação a alguns pontos do projeto (conflitos não em referência a brigas e ofensas, mas a contradições e dilemas). 
+Essas discussões devem ser tidas por positivas, pois esses pensamentos desiguais levarão a equipe a sair da zona de conforto, forçando-a a buscar possíveis resoluções para o dilema em questão. Essas situações sempre terão por resultado o crescimento da equipe e uma série de possíveis aprimoramentos e novas ideias.)
 
 ADAPTE-SE
-Mesmo que você esteja tendo seu primeiro contato com Scrum a partir desse material, supõe-se que já tenha entendido o quanto a adaptabilidade será fundamental para o sucesso do seu projeto. Uma das maiores vantagens dessa metodologia é essa autonomia que ela fornece à equipe para que alterações sejam feitas durante o desenvolvimento do projeto. 
-
-Tudo isso vai acontecendo naturalmente. Uma nova ideia surge, novas perspectivas sendo acessadas conforme o projeto progride, aquilo que outrora fazia muito sentido e era tido por essencial vai perdendo a importância e ficando em segundo plano e tudo vai se reformulando e sendo aprimorado. 
+(OVERLAY - Mesmo que você esteja tendo seu primeiro contato com Scrum a partir desse material, supõe-se que já tenha entendido o quanto a adaptabilidade será fundamental para o sucesso do seu projeto. Uma das maiores vantagens dessa metodologia é essa autonomia que ela fornece à equipe para que alterações sejam feitas durante o desenvolvimento do projeto. 
+Tudo isso vai acontecendo naturalmente. Uma nova ideia surge, novas perspectivas sendo acessadas conforme o projeto progride, aquilo que outrora fazia muito sentido e era tido por essencial vai perdendo a importância e ficando em segundo plano e tudo vai se reformulando e sendo aprimorado.)
 
 METODOLOGIA - TEAM
 Em todo início de projeto a equipe irá, a partir da visão do produto passada pelo cliente, estabelecer requisitos, os quais se referem aos fatores que compõem e promovem uma solução ou satisfazem as necessidades do cliente. 
@@ -97,6 +94,8 @@ Após estabelecer a importância de cada uma dessas tarefas, inicia-se a produç
 Os requisitos são divididos em períodos de produção, os quais são conhecidos como Sprints. 
 
 O projeto completo será composto por um série de Sprints, tendo a quantia variada de acordo com a complexidade do produto.
+
+Ao final de cada Sprint, será realizada a já citada Retrospectiva de sprint, a qual dá um panorama geral de como a equipe se comportou e realizadade de prós e contras da respectiva etapa de desenvolvimento.
 
 Quanto aos membros da equipe, eles serão divididos em cargos de acordo com a função que exercerão no time. 
 
