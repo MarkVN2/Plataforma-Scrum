@@ -1,18 +1,21 @@
-{% extends 'NHTemplate.html' %} {% block title %}Visão - Metodologia |
-Plataforma Scrum{% endblock %} {% block color %}style="background-color:
-rgba(248, 134, 30, 0.65);"{% endblock %} {% block iconName %}method{% endblock
-%} {% block contentTitle %}Metodologia{% endblock %} {% block subtitle %}Visão{%
-endblock %} {% block content %}
-<div class="h-75 w-75 met-vis-main">
+<!-- prettier-ignore -->
+{% extends 'NHTemplate.html' %} 
+{% block title %}Visão - Metodologia | Plataforma Scrum{% endblock %} 
+{% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %} 
+{% block iconName %}method{% endblock%} 
+{% block contentTitle %}Metodologia{% endblock %}
+{% block subtitle %}Visão{%endblock %} 
+{% block content %}
 
+<div class="h-75 w-75 met-vis-main">
   <div class="met-vis-textbox">
     <p class="met-vis-para">
-      Em uma equipe de <strong>Scrum</strong> todos estão a par da visão do produto, dos
-      objetivos a serem alcançados e dos requisitos que foram determinados para
-      serem executados.
+      Em uma equipe de <strong>Scrum</strong> todos estão a par da visão do
+      produto, dos objetivos a serem alcançados e dos requisitos que foram
+      determinados para serem executados.
     </p>
 
-    <p class="met-vis-para"> 
+    <p class="met-vis-para">
       Nela não há nenhum membro que possua algum nível de liderança ou
       autoridade para impor instruções aos demais (com exceção de casos em que
       haja algum responsável externo que irá coordenar o andamento do projeto,
@@ -49,8 +52,12 @@ endblock %} {% block content %}
   </div>
 
   <div class="placeholder-buttons">
-    <button class="btn btn-lg btn-outline-warning">Previous</button>
-    <button class="btn btn-lg btn-outline-success">Next</button>
+    <a href="/metodologia/oquee" class="btn btn-lg btn-outline-warning"
+      >previous</a
+    >
+    <a href="/metodologia/pilares" class="btn btn-lg btn-outline-success"
+      >next</a
+    >
   </div>
 </div>
 {% endblock %}
