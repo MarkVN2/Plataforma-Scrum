@@ -1,0 +1,88 @@
+<!-- prettier-ignore -->
+{% extends 'NHTemplate.html' %} 
+{% block title %}Pilares - Metodologia | Plataforma Scrum{% endblock %} 
+{% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %} 
+{% block iconName %}method{% endblock%} 
+{% block contentTitle %}Metodologia{% endblock %}
+{% block subtitle %}Pilares{%endblock %} 
+{% block content %}
+
+<div class="h-75 w-75 met-pil-main">
+  <div class="met-pil-textbox">
+    <p class="met-pil-para">
+      O Scrum a todo momento prioriza a entrega de elementos que, ainda que não
+      tenham alcançado a projeção esperada para o produto final, já possuem
+      funcionalidade e podem ser aplicados, agregando valor ao cliente e, em
+      alguns casos, até mesmo uma rentabilidade ainda nos estágios iniciais do
+      projeto.
+    </p>
+
+    <p class="met-pil-para">
+      Além disso, devido a essa constante validação com o cliente, caso alguma
+      de suas expectativas não seja atendida ou ocorra qualquer tipo de falha na
+      execução, essa já poderá ser remediada ainda em seus estágios iniciais.
+    </p>
+
+    <p class="met-pil-para">
+      Por fim, outra característica crucial do Scrum é que não há interrupções
+      de produção para esperar que outra tarefa seja desenvolvida. As tarefas
+      são sim delegadas, mas essas possuem independência umas das outras.
+    </p>
+
+    <p class="met-pil-para" style="text-align: center">
+      Toda essa teoria é baseada nos seguintes pilares:
+    </p>
+  </div>
+
+  <div class="met-pil-three-sections">
+    <div class="met-pil-section">
+      <img src="../static/images/transparencia.png" alt="Transparência" class="met-pil-img" />
+
+      <div class="met-pil-sect-textbox">
+        <h2 class="met-pil-sect-title">Transparência</h2>
+        <p class="met-pil-sect-text">
+          Os membros do grupo precisam a todo o momento transparecer como está o
+          andamento de sua tarefa, suas necessidades, suas percepções. Essa
+          integração da equipe é essencial, pois ninguém é capaz de saber pelo o
+          quê o outro está passando a menos que este fale e peça ajuda.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="met-pil-section">
+      <img src="../static/images/inspecao.png" alt="Inspeção" class="met-pil-img" />
+
+      <div class="met-pil-sect-textbox">
+        <h2 class="met-pil-sect-title">Inspeção</h2>
+        <p class="met-pil-sect-text">
+          O processo é composto por iteração, tentativa e erro. Sendo assim, é
+          necessário que com frequência o grupo avalie se as decisões e o
+          planejamento escolhidos estão exprimindo o resultado esperado
+        </p>
+      </div>
+
+    </div>
+
+    <div class="met-pil-section">
+      <img src="../static/images/adaptacao.png" alt="Adaptação" class="met-pil-img" />
+
+      <div class="met-pil-sect-textbox">
+        <h2 class="met-pil-sect-title">Adaptação</h2>
+        <p class="met-pil-sect-text">
+          O desenvolvimento Scrum é cheio de mudanças. Naturalmente, aquilo que
+          foi planejado perderá o valor que antes possuía quando foi idealizado,
+          fazendo-se necessária uma série de adaptações. Lembre-se, esse método
+          incentiva a dinamicidade, e não a rigidez.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="placeholder-buttons">
+    <a href="/metodologia/visao" class="btn btn-lg btn-outline-warning">previous</a>
+    <a href="/metodologia/autoavaliacao" class="btn btn-lg btn-outline-success">next</a>
+  </div>
+</div>
+{% endblock %}

@@ -11,6 +11,9 @@ def index():
 def metVis():
     return render_template('met_vis.html')
 
+@app.route("/metodologia/pilares")
+def metPil():
+    return render_template('met_pil.html')
 # Tests
 @app.route("/pag") #ONLY FOR TESTING REMOVE LATER
 def pag():

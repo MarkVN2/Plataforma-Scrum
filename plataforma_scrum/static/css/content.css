@@ -1,36 +1,72 @@
 /* CSS for every content page.  */
-.met-vis-main{
+.met-vis-main,
+.met-pil-main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: flex-start;
 }
-.met-vis-textbox{
+
+.met-vis-textbox,
+.met-pil-textbox {
   margin-top: 8%;
   width: 85%;
   text-align: justify;
 }
-.met-vis-para{
+.met-vis-para,
+.met-pil-para {
   font-size: 1.8rem;
 }
-.met-vis-listbox{
-  width: 70%;
-  margin-top: 5%;
-  box-shadow: -0.8vmin 0px 0px rgba(248, 134, 30, 0.65);
-}
-.met-vis-list{
-  display: flex;
-  flex-flow: column;
-  gap: 6vh;
-}
-.met-vis-list-item{
-  font-size: 1.8rem;
-  font-weight: 700;
-}
-.placeholder-buttons{
+
+.placeholder-buttons {
   display: flex;
   justify-content: center;
   width: 86%;
   gap: 6%;
   margin: 10% 0 10% 0;
+}
+/* metodologia/visao */
+.met-vis-listbox {
+  width: 70%;
+  margin-top: 5%;
+  box-shadow: -0.8vmin 0px 0px rgba(248, 134, 30, 0.65);
+}
+.met-vis-list {
+  display: flex;
+  flex-flow: column;
+  gap: 6vh;
+}
+.met-vis-list-item {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* metodologia/pilares */
+.met-pil-three-sections {
+  width: 85%;
+  margin-top: 5%;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2vh;
+}
+.met-pil-section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.met-pil-img {
+  aspect-ratio: 1/1;
+  width: 200px;
+  flex-grow: 0;
+}
+.met-pil-sect-textbox {
+  flex-grow: 1;
+}
+.met-pil-sect-title {
+  font-size: 2.8rem;
+}
+.met-pil-sect-text {
+  font-size: 1.6rem;
+  text-align: justify;
 }
