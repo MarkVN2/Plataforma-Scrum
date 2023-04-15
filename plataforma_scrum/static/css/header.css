@@ -3,11 +3,26 @@
   padding: 0; 
   background-image: url(../images/SquaresTogetherSmaller.png); 
   background-size: cover;
+  display: flex;
 }
-.content-icon{
+.content-icon-back{
+  aspect-ratio: 1/1;
+  width: 32vmin;
   margin-bottom: -7%; 
   background-color: white;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.content-icon{
+  aspect-ratio: 1/1;
+  width: 95%;
+}
+.content-title-block{
+  max-height: 80%;
+  overflow: hidden;
 }
 .content-title{
   font-size: 6rem;
