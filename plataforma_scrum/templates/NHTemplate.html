@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../static/css/navbar.css">
     <link rel="stylesheet" href="../static/css/conclusion.css">
     <link rel="stylesheet" href="../static/css/header.css">
+    <link rel="stylesheet" href="../static/css/content.css">
   </head>
 
   <body class="vh-100">
@@ -24,8 +25,7 @@
           <div class="collapse navbar-collapse" id="navcontent">
               <ul class="navbar-nav p-2">
                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Metodologia</a>
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Metodologia</a>
                       <ul class="dropdown-menu">
                           <li class="dropdown-item" href="#">Introdução</li>
                           <li class="dropdown-item" href="#">O que é Scrum?</li>
@@ -68,16 +68,20 @@
       </div>
   </nav>     
     <!-- Header -->
-    <div class="container-fluid d-flex header-base">
-      <div id="texture" class="w-100 mh-100 d-flex justify-content-center" {% block color %} {% endblock %}>
-        <div class="h-100 wrapper d-flex align-items-end gap-3" style="width: 65%;">
-          <img src="../static/images/{% block iconName %}{% endblock %}.png" alt="icon" width="22%" class="rounded-top content-icon">
-          <div>
-            <h1 class="display-1 content-title"><strong>{% block contentTitle %} {% endblock %}</strong></h1>
-            <p class="h1 link content-subtitle"><u>{% block subtitle %} {% endblock %}</u></p>
+    <div class="full-header">
+        <div class="container-fluid header-base">
+          <div id="texture" class="w-100 mh-100 d-flex justify-content-center" {% block color %} {% endblock %}>
+            <div class="wrapper" style="width: 65%;">
+                <div class="rounded-top content-icon-back">
+                    <img src="../static/images/{% block iconName %}{% endblock %}.png" alt="icon" class="content-icon">
+                </div>
+                <div class="content-title-block">
+                <h1 class="display-1 content-title"><strong>{% block contentTitle %} {% endblock %}</strong></h1>
+                <p class="h1 link content-subtitle"><u>{% block subtitle %} {% endblock %}</u></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </div>
 
     <!-- Main / Content -->

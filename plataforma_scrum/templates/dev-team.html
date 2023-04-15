@@ -1,0 +1,35 @@
+<!-- prettier-ignore -->
+{% extends 'NHTemplate.html' %} 
+{% block title %}Development Team | Plataforma Scrum{% endblock %} 
+{% block color %}style="background-color: rgba(88, 216, 43, 0.65);"{% endblock %} 
+{% block iconName %}dev_team{% endblock%} 
+{% block contentTitle %}Development Team{% endblock %}
+{% block subtitle %}O conhecimento técnico aplicado{%endblock %} 
+{% block content %}
+
+<div class="h-75 w-75 dev-main">
+  <div class="dev-textbox">
+    <p class="dev-para">
+      Por fim, o último cargo a ser abordado da metodologia Scrum é o Development Team (Time Desenvolvimento), também conhecido como Dev Team. 
+    </p>
+    <p class="dev-para">
+      Estão inseridos nessa função todos os integrantes do grupo que participam do projeto na frente de desenvolvimento de atividades técnicas. Esses também são popularmente referidos como Devs.
+    </p>
+    <div class="dev-image-block">
+      <img src="../static/images/dev_team_ilustration.jpeg" alt="dev_team_illustration" class="dev-image">
+      <p class="dev-para">
+        Sua responsabilidade é identificar, por meio de seus conhecimentos específicos, meios para execução dos requisitos, além de possuir um repertório que agrega muito quando se está levantando funcionalidades que aprimorarão a experiência do usuário.
+      </p>
+    </div>
+    <p class="dev-para">
+      Algumas das competências importantes para os membros do Dev Team são o conhecimento técnico das tecnologias, a capacidade de cooperação, a organização quanto aos prazos de entrega das atividades e a transparência quanto à evolução dos afazeres delegados.
+    </p>
+  </div>
+  
+  
+  <div class="placeholder-buttons">
+    <a href="/scrum-master/burndown" class="btn btn-lg btn-outline-warning">previous</a>
+    <a href="/conclusao" class="btn btn-lg btn-outline-success">next</a>
+  </div>
+</div>
+{% endblock %}
