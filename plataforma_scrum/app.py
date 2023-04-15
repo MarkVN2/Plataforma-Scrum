@@ -14,6 +14,12 @@ def metVis():
 @app.route("/metodologia/pilares")
 def metPil():
     return render_template('met_pil.html')
+
+
+@app.route("/development-team")
+def devTeam():
+    return render_template('dev-team.html')
+
 # Tests
 @app.route("/pag") #ONLY FOR TESTING REMOVE LATER
 def pag():

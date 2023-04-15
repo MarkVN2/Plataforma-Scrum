@@ -1,6 +1,7 @@
 /* CSS for every content page.  */
 .met-vis-main,
-.met-pil-main {
+.met-pil-main,
+.dev-main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -8,13 +9,15 @@
 }
 
 .met-vis-textbox,
-.met-pil-textbox {
+.met-pil-textbox,
+.dev-textbox {
   margin-top: 8%;
   width: 85%;
   text-align: justify;
 }
 .met-vis-para,
-.met-pil-para {
+.met-pil-para,
+.dev-para {
   font-size: 1.8rem;
 }
 
@@ -69,4 +72,18 @@
 .met-pil-sect-text {
   font-size: 1.6rem;
   text-align: justify;
+}
+
+
+/* development-team */
+.dev-image-block{
+  margin: 5% 0 5% 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%
+}
+.dev-image{
+  width: 30%;
+  border-radius: 36px;
 }
