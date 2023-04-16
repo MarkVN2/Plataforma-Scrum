@@ -2,6 +2,7 @@
 .met-vis-main,
 .met-pil-main,
 .met-auto-main,
+.met-team-main,
 .dev-main {
   display: flex;
   flex-flow: column wrap;
@@ -12,6 +13,7 @@
 .met-vis-textbox,
 .met-pil-textbox,
 .met-auto-textbox,
+.met-team-textbox,
 .dev-textbox {
   margin-top: 8%;
   width: 85%;
@@ -20,6 +22,7 @@
 .met-vis-para,
 .met-pil-para,
 .met-auto-para,
+.met-team-para,
 .dev-para {
   font-size: 1.8rem;
 }
