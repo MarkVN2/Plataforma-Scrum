@@ -1,40 +1,44 @@
 {% extends 'NHTemplate.html' %}
 
 {% block title %}Autoavaliação{% endblock %}
-{% block color %}style="background-color: rgba(100, 0, 200, 0.65);"{% endblock %}
+{% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %}
 {% block iconName %}method{% endblock %}
 {% block contentTitle %}Metodologia{% endblock %}
 {% block subtitle %}Autoavaliação{% endblock %}
 {% block content %}
   <!-- Conteudo da pagina inteira -->
-  <div class="h-75 w-75 d-flex flex-column">
+  <div class="h-75 w-75 met-auto-main">
+    <div class="met-auto-textbox">
+      <p class="met-auto-para">
+        As equipes Scrum possuem em sua essência a capacidade de serem autogerenciáveis.
+      </p>
+
+      <p class="met-auto-para">
+        Essa competência às proporciona a possibilidade de se abstraírem das situações e cenários em que estão inseridas e analisarem o processo de um ponto de vista crítico, fazendo desse princípio um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para garantir que o projeto mantenha a identidade e os objetivos que foram estabelecidos.
+      </p>
+
+      <p class="met-auto-para">
+        A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o períoddo de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desentrolando. É ideal para esse momento que cada um dos integrantes da equipe sejam avaliados uns pelos outros de acordo com a forma com que esses tem trabalhado. Os pontos individuais a serem considerados são entrega de resultados, autonomia, cooperação e proatividade.
+      </p>
+
+      <p class="met-auto-para">
+        Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
+      </p>
+    </div>
+    
+
+    <p>
+      ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF
+    </p>
+
+    <p>
+      DÊ OPINIÕES E IDEIAS
+    </p>
+
+    <p>
+      ADAPTE-SE
+    </p>
+
   </div>
-  <p>
-    As equipes Scrum possuem em sua essência a capacidade de serem autogerenciáveis.
-  </p>
-
-  <p>
-    Essa competência às proporciona a possibilidade de se abstraírem das situações e cenários em que estão inseridas e analisarem o processo de um ponto de vista crítico, fazendo desse princípio um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para garantir que o projeto mantenha a identidade e os objetivos que foram estabelecidos.
-  </p>
-
-  <p>
-    A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o períoddo de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desentrolando. É ideal para esse momento que cada um dos integrantes da equipe sejam avaliados uns pelos outros de acordo com a forma com que esses tem trabalhado. Os pontos individuais a serem considerados são entrega de resultados, autonomia, cooperação e proatividade.
-  </p>
-
-  <p>
-    Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
-  </p>
-
-  <p>
-    ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF
-  </p>
-
-  <p>
-    DÊ OPINIÕES E IDEIAS
-  </p>
-
-  <p>
-    ADAPTE-SE
-  </p>
-
+  
 {% endblock %}
