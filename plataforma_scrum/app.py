@@ -19,6 +19,10 @@ def metPil():
 def metAuto():
     return render_template('autoavaliacao.html')
 
+@app.route("/metodologia/team")
+def metTeam():
+    return render_template('team.html')
+
 @app.route("/development-team")
 def devTeam():
     return render_template('dev-team.html')
