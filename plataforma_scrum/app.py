@@ -15,6 +15,9 @@ def metVis():
 def metPil():
     return render_template('met_pil.html')
 
+@app.route("/metodologia/autoavaliacao")
+def metAuto():
+    return render_template('autoavaliacao.html')
 
 @app.route("/development-team")
 def devTeam():
