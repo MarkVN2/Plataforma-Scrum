@@ -17,11 +17,11 @@ def metPil():
 
 @app.route("/metodologia/autoavaliacao")
 def metAuto():
-    return render_template('autoavaliacao.html')
+    return render_template('met_auto.html')
 
 @app.route("/metodologia/team")
 def metTeam():
-    return render_template('team.html')
+    return render_template('met_team.html')
 
 @app.route("/development-team")
 def devTeam():
