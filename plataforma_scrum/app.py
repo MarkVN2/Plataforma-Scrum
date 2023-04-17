@@ -7,6 +7,16 @@ app = Flask(__name__)
 def index():
     return render_template('home.html')
 
+# pages about 'metodologia' 
+
+@app.route("/metodologia/introducao")
+def metInt():
+    return render_template('')
+
+@app.route("/metodologia/oqueescrum")
+def metOqe():
+    return render_template('')
+
 @app.route("/metodologia/visao")
 def metVis():
     return render_template('met_vis.html')
@@ -23,13 +33,46 @@ def metAuto():
 def metTeam():
     return render_template('met_team.html')
 
+# pages about 'product owner'
+
+@app.route('/product-owner/valordoproduto')
+def poVal():
+    return render_template('')
+
+@app.route('/product-owner/backlog')
+def poBac():
+    return render_template('')
+
+# pages about 'scrum master'
+
+@app.route('/scrum-master/introducao')
+def scInt():
+    return render_template('')
+
+@app.route('/scrum-master/burndown')
+def scBrn():
+    return render_template('')
+
+# pages about  'devteam'
+
 @app.route("/development-team")
 def devTeam():
     return render_template('dev-team.html')
 
+# others
+
 @app.route("/conclusao")
 def conclusion():
     return render_template('conclusion.html')
+
+@app.route('/materiais')
+def materials():
+    return render_template('')
+
+@app.route('/glossario')
+def glossary():
+    return render_template('')
+    
 # Tests
 @app.route("/pag") #ONLY FOR TESTING REMOVE LATER
 def pag():

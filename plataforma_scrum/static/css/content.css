@@ -1,9 +1,16 @@
+/*Import for the fonts for the site : ROBOTO,INTER,SOURCE PRO*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+
+p {
+  font-family: 'Inter', sans-serif;
+}
 /* CSS for every content page.  */
 .met-vis-main,
 .met-pil-main,
 .met-auto-main,
 .met-team-main,
-.dev-main {
+.dev-main,
+.conclusion-main{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -14,7 +21,8 @@
 .met-pil-textbox,
 .met-auto-textbox,
 .met-team-textbox,
-.dev-textbox {
+.dev-textbox,
+.conclusion-textbox{
   margin-top: 8%;
   width: 85%;
   text-align: justify;
@@ -23,7 +31,8 @@
 .met-pil-para,
 .met-auto-para,
 .met-team-para,
-.dev-para {
+.dev-para,
+.conclusion-para {
   font-size: 1.8rem;
   padding-bottom: 3%;
 }
@@ -45,13 +54,30 @@
   width: 100%;
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  justify-content: flex-start;
   align-items: center;
+}
+.home-title{
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18vmin;
+}
+.home-text-box{
+  width: 50%;
+  display: flex;
+}
+.home-text{
+  font-size: 2.2vmin; 
+}
+.home-icon{
+  width: 10%;
 }
 .triangle{
   width: 0;
   height: 0;
   position: absolute;
+  z-index: -1;
 }
 .triangle-top{
   top: 0;
@@ -163,4 +189,17 @@
 .dev-image{
   width: 30%;
   border-radius: 36px;
+}
+
+
+/* conclusion */
+/* container for the arrows in conclusion page */
+.arrow-circular-container{
+  border-radius: 100%;
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  margin: 20px;
+  shape-outside:circle();
+  clip-path: circle();
 }
