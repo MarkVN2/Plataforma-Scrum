@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Normal routes
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route("/metodologia/visao")
 def metVis():
@@ -27,6 +27,9 @@ def metTeam():
 def devTeam():
     return render_template('dev-team.html')
 
+@app.route("/conclusao")
+def conclusion():
+    return render_template('conclusion.html')
 # Tests
 @app.route("/pag") #ONLY FOR TESTING REMOVE LATER
 def pag():

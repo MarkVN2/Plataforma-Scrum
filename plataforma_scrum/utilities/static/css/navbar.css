@@ -1,9 +1,17 @@
 /*Import for the fonts for the site */
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
 
-/* Font family for the dropdown items */
-.navbar-custom,.navbar-custom .dropdown-item {
+
+/* Font family for the navbar items */
+.navbar-custom {
     font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Font family for the dropdown items */
+.navbar-custom .dropdown-item{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
 }
 
 /* Distance between elements of the navbar */
@@ -30,9 +38,8 @@
 /* Changes background of dropdown */
 ul.dropdown-menu {background-color:none;}
 
-
+/*Color of the links in the dropdown*/
 ul li a {
     text-decoration: none;
     color: black;
-
 }

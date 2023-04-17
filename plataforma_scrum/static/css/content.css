@@ -35,6 +35,48 @@
   gap: 6%;
   margin: 10% 0 10% 0;
 }
+/* home */
+.home-body{
+  display: flex;
+  flex-flow: column;
+}
+.home-main{
+  position: relative;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.triangle{
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.triangle-top{
+  top: 0;
+  border-left: 40vw solid transparent;
+  border-right: 40vw solid transparent;
+  border-top: 45vh solid rgb(248,134,30,0.6);
+}
+.triangle-bottom{
+  bottom: 0;
+  border-left: 40vw solid transparent;
+  border-right: 40vw solid transparent;
+  border-bottom: 45vh solid rgb(248,0,0,0.6);
+}
+.triangle-left{
+  left: 0;
+  border-top: 45vh solid transparent;
+  border-bottom: 45vh solid transparent;
+  border-left: 50vw solid rgb(47,177,250,0.6);
+}
+.triangle-right{
+  right: 0;
+  border-top: 45vh solid transparent;
+  border-bottom: 45vh solid transparent;
+  border-right: 50vw solid rgb(99,255,44,0.6);
+}
 /* metodologia/visao */
 .met-vis-listbox {
   width: 70%;
