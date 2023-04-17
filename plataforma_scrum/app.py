@@ -46,11 +46,11 @@ def poBac():
 # pages about 'scrum master'
 
 @app.route('/scrum-master/introducao')
-def scInt():
-    return render_template('')
+def smInt():
+    return render_template('sm_int.html')
 
 @app.route('/scrum-master/burndown')
-def scBrn():
+def smBrn():
     return render_template('')
 
 # pages about  'devteam'
@@ -72,7 +72,7 @@ def materials():
 @app.route('/glossario')
 def glossary():
     return render_template('')
-    
+
 # Tests
 @app.route("/pag") #ONLY FOR TESTING REMOVE LATER
 def pag():
