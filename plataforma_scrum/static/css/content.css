@@ -11,7 +11,8 @@ p {
 .met-team-main,
 .dev-main,
 .conclusion-main,
-.met-oqs-main{
+.met-oqs-main,
+.met-int-main{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -24,7 +25,8 @@ p {
 .met-team-textbox,
 .dev-textbox,
 .conclusion-textbox,
-.met-oqs-textbox{
+.met-oqs-textbox,
+.met-int-textbox{
   margin-top: 8%;
   width: 85%;
   text-align: justify;
@@ -35,9 +37,19 @@ p {
 .met-team-para,
 .dev-para,
 .conclusion-para,
-.met-oqs-para{
+.met-oqs-para,
+.met-int-para{
   font-size: 1.8rem;
   padding-bottom: 3%;
+}
+
+.dev-image-block,
+.met-int-image-block{
+  margin: 5% 0 5% 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%
 }
 
 .placeholder-buttons {
@@ -124,6 +136,24 @@ p {
   border-bottom: 70vh solid transparent;
   border-right: 50vw solid rgb(99,255,44,0.6);
 }
+
+/* metodologia/introducao */
+.met-int-border{
+  border: 1vmin black solid;
+  width: 70%
+}
+
+/* metodologia/oqueescrum */
+.met-oqs-subt-scm{
+  font-size: 20vmin;
+  text-align: center;
+}
+.met-oqs-border{
+  border: 1vmin black solid;
+  width: 80%
+}
+
+
 /* metodologia/visao */
 .met-vis-listbox {
   width: 70%;
@@ -200,13 +230,7 @@ p {
 }
 
 /* development-team */
-.dev-image-block{
-  margin: 5% 0 5% 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 5%
-}
+
 .dev-image{
   width: 30%;
   border-radius: 36px;
