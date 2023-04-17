@@ -70,19 +70,26 @@ p {
 }
 .home-text-box{
   width: 42%;
-  /* background-color: white; */
   display: flex;
   gap: 15%;
 }
 .home-text{
   width: 50%;
   text-align: justify;
-  /* background-color: violet; */
   font-size: 2.2vmin; 
 }
-.home-icon{
-  margin-top: 1%;
-  width: 10%;
+.home-middle-image-block{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40%;
+}
+.role-quadrant{
+  text-align: center;
+}
+.icon-text{
+  font-size: 4vmin;
+  font-weight: 600;
 }
 .triangle{
   width: 0;
