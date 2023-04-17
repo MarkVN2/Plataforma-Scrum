@@ -1,9 +1,16 @@
+/*Import for the fonts for the site : ROBOTO,INTER,SOURCE PRO*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+
+p {
+  font-family: 'Inter', sans-serif;
+}
 /* CSS for every content page.  */
 .met-vis-main,
 .met-pil-main,
 .met-auto-main,
 .met-team-main,
-.dev-main {
+.dev-main,
+.conclusion-main{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -14,7 +21,8 @@
 .met-pil-textbox,
 .met-auto-textbox,
 .met-team-textbox,
-.dev-textbox {
+.dev-textbox,
+.conclusion-textbox{
   margin-top: 8%;
   width: 85%;
   text-align: justify;
@@ -23,7 +31,8 @@
 .met-pil-para,
 .met-auto-para,
 .met-team-para,
-.dev-para {
+.dev-para,
+.conclusion-para {
   font-size: 1.8rem;
   padding-bottom: 3%;
 }
@@ -141,9 +150,14 @@
 }
 
 /* autoavalicao */
+.met-img-box {
+  width: 100%;
+  text-align: center;
+}
+
 .met-auto-img {
-  width: 70%;
-  padding-bottom: 2%;
+  width: 60%;
+  padding-bottom: 4%;
 }
 
 /* development-team */
@@ -157,4 +171,17 @@
 .dev-image{
   width: 30%;
   border-radius: 36px;
+}
+
+
+/* conclusion */
+/* container for the arrows in conclusion page */
+.arrow-circular-container{
+  border-radius: 100%;
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  margin: 20px;
+  shape-outside:circle();
+  clip-path: circle();
 }
