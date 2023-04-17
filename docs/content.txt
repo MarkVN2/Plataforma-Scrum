@@ -44,7 +44,7 @@ O Scrum a todo momento prioriza a entrega de elementos que, ainda que não tenha
 
 Além disso, devido a essa constante validação com o cliente, caso alguma de suas expectativas não seja atendida ou ocorra qualquer tipo de falha na execução, essa já poderá ser remediada ainda em seus estágios iniciais. 
 
-Por fim, outra característica crucial do Scrum é que não há interrupções de produção para esperar que outra tarefa seja desenvolvida. As tarefas são sim delegadas, mas essas possuem independem umas das outras para serem concluídas.
+Por fim, outra característica crucial do Scrum é que não há interrupções de produção para esperar que outra tarefa seja desenvolvida. As tarefas são sim delegadas, mas essas possuem independência umas das outras.
 
 Toda essa teoria é baseada nos seguintes pilares:
 
