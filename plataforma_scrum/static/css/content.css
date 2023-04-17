@@ -48,11 +48,16 @@ p {
 .home-body{
   display: flex;
   flex-flow: column;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.home-body::-webkit-scrollbar {
+  display: none;
 }
 .home-main{
   position: relative;
   width: 100%;
-  flex-grow: 1;
+  min-height: 140vh;
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
@@ -61,16 +66,22 @@ p {
 .home-title{
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 18vmin;
+  font-size: 14vmin;
 }
 .home-text-box{
-  width: 50%;
+  width: 42%;
+  /* background-color: white; */
   display: flex;
+  gap: 15%;
 }
 .home-text{
+  width: 50%;
+  text-align: justify;
+  /* background-color: violet; */
   font-size: 2.2vmin; 
 }
 .home-icon{
+  margin-top: 1%;
   width: 10%;
 }
 .triangle{
@@ -83,24 +94,24 @@ p {
   top: 0;
   border-left: 40vw solid transparent;
   border-right: 40vw solid transparent;
-  border-top: 45vh solid rgb(248,134,30,0.6);
+  border-top: 70vh solid rgb(248,134,30,0.6);
 }
 .triangle-bottom{
   bottom: 0;
   border-left: 40vw solid transparent;
   border-right: 40vw solid transparent;
-  border-bottom: 45vh solid rgb(248,0,0,0.6);
+  border-bottom: 70vh solid rgb(248,0,0,0.6);
 }
 .triangle-left{
   left: 0;
-  border-top: 45vh solid transparent;
-  border-bottom: 45vh solid transparent;
+  border-top: 70vh solid transparent;
+  border-bottom: 70vh solid transparent;
   border-left: 50vw solid rgb(47,177,250,0.6);
 }
 .triangle-right{
   right: 0;
-  border-top: 45vh solid transparent;
-  border-bottom: 45vh solid transparent;
+  border-top: 70vh solid transparent;
+  border-bottom: 70vh solid transparent;
   border-right: 50vw solid rgb(99,255,44,0.6);
 }
 /* metodologia/visao */
