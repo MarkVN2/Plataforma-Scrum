@@ -12,12 +12,12 @@
 
   <body class="vh-100 home-body">
     <!--Navbar-->
-    <nav class="navbar navbar-custom navbar-expand-lg bg-body-secondary sticky-top" style="height: 10vh">
+    <nav class="navbar navbar-custom navbar-expand-lg bg-body-secondary sticky-top">
       <div class="container-fluid" >
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-logo" href="#">
+          <a class="navbar-logo" href="/">
               <img src="../static/images/home.png" alt="navbarlogo" width="50px" height="50px" class="d-inline-block align-text-top">
           </a>
           <div class="collapse navbar-collapse" id="navcontent">
@@ -26,8 +26,8 @@
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Metodologia</a>
                       <ul class="dropdown-menu">
-                          <li class="dropdown-item"><a href="#">Introdução</a></li>
-                          <li class="dropdown-item"><a href="#">O que é Scrum?</a></li>
+                          <li class="dropdown-item"><a href="/metodologia/introducao">Introdução</a></li>
+                          <li class="dropdown-item"><a href="/metodologia/oqueescrum">O que é Scrum?</a></li>
                           <li class="dropdown-item"><a href="/metodologia/visao">Visão</a></li>
                           <li class="dropdown-item"><a href="/metodologia/pilares">Pilares</a></li>
                           <li class="dropdown-item"><a href="/metodologia/autoavaliacao">Autoavaliação</a></li>
@@ -38,16 +38,16 @@
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Product Owner</a>
                       <ul class="dropdown-menu">
-                          <li class="dropdown-item"><a href="#">Valor do produto</a></li>
-                          <li class="dropdown-item"><a href="#">Backlog</a></li>
+                          <li class="dropdown-item"><a href="/product-owner/valordoproduto">Valor do produto</a></li>
+                          <li class="dropdown-item"><a href="/product-owner/backlog">Backlog</a></li>
                       </ul>
                   </li>
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Scrum Master</a>
                       <ul class="dropdown-menu">
-                          <li class="dropdown-item"><a href="#">Introdução</a></li>
-                          <li class="dropdown-item"><a href="#">Burndown & <br> Daily Scrum</a></li>
+                          <li class="dropdown-item"><a href="/scrum-master/introducao">Introdução</a></li>
+                          <li class="dropdown-item"><a href="/scrum-master/burndown">Burndown & <br> Daily Scrum</a></li>
                       </ul>
                   </li>
                   <li class="nav-item">
@@ -58,14 +58,14 @@
                           Outros</a>
                       <ul class="dropdown-menu">
                           <li class="dropdown-item" ><a href="/conclusao">Conclusão</a></li>
-                          <li class="dropdown-item" ><a href="#">Materiais</a></li>
-                          <li class="dropdown-item" ><a href="#">Glossário</a></li>
+                          <li class="dropdown-item" ><a href="/materiais">Materiais</a></li>
+                          <li class="dropdown-item" ><a href="/glossario">Glossário</a></li>
                       </ul>
                   </li>
               </ul>
           </div>
       </div>
-    </nav>    
+    </nav>  
     <!-- Main / Content -->
     <main class="w-100 home-main">
       <div class="triangle triangle-top"></div>
@@ -83,7 +83,7 @@
       </a>
       <div class="home-middle-image-block">
         <div class="role-quadrant">
-          <a href="../product-owner/valor">
+          <a href="../product-owner/valordoproduto">
             <img src="../static/images/po.png" alt="Product Owner" class="home-icon">
           </a>
           <p class="icon-text">Product Owner</p>
@@ -95,7 +95,9 @@
           <p class="icon-text">Development Team</p>
         </div>
       </div>
-      <img src="../static/images/scrum.png" alt="Scrum Master" class="home-icon" width="10%">
+      <a href="/metodologia/introducao" style="width: 100%; text-align: center;">
+        <img src="../static/images/scrum.png" alt="Scrum Master" class="home-icon" width="10%">
+      </a>
       <p class="icon-text">Scrum Master</p>
     </main>
     <!--JScripts-->
