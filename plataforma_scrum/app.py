@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Normal routes
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
 
 @app.route("/metodologia/visao")
 def metVis():
