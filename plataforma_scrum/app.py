@@ -46,7 +46,11 @@ def poBac():
 # pages about 'scrum master'
 
 @app.route('/scrum-master/introducao')
+<<<<<<< Updated upstream
 def smInt():
+=======
+def scInt():
+>>>>>>> Stashed changes
     return render_template('sm_int.html')
 
 @app.route('/scrum-master/burndown')
