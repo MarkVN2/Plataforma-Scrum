@@ -7,15 +7,13 @@ app = Flask(__name__)
 def index():
     return render_template('home.html')
 
-# pages about 'metodologia' 
-
 @app.route("/metodologia/introducao")
 def metInt():
-    return render_template('')
+    return render_template('met_int.html')
 
 @app.route("/metodologia/oqueescrum")
-def metOqe():
-    return render_template('')
+def metOqs():
+    return render_template('met_oqs.html')
 
 @app.route("/metodologia/visao")
 def metVis():
