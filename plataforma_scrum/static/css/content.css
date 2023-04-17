@@ -82,9 +82,14 @@
 }
 
 /* autoavalicao */
+.met-img-box {
+  width: 100%;
+  text-align: center;
+}
+
 .met-auto-img {
-  width: 70%;
-  padding-bottom: 2%;
+  width: 60%;
+  padding-bottom: 4%;
 }
 
 /* development-team */
