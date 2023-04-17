@@ -64,6 +64,8 @@ Essa competência às proporciona a possibilidade de se abstraírem das situaç�
 
 Esse é um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para garantir que o projeto mantenha a identidade e os objetivos que foram estabelecidos.
 
+(IMAGEM REUNIÃO AUTOAVALIAÇÃO)
+
 A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desenrolando. 
 
 (OVERLAY - IMAGEM LAVAGEM DE ROUPA/LAUNDRY

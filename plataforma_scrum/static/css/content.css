@@ -81,6 +81,11 @@
   text-align: justify;
 }
 
+/* autoavalicao */
+.met-auto-img {
+  width: 70%;
+  padding-bottom: 2%;
+}
 
 /* development-team */
 .dev-image-block{
