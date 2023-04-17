@@ -160,15 +160,33 @@ p {
   text-align: justify;
 }
 
-/* autoavalicao */
+/* metodologia/autoavaliacao */
 .met-img-box {
   width: 100%;
   text-align: center;
 }
-
 .met-auto-img {
   width: 60%;
   padding-bottom: 4%;
+}
+
+/* metodologia/team */
+.met-team-sect-memb {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.met-team-memb {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.met-sect-memb-img {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2%;
+}
+.met-memb-img {
+  width: 20%;
 }
 
 /* development-team */
