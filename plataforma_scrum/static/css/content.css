@@ -12,7 +12,9 @@ p {
 .dev-main,
 .conclusion-main,
 .met-oqs-main,
-.met-int-main{
+.met-int-main,
+.po-vdp-main,
+.po-back-main{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -26,8 +28,10 @@ p {
 .dev-textbox,
 .conclusion-textbox,
 .met-oqs-textbox,
-.met-int-textbox{
-  margin-top: 2%;
+.met-int-textbox,
+.po-vdp-textbox,
+.po-back-textbox{
+  margin-top: 8%;
   width: 85%;
   text-align: justify;
 }
@@ -38,13 +42,16 @@ p {
 .dev-para,
 .conclusion-para,
 .met-oqs-para,
-.met-int-para{
+.met-int-para,
+.po-vdp-para,
+.po-back-para{
   font-size: 1.8rem;
   padding-bottom: 1%;
 }
 
 .dev-image-block,
-.met-int-image-block{
+.met-int-image-block,
+.po-vdp-image-block{
   margin: 5% 0 5% 0;
   display: flex;
   justify-content: flex-start;
@@ -237,13 +244,21 @@ p {
   padding-left: 9%;
 }
 
+/* productowner/backlog */
+
+.po-back-para-negr {
+  font-weight: 700;
+  background-color: rgba(0, 255, 255, 0.233);
+  padding: 1.5%;
+  border-radius: 25px;
+}
+
 /* development-team */
 
 .dev-image{
   width: 30%;
   border-radius: 36px;
 }
-
 
 /* conclusion */
 /* container for the arrows in conclusion page */

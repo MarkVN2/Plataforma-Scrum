@@ -35,11 +35,11 @@ def metTeam():
 
 @app.route('/product-owner/valordoproduto')
 def poVal():
-    return render_template('')
+    return render_template('po_vdp.html')
 
 @app.route('/product-owner/backlog')
 def poBac():
-    return render_template('')
+    return render_template('po_back.html')
 
 # pages about 'scrum master'
 
