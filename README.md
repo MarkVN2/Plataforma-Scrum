@@ -52,11 +52,11 @@
 - [x] Identidade Visual
 
 ### Sprint 2
-- [ ] Corpo das páginas com conteúdo
-- [ ] Botões de navegação entre páginas
-- [ ] Barra de Navegação 
-- [ ] Página com conteúdo de auto-avaliação
-- [ ] Corpo da página home
+- [x] Corpo das páginas com conteúdo
+- [x] Botões de navegação entre páginas
+- [x] Barra de Navegação 
+- [x] Página com conteúdo de auto-avaliação
+- [x] Corpo da página home
 
 ### Sprint 3
 - [ ] Overlays com aprofundamentos
