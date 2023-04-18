@@ -213,28 +213,28 @@ p {
  /* background-color: brown; */
  width: 85%;
 }
-.met-auto-tips {
+/* .met-auto-tips { */
   /* background-color: yellow; */
 
-}
+/* } */
 
 /* metodologia/team */
-.met-team-sect-memb {
+.met-sect-memb-text {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
 .met-team-memb {
-  font-size: 1.2rem;
   font-style: italic;
+  padding-left: 10%;
 }
 .met-sect-memb-img {
   display: flex;
-  flex-direction: row;
   padding-bottom: 2%;
 }
 .met-memb-img {
-  width: 20%;
+  width: 33.3%;
+  padding-left: 9%;
 }
 
 /* development-team */
