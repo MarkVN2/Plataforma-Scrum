@@ -213,7 +213,7 @@ p {
 
 
 /* metodologia/autoavaliacao */
-.met-img-box {
+.met-auto-img-box {
   width: 100%;
   text-align: center;
 }
@@ -235,6 +235,14 @@ p {
 
 
 /* metodologia/team */
+.met-team-img-box {
+  display: flex;
+  width: 100%;
+}
+.met-team-img {
+  width: 100%;  
+  padding-bottom: 1%;
+}
 .met-sect-memb {
   display: flex;
   width: 100%;
