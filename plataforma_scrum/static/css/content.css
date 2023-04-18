@@ -51,7 +51,8 @@ p {
 
 .dev-image-block,
 .met-int-image-block,
-.po-vdp-image-block{
+.po-vdp-image-block,
+.po-back-para-flex{
   margin: 5% 0 5% 0;
   display: flex;
   justify-content: flex-start;
