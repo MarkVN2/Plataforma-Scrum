@@ -27,7 +27,7 @@ p {
 .conclusion-textbox,
 .met-oqs-textbox,
 .met-int-textbox{
-  margin-top: 8%;
+  margin-top: 2%;
   width: 85%;
   text-align: justify;
 }
@@ -40,7 +40,7 @@ p {
 .met-oqs-para,
 .met-int-para{
   font-size: 1.8rem;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 
 .dev-image-block,
