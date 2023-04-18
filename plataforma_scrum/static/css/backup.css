@@ -1,112 +1,8 @@
 /*Import for the fonts for the site : ROBOTO,INTER,SOURCE PRO*/
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
 
-/* 
-  for Inter use
-  font-family: 'Inter', sans-serif;
-
-  for Roboto use
-  font-family: 'Roboto', sans-serif;
-
-  for Source Pro use 
-  font-family: 'Source Code Pro', monospace;
-
-*/
-
 p {
   font-family: 'Inter', sans-serif;
-}
-
-/* Navbar */
-
-/* Font family for the navbar items */
-.navbar-custom {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-}
-
-/* Font family for the dropdown items */
-.navbar-custom .dropdown-item{
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-}
-
-/* Distance between elements of the navbar */
-.navbar-nav > li {
-  margin-left: 1vw;
-  margin-right: 1vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
-/* Change this to change the background color of the dropdown buttons */
-.navbar-nav > li > .dropdown-menu{ background-color:none; }
-
-/* Change this to change font color of the dropdown buttons */
-.navbar-nav > li > .dropdown-item{ color:none;}
-
-/* Change this to change hover color on nav elements */
-.navbar-nav li > a:hover, a:focus, a:active {color:none;}
-
-/* Changes background of dropdown elements */
-.dropdown-item:focus, .dropdown-item:hover {
-  background-color:none!important;
-  color:none !important;}
-
-/* Changes background of dropdown */
-ul.dropdown-menu {background-color:none;}
-
-/*Color of the links in the dropdown*/
-ul li a {
-  display: block;
-  text-decoration: none;
-  color: black;
-}   
-
-/* header */
-
-.full-header{
-  height: 55%;
-}
-.header-base{
-  height: 81.82%; 
-  padding: 0; 
-  background-image: url(../images/SquaresTogetherSmaller.png); 
-  background-size: cover;
-  display: flex;
-}
-
-.wrapper{
-  height: 100%;
-  display: flex;
-  align-items: end;
-  gap: 1vw;
-}
-.content-icon-back{
-  aspect-ratio: 1/1;
-  width: 32vmin;
-  margin-bottom: -7%; 
-  background-color: white;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 30px;
-}
-.content-icon{
-  aspect-ratio: 1/1;
-  width: 95%;
-}
-.content-title-block{
-  max-height: 80%;
-  overflow: hidden;
-  flex-grow: 1;
-}
-.content-title{
-  font-size: 5vw;
-}
-.content-subtitle{
-  font-size: 2.5vw;
 }
 
 /* CSS for every content page.  */
@@ -114,13 +10,9 @@ ul li a {
 .met-pil-main,
 .met-auto-main,
 .met-team-main,
-.met-oqs-main,
-.met-int-main,
 .dev-main,
-.po-vdp-main,
-.po-back-main,
 .conclusion-main{
-    display: flex;
+  display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: flex-start;
@@ -130,13 +22,8 @@ ul li a {
 .met-pil-textbox,
 .met-auto-textbox,
 .met-team-textbox,
-.met-oqs-textbox,
-.met-int-textbox,
-.po-vdp-textbox,
-.po-back-textbox,
 .dev-textbox,
-.conclusion-textbox
-{
+.conclusion-textbox{
   margin-top: 8%;
   width: 85%;
   text-align: justify;
@@ -145,36 +32,19 @@ ul li a {
 .met-pil-para,
 .met-auto-para,
 .met-team-para,
-.met-oqs-para,
-.met-int-para,
-.po-vdp-para,
-.po-back-para,
 .dev-para,
-.conclusion-para{
+.conclusion-para {
   font-size: 1.8rem;
-  padding-bottom: 1%;
+  padding-bottom: 3%;
 }
 
-.met-int-image-block,
-.po-vdp-image-block,
-.po-back-para-flex,
-.dev-image-block{
-  margin: 5% 0 5% 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 5%
-}
-
-.next-prev-btn{
+.placeholder-buttons {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 86%;
   gap: 6%;
-  margin-top: 10%;
-  padding-bottom: 10%;
+  margin: 10% 0 10% 0;
 }
-
 /* home */
 .home-body{
   display: flex;
@@ -252,24 +122,6 @@ ul li a {
   border-bottom: 70vh solid transparent;
   border-right: 50vw solid rgb(99,255,44,0.6);
 }
-
-/* metodologia/introducao */
-.met-int-border{
-  border: 1vmin black solid;
-  width: 70%
-}
-
-/* metodologia/oqueescrum */
-.met-oqs-subt-scm{
-  font-size: 20vmin;
-  text-align: center;
-}
-.met-oqs-border{
-  border: 1vmin black solid;
-  width: 80%
-}
-
-
 /* metodologia/visao */
 .met-vis-listbox {
   width: 70%;
@@ -285,7 +137,6 @@ ul li a {
   font-size: 1.8rem;
   font-weight: 700;
 }
-
 
 /* metodologia/pilares */
 .met-pil-three-sections {
@@ -317,9 +168,8 @@ ul li a {
   text-align: justify;
 }
 
-
 /* metodologia/autoavaliacao */
-.met-auto-img-box {
+.met-img-box {
   width: 100%;
   text-align: center;
 }
@@ -327,57 +177,34 @@ ul li a {
   width: 60%;
   padding-bottom: 4%;
 }
-.met-tips-block {
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-}
-.met-auto-tips {
-  border: 2px solid #FFCD70;
-  border-radius: 8px;
-  background-color: #FFCD70;
-  width: fit-content;
-}
-
 
 /* metodologia/team */
-.met-team-img-box {
+.met-team-sect-memb {
   display: flex;
-  width: 100%;
-}
-.met-team-img {
-  width: 100%;  
-  padding-bottom: 1%;
-}
-.met-sect-memb {
-  display: flex;
-  width: 100%;
-  gap: 2%;
-}
-.met-team-memb {
-  width: 32%;
+  flex-direction: row;
   text-align: center;
 }
-.met-team-memb-title {
+.met-team-memb {
+  font-size: 1.2rem;
   font-style: italic;
 }
+.met-sect-memb-img {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2%;
+}
 .met-memb-img {
-  width: 70%;
+  width: 20%;
 }
-
-
-/* productowner/backlog */
-
-.po-back-para-negr {
-  font-weight: 700;
-  background-color: rgba(0, 255, 255, 0.233);
-  padding: 1.5%;
-  border-radius: 25px;
-}
-
 
 /* development-team */
-
+.dev-image-block{
+  margin: 5% 0 5% 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%
+}
 .dev-image{
   width: 30%;
   border-radius: 36px;

@@ -25,6 +25,7 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  border-radius: 30px;
 }
 .content-icon{
   aspect-ratio: 1/1;
