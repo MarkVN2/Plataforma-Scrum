@@ -1,6 +1,5 @@
-/*Import for the fonts for the site : ROBOTO,INTER,SOURCE PRO*/
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
-
+/*Import for the fonts for the site : ROBOTO,INTER,SOURCE PRO, HOMENAJE*/
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Inter&family=Roboto+Mono:wght@300&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&display=swap');
 /* 
   for Inter use
   font-family: 'Inter', sans-serif;
@@ -8,8 +7,14 @@
   for Roboto use
   font-family: 'Roboto', sans-serif;
 
+  for Roboto Mono use
+  font-family: 'Roboto Mono', monospace;
+
   for Source Pro use 
   font-family: 'Source Code Pro', monospace;
+
+  for Homenaje use
+  font-family: 'Homenaje', sans-serif;
 
 */
 
@@ -196,7 +201,8 @@ ul li a {
 }
 .home-title{
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Homenaje', sans-serif;
+  color: #000000;
   font-size: 14vmin;
 }
 .home-text-box{
@@ -207,6 +213,7 @@ ul li a {
 .home-text{
   width: 50%;
   text-align: justify;
+  color: #000000;
   font-size: 2.2vmin; 
 }
 .home-middle-image-block{
@@ -261,6 +268,9 @@ ul li a {
 
 /* metodologia/oqueescrum */
 .met-oqs-subt-scm{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bolder;
+  color: #000000;
   font-size: 20vmin;
   text-align: center;
 }
@@ -310,6 +320,9 @@ ul li a {
   flex-grow: 1;
 }
 .met-pil-sect-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-style: italic;
   font-size: 2.8rem;
 }
 .met-pil-sect-text {
@@ -359,6 +372,8 @@ ul li a {
   text-align: center;
 }
 .met-team-memb-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
   font-style: italic;
 }
 .met-memb-img {
