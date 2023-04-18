@@ -209,6 +209,14 @@ p {
   width: 60%;
   padding-bottom: 4%;
 }
+.met-tips-block {
+ /* background-color: brown; */
+ width: 85%;
+}
+.met-auto-tips {
+  /* background-color: yellow; */
+
+}
 
 /* metodologia/team */
 .met-team-sect-memb {
