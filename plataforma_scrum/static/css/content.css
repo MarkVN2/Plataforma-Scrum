@@ -213,29 +213,25 @@ p {
  /* background-color: brown; */
  width: 85%;
 }
-/* .met-auto-tips { */
-  /* background-color: yellow; */
 
-/* } */
 
 /* metodologia/team */
-.met-sect-memb-text {
+.met-sect-memb {
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  width: 100%;
+  gap: 2%;
 }
 .met-team-memb {
-  font-style: italic;
-  padding-left: 10%;
+  width: 32%;
+  text-align: center;
 }
-.met-sect-memb-img {
-  display: flex;
-  padding-bottom: 2%;
+.met-team-memb-title {
+  font-style: italic;
 }
 .met-memb-img {
-  width: 33.3%;
-  padding-left: 9%;
+  width: 70%;
 }
+
 
 /* development-team */
 
