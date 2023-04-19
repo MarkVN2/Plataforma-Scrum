@@ -126,7 +126,7 @@ ul li a {
 .po-back-main,
 .sm-burn-main,
 .conclusion-main,
-.met-int-main
+.met-int-main,
 .sm-int-main{
   display: flex;
   flex-flow: column wrap;
@@ -404,15 +404,17 @@ ul li a {
 }
 
 /* productowner/backlog */
-
-
 .po-back-para-negr {
   font-weight: 700;
   background-color: rgba(0, 255, 255, 0.233);
   padding: 1.5%;
   border-radius: 25px;
 }
-
+.po-back-table{
+  text-align: center;
+  font-size: 2.8vmin;
+  margin-bottom: 8%;
+}
 
 /* scrum-master/burndown e daily */
 .sm-burn-img-box {
