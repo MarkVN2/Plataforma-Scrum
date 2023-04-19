@@ -272,7 +272,7 @@ ul li a {
 .met-int-border{
   border-top: 0.6vmin black solid;
   border-bottom: 0.6vmin black solid;
-  width: 70%
+  width: 70%;
 }
 
 /* metodologia/oqueescrum */
@@ -283,6 +283,7 @@ ul li a {
   font-size: 20vmin;
   text-align: center;
 }
+
 .met-oqs-border{
   border: 1vmin black solid;
   width: 80%
