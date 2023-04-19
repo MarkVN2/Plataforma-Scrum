@@ -380,8 +380,25 @@ ul li a {
   width: 70%;
 }
 
+/* productowner/valordoproduto */
+
+.po-vdp-image {
+  width: 271px;
+  height: 469px;
+  left: 273px;
+  top: 941px;
+}
 
 /* productowner/backlog */
+
+.po-back-image{
+
+text-align: center;
+width: 699px;
+height: 393px;
+left: 334px;
+top: 1146px;
+}
 
 .po-back-para-negr {
   font-weight: 700;
