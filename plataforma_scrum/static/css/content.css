@@ -395,19 +395,26 @@ ul li a {
 /* productowner/backlog */
 
 .po-back-image{
-
 text-align: center;
 width: 699px;
 height: 393px;
 left: 334px;
 top: 1146px;
 }
-
 .po-back-para-negr {
   font-weight: 700;
   background-color: rgba(0, 255, 255, 0.233);
   padding: 1.5%;
   border-radius: 25px;
+}
+
+
+/* scrum-master/burndown e daily */
+.sm-burn-img-box {
+  display: flex;
+}
+.sm-burn-img {
+  padding-bottom: 1%;
 }
 
 

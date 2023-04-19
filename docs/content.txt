@@ -179,7 +179,7 @@ Diferentemente do Backlog, que possui o atributo de conexão externa com o clien
 Portanto, nele a equipe poderá gerenciar tanto as tarefas que foram delegadas a partir do estabelecimento dos requisitos, mas também afazeres do desenvolvimento interno do grupo, os quais o cliente não precisa estar inteirado, como é o caso de pesquisas de tecnologias e funcionalidades de softwares, atividades de estudo, tarefas de revisão e testagem.
 (IMAGEM - BURNDOWN CHART EXEMPLO)
 
-Uma particularidade dessa planilha é a sua propriedade visual, capaz de trazer uma perspectiva  mais aprofundada da relação andamento do projeto e produtividade do grupo. Através do Backlog Chart (Gráfico de Backlog), a equipe dimensiona se está atrasada, adiantada ou em dia em relação à estimativa de entregas ideal. 
+Uma particularidade dessa planilha é a sua propriedade visual, capaz de trazer uma perspectiva  mais aprofundada da relação andamento do projeto e produtividade do grupo. Através do Burndown Chart (Gráfico de Burndown), a equipe dimensiona se está atrasada, adiantada ou em dia em relação à estimativa de entregas ideal. 
 
 Já o Daily Scrum (Scrum Diário) é um método estabelecido pelo Scrum Master no qual a equipe realiza diariamente um momento de prestação de contas em que os integrantes da equipe atualizam os demais quanto ao que estão desenvolvendo e os empecilhos que estão enfrentando, respondendo às seguintes perguntas: 
 O QUE FOI FEITO NO DIA ANTERIOR?
