@@ -125,8 +125,10 @@ ul li a {
 .po-vdp-main,
 .po-back-main,
 .sm-burn-main,
-.conclusion-main{
-    display: flex;
+.conclusion-main,
+.met-int-main
+.sm-int-main{
+  display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: flex-start;
@@ -142,9 +144,10 @@ ul li a {
 .po-back-textbox,
 .sm-burn-textbox,
 .dev-textbox,
-.conclusion-textbox
-{
+.conclusion-textbox,
+.sm-int-textbox{
   margin-top: 8%;
+  margin-top: 2%;
   width: 85%;
   text-align: justify;
 }
@@ -158,7 +161,8 @@ ul li a {
 .po-back-para,
 .sm-burn-para,
 .dev-para,
-.conclusion-para{
+.conclusion-para,
+.sm-int-para{
   font-size: 1.8rem;
   padding-bottom: 1%;
 }
@@ -166,7 +170,8 @@ ul li a {
 .met-int-image-block,
 .po-vdp-image-block,
 .po-back-para-flex,
-.dev-image-block{
+.dev-image-block,
+.sm-int-image-block{
   margin: 5% 0 5% 0;
   display: flex;
   justify-content: flex-start;
@@ -180,7 +185,7 @@ ul li a {
   width: 100%;
   gap: 6%;
   margin-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 /* home */
@@ -424,6 +429,17 @@ top: 1146px;
   width: 30%;
   border-radius: 36px;
 }
+
+/* scrum-master */
+
+.sm-bs-image{
+  width: 550px;
+}
+.sm-image{
+  width: 600px;
+  height: 650px;
+}
+
 
 
 /* conclusion */
