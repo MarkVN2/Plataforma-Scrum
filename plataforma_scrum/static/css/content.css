@@ -270,7 +270,8 @@ ul li a {
 
 /* metodologia/introducao */
 .met-int-border{
-  border: 1vmin black solid;
+  border-top: 0.6vmin black solid;
+  border-bottom: 0.6vmin black solid;
   width: 70%
 }
 
@@ -390,22 +391,20 @@ ul li a {
 
 /* productowner/valordoproduto */
 
+.po-vdp-image-block{
+  max-width: 100%;
+}
+
 .po-vdp-image {
-  width: 271px;
-  height: 469px;
-  left: 273px;
-  top: 941px;
+  background-color: aqua;
+  width: 40%;
+
+
 }
 
 /* productowner/backlog */
 
-.po-back-image{
-text-align: center;
-width: 699px;
-height: 393px;
-left: 334px;
-top: 1146px;
-}
+
 .po-back-para-negr {
   font-weight: 700;
   background-color: rgba(0, 255, 255, 0.233);
