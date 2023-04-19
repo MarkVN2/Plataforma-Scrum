@@ -49,7 +49,7 @@ def smInt():
 
 @app.route('/scrum-master/burndown')
 def smBrn():
-    return render_template('')
+    return render_template('sm_burn.html')
 
 # pages about  'devteam'
 

@@ -172,7 +172,9 @@ Algumas características importantes para o Scrum Master são a organização na
 Para que todas essas questões e princípios da metodologia sejam atendidos, o Master possui algumas ferramentas que o assistirão na verificação dos parâmetros de rendimento e servirão como instrumentos que tornam a evolução do projeto mais palpável aos demais membros. Essas ferramentas são o Burndown e o Daily Scrum.
 
 SCRUM MASTER - BURNDOWN E DAILY SCRUM
-A ferramenta Burndown tem por objetivo fundamental gerenciar a organização interna da equipe. Diferentemente do Backlog, que possui o atributo de conexão externa com o cliente, o qual também interage e responde aos requerimentos da planilha, o Burndown é de uso exclusivo dos indivíduos inerentes ao grupo. 
+A ferramenta Burndown tem por objetivo fundamental gerenciar a organização interna da equipe. 
+
+Diferentemente do Backlog, que possui o atributo de conexão externa com o cliente, o qual também interage e responde aos requerimentos da planilha, o Burndown é de uso exclusivo dos indivíduos inerentes ao grupo. 
 
 Portanto, nele a equipe poderá gerenciar tanto as tarefas que foram delegadas a partir do estabelecimento dos requisitos, mas também afazeres do desenvolvimento interno do grupo, os quais o cliente não precisa estar inteirado, como é o caso de pesquisas de tecnologias e funcionalidades de softwares, atividades de estudo, tarefas de revisão e testagem.
 (IMAGEM - BURNDOWN CHART EXEMPLO)
@@ -180,9 +182,9 @@ Portanto, nele a equipe poderá gerenciar tanto as tarefas que foram delegadas a
 Uma particularidade dessa planilha é a sua propriedade visual, capaz de trazer uma perspectiva  mais aprofundada da relação andamento do projeto e produtividade do grupo. Através do Backlog Chart (Gráfico de Backlog), a equipe dimensiona se está atrasada, adiantada ou em dia em relação à estimativa de entregas ideal. 
 
 Já o Daily Scrum (Scrum Diário) é um método estabelecido pelo Scrum Master no qual a equipe realiza diariamente um momento de prestação de contas em que os integrantes da equipe atualizam os demais quanto ao que estão desenvolvendo e os empecilhos que estão enfrentando, respondendo às seguintes perguntas: 
-O QUE FOI FEITO NO DIA ANTERIOR
-O QUE SERÁ FEITO HOJE
-QUAIS OS EMPECILHOS QUE SE TEM ENFRENTANDO.
+O QUE FOI FEITO NO DIA ANTERIOR?
+O QUE SERÁ FEITO HOJE?
+QUAIS OS EMPECILHOS ENFRENTADOS?
 
 
 DEVELOPMENT TEAM - O CONHECIMENTO TÉCNICO APLICADO

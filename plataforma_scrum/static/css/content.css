@@ -124,6 +124,7 @@ ul li a {
 .dev-main,
 .po-vdp-main,
 .po-back-main,
+.sm-burn-main,
 .conclusion-main{
     display: flex;
   flex-flow: column wrap;
@@ -139,6 +140,7 @@ ul li a {
 .met-int-textbox,
 .po-vdp-textbox,
 .po-back-textbox,
+.sm-burn-textbox,
 .dev-textbox,
 .conclusion-textbox
 {
@@ -154,6 +156,7 @@ ul li a {
 .met-int-para,
 .po-vdp-para,
 .po-back-para,
+.sm-burn-para,
 .dev-para,
 .conclusion-para{
   font-size: 1.8rem;
