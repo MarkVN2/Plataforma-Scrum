@@ -1,3 +1,4 @@
+<!-- prettier-ignore -->
 {% extends 'NHTemplate.html' %}
 
 {% block title %}Autoavaliação{% endblock %}
@@ -6,59 +7,59 @@
 {% block contentTitle %}Metodologia{% endblock %}
 {% block subtitle %}Autoavaliação{% endblock %}
 {% block content %}
-  <!-- Conteudo da pagina inteira -->
-  <div class="h-75 w-75 met-auto-main">
-    <div class="met-auto-textbox">
-      <p class="met-auto-para">
-        As equipes Scrum possuem em sua essência a capacidade de serem autogerenciáveis.
-      </p>
 
-      <p class="met-auto-para">
-        Essa competência às proporciona a possibilidade de se abstraírem das situações e cenários em que estão inseridas para que possam analisar o processo de um ponto de vista crítico. 
-      </p>
+<div class="h-75 w-75 default-main met-auto-main">
+  <div class="default-textbox met-auto-textbox">
+    <p class="default-para met-auto-para">
+      As equipes Scrum possuem em sua essência a capacidade de serem autogerenciáveis.
+    </p>
 
-      <p class="met-auto-para">
-        Esse é um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para garantir que o projeto mantenha a identidade e os objetivos que foram estabelecidos.
-      </p>
+    <p class="default-para met-auto-para">
+      Essa competência às proporciona a possibilidade de se abstraírem das situações e cenários em que estão inseridas
+      para que possam analisar o processo de um ponto de vista crítico.
+    </p>
 
-      <div class="met-auto-img-box">
-        <img src="../static/images/autoavaliacao_meeting.jpg" alt="Reunião de autoavaliação" class="met-auto-img" />
-      </div>
-      
-      <p class="met-auto-para">
-        A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desenrolando. 
-      </p>
+    <p class="default-para met-auto-para">
+      Esse é um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores
+      se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para
+      garantir que o projeto mantenha a identidade e os objetivos que foram estabelecidos.
+    </p>
 
-      <p class="met-auto-para">
-        Esse é o momento no qual cada um dos integrantes da equipe poderá avaliar o desempenho de seus colegas e receber os feedbacks de como tem sido a sua colaboração no projeto.
-      </p>
-
-      <P class="met-auto-para">
-        Os pontos individuais a serem considerados são entrega de resultados, autonomia, cooperação e proatividade.
-      </P>
-
-      <p class="met-auto-para">
-        Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
-      </p>
+    <div class="met-auto-img-box">
+      <img src="../static/images/autoavaliacao_meeting.jpg" alt="Reunião de autoavaliação" class="met-auto-img" />
     </div>
-    
-    <div class="met-tips-block">
-      <h2 class="met-auto-tips met-tip-proj">
-        ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF
-      </h2>
 
-      <h2 class="met-auto-tips met-tip-ideia">
-        DÊ OPINIÕES E IDEIAS
-      </h2>
+    <p class="default-para met-auto-para">
+      A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de Sprint
+      Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está
+      se desenrolando.
+    </p>
 
-      <h2 class="met-auto-tips met-tip-adap">
-        ADAPTE-SE
-      </h2>
-    </div>
-    
+    <p class="default-para met-auto-para">
+      Esse é o momento no qual cada um dos integrantes da equipe poderá avaliar o desempenho de seus colegas e receber
+      os feedbacks de como tem sido a sua colaboração no projeto.
+    </p>
 
+    <p class="default-para met-auto-para">
+      Os pontos individuais a serem considerados são entrega de resultados, autonomia, cooperação e proatividade.
+    </p>
+
+    <p class="default-para met-auto-para">
+      Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como
+      autoavaliar seu desempenho individual e o do time:
+    </p>
   </div>
-  
+
+  <div class="met-tips-block">
+    <h2 class="met-auto-tips met-tip-proj">ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF</h2>
+
+    <h2 class="met-auto-tips met-tip-ideia">DÊ OPINIÕES E IDEIAS</h2>
+
+    <h2 class="met-auto-tips met-tip-adap">ADAPTE-SE</h2>
+  </div>
+</div>
+
+<!-- prettier-ignore -->
 {% endblock %}
 {%block btnback%}/metodologia/pilares{%endblock%}
 {%block btnnext %}/metodologia/team{%endblock%}

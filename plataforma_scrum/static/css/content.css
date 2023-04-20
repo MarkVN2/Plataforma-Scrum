@@ -23,19 +23,16 @@ p {
 }
 
 /* Navbar */
-
 /* Font family for the navbar items */
 .navbar-custom {
   font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
 }
-
 /* Font family for the dropdown items */
-.navbar-custom .dropdown-item{
+.navbar-custom .dropdown-item {
   font-family: 'Inter', sans-serif;
   font-size: 1.2rem;
 }
-
 /* Distance between elements of the navbar */
 .navbar-nav > li {
   margin-left: 1vw;
@@ -44,52 +41,57 @@ p {
   padding-right: 1vw;
 }
 /* Change this to change the background color of the dropdown buttons */
-.navbar-nav > li > .dropdown-menu{ background-color:none; }
-
+.navbar-nav > li > .dropdown-menu {
+  background-color: none;
+}
 /* Change this to change font color of the dropdown buttons */
-.navbar-nav > li > .dropdown-item{ color:none;}
-
+.navbar-nav > li > .dropdown-item {
+  color: none;
+}
 /* Change this to change hover color on nav elements */
-.navbar-nav li > a:hover, a:focus, a:active {color:none;}
-
+.navbar-nav li > a:hover,
+a:focus,
+a:active {
+  color: none;
+}
 /* Changes background of dropdown elements */
-.dropdown-item:focus, .dropdown-item:hover {
-  background-color:none!important;
-  color:none !important;}
-
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: none !important;
+  color: none !important;
+}
 /* Changes background of dropdown */
-ul.dropdown-menu {background-color:none;}
-
+ul.dropdown-menu {
+  background-color: none;
+}
 /*Color of the links in the dropdown*/
 ul li a {
   display: block;
   text-decoration: none;
   color: black;
-}   
+}
 
-/* header */
-
-.full-header{
+/* Header */
+.full-header {
   height: 55%;
 }
-.header-base{
-  height: 81.82%; 
-  padding: 0; 
-  background-image: url(../images/SquaresTogetherSmaller.png); 
+.header-base {
+  height: 81.82%;
+  padding: 0;
+  background-image: url(../images/SquaresTogetherSmaller.png);
   background-size: cover;
   display: flex;
 }
-
-.wrapper{
+.wrapper {
   height: 100%;
   display: flex;
   align-items: end;
   gap: 1vw;
 }
-.content-icon-back{
+.content-icon-back {
   aspect-ratio: 1/1;
   width: 32vmin;
-  margin-bottom: -7%; 
+  margin-bottom: -7%;
   background-color: white;
   z-index: 1;
   display: flex;
@@ -98,88 +100,48 @@ ul li a {
   flex-shrink: 0;
   border-radius: 30px;
 }
-.content-icon{
+.content-icon {
   aspect-ratio: 1/1;
   width: 95%;
 }
-.content-title-block{
+.content-title-block {
   max-height: 80%;
   overflow: hidden;
   flex-grow: 1;
 }
-.content-title{
+.content-title {
   font-size: 5vw;
 }
-.content-subtitle{
+.content-subtitle {
   font-size: 2.5vw;
 }
 
-/* CSS for every content page.  */
-.met-vis-main,
-.met-pil-main,
-.met-auto-main,
-.met-team-main,
-.met-oqs-main,
-.met-int-main,
-.dev-main,
-.po-vdp-main,
-.po-back-main,
-.sm-burn-main,
-.conclusion-main,
-.met-int-main,
-.sm-int-main{
+/* default CSS for every content page.  */
+.default-main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: flex-start;
 }
-
-.met-vis-textbox,
-.met-pil-textbox,
-.met-auto-textbox,
-.met-team-textbox,
-.met-oqs-textbox,
-.met-int-textbox,
-.po-vdp-textbox,
-.po-back-textbox,
-.sm-burn-textbox,
-.dev-textbox,
-.conclusion-textbox,
-.sm-int-textbox{
+.default-textbox {
   margin-top: 8%;
   margin-top: 2%;
   width: 85%;
   text-align: justify;
 }
-.met-vis-para,
-.met-pil-para,
-.met-auto-para,
-.met-team-para,
-.met-oqs-para,
-.met-int-para,
-.po-vdp-para,
-.po-back-para,
-.sm-burn-para,
-.dev-para,
-.conclusion-para,
-.sm-int-para{
+.default-para {
   font-size: 1.8rem;
   padding-bottom: 1%;
 }
-
-.met-int-image-block,
-.po-vdp-image-block,
-.po-back-para-flex,
-.dev-image-block,
-.sm-int-image-block{
+.default-image-block,
+.po-back-split-text-block {
   margin: 5% 0 5% 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 5%
+  gap: 5%;
 }
-
-.next-prev-btn{
+.next-prev-btn {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -189,7 +151,7 @@ ul li a {
 }
 
 /* home */
-.home-body{
+.home-body {
   display: flex;
   flex-flow: column;
   -ms-overflow-style: none;
@@ -198,7 +160,7 @@ ul li a {
 .home-body::-webkit-scrollbar {
   display: none;
 }
-.home-main{
+.home-main {
   position: relative;
   width: 100%;
   min-height: 140vh;
@@ -207,89 +169,86 @@ ul li a {
   justify-content: flex-start;
   align-items: center;
 }
-.home-title{
+.home-title {
   margin: 0;
   font-family: 'Homenaje', sans-serif;
   color: #000000;
   font-size: 14vmin;
 }
-.home-text-box{
+.home-textbox {
   width: 42%;
   display: flex;
   gap: 15%;
 }
-.home-text{
+.home-text {
   width: 50%;
   text-align: justify;
   color: #000000;
-  font-size: 2.2vmin; 
+  font-size: 2.2vmin;
 }
-.home-middle-image-block{
+.home-middle-image-block {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 40%;
 }
-.role-quadrant{
+.role-quadrant {
   text-align: center;
 }
-.icon-text{
+.icon-text {
   font-size: 4vmin;
   font-weight: 600;
 }
-.triangle{
+.triangle {
   width: 0;
   height: 0;
   position: absolute;
   z-index: -1;
 }
-.triangle-top{
+.triangle-top {
   top: 0;
   border-left: 40vw solid transparent;
   border-right: 40vw solid transparent;
-  border-top: 70vh solid rgb(248,134,30,0.6);
+  border-top: 70vh solid rgb(248, 134, 30, 0.6);
 }
-.triangle-bottom{
+.triangle-bottom {
   bottom: 0;
   border-left: 40vw solid transparent;
   border-right: 40vw solid transparent;
-  border-bottom: 70vh solid rgb(248,0,0,0.6);
+  border-bottom: 70vh solid rgb(248, 0, 0, 0.6);
 }
-.triangle-left{
+.triangle-left {
   left: 0;
   border-top: 70vh solid transparent;
   border-bottom: 70vh solid transparent;
-  border-left: 50vw solid rgb(47,177,250,0.6);
+  border-left: 50vw solid rgb(47, 177, 250, 0.6);
 }
-.triangle-right{
+.triangle-right {
   right: 0;
   border-top: 70vh solid transparent;
   border-bottom: 70vh solid transparent;
-  border-right: 50vw solid rgb(99,255,44,0.6);
+  border-right: 50vw solid rgb(99, 255, 44, 0.6);
 }
 
+/* Seção Metodologia */
 /* metodologia/introducao */
-.met-int-border{
+.met-int-border {
   border-top: 0.6vmin black solid;
   border-bottom: 0.6vmin black solid;
   width: 70%;
 }
-
 /* metodologia/oqueescrum */
-.met-oqs-subt-scm{
+.met-oqs-subt-scm {
   font-family: 'Roboto Mono', monospace;
   font-weight: bolder;
   color: #000000;
   font-size: 20vmin;
   text-align: center;
 }
-
-.met-oqs-border{
+.met-oqs-border {
   border: 0.6vmin black solid;
-  width: 80%
+  width: 80%;
 }
-
-
 /* metodologia/visao */
 .met-vis-listbox {
   width: 70%;
@@ -305,8 +264,6 @@ ul li a {
   font-size: 1.8rem;
   font-weight: 700;
 }
-
-
 /* metodologia/pilares */
 .met-pil-three-sections {
   width: 85%;
@@ -339,8 +296,6 @@ ul li a {
   font-size: 1.6rem;
   text-align: justify;
 }
-
-
 /* metodologia/autoavaliacao */
 .met-auto-img-box {
   width: 100%;
@@ -356,20 +311,18 @@ ul li a {
   flex-direction: column;
 }
 .met-auto-tips {
-  border: 2px solid #FFCD70;
+  border: 2px solid #ffcd70;
   border-radius: 8px;
-  background-color: #FFCD70;
+  background-color: #ffcd70;
   width: fit-content;
 }
-
-
 /* metodologia/team */
 .met-team-img-box {
   display: flex;
   width: 100%;
 }
 .met-team-img {
-  width: 100%;  
+  width: 100%;
   padding-bottom: 1%;
 }
 .met-sect-memb {
@@ -390,33 +343,40 @@ ul li a {
   width: 70%;
 }
 
-/* productowner/valordoproduto */
-
-.po-vdp-image-block{
+/* Seção: Product Owner */
+/* product-owner/valordoproduto */
+.po-vdp-image-block {
   max-width: 100%;
 }
-
 .po-vdp-image {
   background-color: aqua;
   width: 40%;
-
-
 }
-
-/* productowner/backlog */
+/* product-owner/backlog */
 .po-back-para-negr {
   font-weight: 700;
   background-color: rgba(0, 255, 255, 0.233);
   padding: 1.5%;
   border-radius: 25px;
 }
-.po-back-table{
+.po-back-table {
   text-align: center;
   font-size: 2.8vmin;
   margin-bottom: 8%;
 }
 
-/* scrum-master/burndown e daily */
+/* Seção: Scrum Master */
+/* scrum-master/introducao */
+.sm-bs-image {
+  width: 550px;
+}
+.sm-image {
+  width: 100%;
+  height: 100%;
+  border: 5px solid transparent;
+  border-radius: 155px;
+}
+/* scrum-master/burndown */
 .sm-burn-img-box {
   display: flex;
 }
@@ -426,37 +386,21 @@ ul li a {
   padding-bottom: 1%;
 }
 
-
+/* Seção: Development Team */
 /* development-team */
-
-.dev-image{
+.dev-image {
   width: 30%;
   border-radius: 36px;
 }
 
-/* scrum-master */
-
-.sm-bs-image{
-  width: 550px;
-}
-
-.sm-image{
-  width: 100%; 
-  height: 100%;
-  border: 5px solid transparent;
-  border-radius:155px;
-
-}
-
-
-/* conclusion */
-/* container for the arrows in conclusion page */
-.arrow-circular-container{
+/* Seção: Outros */
+/* conclusao */
+.arrow-circular-container {
   border-radius: 100%;
   width: 25vw;
   height: 25vw;
   float: left;
   margin: 20px;
-  shape-outside:circle();
+  shape-outside: circle();
   clip-path: circle();
 }

@@ -1,3 +1,4 @@
+<!-- prettier-ignore -->
 {% extends 'NHTemplate.html' %}
 
 {% block title %}Introdução - Scrum Master | Plataforma Scrum{% endblock %}
@@ -6,72 +7,61 @@
 {% block contentTitle %}Scrum Master{% endblock %}
 {% block subtitle %}A metodologia aplicada{% endblock %}
 {% block content %}
-<!-- Conteudo da pagina inteira -->
-<div class="h-75 w-75 sm-int-main">
 
-  <div class="sm-int-textbox">
-
-    <p class="sm-int-para">
-      O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodologia
-      Scrum, suas práticas e princípios
-      fundamentais.
+<div class="h-75 w-75 default-main sm-int-main">
+  <div class="default-textbox sm-int-textbox">
+    <p class="default-para sm-int-para">
+      O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodologia Scrum, suas práticas e
+      princípios fundamentais.
     </p>
 
-    <div class="sm-int-image-block">
-      <div style="clip-path: circle();shape-outside: circle();">
+    <div class="default-image-block sm-int-image-block">
+      <div style="clip-path: circle(); shape-outside: circle()">
         <img src="../static/images/sm_brainstorm.jpg" alt="sm_int_brainstorm" class="sm-bs-image" />
       </div>
-      <div class="sm-int-textbox">
-        <p class="sm-int-para">
-          Sua operação se resume em reger o andamento do projeto, analisando o rendimento de cada
-          um dos integrantes e concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas
-          ou se alguma das partes do projeto está com alguma de suas demandas pendentes, realizando assim o principio
-          da INSPEÇÃO.
+      <div class="default-textbox sm-int-textbox">
+        <p class="default-para sm-int-para">
+          Sua operação se resume em reger o andamento do projeto, analisando o rendimento de cada um dos integrantes e
+          concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas ou se alguma das partes
+          do projeto está com alguma de suas demandas pendentes, realizando assim o principio da INSPEÇÃO.
         </p>
       </div>
-
     </div>
 
-    <p class="sm-int-para">
+    <p class="default-para sm-int-para">
       Outro princípio que tem a sua efetivação através do trabalho do Master é a TRANSPARÊNCIA.
     </p>
 
-    <div class="sm-int-image-block">
-
-      <div class="sm-int-textbox">
-
-        <p class="sm-int-para">
-          Algumas
-          características importantes para o Scrum Master são a organização na gestão geral das tarefas e
+    <div class="default-image-block sm-int-image-block">
+      <div class="default-textbox sm-int-textbox">
+        <p class="default-para sm-int-para">
+          Algumas características importantes para o Scrum Master são a organização na gestão geral das tarefas e
           realizações do grupo, boa habilidade comunicativa com os integrantes e caráter motivador e impulsionador da
           equipe, sendo capaz de identificar possíveis empecilhos e entraves no processo e encontrar métodos de
-          minimizá-los
-          e eliminá-los para que haja um maior rendimento do grupo como um todo.
+          minimizá-los e eliminá-los para que haja um maior rendimento do grupo como um todo.
         </p>
-
       </div>
 
-      <div style="shape-outside:url(../static/images/scrum_master_crop.png);">
+      <div style="shape-outside: url(../static/images/scrum_master_crop.png)">
         <img src="../static/images/scrum_master_crop.png" alt="sm_int_scrum_master" class="sm-image" />
       </div>
-
     </div>
 
-    <p class="sm-int-para">
+    <p class="default-para sm-int-para">
       Ele é o membro da equipe designado para fazer uso de estratégias e ferramentas capazes de realizar a integração da
       equipe como um todo, para que assim todos os demais integrantes estejam a par do desenvolvimento uns dos outros e
       possam estimar em qual estágio do projeto o grupo está e como a divisão de tarefas será estabelecida.
     </p>
 
-    <p class="sm-int-para">
+    <p class="default-para sm-int-para">
       Para que todas essas questões e princípios da metodologia sejam atendidos, o Master possui algumas ferramentas que
       o assistirão na verificação dos parâmetros de rendimento e servirão como instrumentos que tornam a evolução do
       projeto mais palpável aos demais membros. Essas ferramentas são o Burndown e o Daily Scrum.
     </p>
-
   </div>
-
 </div>
+
+<!-- prettier-ignore -->
 {% endblock %}
 {%block btnback%}/product-owner/backlog{%endblock%}
 {%block btnnext %}/scrum-master/burndown{%endblock%}
