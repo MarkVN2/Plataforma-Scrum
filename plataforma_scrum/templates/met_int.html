@@ -1,5 +1,5 @@
 <!-- prettier-ignore -->
-{% extends 'NHTemplate.html' %}
+{% extends 'template.html' %}
 
 {% block title %}Introdução{% endblock %}
 {% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %}
@@ -46,5 +46,5 @@
 
 <!-- prettier-ignore -->
 {% endblock %}
-{%block btnback%}/{%endblock%}
-{%block btnnext %}/metodologia/oqueescrum{%endblock%}
+{% block btnback %}/{% endblock %}
+{% block btnnext %}/metodologia/oqueescrum{% endblock %}

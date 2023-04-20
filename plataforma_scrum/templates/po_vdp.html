@@ -1,5 +1,5 @@
 <!-- prettier-ignore -->
-{% extends 'NHTemplate.html' %}
+{% extends 'template.html' %}
 
 {% block title %}Valor do Produto{% endblock %}
 {% block color %}style="background-color: rgba(47, 177, 250, 0.65);"{% endblock %}
@@ -48,5 +48,5 @@
 
 <!-- prettier-ignore -->
 {% endblock %}
-{%block btnback%}/metodologia/team{%endblock%}
-{%block btnnext %}/product-owner/backlog{%endblock%}
+{% block btnback %}/metodologia/team{% endblock %}
+{% block btnnext %}/product-owner/backlog{% endblock %}

@@ -1,5 +1,5 @@
 <!-- prettier-ignore -->
-{% extends 'NHTemplate.html' %}
+{% extends 'template.html' %}
 
 {% block title %}Autoavaliação{% endblock %}
 {% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %}
@@ -61,5 +61,5 @@
 
 <!-- prettier-ignore -->
 {% endblock %}
-{%block btnback%}/metodologia/pilares{%endblock%}
-{%block btnnext %}/metodologia/team{%endblock%}
+{% block btnback %}/metodologia/pilares{% endblock %}
+{% block btnnext %}/metodologia/team{% endblock %}

@@ -1,5 +1,5 @@
 <!-- prettier-ignore -->
-{% extends 'NHTemplate.html' %}
+{% extends 'template.html' %}
 
 {% block title %}Team - Metodologia | Plataforma Scrum{% endblock %}
 {% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %}
@@ -81,5 +81,5 @@
 
 <!-- prettier-ignore -->
 {% endblock %}
-{%block btnback%}/metodologia/autoavaliacao{%endblock%}
-{%block btnnext %}/product-owner/valordoproduto{%endblock%}
+{% block btnback %}/metodologia/autoavaliacao{% endblock %}
+{% block btnnext %}/product-owner/valordoproduto{% endblock %}
