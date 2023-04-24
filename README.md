@@ -7,7 +7,16 @@
      <a href ="#tecnologias">Tecnologias</a>  •
      <a href ="#equipe">Equipe</a> 
    </p>
-   Projeto de alunos do 1º Semestre de Análise e Desenvolvimento da FATEC.
+
+
+
+
+
+## Objetivo
+   Projeto dos alunos do 1° Semestre de Análise e Desenvolvimento da FATEC, com o objetivo de desenvolver um website que possa treinar um usuário a utilizar a metodologia Scrum em seus projetos
+
+
+
 
 
 ## Visão do Produto
