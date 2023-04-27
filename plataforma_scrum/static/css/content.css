@@ -345,10 +345,10 @@ ul li a {
 
 /* Seção: Product Owner */
 /* product-owner/valordoproduto */
-.po-vdp-image-block {
+.po-int-image-block {
   max-width: 100%;
 }
-.po-vdp-image {
+.po-int-image {
   background-color: aqua;
   width: 40%;
 }

@@ -33,9 +33,9 @@ def metTeam():
 
 # pages about 'product owner'
 
-@app.route('/product-owner/valordoproduto')
-def poVal():
-    return render_template('po_vdp.html')
+@app.route('/product-owner/introducao')
+def poInt():
+    return render_template('po_int.html')
 
 @app.route('/product-owner/backlog')
 def poBac():
