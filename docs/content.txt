@@ -40,7 +40,14 @@ A forma com a qual essa metodologia é aplicada tem por base o Manifesto Ágil e
 - Responder a mudanças mais que seguir um plano
 
 METODOLOGIA - PILARES
-O Scrum a todo momento prioriza a entrega de elementos que, ainda que não tenham alcançado a projeção esperada para o produto final, já possuem funcionalidade e podem ser aplicados, agregando valor ao cliente e, em alguns casos, até mesmo uma rentabilidade ainda nos estágios iniciais do projeto. 
+O Scrum a todo momento prioriza a entrega de elementos que, ainda que não tenham alcançado a projeção esperada
+para o produto final, já possuem funcionalidade e podem ser aplicados. 
+
+Esse é o princípio do MVP, ou Produto Mínimo Viável, e seu objetivo é sempre agregar valor ao cliente e, em alguns casos, gerando até mesmo um retorno rentável ao investimento feito ainda nos estágios iniciais do projeto.
+
+(OVERLAY - MVP - IMAGEM SKATE/PATINS/CARRO
+A produção fundamentada no MVP sempre terá por objetivo realizar entregas gradativas que irão atender a demanda do cliente. Como no exemplo ao lado. Um cliente que deseja um carro para locomoção não fica completamente satisfeito ao receber um skate na primeira entrega, mas já possuirá em mãos um item utilizável e que agrega valor. O oposto acontece no outro caso, no qual, mesmo com três entregas feitas, o cliente ainda não consegue tirar proveito algum do que recebeu até então.
+)
 
 Além disso, devido a essa constante validação com o cliente, caso alguma de suas expectativas não seja atendida ou ocorra qualquer tipo de falha na execução, essa já poderá ser remediada ainda em seus estágios iniciais. 
 
