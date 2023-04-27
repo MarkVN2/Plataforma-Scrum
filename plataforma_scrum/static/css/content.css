@@ -367,14 +367,17 @@ ul li a {
 
 /* Seção: Scrum Master */
 /* scrum-master/introducao */
-.sm-bs-image {
-  width: 550px;
+#sm-int-image-1 {
+  width: 20vw;
+  clip-path: circle();
+  shape-outside: circle();
 }
-.sm-image {
-  width: 100%;
-  height: 100%;
-  border: 5px solid transparent;
-  border-radius: 155px;
+#sm-int-image-2 {
+  width: 35%;
+  border-radius: 15vmin;
+}
+.sm-int-para{
+  padding-bottom: 0%;
 }
 /* scrum-master/burndown */
 .sm-burn-img-box {
