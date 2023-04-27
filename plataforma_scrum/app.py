@@ -1,6 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
+
+
+
 
 # Normal routes
 @app.route("/")
@@ -72,9 +75,19 @@ def glossary():
     return render_template('')
 
 # Tests
-@app.route("/pag") #ONLY FOR TESTING REMOVE LATER
+@app.route("/pag", methods =["GET", "POST"]) #ONLY FOR TESTING REMOVE LATER
 def pag():
-    return render_template('conclusion.html') #
+    #THIS IS THE CODE FOR TURNING THE OVERLAY ON AND OFF
+    if request.method == "POST":
+        #CHANGE ACTIVATE TO THE NAME OF THE BUTTON 
+        state = str(request.form.get("activate"))
+        if state == 'on':
+            return render_template("test.html", display = 'display : block;')
+        else:
+            return render_template("test.html", display = 'display : none;')
+    else:
+        # if no POST method is requested render only the page.
+        return render_template('test.html') #
 
 @app.route("/head")
 def header():
@@ -87,6 +100,9 @@ def nav():
 @app.route("/example")
 def example():
     return render_template('example_page.html')
+
+
+
 
 if __name__=='__main__': #MAKES THE SERVER START UPON RUNNING THE CODE.
     app.run(debug=True, use_debugger=True,use_reloader=True)
