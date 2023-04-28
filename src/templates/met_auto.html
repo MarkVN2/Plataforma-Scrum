@@ -1,7 +1,7 @@
 <!-- prettier-ignore -->
 {% extends 'template.html' %}
 
-{% block title %}Autoavaliação - Metodologia | Plataforma Scrum{% endblock %}
+{% block title %}Auto avaliação - Metodologia | Plataforma Scrum{% endblock %}
 {% block color %}style="background-color: rgba(248, 134, 30, 0.65);"{% endblock %}
 {% block iconName %}method{% endblock %}
 {% block contentTitle %}Metodologia{% endblock %}
@@ -30,7 +30,7 @@
     </div>
 
     <p class="default-para met-auto-para"; style="color: red;">
-      A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de <a href="tapa buraco pro glossário">Sprint Retrospective (Retrospectiva de Sprint)</a> . Nela, a equipe se reunirá para ter uma visão geral de como o projeto está
+      A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de <a href="/glossario" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Retrospectiva de Sprint">Sprint Retrospective (Retrospectiva de Sprint)</a> . Nela, a equipe se reunirá para ter uma visão geral de como o projeto está
       se desenrolando.
     </p>
 
@@ -49,12 +49,37 @@
     </p>
   </div>
 
-  <div class="met-tips-block">
-    <h2 class="met-auto-tips met-tip-proj">ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF</h2>
+  <div class="met-auto-tips-block">
 
-    <h2 class="met-auto-tips met-tip-ideia">DÊ OPINIÕES E IDEIAS</h2>
+    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+      <li class="nav-item met-auto-tips-button" role="presentation">
+        <button class="nav-link met-auto-tips-button-text active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Estabeleça uma visão no Kick Off</button>
+      </li>
+      <li class="nav-item met-auto-tips-button" role="presentation">
+        <button class="nav-link met-auto-tips-button-text" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Dê opiniões e ideias</button>
+      </li>
+      <li class="nav-item met-auto-tips-button" role="presentation">
+        <button class="nav-link met-auto-tips-button-text" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Adapte-se</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <p class="default-para met-auto-para">
+          [To be updated - Placeholder text until content is updated]
+        </p>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <p class="default-para met-auto-para">
+          [To be updated - Placeholder text until content is updated]
+        </p>
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <p class="default-para met-auto-para">
+          [To be updated - Placeholder text until content is updated]
+        </p>
+      </div>
+    </div>
 
-    <h2 class="met-auto-tips met-tip-adap">ADAPTE-SE</h2>
   </div>
 </div>
 
