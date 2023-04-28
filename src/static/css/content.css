@@ -73,7 +73,9 @@ ul li a {
   text-decoration: none;
   color: black;
 }
-
+.tooltip-a-tag{
+  white-space: nowrap
+}
 /* Header */
 .full-header {
   height: 55%;
