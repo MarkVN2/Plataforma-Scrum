@@ -402,6 +402,8 @@ ul li a {
 /* Glossary */
 .glossario-letter{
   font-size: 4rem;
+  padding-bottom: 4%;
+  padding-top: 2%;
 }
 
 .glossario-header{
