@@ -376,6 +376,7 @@ ul li a {
   shape-outside: circle();
 }
 #sm-int-image-2 {
+  flex-shrink: 0;
   width: 35%;
   border-radius: 15vmin;
 }
