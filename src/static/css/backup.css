@@ -11,7 +11,8 @@ p {
 .met-auto-main,
 .met-team-main,
 .dev-main,
-.conclusion-main{
+.conclusion-main,
+.glossario-main{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -23,7 +24,8 @@ p {
 .met-auto-textbox,
 .met-team-textbox,
 .dev-textbox,
-.conclusion-textbox{
+.conclusion-textbox,
+.glossario-textbox{
   margin-top: 8%;
   width: 85%;
   text-align: justify;
@@ -33,7 +35,8 @@ p {
 .met-auto-para,
 .met-team-para,
 .dev-para,
-.conclusion-para {
+.conclusion-para,
+.glossario-para{
   font-size: 1.8rem;
   padding-bottom: 3%;
 }

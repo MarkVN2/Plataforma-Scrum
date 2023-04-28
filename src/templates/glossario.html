@@ -1,0 +1,79 @@
+<!-- prettier-ignore -->
+{% extends 'template.html' %}
+
+{% block title %}Introdução - Glossário | Plataforma Scrum{% endblock %}
+{% block color %}style="background-color: rgba(29, 29, 27, 0.39);"{% endblock %}
+{% block iconName %}glossary2{% endblock %}
+{% block contentTitle %}Glossário{% endblock %}
+{% block subtitle %}{% endblock %}
+{% block content %}
+
+<div class="h-75 w-75 default-main glossario-main">
+    <div class="default-textbox glossario-textbox">
+
+        <h1 class="glossario-letter">B</h1>
+        <h1 class="glossario-header">Backlog</h1>
+        <p class="default-para glossario-para">
+            É uma ferramenta importante para gerenciamento do projeto, permitindo que a equipe de desenvolvimento tenha
+            clareza sobre as prioridades e as expectativas do cliente. Durante o processo de desenvolvimento, os itens
+            do
+            backlog são trabalhados em sprints, que são períodos de tempo definidos (geralmente de uma a quatro semanas)
+            nos
+            quais a equipe trabalha para entregar as funcionalidades mais importantes do backlog.
+        </p>
+
+        <h1 class="glossario-header">Burndown</h1>
+        <p class="default-para glossario-para">
+            É uma ferramenta usada no Scrum para acompanhar o progresso do projeto ao longo do tempo. Ele mostra a
+            quantidade de trabalho que ainda precisa ser realizada (eixo y) em relação ao tempo decorrido (eixo x)
+            durante um sprint. A ideia é que, ao longo do tempo, a quantidade de trabalho pendente vá diminuindo até
+            chegar a zero no final do sprint.
+        </p>
+
+        <h1 class="glossario-letter">D</h1>
+        <h1 class="glossario-header">Daily scrum</h1>
+        <p class="default-para glossario-para">
+            É uma reunião diária no Scrum, na qual a equipe de desenvolvimento se encontra para sincronizar e planejar o
+            trabalho do dia. Durante a reunião, cada membro da equipe compartilha o que fez no dia anterior, o que
+            planeja fazer no dia atual e quais são os possíveis impedimentos que podem afetar o trabalho.
+        </p>
+
+        <h1 class="glossario-letter">F</h1>
+        <h1 class="glossario-header">Framework</h1>
+        <p class="default-para glossario-para">
+            Conjunto de ferramentas, diretrizes e boas práticas que ajudam os desenvolvedores a construir aplicativos de
+            software de forma mais rápida, fácil e consistente. Ele fornece uma estrutura geral para o desenvolvimento
+            de software, permitindo que os desenvolvedores se concentrem mais em resolver problemas específicos do que
+            em criar toda a estrutura do zero.
+        </p>
+
+        <h1 class="glossario-letter">K</h1>
+        <h1 class="glossario-header">Kick off</h1>
+        <p class="default-para glossario-para">
+            No Scrum é a reunião inicial do projeto na qual a equipe e o Product Owner se encontram para alinhar
+            expectativas e definir objetivos, escopo, requisitos, entregas e cronograma do projeto. É uma oportunidade
+            para a equipe esclarecer dúvidas e entender melhor o produto que será desenvolvido.
+        </p>
+
+        <h1 class="glossario-letter">S</h1>
+
+        <h1 class="glossario-header">Software</h1>
+        <p class="default-para glossario-para">
+            É um conjunto de programas de computador que controlam o funcionamento de um dispositivo eletrônico,
+            permitindo a realização de diversas atividades.
+        </p>
+
+       <h1 class="glossario-header">Sprint</h1>
+        <p class="default-para glossario-para">
+            Uma sprint no Scrum é um período de tempo definido (geralmente de uma a quatro semanas) no qual a equipe de
+            desenvolvimento trabalha para entregar uma quantidade definida de funcionalidades ou requisitos do produto.
+            Durante a sprint, a equipe se concentra em alcançar os objetivos definidos no início do sprint, trabalhando
+            nas tarefas do backlog de forma iterativa e incremental.
+        </p>
+
+    </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/product-owner/backlog{% endblock %}
