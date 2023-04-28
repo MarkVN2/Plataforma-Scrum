@@ -1,11 +1,13 @@
 # Plataforma-Scrum
    <p align="center">
+     <a href ="#objetivo">Objetivo</a>  •
      <a href ="#visão-do-produto">Visão do produto</a>  • 
      <a href ="#cronograma">Cronograma</a>  • 
      <a href ="#backlog--entregas">Backlog/Entregas</a>  •
      <a href ="#requisitos">Requisitos</a>  •
      <a href ="#tecnologias">Tecnologias</a>  •
-     <a href ="#equipe">Equipe</a> 
+     <a href ="#como-usar">Como usar</a>   •
+     <a href ="#equipe">Equipe</a>
    </p>
 
 
@@ -168,13 +170,27 @@
 
 
 
+## Como usar:
+* Pré-requisítos: ter Git e Python instalados na máquina 
+
+1. Abra o cmd na pasta aonde deseja instalar o projeto
+2. Execute os comandos 
+```
+>>> git clone https://github.com/Byte-Boost/Plataforma-Scrum.git
+>>> cd Plataforma-Scrum
+>>> cd src
+>>> pip install -r requirements.txt
+>>> flask run
+```
+3. Entre no link "http://localhost:5000"
+
 ## Equipe:
    ### Gabriel Alves (Product Owner):
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gabriel15asouza)
    
 
-   ### Jhuan Araújo (Scrum Master): 
+   ### Jhuan Araújo (Dev Team): 
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](
    https://www.linkedin.com/in/jhuan-araújo-de-souza-372233230)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/TheRabbitDev)
@@ -187,7 +203,7 @@
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/Marcos-Antonio-Rodrigues-dos-Santos)
 
 
-   ### Markos Nunes (Dev Team): 
+   ### Markos Nunes (Scrum Master): 
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://linkedin.com/in/markos-vinícius-nunes-230448268)
    [<img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white">](https://github.com/MarkVN2)
 
