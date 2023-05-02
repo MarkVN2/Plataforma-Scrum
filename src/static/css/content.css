@@ -323,7 +323,8 @@ ul li a {
   font-weight: 600;
 }
 .met-auto-tab-img-box{
-  padding: 3%
+  text-align: justify;
+  padding: 3%;
 }
 .met-auto-tab-img{
   max-width: 35%;
