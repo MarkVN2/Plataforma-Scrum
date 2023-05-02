@@ -362,6 +362,7 @@ ul li a {
 }
 .po-int-image {
   background-color: aqua;
+  flex-shrink: 0;
   width: 40%;
 }
 /* product-owner/backlog */
@@ -405,6 +406,7 @@ ul li a {
 /* Seção: Development Team */
 /* development-team */
 .dev-image {
+  flex-shrink: 0;
   width: 30%;
   border-radius: 36px;
 }
