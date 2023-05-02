@@ -322,6 +322,12 @@ ul li a {
   font-size: 1.4rem;
   font-weight: 600;
 }
+.met-auto-tab-img-box{
+  padding: 3%
+}
+.met-auto-tab-img{
+  max-width: 35%;
+}
 /* metodologia/team */
 .met-team-img-box {
   display: flex;
