@@ -1,0 +1,123 @@
+<!-- prettier-ignore -->
+{% extends 'template.html' %}
+
+{% block title %}Materiais - Outros | PLATAFORMA Scrum{% endblock %}
+{% block color %}style="background-color: rgba(29, 29, 27, 0.65);"{% endblock %}
+{% block iconName %}method{% endblock %}
+{% block contentTitle %}Materais{% endblock %}
+{% block subtitle %}{% endblock %}
+{% block content %}
+<!-- Conteudo da pagina inteira -->
+<div class="h-75 w-75 default-main met-auto-main">  
+    <div class="mat-content-limit">
+
+        <h1 class="mat-model-title">Modelos de planilha</h1>
+        <p class="default-para">Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa adotar o formato que melhor
+            atende a demanda do seu grupo e aprender como implementá-las.</p>
+
+    <!-- Card 1 -->
+
+        <div class="card" style="width: 18rem;">
+            <img src="../static/images/backlog.png" class="card-img-top mat-card-img" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Backlog</h5>
+              <p class="card-text">Clique no ícone ao lado, faça o download e gerencie as Sprints e requisitos do seu projeto.</p>
+              <button class="btn btn-primary mat-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">expandir</button>
+
+            </div>
+          </div>
+
+        
+          <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                  <h5>Backlog do produto</h5>
+                  <p>Backlog utilizado por nossa equipe durante a produção desse site. (Só um exemplo depois muda)
+                  Link na imagem:https://www.capterra.com.br/blog/1103/grafico-de-burndown</p>
+  
+                  <h5>Backlog da Sprint</h5>
+                  <p>Backlog de uma sprint.(muda please)
+                  Link na imagem:https://www.capterra.com.br/blog/1103/grafico-de-burndown</p>
+  
+                  <h5>Backlog da Smartsheet</h5>
+                  <p>Backlog de exemplo dado pelo site SmartSheet para utilização gratuita (muda)
+                  Link na imagem:https://www.smartsheet.com/content/product-backlog-templatesn</p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="../static/images/burndown_icon.png" class="card-img-top mat-card-img" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Burndown</h5>
+                <p class="card-text">Melhore a análise de produtividade de sua equipe e torne o projeto cada vez mais transparente com o modelo de
+            Burndown ao lado.</p>
+          <button class="btn btn-primary mat-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">expandir</button>
+
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    
+      <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            <img src="" alt="icon">
+            <h5>Burndown</h5>
+            <p>Burndown usado para medir o desempenho durante a produção desse site (muda)
+            Link na imagem:https://www.capterra.com.br/blog/1103/grafico-de-burndown
+            </p>
+        
+            <h4>Burndown do capterra</h4>
+            <img src="" alt="Burndown icon">
+            <p>Burndown de exemplo criado pela empresa Capterra
+                Link na imagem:https://www.capterra.com.br/blog/1103/grafico-de-burndown
+            </p>
+        
+            <img src="" alt="icon">
+            <h5>Burndown do Automato Excel</h5>
+            <p>Exemplo de Burndown dado pelo site Automate Excel
+                Link na imagem:https://www.automateexcel.com/charts/templates-free-downloads#burndown
+            </p>
+        
+            <img src="" alt="icon">
+            <h5>Maecenas</h5>
+            <p>Nam quis metus at augue facilisis efficitur. Morbi interdum sem dolor. Maecenas ac pharetra nulla, ac egestas
+                lectus. Duis congue massa
+                Link na imagem:https://www.capterra.com.br/blog/1103/grafico-de-burndown
+            </p>
+                  </div>
+      </div>
+
+    <hr>
+
+
+    <h1>Ferramentas de apoio</h1>
+    <h4>Trello</h4>
+    <img src="../static/images/icons8-trello-250.png" alt="trello icon" class="ferramenta-img">
+    <p>Ferramenta excelente para gerenciar o andamento da sua equipe e visualizar como está seu progresso individual e
+        dos demais membros em suas respectivas tarefas.</p>
+
+    <h4>Notion</h4>
+    <img src="../static/images/icons8-notion-250.png" alt="notion icon" class="ferramenta-img">
+    <p>Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como
+        anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.</p>
+    <h4>Github</h4>
+    <img src="../static/images/github-mark.png" alt="github icon" class="ferramenta-img">
+    <p>Essa plataforma de versionamento possibilitará que sua equipe faça suscessivas entregas de aprimoramentos do
+        produto. Ideal para uso de programadores, mas também aplicável para demais equipes que trabalham com o sistema
+        colaborativo.</p>
+    <h4>Youtrack</h4>
+    <img src="../static/images/Youtrack.png" alt="youtrack icon" class="ferramenta-img">
+    <p>Ferramenta faz “tudo” criada pela JetBrains para equipes ageis , sendo gratuita até grupos de 10 membros. A
+        ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para organizar suas
+        equipes.</p>
+    <h4>Azure Ops</h4>
+    <img src="../static/images/Azure Devops.png" alt="azure ops icon" class="ferramenta-img">
+    <p>Azure Ops é a plataforma da Microsoft para equipes que utilizam o Scrum tendo ferramentas para criação de
+        Burndown e Backlog. Sendo criada pela Microsoft dá acesso a plataforma a todos os serviços da Microsoft como a
+        Azure.</p>
+
+
+    </div>
+</div>
+{% endblock %}
+{% block btnback %}#{% endblock %}
+{% block btnnext %}#{% endblock %}

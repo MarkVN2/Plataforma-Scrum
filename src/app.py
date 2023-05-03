@@ -65,7 +65,7 @@ def conclusion():
 
 @app.route('/materiais')
 def materials():
-    return render_template('')
+    return render_template('mat.html')
 
 @app.route('/glossario')
 def glossary():

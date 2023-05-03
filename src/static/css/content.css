@@ -377,7 +377,7 @@ ul li a {
 .met-memb-img {
   width: 70%;
 }
-.card-body {
+.met-team-card-body {
   display: flex;
   flex-direction: row;
   gap: 4%;
@@ -499,4 +499,22 @@ ul li a {
   align-items: center;
   justify-content: center;
   padding-bottom: 1%;
+}
+
+/* materiais */
+.mat-content-limit{
+  width: 85%;
+}
+
+.mat-model-title{
+  font-weight: 700;
+  text-decoration: underline;
+  }
+
+.mat-card-img{
+  width: 80%;
+  margin: auto;
+}
+.ferramenta-img{
+  width: 20%;
 }
