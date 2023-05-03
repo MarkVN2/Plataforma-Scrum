@@ -8,3 +8,5 @@ To credit the respective creators inside the site credits page use this template
 <a href="[SITE URL]" title="[image/icon name]-icons">[IMAGE NAME] by [CREATOR] at [SITE NAME]</a> 
 
 ///UPDATE THIS SOON.
+
+Imagem MVP disponível em https://tecmec.org.br/blog/qual-a-diferenca-entre-mvp-e-prototipo/

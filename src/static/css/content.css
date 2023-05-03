@@ -301,6 +301,15 @@ ul li a {
   font-size: 1.6rem;
   text-align: justify;
 }
+.met-pil-modal {
+  margin-bottom: 2%;
+}
+.met-pil-image-modal {
+  width: 100%;
+  border: solid 2px #535353;
+  margin-bottom: 3%;
+}
+
 /* metodologia/autoavaliacao */
 .met-auto-img-box {
   width: 100%;
@@ -329,6 +338,15 @@ ul li a {
 .met-auto-tab-img{
   max-width: 35%;
 }
+
+.met-auto-card-body {
+  display: flex;
+  flex-direction: row;
+  gap: 6%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
 /* metodologia/team */
 .met-team-img-box {
   display: flex;
@@ -355,6 +373,16 @@ ul li a {
 .met-memb-img {
   width: 70%;
 }
+.card-body {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  margin-bottom: 2%;
+}
+.overlay-image {
+  padding-top: 8%;
+}
+
 
 /* Seção: Product Owner */
 /* product-owner/valordoproduto */

@@ -43,7 +43,7 @@ A aplicação dessa metodologia é fundamentada no Manifesto Ágil e em seus 4 v
 METODOLOGIA - PILARES
 O Scrum a todo momento prioriza a entrega de elementos que, ainda que não tenham alcançado a projeção esperada para o produto final, já possuem funcionalidade e podem ser aplicados. 
 
-Esse é o princípio do MVP, ou Produto Mínimo Viável. Seu objetivo é sempre agregar valor ao cliente e, em alguns casos, gerar ainda nos estágios iniciais do projetoaté mesmo um retorno rentável ao investimento feito.
+Esse é o princípio do MVP, ou Produto Mínimo Viável. Seu objetivo é sempre agregar valor ao cliente e, em alguns casos, gerar ainda nos estágios iniciais do projeto até mesmo um retorno rentável ao investimento feito.
 (OVERLAY - MVP - IMAGEM SKATE/PATINS/CARRO
 A produção fundamentada no MVP sempre terá por objetivo realizar entregas gradativas que irão atender a demanda do cliente. Como no exemplo ao lado. Um cliente que deseja um carro para locomoção não fica completamente satisfeito ao receber um skate na primeira entrega, mas já possuirá em mãos um item utilizável e que agrega valor. O oposto acontece no outro caso, no qual, mesmo com três entregas feitas, o cliente ainda não consegue tirar proveito algum do que recebeu até então.)
 
@@ -78,7 +78,12 @@ Nesse processo de 'lavagem de roupa suja' é importante que os indíviduos não 
 Esse é o momento no qual cada um dos integrantes da equipe poderá avaliar o desempenho de seus colegas e receber os feedbacks de como tem sido a sua colaboração no projeto. 
 
 Alguns pontos individuais que podem ser considerados são entrega de resultados, autonomia, cooperação, proatividade, entre outros.
-(OVERLAY - IMAGEM QUADRO RETROSPECTIVA DE SPRINT)
+(OVERLAY - IMAGEM QUADRO RETROSPECTIVA DE SPRINT
+
+Esse é um exemplo de quadro que pode ser atualizado para ter uma visão geral de como sua equipe se desempenhou. Nos quadro serão apontados aquilo que deu certo e é aquilo que não foi legal na sprint, podendo ser questões gerais ou individuais. Já nos inferiores serão compatilhadas as ideias que surgirem e levantados quem foram os destaque dos grupo.
+
+Como o objetivo da avaliação é criar evoluir e não regredir, o ideal é realizar o preenchimento desse quadro de forma anônimo para que os comentários possam ser impessoais.
+)
 
 Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
 
@@ -93,7 +98,7 @@ Opiniões e críticas respeitosas e construtivas serão sempre bem-vindas. Duran
 Essas discussões devem ser tidas por positivas, pois esses pensamentos desiguais levarão a equipe a sair da zona de conforto, forçando-a a buscar possíveis resoluções para o dilema em questão. Essas situações sempre terão por resultado o crescimento da equipe e uma série de possíveis aprimoramentos e novas ideias.)
 
 ADAPTE-SE
-(OVERLAY - GIF METAMORFOSE BORBOLETA
+(DROPDOWN - GIF METAMORFOSE BORBOLETA
 Mesmo que você esteja tendo seu primeiro contato com Scrum a partir desse material, supõe-se que já tenha entendido o quanto a adaptabilidade será fundamental para o sucesso do seu projeto. Uma das maiores vantagens dessa metodologia é essa autonomia que ela fornece à equipe para que alterações sejam feitas durante o desenvolvimento do projeto. 
 Tudo isso vai acontecendo naturalmente. Uma nova ideia surge, novas perspectivas sendo acessadas conforme o projeto progride, aquilo que outrora fazia muito sentido e era tido por essencial vai perdendo a importância e ficando em segundo plano e tudo vai se reformulando e sendo aprimorado.)
 
@@ -101,8 +106,10 @@ METODOLOGIA - TEAM
 Em todo início de projeto a equipe irá, a partir da visão do produto passada pelo cliente, estabelecer requisitos, os quais se referem aos fatores que promovem uma solução ou satisfazem as necessidades do cliente. 
 
 Esse estágio é mais conhecido como Kick Off. A composição desses fatores será o produto final. Os requisitos são ordenados em uma lista de prioridades chamada Backlog, a qual iremos discorrer com detalhes mais adiante.
-(OVERLAY - KICK OFF/LARGADA DE CORRIDA
-O Kick Off pode ser representado como a largada de uma corrida. Quando se está para iniciar uma prova dessa modalidade, sempre são passadas orientações gerais sobre o percurso e fornecidos itens que servirão de suporte para que a conclusão seja possível. De forma semelhante é o Kick Off. Nela são fornecidas informações que te darão suporte e te servirão de apoio durante a longa jornada rumo à linha de chegada.)
+(OVERLAY - KICK OFF/PREPAROS PARA A LARGADA
+O Kick Off pode ser associado aos preparativos feitos por um corredor antes de uma corrida. Realizar a análise do percurso a ser trilhado e estudar qual a melhor estratégia a ser adotada são medidas que preparam o atleta e aumentam suas chances de obter bons resultados.
+
+Da mesma forma acontece no Kick Off. O time irá estudar os objetivos a serem alcançados e elaborar estratégias para que possam estruturar uma forma de desenvolvimento organizada e alinhada às expectativas do cliente para quando for dada a largada.)
 
 Após estabelecer a importância de cada uma dessas tarefas, inicia-se a produção, dando prioridade às que forem qualificadas como imprescindíveis, que não podem faltar no produto e assim suscessivamente. 
 
