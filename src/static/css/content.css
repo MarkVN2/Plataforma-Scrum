@@ -475,14 +475,33 @@ ul li a {
 }
 
 /* Tutorial */
+
+.tutorial-main{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tutorial-textbox{
+  width: 85%;
+  text-align: justify;
+}
+
+.tutorial-para{
+  font-size: 1.8rem;
+  padding-bottom: 3%;
+}
+
 .tutorial-title{
   font-size: 4rem;
   padding-bottom: 4%;
-  padding-top: 2%;
+  padding-top: 0%;
 }
 
 .tutorial-header{
   font-size: 2.6rem;
+  padding-bottom: 4%;
 }
 
 .tutorial-img-box {
@@ -491,8 +510,27 @@ ul li a {
   padding-bottom: 10%;
 }
 
-.tutorial-img {
+.tutorial-image-1 {
+  width: 50%;
   align-items: center;
   justify-content: center;
   padding-bottom: 1%;
+}
+
+.tutorial-image-2 {
+  width:50%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+.tutorial-image-3 {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+.tutorial-vid {
+  width: 100%;
+  height: auto;
 }
