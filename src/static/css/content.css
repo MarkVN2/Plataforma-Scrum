@@ -346,6 +346,10 @@ ul li a {
   padding: 2%;
   margin-bottom: 2%;
 }
+.met-auto-img-modal {
+  width: 100%;
+  margin: 4% 0;
+}
 
 /* metodologia/team */
 .met-team-img-box {
