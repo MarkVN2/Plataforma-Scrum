@@ -412,6 +412,18 @@ ul li a {
   border-radius: 36px;
 }
 
+/* Seção: Outros */
+/* conclusao */
+.arrow-circular-container {
+  border-radius: 100%;
+  width: 25vw;
+  height: 25vw;
+  float: left;
+  margin: 20px;
+  shape-outside: circle();
+  clip-path: circle();
+}
+
 /* Glossary */
 .glossario-letter{
   font-size: 4rem;
@@ -433,14 +445,26 @@ ul li a {
   font-weight: 600;
   cursor: pointer;
 }
-/* Seção: Outros */
-/* conclusao */
-.arrow-circular-container {
-  border-radius: 100%;
-  width: 25vw;
-  height: 25vw;
-  float: left;
-  margin: 20px;
-  shape-outside: circle();
-  clip-path: circle();
+
+/* Tutorial */
+.tutorial-title{
+  font-size: 4rem;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
+.tutorial-header{
+  font-size: 2.6rem;
+}
+
+.tutorial-img-box {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.tutorial-img {
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
 }

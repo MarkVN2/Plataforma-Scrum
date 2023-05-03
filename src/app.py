@@ -71,6 +71,10 @@ def materials():
 def glossary():
     return render_template('glossario.html')
 
+@app.route('/tutorial')
+def tutorial():
+    return render_template('tutorial.html')
+
 # Tests
 @app.route("/pag", methods =["GET", "POST"]) #ONLY FOR TESTING REMOVE LATER
 def pag():

@@ -1,0 +1,57 @@
+<!-- prettier-ignore -->
+{% extends 'template.html' %}
+
+{% block title %}Estou fazendo certo? | Outros{% endblock %}
+{% block color %}style="background-color: rgba(29, 29, 27, 0.39);"{% endblock %}
+{% block iconName %}method{% endblock %}
+{% block contentTitle %}Estou fazendo certo?{% endblock %}
+{% block subtitle %}{% endblock %}
+
+{% block content %}
+<!-- Conteudo da pagina inteira -->
+<div class="h-75 w-75 default-main tutorial-main">
+
+    <div class="default-textbox tutorial-textbox">
+
+        <h1 class="tutorial-title">• Gráfico Burndown</h1>
+
+        <h1 class="tutorial-header">Primeiro passo: Definição de tarefas</h1>
+
+        <p class="default-para tutorial-para">
+            Projetar as tarefas e o peso de cada uma delas antes de realizar o gráfico, atribuindo
+            as tarefas de cada um, estimar o esforço é o que ajudará a distribuir as tarefas de forma igual, assim não
+            pesando muito para apenas uma pessoa do grupo.
+        </p>
+
+        <div class="tutorial-img-box">
+            <img
+              src="../static/images/tutorial_image_1"
+              alt="Homem pensativo"
+              class="tutorial-img"
+            />
+          </div>    
+
+        <h1 class="tutorial-header">Segundo passo: Realização de Gráfico</h1>
+
+        <p class="default-para tutorial-para">
+            Mesmo sendo opcional, a melhor opção para visualizar de forma pontual como está o andamento
+            da equipe é traçar um gráfico físico, onde temos uma linha do tempo que seria ideal para realizar as tarefas
+            de forma uniforme e organizada e uma linha onde mostre como esta o andamento do projeto em relação a tempo.
+            É importante notar que se a sua linha de projeto esta acima da linha ideal, então você está atrasado em
+            relação ao projeto, caso esteja abaixo você está adiantado.
+        </p>
+
+        <h1 class="tutorial-header">Terceiro passo: Atualização diaria</h1>
+
+        <p class="default-para tutorial-para">
+            Esse tema encaixa bem com daily scrum, o gráfico deve ser atualizado
+            conforme as tarefas estão sendo feitas, para manter a visualização em dia assim tendo uma ideia do esforço
+            restante. Avalie o progresso para identificar se a equipe está no caminho correto para concluir todas as
+            tarefas dentro do prazo.
+        </p>
+    </div>
+</div>
+{% endblock %}
+
+{% block btnback %}{% endblock %}
+{% block btnnext %}{% endblock %}
