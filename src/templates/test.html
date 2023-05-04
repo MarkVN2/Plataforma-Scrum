@@ -8,19 +8,11 @@
 {% block subtitle %}Subject Subtitle{% endblock %}
 {% block content %}
 <!-- Conteudo da pagina inteira -->
-<div class="h-75 w-75 d-flex flex-column"></div>
+<div class="h-75 w-75 d-flex flex-column" style="display: none;">
+
 <button class="gl-btn-back" onclick="history.back()">Botão volta</button>
 
-
-<div style="color: red;{{ display }}">
-    <form action="" method="post">
-        <button name="activate" value="off">SET OVERLAY OFF</button>
-    </form> 
-    <p >"OVERLAY"</p> 
-    </div>
-<form action="" method="post">
-    <button name="activate" value="on">SET OVERLAY ON</button>
-</form>
+</div>
 {% endblock %}
 {% block btnback %}{% endblock %}
 {% block btnnext %}{% endblock %}
