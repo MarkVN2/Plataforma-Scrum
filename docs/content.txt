@@ -173,7 +173,10 @@ Pense em uma longa viagem de carro de cerca de 10h de duração. Digamos que o i
 Além do Backlog geral do produto, outra planilha essencial para a gestão de tarefas e responsabilidades é a planilha de Backlog da Sprint. Ela possui a mesma essência da planilha geral, mas com algumas identificações e especificações a mais para que que haja a execução por completo das tarefas designadas. 
 
 Nessa planilha, todos os requisitos são descritos por meio do que chamamos de User Stories. Essas tem a função de explicar o requisito no formato de um desejo feito por alguém sem o conhecimento técnico, mas que expõe qual a expectativa do usuário em relação ao produto que ele irá dispor futuramente. 
-(OVERLAY - PERSPECTIVA - LENTES POV)
+(OVERLAY - PERSPECTIVA - LENTES POV
+Cada pessoa tem uma história única. Pensamentos únicos, experiências únicas, opiniões únicas e realidades únicas. Um produto de sucesso será aquele capaz de identificar essas particularidades, esses cenários distintos e trazer valor a cada um deles. Para acessar esses vários contextos é que são desenvolvidas as User Stories. 
+Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas necessidades e desejos e promover soluções que trarão uam melhor qualidade de vida ao indivíduo e experiências prazerosas.
+)
 
 O formato padrão de uma US bem formulada precisa ter as seguinte informações:
 
@@ -191,7 +194,10 @@ O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodol
 (IMAGEM - REPRESENTAÇÃO DE ESQUEMA DE PROCESSO)
 
 Sua operação se resume em reger o andamento do projeto, analisando o rendimento de cada um dos integrantes e concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas ou se alguma das partes do projeto está com alguma de suas demandas pendentes, realizando assim o principio da INSPEÇÃO.
-(OVERLAY - MAESTRO - MAESTRO POV)
+(OVERLAY - MAESTRO - MAESTRO POV
+Um dos maiores exemplos de trabalho em equipe primoroso são as orquestras. A junção de diferentes sons, todos sincronizados  em função de construir uma única experiência sonora é uma das mais belas expressões artísticas. Mas gerir uma organização dessa para que todos estejam em seu devidos lugares não é uma tarefa fácil.
+Por trás de toda grande orquestra sempre há um grande maestro regendo cada uma das partes. Em uma equipe Scrum, esse será o papel do Scrum Master. Ele é quem dita o andamento do projeto, estabelecendo o compasso com o qual todos os indivíduos desempenharão suas funções. O resultado: harmonia.
+)
 
 Outro princípio que tem a sua efetivação através do trabalho do Master é a TRANSPARÊNCIA. 
 
