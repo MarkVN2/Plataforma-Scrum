@@ -242,6 +242,9 @@ ul li a {
   border-bottom: 0.6vmin black solid;
   width: 70%;
 }
+.met-int-modal-img {
+  padding-bottom: 2%;
+}
 /* metodologia/oqueescrum */
 .met-oqs-subt-scm {
   font-family: 'Roboto Mono', monospace;
