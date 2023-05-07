@@ -490,7 +490,10 @@ ul li a {
   justify-content: flex-start;
 }
 
-.tutorial-textbox{
+.tutorial-textbox-auto,
+.tutorial-textbox-back,
+.tutorial-textbox-daily,
+.tutorial-textbox-burn{
   width: 85%;
   text-align: justify;
 }
