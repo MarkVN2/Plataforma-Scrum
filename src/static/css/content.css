@@ -553,10 +553,31 @@ ul li a {
   text-decoration: underline;
   }
 
+.mat-fer-conf{
+
+
+}
+
 .mat-card-img{
   width: 80%;
   margin: auto;
 }
+
+.mat-fer-title{
+  width: 46%; 
+  margin-left: 24%;
+  margin-bottom: 3%;
+}
+
+.mat-fer-block{
+  align-items: center; 
+  margin-left: 20%;
+}
+
+.mat-fer-block-text{
+  text-align: justify;
+}
+
 .ferramenta-img{
-  width: 20%;
+  width: 70%;
 }
