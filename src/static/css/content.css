@@ -515,32 +515,27 @@ ul li a {
 }
 
 .tutorial-img-box {
-  width: 100%;
+  justify-content: center;
   text-align: center;
-  padding-bottom: 10%;
+  padding: 3%;
 }
 
-.tutorial-image-1 {
-  width: 50%;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1%;
-}
-.tutorial-image-2 {
-  width:50%;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1%;
-}
-
-.tutorial-image-3 {
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 1%;
-}
-
-.tutorial-vid {
+.tutorial-image {
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1%;
+}
+
+.tutorial-vid-box {
+  justify-content: center;
+  text-align: center;
+  padding: 3%;
+}
+
+.tutorial-vid{
+  height: 60vh;
+  width: 100vh;
 }
 
 /* materiais */
