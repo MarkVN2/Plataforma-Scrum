@@ -2,178 +2,139 @@
 {% extends 'template.html' %}
 
 {% block title %}Materiais - Outros | PLATAFORMA Scrum{% endblock %}
-{% block color %}style="background-color: rgba(29, 29, 27, 0.65);"{% endblock %}
+{% block color %}style="background-color: rgba(29, 29, 27, 0.39);"{% endblock %}
 {% block iconName %}method{% endblock %}
 {% block contentTitle %}Materais{% endblock %}
 {% block subtitle %}{% endblock %}
 {% block content %}
-<!-- Conteudo da pagina inteira -->
 <div class="h-75 w-75 default-main met-auto-main">
     <div class="mat-content-limit">
-        <h1 class="mat-model-title">Modelos de planilha</h1>
-        <p class="default-para">Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa
-            adotar o formato que melhor atende a demanda do seu grupo e aprender como implementá-las.</p>
-<!-- Cards -->
-        <div style="display: flex; gap: 10%;">
-<!-- Card 1 -->
-            <div class="card" style="width: 18rem; margin-left: 13%;">
-                <img src="../static/images/backlog.png" class="card-img-top" alt="backlog icon">
-                <div class="card-body">
-                    <h5 class="card-title">Backlog</h5>
-                    <p class="card-text">Clique no ícone ao lado, faça o download e gerencie as Sprints e requisitos do
-                        seu
-                        projeto.</p>
+        <!-- Planilhas -->
+        <h1 class="mat-subtitle">Modelos de planilha</h1>
+        <p class="default-para">Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa adotar o formato que melhor atende a demanda do seu grupo e aprender como implementá-las.</p>
+        
+        <div id="matCard">
+            <!-- Cards -->
+            <div class="mat-model-cards">
+                <div class="card mb-3" style="max-width: 40%;">
+                    <div class="row g-0">
+                        <div class="col-md-4 mat-card-img-wrapper">
+                        <img src="../static/images/backlog.png" class="mat-card-img img-fluid rounded-start" alt="backlog image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Backlog</h5>
+                                <p class="card-text">Clique no ícone abaixo, e escolha um modelo para gerenciar seus projetos.</p>
+                                <button type="button" class="btn btn-primary collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Expandir</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false" style="margin-left: 10; margin-bottom: 3%;">
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu" style="width: 150%;">
-
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
-                                <img src="../static/images/Capterra-BurndownExcel-template.png" alt=""
-                                    style="width: 100%;">
-                            </li>
-                            <li class="list-group-item">Backlog utilizado por nossa equipe durante a produção desse
-                                site.
-                            </li>
-                        </ul>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
-                                <img src="../static/images/Capterra-BurndownExcel-template.png" alt=""
-                                    style="width: 100%;">
-                            </li>
-                            <li class="list-group-item">Backlog utilizado por nossa equipe durante a produção desse
-                                site.
-                            </li>
-                        </ul>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
-                                <img src="../static/images/Capterra-BurndownExcel-template.png" alt=""
-                                    style="width: 100%;">
-                            </li>
-                            <li class="list-group-item">Backlog utilizado por nossa equipe durante a produção desse
-                                site.</li>
-                        </ul>
-
-                    </ul>
+                <div class="card mb-3" style="max-width: 40%;">
+                    <div class="row g-0">
+                        <div class="col-md-4 mat-card-img-wrapper">
+                        <img src="../static/images/burndown_icon.png" class="mat-card-img img-fluid rounded-start" alt="backlog image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Burndown</h5>
+                                <p class="card-text">Clique no ícone abaixo, e escolha um modelo para gerenciar seus projetos.</p>
+                                <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Expandir</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-<!-- Card 2 -->
-            <div class="card" style="width: 18rem;">
-                <img src="../static/images/backlog.png" class="card-img-top" alt="backlog icon">
-                <div class="card-body">
-                    <h5 class="card-title">Backlog</h5>
-                    <p class="card-text">Clique no ícone ao lado, faça o download e gerencie as Sprints e requisitos do
-                        seu
-                        projeto.</p>
-                </div>
-                <div class="btn-group dropend">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false" style="margin-left: 10; margin-bottom: 3%;">
-                        Dropdown button
-                    </button>
-                    <ul class="dropdown-menu" style="width: 150%;">
 
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
-                                <img src="../static/images/Capterra-BurndownExcel-template.png" alt=""
-                                    style="width: 100%;">
-                            </li>
-                            <li class="list-group-item">Backlog utilizado por nossa equipe durante a produção desse
-                                site.
-                            </li>
-                        </ul>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
-                                <img src="../static/images/Capterra-BurndownExcel-template.png" alt=""
-                                    style="width: 100%;">
-                            </li>
-                            <li class="list-group-item">Backlog utilizado por nossa equipe durante a produção desse
-                                site.
-                            </li>
-                        </ul>
-                        <ul class="list-group list-group-horizontal">
-                            <li class="list-group-item">
-                                <img src="../static/images/Capterra-BurndownExcel-template.png" alt=""
-                                    style="width: 100%;">
-                            </li>
-                            <li class="list-group-item">Backlog utilizado por nossa equipe durante a produção desse
-                                site.</li>
-                        </ul>
+            <!-- Downloads -->
 
-                    </ul>
+            <div class="accordion-item mat-model-cards">
+                <!-- Backlog downloads -->
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Modelo 1</h5>
+                          <p class="card-text">abcdefg</p>
+                          <a href="#">Download</a>
+                        </div>
+                    </div>
                 </div>
+
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Modelo 2</h5>
+                          <p class="card-text">abcdefg</p>
+                          <a href="#">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <div class="accordion-item mat-model-cards">
+                <!-- Burndown downloads -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Modelo 1</h5>
+                          <!-- <p class="card-text">1234567</p> -->
+                          <a href="#">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Modelo 2</h5>
+                          <!-- <p class="card-text">1234567</p> -->
+                          <a href="#">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
             </div>
         </div>
-        <hr>
-        <div>
-<!-- Ferramentas -->
-            <h1 class="mat-fer-title">Ferramentas de apoio</h1>
-        </div>
+        
+        <!-- Ferramentas -->
+        <hr class="mt-5 mb-5">
+        <h1 class="mat-subtitle">Ferramentas de apoio</h1>
+
         <div class="container text-center">
             <div class="row row-cols-3">
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Trello</h4>
-                        <img src="../static/images/icons8-trello-250.png" alt="trello icon" class="ferramenta-img">
-                        <p class="mat-fer-block-text">Ferramenta excelente para gerenciar o andamento da
-                            sua equipe e visualizar como está seu
-                            progresso individual
-                            e
-                            dos demais membros em suas respectivas tarefas.</p>
+                        <img src="../static/images/icons8-trello-250.png" alt="trello icon" class="mat-fer-img">
+                        <p class="mat-fer-block-text">Ferramenta excelente para gerenciar o andamento da sua equipe e visualizar como está seu progresso individual e dos demais membros em suas respectivas tarefas.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Notion</h4>
-                        <img src="../static/images/icons8-notion-250.png" alt="notion icon" class="ferramenta-img">
-                        <p class="mat-fer-block-text">Nesse sistema de organização de tarefas, sua equipe poderá
-                            depositar informações gerais sobre o
-                            projeto, como
-                            anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.</p>
+                        <img src="../static/images/icons8-notion-250.png" alt="notion icon" class="mat-fer-img">
+                        <p class="mat-fer-block-text">Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Github</h4>
-                        <img src="../static/images/github-mark.png" alt="github icon" class="ferramenta-img">
-                        <p class="mat-fer-block-text">Essa plataforma de versionamento possibilitará que sua equipe faça
-                            suscessivas entregas de
-                            aprimoramentos do
-                            produto. Ideal para uso de programadores, mas também aplicável para demais equipes que
-                            trabalham
-                            com o
-                            sistema
-                            colaborativo.</p>
+                        <img src="../static/images/github-mark.png" alt="github icon" class="mat-fer-img">
+                        <p class="mat-fer-block-text">Essa plataforma de versionamento possibilitará que sua equipe faça sucessivas entregas de aprimoramentos do produto. Ideal para uso de programadores, mas também aplicável para demais equipes que trabalham com o sistema colaborativo.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Youtrack</h4>
-                        <img src="../static/images/Youtrack.png" alt="youtrack icon" class="ferramenta-img">
-                        <p class="mat-fer-block-text">Ferramenta faz “tudo” criada pela JetBrains para equipes ageis ,
-                            sendo gratuita até grupos de 10
-                            membros. A
-                            ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para
-                            organizar suas
-                            equipes.</p>
+                        <img src="../static/images/Youtrack.png" alt="youtrack icon" class="mat-fer-img">
+                        <p class="mat-fer-block-text">Ferramenta faz “tudo” criada pela JetBrains para equipes ageis , sendo gratuita até grupos de 10 membros. A ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para organizar suas equipes.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Azure Ops</h4>
-                        <img src="../static/images/Azure Devops.png" alt="azure ops icon" class="ferramenta-img">
-                        <p class="mat-fer-block-text">Azure Ops é a plataforma da Microsoft para equipes que utilizam o
-                            Scrum tendo ferramentas para
-                            criação de
-                            Burndown e Backlog. Sendo criada pela Microsoft dá acesso a plataforma a todos os serviços
-                            da
-                            Microsoft como
-                            a
-                            Azure.</p>
+                        <img src="../static/images/Azure Devops.png" alt="azure ops icon" class="mat-fer-img">
+                        <p class="mat-fer-block-text">Azure Ops é a plataforma da Microsoft para equipes que utilizam o Scrum tendo ferramentas para criação de Burndown e Backlog. Sendo criada pela Microsoft dá acesso a plataforma a todos os serviços da Microsoft como a Azure.</p>
                     </div>
                 </div>
             </div>

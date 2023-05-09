@@ -73,9 +73,10 @@ ul li a {
   text-decoration: none;
   color: black;
 }
-.tooltip-a-tag{
-  white-space: nowrap
+.tooltip-a-tag {
+  white-space: nowrap;
 }
+
 /* Header */
 .full-header {
   height: 55%;
@@ -245,6 +246,7 @@ ul li a {
 .met-int-modal-img {
   padding-bottom: 2%;
 }
+
 /* metodologia/oqueescrum */
 .met-oqs-subt-scm {
   font-family: 'Roboto Mono', monospace;
@@ -257,6 +259,7 @@ ul li a {
   border: 0.6vmin black solid;
   width: 80%;
 }
+
 /* metodologia/visao */
 .met-vis-listbox {
   width: 70%;
@@ -327,21 +330,20 @@ ul li a {
   display: flex;
   flex-direction: column;
 }
-.met-auto-tips-button{
+.met-auto-tips-button {
   display: default;
 }
-.met-auto-tips-button-text{
+.met-auto-tips-button-text {
   font-size: 1.4rem;
   font-weight: 600;
 }
-.met-auto-tab-img-box{
+.met-auto-tab-img-box {
   text-align: justify;
   padding: 3%;
 }
-.met-auto-tab-img{
+.met-auto-tab-img {
   max-width: 35%;
 }
-
 .met-auto-card-body {
   display: flex;
   flex-direction: row;
@@ -390,7 +392,6 @@ ul li a {
   padding-top: 8%;
 }
 
-
 /* Seção: Product Owner */
 /* product-owner/valordoproduto */
 .po-int-image-block {
@@ -401,6 +402,7 @@ ul li a {
   flex-shrink: 0;
   width: 40%;
 }
+
 /* product-owner/backlog */
 .po-back-para-negr {
   font-weight: 700;
@@ -426,9 +428,10 @@ ul li a {
   width: 35%;
   border-radius: 15vmin;
 }
-.sm-int-para{
+.sm-int-para {
   padding-bottom: 0%;
 }
+
 /* scrum-master/burndown */
 .sm-burn-img-box {
   display: flex;
@@ -460,17 +463,15 @@ ul li a {
 }
 
 /* Glossary */
-.glossario-letter{
+.glossario-letter {
   font-size: 4rem;
   padding-bottom: 4%;
   padding-top: 2%;
 }
-
-.glossario-header{
+.glossario-header {
   font-size: 2.6rem;
 }
-
-.glossario-back-button{
+.glossario-back-button {
   position: fixed;
   aspect-ratio: 1;
   right: 5vmin;
@@ -482,97 +483,86 @@ ul li a {
 }
 
 /* Tutorial */
-
-.tutorial-main{
+.tutorial-main {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: flex-start;
 }
-
 .tutorial-textbox-auto,
 .tutorial-textbox-back,
 .tutorial-textbox-daily,
-.tutorial-textbox-burn{
+.tutorial-textbox-burn {
   width: 85%;
   text-align: justify;
 }
-
-.tutorial-para{
+.tutorial-para {
   font-size: 1.8rem;
   padding-bottom: 3%;
 }
-
-.tutorial-title{
+.tutorial-title {
   font-size: 4rem;
   padding-bottom: 4%;
   padding-top: 0%;
 }
-
-.tutorial-header{
+.tutorial-header {
   font-size: 2.6rem;
   padding-bottom: 4%;
 }
-
 .tutorial-img-box {
   justify-content: center;
   text-align: center;
   padding: 3%;
 }
-
 .tutorial-image {
   width: 100%;
   align-items: center;
   justify-content: center;
   padding-bottom: 1%;
 }
-
 .tutorial-vid-box {
   justify-content: center;
   text-align: center;
   padding: 3%;
 }
-
-.tutorial-vid{
+.tutorial-vid {
   height: 60vh;
   width: 100vh;
 }
 
 /* materiais */
-.mat-content-limit{
+.mat-content-limit {
   width: 85%;
 }
-
-.mat-model-title{
+.mat-subtitle {
+  margin-bottom: 2%;
+  text-align: center;
   font-weight: 700;
   text-decoration: underline;
-  }
-
-.mat-fer-conf{
-
-
 }
-
-.mat-card-img{
+.mat-model-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.mat-card-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mat-card-img {
   width: 80%;
-  margin: auto;
 }
-
-.mat-fer-title{
-  width: 46%; 
-  margin-left: 24%;
-  margin-bottom: 3%;
-}
-
-.mat-fer-block{
-  align-items: center; 
+.mat-fer-block {
+  align-items: center;
   margin-left: 20%;
 }
-
-.mat-fer-block-text{
+.mat-fer-block-text {
+  font-size: 1.1rem;
   text-align: justify;
 }
-
-.ferramenta-img{
+.mat-fer-img {
   width: 70%;
 }
