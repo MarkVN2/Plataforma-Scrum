@@ -195,7 +195,7 @@ O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodol
 
 Sua operação se resume em reger o andamento do projeto, analisando o rendimento de cada um dos integrantes e concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas ou se alguma das partes do projeto está com alguma de suas demandas pendentes, realizando assim o principio da INSPEÇÃO.
 (OVERLAY - MAESTRO - MAESTRO POV
-Um dos maiores exemplos de trabalho em equipe primoroso são as orquestras. A junção de diferentes sons, todos sincronizados  em função de construir uma única experiência sonora é uma das mais belas expressões artísticas. Mas gerir uma organização dessa para que todos estejam em seu devidos lugares não é uma tarefa fácil.
+Um dos maiores exemplos de trabalho em equipe primoroso são as orquestras. A junção de diferentes sons, todos sincronizados em função de construir uma única experiência sonora é uma das mais belas expressões artísticas. Mas gerir uma organização dessa para que todos estejam em seu devidos lugares não é uma tarefa fácil.
 Por trás de toda grande orquestra sempre há um grande maestro regendo cada uma das partes. Em uma equipe Scrum, esse será o papel do Scrum Master. Ele é quem dita o andamento do projeto, estabelecendo o compasso com o qual todos os indivíduos desempenharão suas funções. O resultado: harmonia.
 )
 
