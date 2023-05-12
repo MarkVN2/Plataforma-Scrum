@@ -20,21 +20,15 @@
 
 
 
-
 ## Visão do Produto
    Um sistema web didático formativo com o intuito de ensinar a metodologia Scrum,
    abrangendo seus princípios, processos e artefatos, e demonstrando como aplicá-la 
    em seus respectivos contextos. O sistema contará com recursos interativos que 
    proporcionarão um aprendizado eficiente do conteúdo e uma boa experiência aos usuários.
    
-   <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a>
-   <br>
-   <img align="center" src="https://user-images.githubusercontent.com/76211125/229383417-ba242c58-2333-438b-bd94-cf28c7dbcfa7.gif" />
-
-
-
-
-
+   
+   
+   
 ## Cronograma
    | Entrega           | Inicio | Término | 
    |-------------------|--------|---------|
@@ -55,30 +49,35 @@
 <img src="https://user-images.githubusercontent.com/76211125/229313654-51fad459-eb95-4cc5-a001-10c4ac755f7a.png#gh-light-mode-only" />
 <img src="https://user-images.githubusercontent.com/76211125/229313657-641ce761-45e5-4ad8-8ea7-1d5719c81ae2.png#gh-dark-mode-only" />
 
-### Sprint 1
-- [x] Product Backlog
-- [x] Protótipo Navegável
-- [x] Repositório no GitHub
-- [x] Conteúdo das paginas
-- [x] Identidade Visual
+   ### Sprint 1
+   <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a><br>
+   <img align="center" src="https://user-images.githubusercontent.com/76211125/229383417-ba242c58-2333-438b-bd94-cf28c7dbcfa7.gif" />
 
-### Sprint 2
-- [x] Corpo das páginas com conteúdo
-- [x] Botões de navegação entre páginas
-- [x] Barra de Navegação 
-- [x] Página com conteúdo de auto-avaliação
-- [x] Corpo da página home
+   - [x] Product Backlog
+   - [x] Protótipo Navegável
+   - [x] Repositório no GitHub
+   - [x] Conteúdo das paginas
+   - [x] Identidade Visual
 
-### Sprint 3
-- [ ] Overlays com aprofundamentos
-- [ ] Glossário de termos técnicos
-- [ ] Tooltip em termos técnicos
-- [ ] Página de recomendações e materiais disponíveis
+   ### Sprint 2
+   https://github.com/Byte-Boost/Plataforma-Scrum/assets/105757405/0bc88616-f54c-44bd-bde1-b38397f103ee
+   - [x] Corpo das páginas com conteúdo
+   - [x] Botões de navegação entre páginas
+   - [x] Barra de Navegação 
+   - [x] Página com conteúdo de auto-avaliação
+   - [x] Corpo da página home
 
-### Sprint 4
-- [ ] Animação e destaques de hover nos botões
-- [ ] Icone das páginas
-- [ ] Footer das páginas
+   ### Sprint 3
+   - [x] Página de "Na prática"
+   - [x] Conteúdo extra e aprofundamentos
+   - [x] Glossário de termos técnicos
+   - [X] Tooltip em termos técnicos
+   - [x] Página de recomendações e materiais disponíveis
+
+   ### Sprint 4
+   - [ ] Animação e destaques de hover nos botões
+   - [ ] Icone das páginas
+   - [ ] Footer das páginas
 
 
 
@@ -184,6 +183,9 @@
 ```
 3. Entre no link "http://localhost:5000"
 
+      
+      
+      
 ## Equipe:
    ### Gabriel Alves (Product Owner):
    [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267)
