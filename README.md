@@ -71,7 +71,7 @@
    - [x] Página de "Na prática"
    - [x] Conteúdo extra e aprofundamentos
    - [x] Glossário de termos técnicos
-   - [ ] Tooltip em termos técnicos
+   - [X] Tooltip em termos técnicos
    - [x] Página de recomendações e materiais disponíveis
 
    ### Sprint 4
