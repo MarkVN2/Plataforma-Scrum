@@ -502,6 +502,7 @@ ul li a {
 }
 .tutorial-title {
   font-size: 4rem;
+  font-weight: 500;
   padding-bottom: 4%;
   padding-top: 0%;
 }
