@@ -68,6 +68,7 @@
    - [x] Corpo da página home
 
    ### Sprint 3
+   https://github.com/Byte-Boost/Plataforma-Scrum/assets/105757405/a498c54f-5497-4675-a9a2-4c6b8c407d12
    - [x] Página de "Na prática"
    - [x] Conteúdo extra e aprofundamentos
    - [x] Glossário de termos técnicos
