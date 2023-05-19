@@ -78,17 +78,7 @@ def tutorial():
 # Tests
 @app.route("/pag", methods =["GET", "POST"]) #ONLY FOR TESTING REMOVE LATER
 def pag():
-    #THIS IS THE CODE FOR TURNING THE OVERLAY ON AND OFF
-    if request.method == "POST":
-        #CHANGE ACTIVATE TO THE NAME OF THE BUTTON 
-        state = str(request.form.get("activate"))
-        if state == 'on':
-            return render_template("test.html", display = 'display : block;')
-        else:
-            return render_template("test.html", display = 'display : none;')
-    else:
-        # if no POST method is requested render only the page.
-        return render_template('test.html') #
+    return render_template('test.html') #
 
 @app.route("/head")
 def header():
@@ -106,4 +96,4 @@ def example():
 
 
 if __name__=='__main__': #MAKES THE SERVER START UPON RUNNING THE CODE.
-    app.run(debug=True, use_debugger=True,use_reloader=True)
+    app.run(debug=True, use_debugger=True,use_reloader=True, host="0.0.0.0")
