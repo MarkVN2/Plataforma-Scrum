@@ -46,8 +46,8 @@
 <img src="https://user-images.githubusercontent.com/76211125/229362966-0310a3f1-28d6-4aff-ae06-82c73c010da6.png#gh-light-mode-only"/>
 <img src="https://user-images.githubusercontent.com/76211125/229362969-6ef214f0-3e15-470a-8883-bc509d7954c9.png#gh-dark-mode-only"/>
 <br>
-<img src="https://user-images.githubusercontent.com/76211125/229313654-51fad459-eb95-4cc5-a001-10c4ac755f7a.png#gh-light-mode-only" />
-<img src="https://user-images.githubusercontent.com/76211125/229313657-641ce761-45e5-4ad8-8ea7-1d5719c81ae2.png#gh-dark-mode-only" />
+<img src="https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/1d6cf7a5-ca83-4a40-9ebb-05b4429ea388#gh-dark-mode-only" />
+
 
    ### Sprint 1
    <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a><br>
@@ -60,7 +60,8 @@
    - [x] Identidade Visual
 
    ### Sprint 2
-   https://github.com/Byte-Boost/Plataforma-Scrum/assets/105757405/0bc88616-f54c-44bd-bde1-b38397f103ee
+   <img align="center" src="https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/d6cde91a-2d64-4a86-8912-6d5005c443f0" />
+
    - [x] Corpo das páginas com conteúdo
    - [x] Botões de navegação entre páginas
    - [x] Barra de Navegação 
@@ -68,6 +69,8 @@
    - [x] Corpo da página home
 
    ### Sprint 3
+   <img align="center" src="https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/a67cb6d6-7015-4195-ba93-f95fc3f58fc1" />
+   
    - [x] Página de "Na prática"
    - [x] Conteúdo extra e aprofundamentos
    - [x] Glossário de termos técnicos
