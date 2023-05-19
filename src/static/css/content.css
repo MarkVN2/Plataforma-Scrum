@@ -17,7 +17,7 @@
   font-family: 'Homenaje', sans-serif;
 
 */
-
+@media  (min-width: 675px){
 p {
   font-family: 'Inter', sans-serif;
 }
@@ -453,13 +453,14 @@ ul li a {
 /* Seção: Outros */
 /* conclusao */
 .arrow-circular-container {
+  text-align: center;
   border-radius: 100%;
+  animation: rotate 10s infinite;
   width: 25vw;
   height: 25vw;
   float: left;
-  margin: 20px;
+  margin: 15px;
   shape-outside: circle();
-  clip-path: circle();
 }
 
 /* Glossary */
@@ -480,6 +481,9 @@ ul li a {
   border-radius: 7vw;
   font-weight: 600;
   cursor: pointer;
+}
+.glossario-back-button:hover{
+  animation: jumpUp 3s infinite;
 }
 
 /* Tutorial */
@@ -567,3 +571,5 @@ ul li a {
 .mat-fer-img {
   width: 70%;
 }
+}
+
