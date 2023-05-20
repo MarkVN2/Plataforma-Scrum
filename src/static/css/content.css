@@ -157,14 +157,16 @@ ul li a {
 }
 
 /* home */
-.home-body {
-  display: flex;
-  flex-flow: column;
+.home-document{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.home-body::-webkit-scrollbar {
+.home-document::-webkit-scrollbar {
   display: none;
+}
+.home-body {
+  display: flex;
+  flex-flow: column;
 }
 .home-main {
   position: relative;
@@ -212,28 +214,32 @@ ul li a {
   z-index: -1;
 }
 .triangle-top {
+  --color: rgb(248, 134, 30, 0.6);
   top: 0;
   border-left: 40vw solid transparent;
   border-right: 40vw solid transparent;
-  border-top: 70vh solid rgb(248, 134, 30, 0.6);
+  border-top: 70vh solid var(--color);
 }
 .triangle-bottom {
+  --color:  rgb(248, 0, 0, 0.6);
   bottom: 0;
   border-left: 40vw solid transparent;
   border-right: 40vw solid transparent;
-  border-bottom: 70vh solid rgb(248, 0, 0, 0.6);
+  border-bottom: 70vh solid var(--color);
 }
 .triangle-left {
+  --color: rgb(47, 177, 250, 0.6);
   left: 0;
   border-top: 70vh solid transparent;
   border-bottom: 70vh solid transparent;
-  border-left: 50vw solid rgb(47, 177, 250, 0.6);
+  border-left: 50vw solid var(--color);
 }
 .triangle-right {
+  --color: rgb(99, 255, 44, 0.6);
   right: 0;
   border-top: 70vh solid transparent;
   border-bottom: 70vh solid transparent;
-  border-right: 50vw solid rgb(99, 255, 44, 0.6);
+  border-right: 50vw solid var(--color);
 }
 
 /* Seção Metodologia */
