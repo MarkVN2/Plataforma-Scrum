@@ -65,15 +65,15 @@ def conclusion():
 
 @app.route('/materiais')
 def materials():
-    return render_template('mat.html')
+    return render_template('mat.html', buttons=False)
 
 @app.route('/glossario')
 def glossary():
-    return render_template('glossario.html')
+    return render_template('glossario.html', buttons=False)
 
 @app.route('/tutorial')
 def tutorial():
-    return render_template('tutorial.html')
+    return render_template('tutorial.html', buttons=False)
 
 # Tests
 @app.route("/pag", methods =["GET", "POST"]) #ONLY FOR TESTING REMOVE LATER

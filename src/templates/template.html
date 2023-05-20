@@ -93,11 +93,12 @@
     </main>
 
     <!-- Buttons -->
-    <div class="next-prev-btn">
+    {% if buttons != False %}
+    <div class="next-prev-btn" {% block buttondisplay %}{% endblock %}>
         <a href="{%block btnback %}{%endblock%}" class="btn btn-secondary btn-custom btn-lg">Anterior</a>
         <a href="{%block btnnext %}{%endblock%}" class="btn btn-secondary btn-custom btn-lg">Próximo</a>
     </div>
-
+    {% endif %}
     <!--Footer-->
     <div class="footer-container">
         <div class ="footer-content">
