@@ -17,7 +17,6 @@
   font-family: 'Homenaje', sans-serif;
 
 */
-@media  (min-width: 675px){
 p {
   font-family: 'Inter', sans-serif;
 }
@@ -483,7 +482,7 @@ ul li a {
   cursor: pointer;
 }
 .glossario-back-button:hover{
-  animation: jumpUp 3s infinite;
+  animation: jumpUpRotate 3s infinite;
 }
 
 /* Tutorial */
@@ -571,5 +570,20 @@ ul li a {
 .mat-fer-img {
   width: 70%;
 }
-}
 
+/*Footer*/
+.footer-container{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: fit-content;
+  text-align:center;
+}
+.footer-content{
+  display: inline-block; 
+  padding-right:1% ; 
+  padding-bottom:1%;
+}
+.footer-content > a{
+  font-size: 13px;
+  color:white;
+}

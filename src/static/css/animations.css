@@ -6,7 +6,7 @@
       rotate:360deg;
     }
   }
-@keyframes jumpUp {
+@keyframes jumpUpRotate {
     0%{scale: 1;}
     50%{scale:1.5;rotate: 20deg;}
     75%{rotate: -20deg;}
