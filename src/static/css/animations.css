@@ -2,9 +2,7 @@
 /*Animations*/
 @keyframes rotate {
     from {}
-    to{
-      rotate:360deg;
-    }
+    to{rotate:360deg;}
   }
 @keyframes jumpUpRotate {
     0%{scale: 1;}

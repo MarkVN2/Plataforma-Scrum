@@ -11,7 +11,13 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='./css/content.css') }}">
   </head>   
 
-  <body class="vh-100">
+
+  <body class="vh-100" onload="timer()" >
+
+    <div id="loader"> 
+        <img src="/static/images/Spinner-Loader.gif" style="scale:1.25;"> 
+    </div> 
+
     <!--Navbar-->
     <nav class="navbar navbar-custom navbar-expand-lg bg-body-secondary sticky-top">
         <div class="container-fluid" >
@@ -145,6 +151,15 @@
     <script>
         const tooltips = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         tooltips.forEach(t=>{new bootstrap.Tooltip(t)});
+    </script>
+    <script>
+        var timerTime;
+        function timer(){
+            timerTime = setTimeout(showPage, 1050)
+        };
+        function showPage(){
+            document.getElementById('loader').style.display = "none";
+        };
     </script>
   </body>
 </html>
