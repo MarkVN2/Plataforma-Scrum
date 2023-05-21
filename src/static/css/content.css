@@ -23,8 +23,11 @@ p {
 p strong {
   color: #023a5a;
 }
-
 /* Navbar */
+/* Slow transition on scroll */
+.navbar{
+  transition: 0.6s;
+}
 /* Font family for the navbar items */
 .navbar-custom {
   font-family: 'Inter', sans-serif;
