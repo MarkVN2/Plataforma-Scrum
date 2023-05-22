@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{% if home == True %}
+<html lang="pt-br" class="home-document">
+{% else %}
 <html lang="pt-br">
+{% endif %}
   <head>
     <title>{% block title %} {% endblock %}</title>
     <meta charset="UTF-8" />
@@ -74,7 +78,8 @@
             </div>
         </div>
     </nav>
-
+    
+    {% if home != True %}
     <!-- Header -->
     <div class="full-header">
         <div class="container-fluid header-base">
@@ -91,6 +96,7 @@
           </div>
         </div>
     </div>
+    {% endif %}
 
     <!-- Main / Content -->
     <main class="w-100 d-flex justify-content-center">
@@ -98,13 +104,14 @@
       {% endblock %}
     </main>
 
+    {% if buttons != False and home != True %}
     <!-- Buttons -->
-    {% if buttons != False %}
     <div class="next-prev-btn" {% block buttondisplay %}{% endblock %}>
         <a href="{%block btnback %}{%endblock%}" class="btn btn-secondary btn-custom btn-lg">Anterior</a>
         <a href="{%block btnnext %}{%endblock%}" class="btn btn-secondary btn-custom btn-lg">Próximo</a>
     </div>
     {% endif %}
+    
     <!--Footer-->
     <div class="footer-container">
         <div class ="footer-content">

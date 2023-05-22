@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Normal routes
 @app.route("/")
 def index():
-    return render_template('home.html')
+    return render_template('home.html', home=True)
 
 @app.route("/metodologia/introducao")
 def metInt():
