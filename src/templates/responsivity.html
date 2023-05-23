@@ -1,0 +1,219 @@
+<html lang="pt-br">
+    <head>
+    <title>Introdução - Metodologia | Plataforma Scrum</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/./css/normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/./css/animations.css">
+    <link rel="stylesheet" href="/static/./css/content.css">
+    <link rel="stylesheet" href="/static/css/responsivity.css">
+</head>
+
+  <body class="vh-100" onload="timer()">
+
+    <div id="loader" style="display: none;"> 
+        <img src="/static/images/Spinner-Loader.gif" style="scale:1.25;"> 
+    </div> 
+
+    <!--Navbar-->
+    <nav class="navbar navbar-custom navbar-expand-lg bg-body-secondary fixed-top" style="top: 0px;">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-logo" href="/">
+                <img src="../static/images/home.png" alt="navbarlogo" width="50px" height="50px" class="d-inline-block align-text-top">
+            </a>
+            <div class="collapse navbar-collapse" id="navcontent">
+                <ul class="navbar-nav p-2">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Metodologia</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/metodologia/introducao">Introdução</a></li>
+                            <li class="dropdown-item"><a href="/metodologia/oqueescrum">O que é Scrum?</a></li>
+                            <li class="dropdown-item"><a href="/metodologia/visao">Visão</a></li>
+                            <li class="dropdown-item"><a href="/metodologia/pilares">Pilares</a></li>
+                            <li class="dropdown-item"><a href="/metodologia/autoavaliacao">Autoavaliação</a></li>
+                            <li class="dropdown-item"><a href="/metodologia/team">Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product Owner</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/product-owner/introducao">Introdução</a></li>
+                            <li class="dropdown-item"><a href="/product-owner/backlog">Backlog</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Scrum Master</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/scrum-master/introducao">Introdução</a></li>
+                            <li class="dropdown-item"><a href="/scrum-master/burndown">Burndown &amp; <br> Daily Scrum</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/development-team"> Development Team </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Outros</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="/conclusao">Conclusão</a></li>
+                            <li class="dropdown-item"><a href="/tutorial">Na prática</a></li>
+                            <li class="dropdown-item"><a href="/materiais">Materiais</a></li>
+                            <li class="dropdown-item"><a href="/glossario">Glossário</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <!-- Header -->
+    <div class="full-header">
+        <div class="container-fluid header-base">
+          <div id="texture" class="w-100 mh-100 d-flex justify-content-center" style="background-color: rgba(248, 134, 30, 0.65);">
+            <div class="wrapper" style="width: 65%;">
+                <div class="content-icon-back">
+                    <img src="../static/images/method.png" alt="icon" class="content-icon">
+                </div>
+                <div class="content-title-block">
+                <h1 class="display-1 content-title"><strong>Metodologia</strong></h1>
+                <p class="h1 link content-subtitle"><u>Introdução</u></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <!-- Main / Content -->
+    <main class="w-100 d-flex justify-content-center">
+      
+
+<div class="h-75 w-75 default-main met-int-main">
+  <div class="default-textbox met-int-textbox">
+    <p class="default-para met-int-para">
+      No acelerado e inovador mercado atual, para que uma empresa preserve-se moderna, ela precisa <strong> se adequar às
+      mudanças que a tecnologia vem implementando</strong> e encontrar, em meio a esse cenário frenético, oportunidades de
+      realizar um trabalho relevante.
+    </p>
+
+    <p class="default-para met-int-para">
+      Tendo essa percepção em vista, é indispensável para uma instituição de sucesso estabelecer métodos competentes que
+      irão nortear as ações que serão tomadas em seu ambiente de trabalho.
+    </p>
+
+    <div class="default-image-block met-int-image-block">
+      <img src="../static/images/met_int.gif" class="met-int-border">
+
+      <p class="default-para met-int-para">
+        No passado, a principal metodologia adotada por várias instituições ficou popularmente conhecida como <strong>“Linha de Produção” ou “Método Cascata”</strong>.
+      </p>
+    </div>
+
+    <p class="default-para met-int-para">
+      Esse sistema tradicional de produção foi herdado do desenvolvimento fordista durante a Segunda Revolução
+      Industrial e tinha como princípio o estabelecimento de <strong> tarefas específicas e repetitivas</strong>, designadas a certos indivíduos, e que seriam <strong>aos poucos somadas até que resultassem no produto final esperado</strong>.
+    </p>
+
+    <!-- Extra Content -->
+    <p class="default-para met-int-para">
+      Esse procedimento se perpetuou por certo tempo, porém foi mostrando-se ineficiente e revelando certas
+      <strong>inconstâncias que retardavam o processo</strong>, principalmente durante a execução de tarefas mais complexas.
+    </p>
+
+    <p>
+      <a class="btn btn-primary collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Um passo para frente...
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample" style="">
+      <div class="card met-auto-card-body">
+        <div class="met-auto-collapse-text">
+          <h5>...mas no sentido contrário</h5>
+          <p>
+            Alguns exemplos de pontos negativos da produção no Método Cascata são:
+          </p>
+
+          <ul>
+            <li>Avaliação tardia (sinalizando falhas no processo tardiamente)</li>
+            <li>Estagnação do processo (deixando parte da força de trabalho ociosa enquanto aguarda o momento de realizar sua tarefa)</li>
+          </ul>
+
+          <img src="../static/images/expectativa_realidade_balanço.jpg" alt="Expectativa e Realidade" class="met-int-modal-img">
+
+          <p>
+            De que  vai adiantar fazer vários avanços se eles estão indo no oposto daquilo que o cliente realmente deseja? Essa soma de lacunas no processo produtivo são revertidas em atrasos e prejuízos para a empresa e insatisfação do cliente. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+
+    </main>
+
+    
+    <!-- Buttons -->
+    <div class="next-prev-btn">
+        <a href="/" class="btn btn-secondary btn-custom btn-lg">Anterior</a>
+        <a href="/metodologia/oqueescrum" class="btn btn-secondary btn-custom btn-lg">Próximo</a>
+    </div>
+    
+    
+    <!--Footer-->
+    <div class="footer-container">
+        <div class="footer-content">
+            <p style="font-size: 13px;">2023 | Byte-Boost</p>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="/">Home</a>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="/metodologia/introducao">Metodologia</a>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="/product-owner/introducao">Product-Owner</a>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="/scrum-master/introducao">Scrum Master</a>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="/development-team">Development-Team</a>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="/materiais">Materias</a>
+        </div>
+        <div class="footer-content">
+            |
+            <a href="#">Sobre</a>
+        </div>
+        <div style="display: inline-block; padding-top:0.5%">
+            |
+            <a href="https://github.com/Byte-Boost/Plataforma-Scrum" target="_blank">
+            <img src="../static/images/github_qrcode.png" style="width:80px;height: 80px;" alt="Github QRCODE">  
+            </a>
+        </div>
+    </div>
+
+    <!--JScripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="/static/./scripts/index.js"></script>
+  
+</body></html>
