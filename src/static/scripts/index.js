@@ -5,7 +5,7 @@ tooltips.forEach(t=>{new bootstrap.Tooltip(t)});
 // Loading screen
 var timerTime;
 function timer(){
-    timerTime = setTimeout(showPage, 1050)
+    timerTime = setTimeout(showPage, 300)
 };
 function showPage(){
     document.getElementById('loader').style.display = "none";

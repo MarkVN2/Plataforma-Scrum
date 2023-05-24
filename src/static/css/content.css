@@ -605,6 +605,9 @@ ul li a {
 }
 
 /* Tutorial */
+.accordion{
+  width: 75vw;
+}
 .tutorial-main {
   display: flex;
   flex-flow: column wrap;
