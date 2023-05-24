@@ -16,7 +16,7 @@
   </head>   
 
 
-  <body class="vh-100" onload="timer()" >
+  <body class="vh-100" onload="timer()" data-section-color="{% block color %}{% endblock %}">
 
     <div id="loader"> 
         <img src="/static/images/Spinner-Loader.gif" style="scale:1.25;"> 
@@ -87,7 +87,7 @@
     <!-- Header -->
     <div class="full-header">
         <div class="container-fluid header-base">
-          <div id="texture" class="w-100 mh-100 d-flex justify-content-center" {% block color %} {% endblock %}>
+          <div id="texture" class="w-100 mh-100 d-flex justify-content-center">
             <div class="wrapper" style="width: 65%;">
                 <div class="content-icon-back" >
                     <img src="../static/images/{% block iconName %}{% endblock %}.png" alt="icon" class="content-icon">

@@ -53,6 +53,23 @@ body{
   background-color: var(--default-bg-color);
   color: var(--default-txt-color);
 }
+
+body[data-section-color="metodologia"]{
+  --section-color: rgba(248, 134, 30, 0.65);
+}
+body[data-section-color="product-owner"]{
+  --section-color: rgba(47, 177, 250, 0.65);
+}
+body[data-section-color="scrum-master"]{
+  --section-color: rgba(219,	52,	52, 0.65);
+}
+body[data-section-color="dev-team"]{
+  --section-color: rgba(88, 216, 43, 0.65);
+}
+body[data-section-color="outros"]{
+  --section-color: rgba(29, 29, 27, 0.39);
+}
+
 /* Navbar */
 /* Slow transition on scroll */
 .navbar{
@@ -145,6 +162,7 @@ ul li a {
   background-color: var(--default-bg-color);
   border-color: var(--card-border-bg-color);
 }
+
 /* Header */
 .full-header {
   height: 55%;
@@ -161,6 +179,9 @@ ul li a {
   display: flex;
   align-items: end;
   gap: 1vw;
+}
+#texture {
+  background-color: var(--section-color);
 }
 .content-icon-back {
   aspect-ratio: 1/1;
@@ -605,8 +626,9 @@ ul li a {
 }
 
 /* Tutorial */
-.accordion{
+.tutorial-accord{
   width: 75vw;
+  margin-bottom: 3%;
 }
 .tutorial-main {
   display: flex;
