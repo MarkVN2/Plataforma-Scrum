@@ -17,11 +17,41 @@
   font-family: 'Homenaje', sans-serif;
 
 */
+
+/* (Default) Light mode parameters */
+:root{
+  --default-bg-color: rgb(255, 255, 255);
+  --default-txt-color: rgb(0, 0, 0);
+  --bold-color: rgb(2, 58, 90);
+  --icon-inversion: 0%;
+  --default-invert: 40%;
+  --hover-invert: 0%;
+  --footer-bg: rgba(0, 0, 0, 0.65);
+  --card-border-bg-color: rgba(0, 0, 0, 0.17);
+  --accordion-active-bg-color: rgb(207, 226, 255, 0.5);
+}
+/* Dark mode parameters */
+html[data-theme="dark"]{
+  --default-bg-color: rgb(60, 60, 60);
+  --default-txt-color: rgb(216, 216, 216);
+  --bold-color: rgb(0, 118, 187);
+  --icon-inversion: 85%;
+  --default-invert: 60%;
+  --hover-invert: 100%;
+  --footer-bg: rgba(143, 143, 143, 0.65);
+  --card-border-bg-color: rgba(255, 255, 255, 0.17);
+  --accordion-active-bg-color: rgba(89, 155, 255, 0.5);
+}
+
 p {
   font-family: 'Inter', sans-serif;
 }
 p strong {
-  color: #023a5a;
+  color: var(--bold-color);
+}
+body{
+  background-color: var(--default-bg-color);
+  color: var(--default-txt-color);
 }
 /* Navbar */
 /* Slow transition on scroll */
@@ -82,7 +112,39 @@ ul li a {
 .tooltip-a-tag {
   white-space: nowrap;
 }
+#themeSwitch, 
+#themeSwitchLabel{
+  cursor: pointer;
+  color: black;
+}
 
+
+.nav-tabs .nav-link.active {
+  color: var(--default-txt-color);
+  background-color: var(--default-bg-color);
+  border-bottom-color: transparent;
+}
+.modal-content{
+  background-color: var(--default-bg-color);
+}
+.btn-close{
+  filter: invert(var(--icon-inversion));
+}
+.accordion, .accordion-item, .accordion-collapse {
+  background-color: var(--default-bg-color);
+}
+.accordion-button{
+  background-color: var(--default-bg-color);
+  color: var(--default-txt-color);
+}
+.accordion-button:not(.collapsed){
+  background-color: var(--accordion-active-bg-color);
+}
+.card{
+  color: var(--default-txt-color);
+  background-color: var(--default-bg-color);
+  border-color: var(--card-border-bg-color);
+}
 /* Header */
 .full-header {
   height: 55%;
@@ -104,7 +166,7 @@ ul li a {
   aspect-ratio: 1/1;
   width: 32vmin;
   margin-bottom: -7%;
-  background-color: white;
+  background-color: var(--default-bg-color);
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -113,6 +175,7 @@ ul li a {
   border-radius: 30px;
 }
 .content-icon {
+  filter: invert(var(--icon-inversion));
   aspect-ratio: 1/1;
   width: 95%;
 }
@@ -136,12 +199,14 @@ ul li a {
   justify-content: flex-start;
 }
 .default-textbox {
+  color: var(--default-txt-color);
   margin-top: 8%;
   margin-top: 2%;
   width: 85%;
   text-align: justify;
 }
 .default-para {
+  color: var(--default-txt-color);
   font-size: 1.8rem;
   padding-bottom: 1%;
 }
@@ -189,7 +254,7 @@ ul li a {
 .home-title {
   margin: 0;
   font-family: 'Homenaje', sans-serif;
-  color: #000000;
+  color: var(--default-txt-color);
   font-size: 14vmin;
 }
 .home-textbox {
@@ -200,7 +265,6 @@ ul li a {
 .home-text {
   width: 50%;
   text-align: justify;
-  color: #000000;
   font-size: 2.2vmin;
 }
 .triangle {
@@ -261,17 +325,18 @@ ul li a {
 }
 .home-icon{
   width: 80%;
-  filter: invert(40%);
+  filter: invert(var(--default-invert));
 }
 .home-icon-box:hover{
   transform: scale(1.1);
   transition: 0.6s;
 }
 .home-icon-box:hover .home-icon{
-  filter: invert(0%);
+  filter: invert(var(--hover-invert));
   transition: 0.6s;
 }
 .icon-text {
+  color: var(--default-txt-color);
   font-size: 4vmin;
   font-weight: 600;
 }
@@ -291,7 +356,7 @@ ul li a {
 .met-oqs-subt-scm {
   font-family: 'Roboto Mono', monospace;
   font-weight: bolder;
-  color: #000000;
+  color: var(--color);
   font-size: 20vmin;
   text-align: center;
 }
@@ -332,6 +397,7 @@ ul li a {
 .met-pil-img {
   aspect-ratio: 1/1;
   width: 200px;
+  filter: invert(var(--icon-inversion));
   flex-grow: 0;
 }
 .met-pil-sect-textbox {
@@ -420,6 +486,7 @@ ul li a {
   font-style: italic;
 }
 .met-memb-img {
+  filter: invert(var(--icon-inversion));
   width: 70%;
 }
 .met-team-card-body {
@@ -454,6 +521,11 @@ ul li a {
   text-align: center;
   font-size: 2.8vmin;
   margin-bottom: 8%;
+  color: var(--default-txt-color)
+}
+.po-back-table .table-active {
+  color: var(--default-txt-color);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 /* Seção: Scrum Master */
@@ -503,7 +575,11 @@ ul li a {
   margin: 15px;
   shape-outside: circle();
 }
-
+.arrow-circle-img{
+  filter: invert(var(--icon-inversion));
+  width: 24vw; 
+  height: 23vw;
+}
 /* Glossary */
 .glossario-letter {
   font-size: 4rem;
@@ -547,12 +623,14 @@ ul li a {
   padding-bottom: 3%;
 }
 .tutorial-title {
+  color: var(--default-txt-color);
   font-size: 4rem;
   font-weight: 500;
   padding-bottom: 4%;
   padding-top: 0%;
 }
 .tutorial-header {
+  color: var(--default-txt-color);
   font-size: 2.6rem;
   padding-bottom: 4%;
 }
@@ -600,6 +678,7 @@ ul li a {
   align-items: center;
 }
 .mat-card-img {
+  filter: invert(var(--icon-inversion));
   width: 80%;
 }
 .mat-fer-block {
@@ -617,7 +696,7 @@ ul li a {
 /*Footer*/
 .footer-container{
   color: white;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: var(--footer-bg);
   height: fit-content;
   text-align:center;
 }
@@ -627,7 +706,7 @@ ul li a {
   padding-bottom:1%;
 }
 .footer-content > a{
-  color:white;
+  color: white;
   font-size: 13px;
 }
 
