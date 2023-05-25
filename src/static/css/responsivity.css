@@ -1,0 +1,97 @@
+@media (max-width: 768.98px){
+ @media (orientation:portrait){
+    .default-image-block{
+        flex-direction: column;
+    }
+ }
+    /*Universal*/
+
+    .default-textbox > p{
+     font-size: large;   
+    }
+    .default-para{
+        font-size: small;
+    }
+    .default-textbox > .default-image-block > p{
+        font-size: small;
+    }
+
+
+    /* Seção Metodologia */
+
+    .met-auto-collapse-text > p {
+        font-size: small;
+    }
+    .met-auto-collapse-text > ul > li {
+        font-size: small;
+    }
+    .met-int-modal-img{
+        width: 100%;
+    }   
+    .met-oqs-border{
+        width:100%;
+    }
+    .met-vis-list > .met-vis-list-item{
+        font-size: small;
+    }
+    .met-pil-img{
+        width: 30%;
+    }
+    .met-pil-sect-title{
+        font-size: x-large;
+    }
+    .met-pil-sect-text{
+        font-size: small;
+    }
+    .collapse-image{
+        width: 100%;
+    }
+
+    .met-team-memb{
+        scale: 0.7;
+    }
+    .met-team-card-body{
+        flex-direction: column;
+    }
+    /* Seção: Scrum Master */
+
+    .sm-burn-img{
+        width: 100%;
+    }
+
+    /* Seção: Outros */
+
+    /*Tutorial*/
+    .tutorial-title,
+    .tutorial-header{
+        font-size: large;
+    }
+    .accordion {
+        width: 76vw;
+    }
+    /*Glossary*/
+    .glossario-back-button{
+        height: 12vw;
+        width: 12vw;
+    }
+    
+}
+@media (min-width:769px) and (max-width: 991.98px){
+
+    /*Universal*/
+    .default-textbox > .default-image-block > p{
+        font-size: large;
+    }
+    
+    /* Seção Metodologia */
+
+    .met-team-card-body{
+        flex-direction: column;
+    }
+    
+    /* Seção: Scrum Master */
+        .sm-burn-img{
+            width: 100%;
+        }
+    
+}   

@@ -79,6 +79,9 @@ def tutorial():
 @app.route("/pag", methods =["GET", "POST"]) #ONLY FOR TESTING REMOVE LATER
 def pag():
     return render_template('test.html') #
+@app.route("/res")
+def pag2():
+    return render_template('responsivity.html') #
 
 @app.route("/head")
 def header():
