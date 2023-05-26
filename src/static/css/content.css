@@ -22,7 +22,7 @@
 :root{
   --default-bg-color: rgb(255, 255, 255);
   --default-txt-color: rgb(0, 0, 0);
-  --bold-color: rgb(2, 58, 90);
+  --bold-color: rgb(2, 16, 206);
   --icon-inversion: 0%;
   --default-invert: 40%;
   --hover-invert: 0%;
@@ -34,7 +34,7 @@
 html[data-theme="dark"]{
   --default-bg-color: rgb(60, 60, 60);
   --default-txt-color: rgb(216, 216, 216);
-  --bold-color: rgb(0, 118, 187);
+  --bold-color: rgb(76, 168, 255);
   --icon-inversion: 85%;
   --default-invert: 60%;
   --hover-invert: 100%;
