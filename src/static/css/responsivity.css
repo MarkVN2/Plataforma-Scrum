@@ -1,8 +1,7 @@
+    :root{
+        font-size: 16px + 0.02vw;
+    }
 
-
-:root{
-    font-size: 15px + 0.02vw;
-}
 @media (max-width: 768.98px){
  @media (orientation:portrait){
     .default-image-block{
@@ -19,10 +18,11 @@
     .default-textbox > .default-image-block > p{
         font-size: 1rem;
     }
-
+    
     .collapse-image{
         width: 100%;
     }
+
     .overlay-image > img{
         width: 100%;
         height: 100%;
@@ -70,9 +70,19 @@
         .sm-burn-img{
             width: 100%;
         }
+        .tutorial-vid{
+            max-width: 100%;
+        }
 
     .po-back-split-text-block{
         flex-direction: column;
+    }
+    .met-auto-card-body {
+        flex-direction: column;
+    }
+    .met-auto-card-body > img{
+        align-self: center;
+        width: 100%;
     }
     /* Seção: Outros */
 
@@ -93,9 +103,28 @@
         .mat-fer-block-text{
             font-size: 0.5rem;
         }
+        .card-title{
+            font-size: 0.9rem;
+        }
         .card-text{
             display: none;
         }
+        .col{
+            width: 100% !important;
+        }
+        .mat-fer-block-text{
+            font-size: 1rem;
+        }
+
+        /*Conclusion*/
+        .conclusion-text-divider{
+            display: flex;
+            flex-direction: column;
+        }
+        .conclusion-text-divider > .arrow-circular-container{
+            align-self: center;
+        }
+        
 }
 @media (min-width:769px) and (max-width: 991.98px){
 
@@ -130,4 +159,16 @@
         font-size: small;
     }
     
+    .met-auto-card-body {
+        flex-direction: column;
+    }
+    .met-auto-card-body > img{
+        align-self: center;
+        width: 100%;
+    }
+
+    .conclusion-text-divider > .conclusion-para {
+        font-size: 0.9375rem;
+    }
+
 }   
