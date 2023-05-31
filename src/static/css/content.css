@@ -212,6 +212,35 @@ ul li a {
   font-size: 2.5vw;
 }
 
+/* Footer */
+.footer-container{
+  color: white;
+  background-color: var(--footer-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: clamp(13px, 0.8vw, 20px);
+}
+.footer-content{
+  margin: 0.4rem 0;
+  text-align: justify;
+}
+.footer-content > a{
+  color: white;
+  font-size: 13px;
+}
+#footer-address-box{
+  max-width: 16vw;
+  font-size: clamp(11px, 0.7vw, 16px);
+}
+.github-mark{
+  filter: invert(100%);
+  aspect-ratio: 1;
+  width: max(3rem, 3vw);
+  margin: 0.5rem 0;
+}
+
 /* default CSS for every content page.  */
 .default-main {
   display: flex;
@@ -726,23 +755,8 @@ width: 50%;
   width: 70%;
 }
 
-/*Footer*/
-.footer-container{
-  color: white;
-  background-color: var(--footer-bg);
-  height: fit-content;
-  text-align:center;
-}
-.footer-content{
-  display: inline-block; 
-  padding-right:1% ; 
-  padding-bottom:1%;
-}
-.footer-content > a{
-  color: white;
-  font-size: 13px;
-}
 
+/* Loader */
 
 #loader {
   position:fixed;
@@ -755,10 +769,4 @@ width: 50%;
   padding-top: 35vh;
   z-index: 9999;
   pointer-events: none;
-}
-.github-qr{
-  aspect-ratio: 1;
-  width: 5vw;
-  min-width: 64px;
-  margin: 1vw 0 ;
 }
