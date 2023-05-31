@@ -279,14 +279,13 @@ ul li a {
   font-size: 14vmin;
 }
 .home-textbox {
+  margin: 0.5rem;
   width: 42%;
-  display: flex;
-  gap: 15%;
 }
 .home-text {
-  width: 50%;
   text-align: justify;
-  font-size: 2.2vmin;
+  font-size: clamp(8px, 2vmin, 30px);
+  margin: 0;
 }
 .triangle {
   width: 0;
@@ -329,12 +328,13 @@ ul li a {
   width: 12.5vw;
   color: #000000;
   text-decoration: none;
+  /* rouglhy 28vh height; */
 }
 .icon-box-top{
-  top: calc(40% - 8vw);
+  top: calc(50% - 10vw - 4rem - 14vh); 
 }
 .icon-box-bottom{
-  top: calc(50% + 8vw);
+  top: calc(50% + 14vh);
 }
 .icon-box-left{
   left: 20vw;
@@ -345,7 +345,7 @@ ul li a {
   top: calc(50% - 8vw);
 }
 .home-icon{
-  width: 80%;
+  width: 80%; /* home-icon-box = 12.5vw; therefore 10vw */
   filter: invert(var(--default-invert));
 }
 .home-icon-box:hover{
@@ -358,8 +358,9 @@ ul li a {
 }
 .icon-text {
   color: var(--default-txt-color);
-  font-size: 4vmin;
+  font-size: clamp(8px, 1.5vw, 40px);
   font-weight: 600;
+  margin: 1rem;
 }
 
 /* Seção Metodologia */
