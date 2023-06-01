@@ -8,15 +8,6 @@
         }
     }
 
-    /*Universal*/
-    .default-para{
-        font-size: 1.1rem;
-    }
-    .default-textbox > .default-image-block > p{
-        font-size: 1rem;
-    }
-
-
     /* Seção: Metodologia */
     /* 3 - Visão */
     .met-vis-list > .met-vis-list-item{
@@ -38,16 +29,7 @@
 
 
     /* Seção: Outros */
-    /* Tutorial */
-    .tutorial-title,
-    .tutorial-header{
-        font-size: 2rem;
-    }
-
     /* Material */
-    .card-title{
-        font-size: 0.9rem;
-    }
     .card-text{
         display: none;
     }
@@ -66,12 +48,6 @@
         
 }
 @media (min-width:769px) and (max-width: 991.98px){
-    /*Universal*/
-    .default-textbox > .default-image-block > p{
-        font-size: large;
-    }
-
-
     /* Seção Metodologia */
     /* 6 - Team */
         .met-team-card-body{
