@@ -31,8 +31,7 @@ def metAuto():
 def metTeam():
     return render_template('met_team.html')
 
-# pages about 'product owner'
-
+# Product owner routes
 @app.route('/product-owner/introducao')
 def poInt():
     return render_template('po_int.html')
@@ -41,8 +40,7 @@ def poInt():
 def poBac():
     return render_template('po_back.html')
 
-# pages about 'scrum master'
-
+# Scrum master routes
 @app.route('/scrum-master/introducao')
 def smInt():
     return render_template('sm_int.html')
@@ -51,14 +49,12 @@ def smInt():
 def smBrn():
     return render_template('sm_burn.html')
 
-# pages about  'devteam'
-
+# Development team routes
 @app.route("/development-team")
 def devTeam():
     return render_template('dev-team.html')
 
-# others
-
+# Other routes
 @app.route("/conclusao")
 def conclusion():
     return render_template('conclusion.html')
@@ -75,25 +71,6 @@ def glossary():
 def tutorial():
     return render_template('tutorial.html', buttons=False)
 
-# Tests
-@app.route("/pag", methods =["GET", "POST"]) #ONLY FOR TESTING REMOVE LATER
-def pag():
-    return render_template('test.html') #
-@app.route("/res")
-def pag2():
-    return render_template('responsivity.html') #
-
-@app.route("/head")
-def header():
-    return render_template('header.html')
-    
-@app.route("/nav")
-def nav():
-    return render_template('navbar.html')
-
-@app.route("/example")
-def example():
-    return render_template('example_page.html')
 
 
 

@@ -72,72 +72,22 @@ body[data-section-color="outros"]{
   --section-color: rgba(29, 29, 27, 0.39);
 }
 
-/* Navbar */
-/* Slow transition on scroll */
-.navbar{
-  transition: 0.6s;
-}
-/* Font family for the navbar items */
-.navbar-custom {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-}
-/* Font family for the dropdown items */
-.navbar-custom .dropdown-item {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-}
-/* Distance between elements of the navbar */
-.navbar-nav > li {
-  margin-left: 1vw;
-  margin-right: 1vw;
-  padding-left: 1vw;
-  padding-right: 1vw;
-}
-.navbar-logo:hover{
-  transform: scale(1.1);
-  transition: 0.2s;
-}
-/* Change this to change the background color of the dropdown buttons */
-.navbar-nav > li > .dropdown-menu {
-  background-color: none;
-}
-/* Change this to change font color of the dropdown buttons */
-.navbar-nav > li > .dropdown-item {
-  color: none;
-}
-/* Change this to change hover color on nav elements */
-.navbar-nav li > a:hover,
-a:focus,
-a:active {
-  color: none;
-}
-/* Changes background of dropdown elements */
-.dropdown-item:focus,
-.dropdown-item:hover {
-  background-color: none !important;
-  color: none !important;
-}
-/* Changes background of dropdown */
-ul.dropdown-menu {
-  background-color: none;
-}
-/*Color of the links in the dropdown*/
-ul li a {
-  display: block;
-  text-decoration: none;
-  color: black;
-}
-.tooltip-a-tag {
-  white-space: nowrap;
-}
-#themeSwitch, 
-#themeSwitchLabel{
-  cursor: pointer;
-  color: black;
+/* CSS for template.html */
+/* Loader */
+#loader {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  padding-top: 35vh;
+  z-index: 9999;
+  pointer-events: none;
 }
 
-
+/* Modified Bootstrap */
 .nav-tabs .nav-link.active {
   color: var(--default-txt-color);
   background-color: var(--default-bg-color);
@@ -163,6 +113,61 @@ ul li a {
   color: var(--default-txt-color);
   background-color: var(--default-bg-color);
   border-color: var(--card-border-bg-color);
+}
+
+/* Navbar */
+.navbar{
+  transition: 0.6s;
+}
+.navbar-custom {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+}
+.navbar-custom .dropdown-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+}
+.navbar-nav > li {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.navbar-logo:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: none;
+}
+.navbar-nav > li > .dropdown-item {
+  color: none;
+}
+.navbar-nav li > a:hover,
+a:focus,
+a:active {
+  color: none;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: none !important;
+  color: none !important;
+}
+ul.dropdown-menu {
+  background-color: none;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.tooltip-a-tag {
+  white-space: nowrap;
+}
+#themeSwitch, 
+#themeSwitchLabel{
+  cursor: pointer;
+  color: black;
 }
 
 /* Header */
@@ -243,7 +248,9 @@ ul li a {
   margin: 0.5rem 0;
 }
 
-/* default CSS for every content page.  */
+
+
+/* Default CSS for every/many content page.  */
 .default-main {
   display: flex;
   flex-flow: column wrap;
@@ -406,6 +413,8 @@ ul li a {
   font-weight: 600;
   margin: 1rem;
 }
+
+
 
 /* Seção Metodologia */
 /* metodologia/introducao */
@@ -576,6 +585,8 @@ width: 50%;
   max-width: 100%;
 }
 
+
+
 /* Seção: Product Owner */
 /* product-owner/valordoproduto */
 .po-int-image-block {
@@ -604,6 +615,8 @@ width: 50%;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
+
+
 /* Seção: Scrum Master */
 /* scrum-master/introducao */
 #sm-int-image-1 {
@@ -631,6 +644,8 @@ width: 50%;
   padding-bottom: 1%;
 }
 
+
+
 /* Seção: Development Team */
 /* development-team */
 .dev-image {
@@ -638,6 +653,8 @@ width: 50%;
   width: 30%;
   border-radius: 36px;
 }
+
+
 
 /* Seção: Outros */
 /* conclusao */
@@ -664,6 +681,7 @@ width: 50%;
 .conclusion-text-divider > .conclusion-para{
   font-size: clamp(10.5px, 1.5vw, 30px);
 }
+
 /* Glossary */
 @keyframes jumpUpRotate {
   0%{scale: 1;}
@@ -790,21 +808,8 @@ width: 50%;
 }
 
 
-/* Loader */
 
-#loader {
-  position:fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  text-align: center;
-  padding-top: 35vh;
-  z-index: 9999;
-  pointer-events: none;
-}
-
+/* Responsivity - Media queries */
 @media (max-width: 768.98px){
   @media (orientation:portrait){
     /* General content */
