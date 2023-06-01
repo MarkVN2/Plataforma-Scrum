@@ -50,6 +50,7 @@ p strong {
   color: var(--bold-color);
 }
 body{
+  min-width: 400px;
   background-color: var(--default-bg-color);
   color: var(--default-txt-color);
 }
@@ -276,6 +277,19 @@ ul li a {
   margin-top: 10%;
   padding-bottom: 5%;
 }
+.default-card-body{
+  gap: 6%;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.default-collapse-image-block, .default-modal-image-block, .image-box-fill{
+  width: 100%;
+  text-align: center;
+}
+.default-collapse-image, .default-modal-image, .fit-image-box{
+  max-width: 100%;
+}
+
 
 /* home */
 .home-document{
@@ -401,6 +415,7 @@ ul li a {
 }
 .met-int-modal-img {
   padding-bottom: 2%;
+  max-width: 100%;
 }
 
 /* metodologia/oqueescrum */
@@ -411,9 +426,12 @@ ul li a {
   font-size: 20vmin;
   text-align: center;
 }
-.met-oqs-border {
+.met-oqs-image-block{
+  margin-bottom: 2rem;
+}
+.met-oqs-image {
   border: 0.6vmin black solid;
-  width: 80%;
+  max-width: 100%;
 }
 
 /* metodologia/visao */
@@ -447,7 +465,7 @@ ul li a {
 }
 .met-pil-img {
   aspect-ratio: 1/1;
-  width: 200px;
+  width: clamp(40px, 16vw ,200px);
   filter: invert(var(--icon-inversion));
   flex-grow: 0;
 }
@@ -504,9 +522,6 @@ ul li a {
 .met-auto-card-body {
   display: flex;
   flex-direction: row;
-  gap: 6%;
-  padding: 2%;
-  margin-bottom: 2%;
 }
 .met-auto-card-body > img{
 width: 50%;
@@ -527,17 +542,18 @@ width: 50%;
 }
 .met-sect-memb {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   gap: 2%;
 }
 .met-team-memb {
-  width: 32%;
+  width: clamp(80px, 25vw, 250px);
   text-align: center;
 }
 .met-team-memb-title {
+  font: italic bold clamp(10px, 2.5vw, 40px) arial;
   font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  font-style: italic;
+
 }
 .met-memb-img {
   filter: invert(var(--icon-inversion));
@@ -549,8 +565,15 @@ width: 50%;
   gap: 4%;
   margin-bottom: 2%;
 }
-.overlay-image {
-  padding-top: 8%;
+.met-team-overlay-image-box {
+  flex-basis: 200%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.met-team-overlay-image {
+  max-width: 100%;
 }
 
 /* Seção: Product Owner */
@@ -559,7 +582,6 @@ width: 50%;
   max-width: 100%;
 }
 .po-int-image {
-  background-color: aqua;
   flex-shrink: 0;
   width: 40%;
 }
@@ -605,7 +627,7 @@ width: 50%;
   justify-content: center;
 }
 .sm-burn-img {
-  
+  max-width: 100%;
   padding-bottom: 1%;
 }
 
@@ -650,9 +672,8 @@ width: 50%;
 .glossario-back-button {
   position: fixed;
   aspect-ratio: 1;
-  right: 5vmin;
-  bottom: 5vmin;
-  width: 7vw;
+  inset: auto 3.5vmin 3.5vmin auto;
+  width: clamp(60px, 7vw, 140px);
   border-radius: 7vw;
   font-weight: 600;
   cursor: pointer;
@@ -664,7 +685,7 @@ width: 50%;
 
 /* Tutorial */
 .tutorial-accord{
-  width: 75vw;
+  width: clamp(300px, 75vw, 1125px);
   margin-bottom: 3%;
 }
 .tutorial-main {
@@ -708,13 +729,14 @@ width: 50%;
   padding-bottom: 1%;
 }
 .tutorial-vid-box {
+  background-color: green;
   justify-content: center;
   text-align: center;
   padding: 3%;
 }
 .tutorial-vid {
-  height: 60vh;
-  width: 100vh;
+  aspect-ratio: 16/9;
+  width: clamp(250px, 60vw, 900px);
 }
 
 /* materiais */
@@ -735,6 +757,7 @@ width: 50%;
   gap: 2%;
 }
 .mat-card-img-wrapper {
+  aspect-ratio: 10/9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -745,14 +768,13 @@ width: 50%;
 }
 .mat-fer-block {
   align-items: center;
-  margin: 0 5%;
 }
 .mat-fer-block-text {
-  font-size: 1.1rem;
+  font-size: clamp(10px, 2vw ,26px);
   text-align: justify;
 }
 .mat-fer-img {
-  width: 70%;
+  width: clamp(75px, 12vw, 220px);
 }
 
 

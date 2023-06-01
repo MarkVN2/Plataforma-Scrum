@@ -1,198 +1,94 @@
-    :root{
-        font-size: 16px + 0.02vw;
-    }
-
+:root{
+    font-size: 16px + 0.02vw;
+}
 @media (max-width: 768.98px){
- @media (orientation:portrait){
-    .default-image-block{
-        flex-direction: column;
+    @media (orientation:portrait){
+        .default-image-block{
+            flex-direction: column;
+        }
     }
- }
 
-    
     /*Universal*/
-   
     .default-para{
         font-size: 1.1rem;
     }
     .default-textbox > .default-image-block > p{
         font-size: 1rem;
     }
-    
-    .collapse-image{
-        width: 100%;
+
+
+    /* Seção: Metodologia */
+    /* 3 - Visão */
+    .met-vis-list > .met-vis-list-item{
+        font-size: 1rem;
     }
 
-    .overlay-image > img{
-        width: 100%;
-        height: 100%;
+    /* 4 - Pilares */
+    .met-pil-sect-title{
+        font-size: x-large;
     }
-    
+    .met-pil-sect-text{
+        font-size: small;
+    }
 
-    /* Seção Metodologia */
+    /* 6 - Team */
+    .met-team-card-body{
+        flex-direction: column;
+    }
 
-        /*Pag1-Intro*/
-        .met-int-modal-img{
-            width: 100%;
-        } 
-
-        /*Pag2-O que é Scrum?*/  
-        .met-oqs-border{
-            width:100%;
-        }
-        
-        /*Pag3-Visão*/
-        .met-vis-list > .met-vis-list-item{
-            font-size: 1rem;
-        }
-
-        /*Pag4-Pilares*/
-        .met-pil-img{
-            width: 30%;
-        }
-        .met-pil-sect-title{
-            font-size: x-large;
-        }
-        .met-pil-sect-text{
-            font-size: small;
-        }
-
-        /*Pag5-Autoavaliação*/
-        .met-auto-collapse-text > ul > li {
-            font-size: 1rem;
-        }
-        .met-auto-card-body {
-            flex-direction: column;
-        }
-        .met-auto-card-body > img{
-            align-self: center;
-            width: 100%;
-        }
-
-        /*Pag6-Team*/
-        .met-team-memb{
-            scale: 0.7;
-        }
-        .met-team-card-body{
-            flex-direction: column;
-        }
-    
-    /* Seção: Scrum Master */
-
-        .sm-burn-img{
-            width: 100%;
-        }
-        .tutorial-vid{
-            max-width: 100%;
-        }
-    
-    /* Seção : Product Owner */
-
-        /*Pag2-Backlog */
-        .po-back-split-text-block{
-            flex-direction: column;
-        }
 
     /* Seção: Outros */
+    /* Tutorial */
+    .tutorial-title,
+    .tutorial-header{
+        font-size: 2rem;
+    }
 
-        /*Tutorial*/
-        .tutorial-title,
-        .tutorial-header{
-            font-size: 2rem;
-        }
-        .accordion {
-            width: 76vw;
-        }
-        
-        /*Glossary*/
-        .glossario-back-button{
-            height: 12vw;
-            width: 12vw;
-        }
+    /* Material */
+    .card-title{
+        font-size: 0.9rem;
+    }
+    .card-text{
+        display: none;
+    }
+    .col{
+        width: 100% !important;
+    }
 
-        /*Material*/
-        .mat-fer-block-text{
-            font-size: 0.5rem;
-        }
-        .card-title{
-            font-size: 0.9rem;
-        }
-        .card-text{
-            display: none;
-        }
-        .col{
-            width: 100% !important;
-        }
-        .mat-fer-block-text{
-            font-size: 1rem;
-        }
-
-        /*Conclusion*/
-        .conclusion-text-divider{
-            display: flex;
-            flex-direction: column;
-        }
-        .conclusion-text-divider > .arrow-circular-container{
-            align-self: center;
-        }
+    /* Conclusion */
+    .conclusion-text-divider{
+        display: flex;
+        flex-direction: column;
+    }
+    .conclusion-text-divider > .arrow-circular-container{
+        align-self: center;
+    }
         
 }
 @media (min-width:769px) and (max-width: 991.98px){
-
-    
     /*Universal*/
-
     .default-textbox > .default-image-block > p{
         font-size: large;
     }
-    .overlay-image > img{
-        width: 100%;
-        height: 100%;
-    }
-        
-    .collapse-image{
-        width: 100%;
-    }
+
 
     /* Seção Metodologia */
-
-        /*Pag5-Autoavaliação*/
-        
-        .met-auto-card-body {
-            flex-direction: column;
-        }
-        .met-auto-card-body > img{
-            align-self: center;
-            width: 100%;
-        }
-        .overlay-image > img{
-            width: 100%;
-            height: 100%;
-        }
-
-        /*Pag6-Team*/
-
-         .met-team-card-body{
-            flex-direction: column;
-        }
-        
-    /* Seção: Scrum Master */
-
-        /*Pag2-Burndown*/
-        .sm-burn-img{
-            width: 100%;
-        }
-
-    /* Seção: Outros */
-
-        /*Material*/
-        .mat-fer-block-text{
-            font-size: small;
-        }
-            
-        /*Conclusão*/
-        .conclusion-text-divider > .conclusion-para {
-            font-size: 0.9375rem;
-        }
-
+    /* 6 - Team */
+        .met-team-card-body{
+        flex-direction: column;
+    }
 }   
+@media (max-width:1200px){
+    /* Seção: Product Owner */
+    /* 2 - Backlog */
+    .po-back-split-text-block{
+        flex-direction: column;
+    }
+}
+@media (max-width:1400px){
+    /* Seção: Metodologia */
+    /* 5 - Auto-avaliação */
+    .met-auto-tab-img-box{
+        flex-direction: column;
+    }
+}
