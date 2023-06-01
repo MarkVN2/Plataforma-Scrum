@@ -46,7 +46,7 @@
 <img src="https://user-images.githubusercontent.com/76211125/229362966-0310a3f1-28d6-4aff-ae06-82c73c010da6.png#gh-light-mode-only"/>
 <img src="https://user-images.githubusercontent.com/76211125/229362969-6ef214f0-3e15-470a-8883-bc509d7954c9.png#gh-dark-mode-only"/>
 <br>
-<img src="https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/1d6cf7a5-ca83-4a40-9ebb-05b4429ea388#gh-dark-mode-only" />
+<img src=https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/39511b68-8a60-4c13-8c43-6ff542bc9305#gh-dark-mode-only" />
 
 
    ### Sprint 1
@@ -78,9 +78,11 @@
    - [x] Página de recomendações e materiais disponíveis
 
    ### Sprint 4
-   - [ ] Animação e destaques de hover nos botões
-   - [ ] Icone das páginas
-   - [ ] Footer das páginas
+   - [x] Revisão de conteúdo
+   - [x] Responsividade do sistema
+   - [x] Animação e Destaques de hover nos botões
+   - [x] Adição de convenções de websites
+   - [x] Dark-mode
 
 
 
