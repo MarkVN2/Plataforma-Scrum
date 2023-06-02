@@ -30,6 +30,8 @@
   --footer-bg: rgba(0, 0, 0, 0.65);
   --card-border-bg-color: rgba(0, 0, 0, 0.17);
   --accordion-active-bg-color: rgb(207, 226, 255, 0.5);
+  --t-btn-next-color: rgb(0, 73, 231);
+  --t-btn-back-color: rgb(150, 150, 150);
 }
 /* Dark mode parameters */
 html[data-theme="dark"]{
@@ -42,6 +44,8 @@ html[data-theme="dark"]{
   --footer-bg: rgba(143, 143, 143, 0.65);
   --card-border-bg-color: rgba(255, 255, 255, 0.17);
   --accordion-active-bg-color: rgba(89, 155, 255, 0.5);
+  --t-btn-next-color: rgb(86, 29, 245);
+  --t-btn-back-color: rgb(255, 255, 255);
 }
 
 p {
@@ -248,6 +252,32 @@ ul li a {
   margin: 0.5rem 0;
 }
 
+/* Buttons */
+.next-prev-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 6%;
+  margin-top: 10%;
+  padding-bottom: 5%;
+}
+.btn-next-custom{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  border-width: 2.5px;
+  border-color: #000000;
+  background-color: var(--t-btn-next-color);
+
+}
+.btn-back-custom{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  border-width: 2.5px;
+  border-color: #000000;
+  background-color: var(--t-btn-back-color);
+ 
+}
+
 
 
 /* Default CSS for every/many content page.  */
@@ -277,14 +307,7 @@ ul li a {
   align-items: center;
   gap: 5%;
 }
-.next-prev-btn {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 6%;
-  margin-top: 10%;
-  padding-bottom: 5%;
-}
+
 .default-card-body{
   gap: 6%;
   padding: 2%;
