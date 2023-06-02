@@ -30,8 +30,9 @@
   --footer-bg: rgba(0, 0, 0, 0.65);
   --card-border-bg-color: rgba(0, 0, 0, 0.17);
   --accordion-active-bg-color: rgb(207, 226, 255, 0.5);
-  --t-btn-next-color: rgb(0, 73, 231);
-  --t-btn-back-color: rgb(150, 150, 150);
+  --t-btn-next-color: rgb(57, 93, 255);
+  --t-btn-next-font-color: rgb(255, 255, 255);
+  --t-btn-back-color: rgb(226, 224, 224);
 }
 /* Dark mode parameters */
 html[data-theme="dark"]{
@@ -45,7 +46,9 @@ html[data-theme="dark"]{
   --card-border-bg-color: rgba(255, 255, 255, 0.17);
   --accordion-active-bg-color: rgba(89, 155, 255, 0.5);
   --t-btn-next-color: rgb(86, 29, 245);
-  --t-btn-back-color: rgb(255, 255, 255);
+  --t-btn-next-font-color: rgb(255, 255, 255);
+  --t-btn-back-color: rgb(94, 94, 94);
+  --t-btn-back-font-color: rgb(255, 255, 255);
 }
 
 p {
@@ -263,7 +266,7 @@ ul li a {
 }
 .btn-next-custom{
   font-size: 30px;
-  color: rgb(255, 255, 255);
+  color: var(--t-btn-next-font-color);
   border-width: 2.5px;
   border-color: #000000;
   background-color: var(--t-btn-next-color);
@@ -271,7 +274,7 @@ ul li a {
 }
 .btn-back-custom{
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: var(--t-btn-back-font-color);
   border-width: 2.5px;
   border-color: #000000;
   background-color: var(--t-btn-back-color);
