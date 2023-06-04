@@ -312,7 +312,74 @@ A seguir, estão separados alguns conteúdos extras como retomada de termos téc
 COLOCANDO EM PRÁTICA
 Para caso você possua alguma dúvida em como aplicar esta metodologia, selecionamos abaixo alguns métodos passo a passo sobre como realizar os Artefatos Scrum em seus projetos.
 
+Autoavalição(
+    - Primeiro passo: Identificar metas
+Identifique seus objetivos com o Scrum Master, isso pode incluir a melhoria da eficiência da equipe, a remoção de impedimentos ou a promoção da colaboração entre os integrantes
+
+    - Segundo passo: Avalie seu desempenho
+Avalie ele em relação aos objetivos identificados anteriormente, use métricas e dados concretos sempre que possível, isso pode incluir a eficiência da equipe, o tempo gasto em reuniões e a resolução de impedimentos.
+
+    - Terceiro passo: Identifique áreas de melhoria
+Depois de avaliar seu desempenho identifique áreas em que você pode melhorar. Isso pode incluir a melhora da comunicação com a equipe e a remoção de impedimentos de forma mais eficaz por exemplo. Defina metas de melhoria especificas e mensuráveis para melhoras seu desempenho como o desenvolvimento de habilidades, a implementação de práticas ágeis adicionais ou a promoção da colaboração entre os integrantes, etc.
+
+    - Quarto passo: Plano de ação e acompanhamento
+desenvolva um plano de ação e acompanhe seu progresso, desenvolva um plano de ação para alcançar suas metas e monitore o seu progresso fazendo ajustes ao plano de ação se necessário.
+)
+
+Backlog(
+Lembre se que o backlog é um documento “vivo” e deve ser atualizado regularmente para garantir que as necessidades do produto sejam atendidas. Siga os seguintes passos:
+    - Primeiro passo: Identificação
+Identifique o objetivo do projeto antes de criar o backlog, é importante entender o objetivo para criar um documento que atenda as necessidades do produto.
+
+    - Segundo passo: Requisitos do produto
+Identifique os requisitos do produto, isso pode incluir a funcionalidade do produto, os requisitos do usuário, a arquitetura, lembre se de priorizar os requisitos, sendo feito com base no valor que cada requisito traz para o produto.
+(IMAGEM BACKLOG)
+
+    - Terceiro passo: Crie as User Stories
+Crie as histórias de usuário com base nos requisitos identificados e priorizados, sejam estas descrições curtas e objetivas de uma funcionalidade do produto que descrevem o que o usuário quer e por que ele quer. 
+Lembre-se de estimar as histórias, para que o usuário tenha ideia de quanto tempo demorará para desenvolver cada uma delas. Identifique os requisitos do produto, isso pode incluir a funcionalidade do produto, os requisitos do usuário, a arquitetura, lembre se de priorizar os requisitos, sendo feito com base no valor que cada requisito traz para o produto.
+(IMAGEM USER STORIES)
+O backlog deve conter todas as histórias de usuário que serão desenvolvidas durante o sprint, portanto deve ser refinado regularmente a fins de garantir que as histórias estejam atualizadas e refletindo as necessidades do produto.
+)
+
+Daily Scrum(
+O daily scrum é uma reunião diária para manter a equipe alinhada e engajada, portanto é importante garantir que todos os membros estejam presentes e que a reunião seja realizada de maneira eficiente, para isso siga esse passo a passo:
+    - Primeiro passo: Definição
+Faça uma escolha adequada de espaço e horário, essa é uma reunião rápida de 15 minutos, portanto é importante escolher um local que possibilite boa comunicação e um horário conveniente a todos.
+Identifique o objetivo do projeto antes de criar o backlog, é importante entender o objetivo para criar um documento que atenda as necessidades do produto.
+
+    - Segundo passo: Faça as 3 perguntas
+O Scrum Master deve começar a reunião explicando o objetivo do daily scrum e lembrando a todos da equipe das três perguntas que devem ser respondidas: O que foi feito desde a última reunião? O que será feito até a próxima reunião? Existe algum impedimento atrapalhando o andamento do projeto? As respostas a essas perguntas devem ser curtas e objetivas.
+(IMAGEM REUNIÃO)
+
+    - Terceiro passo: Resolução de problemas
+Mantenha o foco e resolva impedimentos, qualquer assunto que não esteja diretamente relacionado com o a reunião deve ser discutido após a mesma. E se alguém mencionar algum impedimento que está atrapalhando o andamento o projeto, o Scrum Master deve tomar nota e discutir com a equipe como resolver o problema.
+)
+
+Gráfico Burndown(
+Logo abaixo, temos uma indicação de video do canal TI Carreiras onde você pode aprender mais sobre como fazer o seu próprio grafico burndown.
+(VIDEO BURNDOWN)
+
+    - Primeiro passo: Definição de tarefas
+Distribuir as tarefas e o peso de cada uma delas antes de realizar o gráfico, atribuindo as tarefas de cada um, estimar o esforço é o que ajudará a distribuir de forma igual, assim não pesando muito para apenas uma pessoa do grupo.
+Um exemplo para ajudar a definir um peso para uma tarefa é o <strong>planning poker</strong>, que é uma técnica que se baseia em definir uma sequencia numerica, como <strong>1, 2, 3, 5, 8, 13, 21, etc</strong>, e relacionar ela com uma estimativa de tempo. Abaixo seguem exemplos de como organizar tanto a estimativa de tarefas como também o planning poker:
+(IMAGEM TABELA PLANNING POKER)
+
+    - Segundo passo: Realização de Gráfico
+Mesmo sendo opcional, a melhor opção para visualizar de forma pontual como está o andamento da equipe é traçar um gráfico físico, onde temos uma linha do tempo que seria ideal para realizar as tarefas de forma uniforme e organizada e uma linha onde mostre como esta o andamento do projeto em relação a tempo.
+É importante notar que se a sua linha de projeto esta acima da linha ideal, então você está atrasado em relação ao projeto, caso esteja abaixo você está adiantado.
+
+    - Terceiro passo: Atualização diária
+Esse tema encaixa bem com daily scrum, o gráfico deve ser atualizado conforme as tarefas estão sendo feitas, para manter a visualização em dia assim tendo uma ideia do esforço restante.
+Avalie o progresso para identificar se a equipe está no caminho correto para concluir todas as tarefas dentro do prazo.
+)
+
+
 GLOSSÁRIO
+
+A
+Artefatos Scrum
+São todos os elemento utilizados dentro da metodologia que auxiliarão na execução do projeto de modo que esses respeitem cada um dos princípios do Scrum. Dentre eles estão o Backlog, o Burndown e as Daily Scrums.
 
 B
 Backlog
@@ -325,13 +392,40 @@ D
 Daily scrum
 É uma reunião diária no Scrum, na qual a equipe de desenvolvimento se encontra para sincronizar e planejar o trabalho do dia. Durante a reunião, cada membro da equipe compartilha o que fez no dia anterior, o que planeja fazer no dia atual e quais são os possíveis impedimentos que podem afetar o trabalho.
 
+Definition of Done (DoD)
+A Definition of Done é um conjunto de critérios que define quando uma tarefa ou uma funcionalidade é considerada concluída em metodologias ágeis. Ela descreve as etapas que devem ser concluídas para que o trabalho seja considerado finalizado, incluindo requisitos técnicos, de qualidade e de usabilidade. A DoD é geralmente definida pela equipe de desenvolvimento em conjunto com o Product Owner e é usada como uma referência para avaliar o progresso do trabalho durante uma sprint.
+
+Definition of Ready (DoR)
+Todo projeto possui um caráter progressivo, ou seja, à medida que uma tarefa, outra já terá a base necessária e passa a estar apta para execução. Essa série de requisitos prévios que possibilitam que uma tarefa seja executada correspondem à Definição de Pronto, a qual estabelece se uma tarefa já pode ser produzida e, assim, adicionada ao Backlog da Sprint ou não.
+
 F
 Framework 
 Conjunto de ferramentas, diretrizes e boas práticas que ajudam os desenvolvedores a construir aplicativos de software de forma mais rápida, fácil e consistente. Ele fornece uma estrutura geral para o desenvolvimento de software, permitindo que os desenvolvedores se concentrem mais em resolver problemas específicos do que em criar toda a estrutura do zero.
 
 K
+Kanban
+O método Kanban corresponde a uma metodologia ágil que tem por objetivo transparecer a evolução do desenvolvimento de forma visual definindo as tarefas em setores (a fazer, em execução, concluídas ect.). Sua sinalização foi comumente associada ao uso de post-its coloridos, mas atualmente já existem softwares com a mesma funcionalidade.
+
 Kick off
 No Scrum é a reunião inicial do projeto na qual a equipe e o Product Owner se encontram para alinhar expectativas e definir objetivos, escopo, requisitos, entregas e cronograma do projeto. É uma oportunidade para a equipe esclarecer dúvidas e entender melhor o produto que será desenvolvido.
+
+M
+Metodologias Ágeis
+As metodologias ágeis são um conjunto de práticas e valores que enfatizam a colaboração, a interação com o cliente, a entrega de software funcional em ciclos curtos e a capacidade de adaptação a mudanças ao longo do tempo. As metodologias ágeis mais conhecidas incluem Scrum, Kanban, XP (Extreme Programming), Lean e Crystal.
+
+P
+Planejamento de Sprint
+Nessa etapa da metodologia, toda a equipe se reune com o objetivo de estabelecer aquilo que será feito durante o período da Sprint. Nela geralmente, ocorre a divisão de tarefas (acordadas com o Backlog), estimativa de esforço, prazos e outros fatores.
+
+Produto Mínimo Viável (MVP)
+O MVP é uma técnica usada em metodologias ágeis para desenvolvimento de produtos e serviços que se concentra na criação de um produto com o mínimo de recursos necessários para satisfazer as necessidades dos usuários. O objetivo é lançar rapidamente um produto no mercado e obter feedback dos usuários, de forma a validar a ideia e identificar as funcionalidades mais importantes para futuros aprimoramentos.
+
+R
+Retrospectiva de Sprint
+A Retrospectiva de Sprint é uma reunião realizada no final de cada sprint em metodologias ágeis como o Scrum. Seu objetivo é avaliar o desempenho da equipe durante a sprint anterior e identificar oportunidades de melhoria para a próxima sprint. Durante a retrospectiva, a equipe discute o que funcionou bem, o que não funcionou e o que pode ser feito de forma diferente na próxima sprint.
+
+Revisão de Sprint
+Nesse momento serão expostos para os chamados para todos aqueles que possume algum envolvimento com o projeto (cliente, colaboradores, marketing etc.) cada um dos elementos desenvolvidos na Sprint em questão, com o objetivo de validar o produto e o processo.
 
 S
 Software
@@ -339,6 +433,10 @@ Software
 
 Sprint
 Uma sprint no Scrum é um período de tempo definido (geralmente de uma a quatro semanas) no qual a equipe de desenvolvimento trabalha para entregar uma quantidade definida de funcionalidades ou requisitos do produto. Durante a sprint, a equipe se concentra em alcançar os objetivos definidos no início do sprint, trabalhando nas tarefas do backlog de forma iterativa e incremental.
+
+U
+User Stories
+As User Stories são uma técnica usada em metodologias ágeis para definir os requisitos de um produto de software. Elas são escritas a partir do ponto de vista do usuário, descrevendo uma funcionalidade específica que o usuário deseja que o sistema realize. As User Stories são geralmente escritas em linguagem simples e podem ser acompanhadas por critérios de aceitação que definem o que é necessário para que a funcionalidade seja considerada concluída.
 
 MATERIAIS
 Modelos de Planilha:
