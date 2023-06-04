@@ -48,10 +48,11 @@
 <br>
 <img src=https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/39511b68-8a60-4c13-8c43-6ff542bc9305#gh-dark-mode-only" />
 
+<a href="https://github.com/Byte-Boost/Plataforma-Scrum/blob/main/docs/reunioes.md">Assuntos tratados nas reuniões com o cliente</a>
 
    ### Sprint 1
-   <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a><br>
    <img align="center" src="https://user-images.githubusercontent.com/76211125/229383417-ba242c58-2333-438b-bd94-cf28c7dbcfa7.gif" />
+   <a href="https://www.figma.com/proto/KvENKMg6KXd5eWzcGwpaIf/Plataforma-Scrum-Prot%C3%B3tipo?node-id=14-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=14%3A2&hotspot-hints=0&hide-ui=1">Link do protótipo (Figma)</a><br><br>
 
    - [x] Product Backlog
    - [x] Protótipo Navegável
@@ -78,6 +79,8 @@
    - [x] Página de recomendações e materiais disponíveis
 
    ### Sprint 4
+   <img align="center" src="https://github.com/Byte-Boost/Plataforma-Scrum/assets/76211125/dcf91485-7156-4b0a-b573-20f6b40b4e24" /> 
+
    - [x] Revisão de conteúdo
    - [x] Responsividade do sistema
    - [x] Animação e Destaques de hover nos botões
@@ -137,6 +140,11 @@
 * <p>
    <img align="left" title="css3-logo" height="30px" src="https://user-images.githubusercontent.com/76211125/227503103-bb7005d7-5f2f-46e4-adb5-92ef19ce677d.png"/>
    CSS3
+ </p>
+
+* <p>
+   <img align="left" title="javascript" height="30px" src="https://user-images.githubusercontent.com/76211125/219962802-66165ad6-0869-47ca-8be3-9c64440f9dff.png"/>
+   Javascript
  </p>
 
 * <p>
