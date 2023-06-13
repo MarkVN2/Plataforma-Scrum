@@ -403,13 +403,13 @@ ul li a {
   text-align: center;
   position: absolute;
   border-radius: 2vmin;
-  width: clamp(80px, 12.5vw, 280px);
+  width: clamp(120px, 12.5vw, 280px);
   color: #000000;
   text-decoration: none;
   /* rouglhy 28vh height; */
 }
 .icon-box-top{
-  top: calc(50% - 10vw - 4rem - 14vh); 
+  bottom: calc(50% + 14vh);
 }
 .icon-box-bottom{
   top: calc(50% + 14vh);
@@ -848,7 +848,22 @@ width: 50%;
       display: flex;
       flex-direction: column;
   }
+  /* Home */ 
+.icon-box-top{
+  bottom: calc(58% + 14vh);
+}
+.icon-box-bottom{
+  top: calc(58% + 14vh);
+}
 
+.icon-box-left{
+  left: 18vw;
+  top: calc(50% - 8vw);
+}
+.icon-box-right{
+  right: 18vw;
+  top: calc(50% - 8vw);
+}
   /* /materiais */
   .card-text{
       display: none;
@@ -856,7 +871,7 @@ width: 50%;
   .col{
       width: 100% !important;
   }
-  /* onclusão */
+  /* Conclusão */
   .conclusion-text-divider > .conclusion-para{
       font-size: clamp(14px, 2vw, 40px);
   }
