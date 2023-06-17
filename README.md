@@ -1,5 +1,9 @@
 # Plataforma-Scrum
    <p align="center">
+   <image alt="header" src="https://github.com/Byte-Boost/Plataforma-Scrum/assets/105757405/57b655f5-5d5e-4ee2-b6a0-fb33140c08ca"/>
+   </p>
+      
+   <p align="center">
      <a href ="#objetivo">Objetivo</a>  •
      <a href ="#visão-do-produto">Visão do produto</a>  • 
      <a href ="#cronograma">Cronograma</a>  • 
