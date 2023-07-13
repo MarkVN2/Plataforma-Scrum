@@ -33,6 +33,8 @@
   --t-btn-next-color: rgb(57, 93, 255);
   --t-btn-next-font-color: rgb(255, 255, 255);
   --t-btn-back-color: rgb(226, 224, 224);
+  --scrollbar-bg-color:rgba(31,31,31,0.7);
+  --scrollbar-thumb-color:rgb(255,255,255);
 }
 /* Dark mode parameters */
 html[data-theme="dark"]{
@@ -49,8 +51,20 @@ html[data-theme="dark"]{
   --t-btn-next-font-color: rgb(255, 255, 255);
   --t-btn-back-color: rgb(94, 94, 94);
   --t-btn-back-font-color: rgb(255, 255, 255);
+  --scrollbar-bg-color:rgba(31,31,31,0.7);
+  --scrollbar-thumb-color:rgb(255,255,255);
 }
-
+/* Scroll Customization */
+html::-webkit-scrollbar{
+  width: 0.8vw;
+  display: block;
+  background-color: var(--scrollbar-bg-color);
+  border-radius: 50vw;
+}
+html::-webkit-scrollbar-thumb{
+  background-color:var(--scrollbar-thumb-color);
+  border-radius: 50vw;
+}
 
 p {
   font-family: 'Inter', sans-serif;
