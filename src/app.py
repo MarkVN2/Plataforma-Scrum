@@ -72,8 +72,5 @@ def tutorial():
     return render_template('tutorial.html', buttons=False)
 
 
-
-
-
 if __name__=='__main__': #MAKES THE SERVER START UPON RUNNING THE CODE.
     app.run(debug=True, use_debugger=True,use_reloader=True, host="0.0.0.0")
