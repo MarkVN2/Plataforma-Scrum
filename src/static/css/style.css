@@ -875,7 +875,7 @@ width: 50%;
 /* avaliation */
 
 .form-question{
-  background-color: #fff;
+  background-color: var(--default-bg-color);
   border: 3px solid black;
   border-radius: 20px;
   text-align: center;
