@@ -35,6 +35,8 @@
   --t-btn-back-color: rgb(226, 224, 224);
   --scrollbar-bg-color:rgba(31,31,31,0.7);
   --scrollbar-thumb-color:rgb(255,255,255);
+  --form-right-color:rgba(0, 255, 0, 0.502);
+  --form-wrong-color:rgba(255, 0, 0, 0.502);
 }
 /* Dark mode parameters */
 html[data-theme="dark"]{
@@ -53,6 +55,8 @@ html[data-theme="dark"]{
   --t-btn-back-font-color: rgb(255, 255, 255);
   --scrollbar-bg-color:rgba(31,31,31,0.7);
   --scrollbar-thumb-color:rgb(255,255,255);
+  --form-right-color:rgba(0, 255, 0, 0.502);
+  --form-wrong-color:rgba(255, 0, 0, 0.502);
 }
 /* Scroll Customization */
 html::-webkit-scrollbar{
@@ -868,6 +872,26 @@ width: 50%;
   width: clamp(75px, 12vw, 220px);
 }
 
+/* avaliation */
+
+.form-question{
+  background-color: #fff;
+  border: 3px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+  padding:20px;
+}
+.form-label{
+  font-size: larger;
+  margin: 20px;
+}
+.right{
+  background-color: var(--form-right-color);
+}
+.wrong{
+  background-color: var(--form-wrong-color)
+}
 
 
 /* Responsivity - Media queries */
