@@ -37,6 +37,7 @@
   --scrollbar-thumb-color:rgb(255,255,255);
   --form-right-color:rgba(0, 255, 0, 0.502);
   --form-wrong-color:rgba(255, 0, 0, 0.502);
+  --form-borders-color:rgb(0, 0, 0);
 }
 /* Dark mode parameters */
 html[data-theme="dark"]{
@@ -57,6 +58,7 @@ html[data-theme="dark"]{
   --scrollbar-thumb-color:rgb(255,255,255);
   --form-right-color:rgba(0, 255, 0, 0.502);
   --form-wrong-color:rgba(255, 0, 0, 0.502);
+  --form-borders-color:rgb(255, 255, 255);
 }
 /* Scroll Customization */
 html::-webkit-scrollbar{
@@ -875,16 +877,34 @@ width: 50%;
 /* avaliation */
 
 .form-question{
-  background-color: var(--default-bg-color);
   border: 3px solid black;
   border-radius: 20px;
-  text-align: center;
   margin: 20px;
   padding:20px;
+  text-align: center; 
+}
+.form-box{
+  padding: 10px;
+  background-color: var(--default-bg-color);  
+  border-radius: 10px;
+  border-left: 15px solid var(--form-borders-color) ;
+  border-right: 15px solid var(--form-borders-color);
 }
 .form-label{
   font-size: larger;
   margin: 20px;
+}
+.awnser-list-object{
+  aspect-ratio: 1;
+  width: 20px;
+  margin-inline: 5px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+#awnser-list{
+  display: flex;
+  margin-bottom: 20px;
 }
 .right{
   background-color: var(--form-right-color);

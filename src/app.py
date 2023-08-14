@@ -73,7 +73,7 @@ def tutorial():
 
 @app.route('/avaliation')
 def avaliation():
-    return render_template('outros/avaliation.html', form=True)
+    return render_template('outros/avaliation.html', buttons=False,form=True)
 
 if __name__=='__main__': #MAKES THE SERVER START UPON RUNNING THE CODE.
     app.run(debug=True, use_debugger=True,use_reloader=True, host="0.0.0.0")
