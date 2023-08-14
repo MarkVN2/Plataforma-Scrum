@@ -2,6 +2,7 @@ import data from '../json/exercises.json' assert { type: 'json' };
 
 // Get ID of area where the forms will go
 const FormArea = document.getElementById('form-container');
+const AwnserListArea = document.getElementById('awnser-list');
 
 let form_num = data.length; // Change this if you don't want the size to be the same as in the JSON but don't go over the size of the JSON
 let count = 0;
@@ -38,10 +39,19 @@ for (;count<form_num;count++){
     FormPlace.className = "form-question";
     FormArea.appendChild(FormPlace);
 
+    // Creates a box to put the contents inside for css styling
+    let FormBox = document.createElement('div');
+    FormBox.className ="form-box";
+    FormPlace.appendChild(FormBox);
+
+    let QuestionNum = document.createElement('h4');
+    QuestionNum.innerText = count+1;
+    FormBox.appendChild(QuestionNum);
+
     // Inside the div creates a h1 tag and puts the exercise title inside of it
     let Header = document.createElement("h1");
     Header.innerText = String(data[exercise].exercise_text);
-    FormPlace.appendChild(Header);
+    FormBox.appendChild(Header);
 
     // For each "anwsers" in the JSON creates a radio input and label for it
     for (let key in data[exercise].anwsers){
@@ -62,7 +72,7 @@ for (;count<form_num;count++){
         FormSpan.className = "form-span";
         Form.appendChild(FormSpan);
 
-        FormPlace.appendChild(Label);
+        FormBox.appendChild(Label);
         Label.appendChild(Form);     
         
         
@@ -73,17 +83,41 @@ for (;count<form_num;count++){
             // console.log("CREATED");
             // console.log(alreadyused);
         
+        let qAwnsers = document.createElement('div');
+        qAwnsers.id = count;
+        qAwnsers.className = "awnser-list-object";
+        
+        let linkAwnser = document.createElement('a');
+
+        linkAwnser.innerText = `${count+1}`
+        linkAwnser.href = `#${count}`
+        linkAwnser.style.textDecoration  = 'none';
+        linkAwnser.style.color = 'black';
+        AwnserListArea.appendChild(qAwnsers);
+        qAwnsers.appendChild(linkAwnser);
+        
     };
+    
 };
+
+// Retry Button to refresh the page
+let retryButton = document.createElement('button');
+retryButton.id = "retry-btn";
+retryButton.innerText = '↻';
+AwnserListArea.appendChild(retryButton);
+
+retryButton.onclick = function(){window.location.reload()};
 
 const submitButton = document.getElementById('submit-btn');
 
+let awnserSheet = document.getElementsByClassName('awnser-list-object');
+
 submitButton.onclick = function(){
-    let count = 0;
+    let count = 0;    
     // For every value in the "alreadyused" List
     for (;count<alreadyused.length;count++){
 
-         // console.log(alreadyused[count]);
+            //console.log(alreadyused[count]);
 
         // Grabs correct awnser in the JSON
         let correct_answer = data[alreadyused[count]].anwser;
@@ -99,15 +133,19 @@ submitButton.onclick = function(){
                     // console.log(response,correct_answer);
             };
         });
-        
+
+
         // Compares the response given and the correct one  
         // Correct response gets the class "right"
+        
         if (response == correct_answer){
                 // console.log(`${count+1} está correta`);
+            awnserSheet.item(count).className +=  ' right';
             document.getElementById(count).className +=  ' right';
         }
         // Wrong response gets the class "wrong"
         else{
+            awnserSheet.item(count).className  += ' wrong';
             document.getElementById(count).className += ' wrong';
         };
     
