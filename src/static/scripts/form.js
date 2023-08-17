@@ -50,15 +50,20 @@ for (;count<form_num;count++){
 
     // Inside the div creates a h1 tag and puts the exercise title inside of it
     let Header = document.createElement("h1");
-    Header.innerText = String(data[exercise].exercise_text);
+    Header.innerText = String(data[exercise].exercise_title);
     FormBox.appendChild(Header);
 
-    // For each "anwsers" in the JSON creates a radio input and label for it
-    for (let key in data[exercise].anwsers){
+    let QuestionText = document.createElement("p");
+    QuestionText.innerText = data[exercise].exercise_text;
+    FormBox.appendChild(QuestionText);
+
+
+    // For each "answers" in the JSON creates a radio input and label for it
+    for (let key in data[exercise].answers){
 
         // Creates the label and gives it the awnser in the JSON and a class
         let Label = document.createElement("label");
-        Label.innerHTML = String(data[exercise].anwsers[key]);
+        Label.innerHTML = String(data[exercise].answers[key]);
         Label.className = "form-label";
 
         // Creates the input and gives it a 'type=radio' and a name based on the counter
@@ -71,9 +76,10 @@ for (;count<form_num;count++){
         let FormSpan = document.createElement("span");
         FormSpan.className = "form-span";
         Form.appendChild(FormSpan);
-
+        
+        FormBox.appendChild(Form);   
         FormBox.appendChild(Label);
-        Label.appendChild(Form);     
+      
         
         
     };
@@ -120,7 +126,7 @@ submitButton.onclick = function(){
             //console.log(alreadyused[count]);
 
         // Grabs correct awnser in the JSON
-        let correct_answer = data[alreadyused[count]].anwser;
+        let correct_answer = data[alreadyused[count]].answer;
         
         let response;
 
@@ -142,6 +148,7 @@ submitButton.onclick = function(){
                 // console.log(`${count+1} está correta`);
             awnserSheet.item(count).className +=  ' right';
             document.getElementById(count).className +=  ' right';
+            
         }
         // Wrong response gets the class "wrong"
         else{
