@@ -1,0 +1,41 @@
+1. O que é Scrum?
+a) Framework
+b) Software
+c) Metodologia Ágil
+
+2. Quais são os três pilares do Scrum?
+a) Adapatação, proatividade e cooperação
+b) Transparência, inspeção e adaptação
+c) Inovação, transparência e comunicação
+
+3. Das seguintes afirmações, qual não faz parte dos 4 valores principais do Manifesto Ágil:
+
+a) Comunicação eficaz mais que 
+b) Software em funcionamento mais que documentação abrangente
+c) Responder a mudanças mais que seguir um plano
+
+4. Quais são os três cargos de uma equipe Scrum?
+
+a) Marketing Leader, Dev Team e Analista de dados
+b) Gerente, Scrum Master e Dev Team
+c) Scrum Master, Product Owner e Dev Team
+
+5. Leia as afirmativas a seguir:
+I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados.
+II - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário
+III - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto.
+Quais as afirmativas estão corretas?
+
+a) I, II, III
+b) I, II
+c) II, III
+
+6) MVP
+
+7) Burndown
+
+8) Sprint Planning, Sprint Review e Sprint Retrospective
+
+9) Backlog
+
+10) DOD e DOR
