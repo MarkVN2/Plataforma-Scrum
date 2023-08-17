@@ -1,42 +1,57 @@
 [
     {
     "exercise_id":"0",
-	"exercise_text" : "How many letters are in 'Thiago'?", 
-	"anwser" : "A",
+    "exercise_title" : "O que é Scrum?", 
+    "exercise_text":"",
+    "anwser" : "C",
 	"anwsers":{
-        "A":"6",
-        "B":"7",
-        "C":"5"
+        "A":"Framework",
+        "B":"Software",
+        "C":"Metodologia Ágil"
     }
 },
 {
     "exercise_id":"1",
-	"exercise_text" : "How much is 3x3", 
-	"anwser" : "B",
+	"exercise_title" : "Quais são os três pilares do Scrum?", 
+    "exercise_text":"",
+    "anwser" : "B",
 	"anwsers":{
-        "A":"6",
-        "B":"9",
-        "C":"33"
+        "A":"Adapatação, proatividade e cooperação",
+        "B":"Transparência, inspeção e adaptação",
+        "C":"Inovação, transparência e comunicação"
     }
 },
 {
     "exercise_id":"2",
-	"exercise_text" : "How much is 2+2?", 
-	"anwser" : "A",
+	"exercise_title" : "Das seguintes afirmações, qual não faz parte dos 4 valores principais do Manifesto Ágil:", 
+    "exercise_text":"",
+    "anwser" : "A",
 	"anwsers":{ 
-        "A":"4",
-        "B":"22",
-        "C":"5"
+        "A":"Comunicação eficaz mais que ",
+        "B":"Software em funcionamento mais que documentação abrangente",
+        "C":"Responder a mudanças mais que seguir um plano"
     }
 },
 {
     "exercise_id":"3",
-	"exercise_text" : "How much is 5! ?", 
+	"exercise_title" : "Quais são os três cargos de uma equipe Scrum?", 
+    "exercise_text":"",
 	"anwser" : "C",
 	"anwsers":{ 
-        "A":"1200",
-        "B":"5",
-        "C":"120"
+        "A":"Marketing Leader, Dev Team e Analista de dados",
+        "B":"Gerente, Scrum Master e Dev Team",
+        "C":"Scrum Master, Product Owner e Dev Team"
+    }
+},
+{
+    "exercise_id":"4",
+	"exercise_title" : "Quais são os três cargos de uma equipe Scrum?",
+    "exercise_text":"I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados.\nII - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário\nIII - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto.\nQuais as afirmativas estão corretas?", 
+	"anwser" : "C",
+	"anwsers":{ 
+        "A":"I, II, III",
+        "B":"I, II",
+        "C":"II, III"
     }
 }
 
