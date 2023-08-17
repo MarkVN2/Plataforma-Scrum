@@ -1,4 +1,4 @@
-import data from '../json/exercises.json' assert { type: 'json' };
+import data from '../json/exercises_pt.json' assert { type: 'json' };
 
 // Get ID of area where the forms will go
 const FormArea = document.getElementById('form-container');
@@ -16,7 +16,7 @@ let alreadyused = [];
 if (form_num > data.length){
     console.log("|| PREVENTED INFINITE LOOP || DECREASE THE FORM_NUM VARIABLE TO A SIZE WITHIN THE LIMITS OF THE JSON");
     form_num = data.length;
-}
+};
 
 for (;count<form_num;count++){
     
@@ -61,24 +61,23 @@ for (;count<form_num;count++){
     // For each "answers" in the JSON creates a radio input and label for it
     for (let key in data[exercise].answers){
 
+        let InputBox = document.createElement("div");
+        InputBox.className = "input-container";
+        FormBox.appendChild(InputBox);
+
         // Creates the label and gives it the awnser in the JSON and a class
         let Label = document.createElement("label");
         Label.innerHTML = String(data[exercise].answers[key]);
         Label.className = "form-label";
 
         // Creates the input and gives it a 'type=radio' and a name based on the counter
-        let Form = document.createElement("input");
-        Form.name = `${count}`;
-        Form.value = key;
-        Form.type = "radio";
+        let FormInput = document.createElement("input");
+        FormInput.name = `${count}`;
+        FormInput.value = key;
+        FormInput.type = "radio";
 
-        // Creates a span for customization of the radio look using CSS
-        let FormSpan = document.createElement("span");
-        FormSpan.className = "form-span";
-        Form.appendChild(FormSpan);
-        
-        FormBox.appendChild(Form);   
-        FormBox.appendChild(Label);
+        InputBox.appendChild(FormInput);   
+        InputBox.appendChild(Label);
       
         
         
@@ -98,7 +97,7 @@ for (;count<form_num;count++){
         linkAwnser.innerText = `${count+1}`
         linkAwnser.href = `#${count}`
         linkAwnser.style.textDecoration  = 'none';
-        linkAwnser.style.color = 'black';
+        linkAwnser.style.color = 'var(--default-txt-color)';
         AwnserListArea.appendChild(qAwnsers);
         qAwnsers.appendChild(linkAwnser);
         
