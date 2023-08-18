@@ -58,11 +58,11 @@
     "exercise_id": "5",
 	"exercise_title": "Qual a importância do MVP para a metodologia Scrum?",
     "exercise_text": "", 
-	"answer": "C",
+	"answer": "B",
 	"answers": { 
         "A":"Capacidade de medir desempenho dos membros da equipe",
-        "B":"Agiliza a entrega do produto final",
-        "C":"Estabelece entregas de valor incremental do produto"
+        "B":"Estabelece entregas de valor incremental do produto",
+        "C":"Agiliza a entrega do produto final"
     }
 },
 {
@@ -89,24 +89,24 @@
 },
 {
     "exercise_id": "8",
-	"exercise_title": "Das afirmações abaixo, quais estão corretas?",
-    "exercise_text": "I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados. \nII - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário \nIII - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto. \nQuais as afirmativas estão corretas?", 
-	"answer": "C",
+	"exercise_title": "Das seguintes afirmações sobre Backlog, qual é falsa?",
+    "exercise_text": "", 
+	"answer": "B",
 	"answers": { 
-        "A":"I, II, III",
-        "B":"I, II",
-        "C":"II, III"
+        "A":"O Backlog pode passar por várias alterações",
+        "B":"No Backlog são listados as tarefas a serem feitas pela equipe",
+        "C":"O cliente pode fazer alterações no Backlog"
     }
 },
 {
     "exercise_id": "9",
-	"exercise_title": "Das afirmações abaixo, quais estão corretas?",
-    "exercise_text": "I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados. \nII - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário \nIII - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto. \nQuais as afirmativas estão corretas?", 
+	"exercise_title": "Qual a diferença entre Definição de Feito e Definição de Pronto?",
+    "exercise_text": "", 
 	"answer": "C",
 	"answers": { 
-        "A":"I, II, III",
-        "B":"I, II",
-        "C":"II, III"
+        "A":"Definição de Feito faz referência a requisitos em desenvolvimento e Definição de Pronto a tarefas prontas para entrega",
+        "B":"Definição de Feito faz referência a requisitos dados como concluídos e Definição de Pronto a requisitos aptos a serem iniciados",
+        "C":"Definição de Feito faz referência a requisitos aptos a serem iniciados e Definição de Pronto a requisitos dados como concluídos"
     }
 }
 

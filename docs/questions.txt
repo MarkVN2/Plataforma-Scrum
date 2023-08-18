@@ -33,8 +33,8 @@ c) II, III
 6) Qual a importância do MVP para a metodologia Scrum?
 
 a) Capacidade de medir desempenho dos membros da equipe
-b) Agiliza a entrega do produto final
-c) Estabelece entregas de valor incremental do produto
+b) Estabelece entregas de valor incremental do produto
+c) Agiliza a entrega do produto final
 
 7) O Burndown é um artefato Scrum essencial para o desenvolvimento do projeto na metodologia Scrum, pois ele é responsável por:
 

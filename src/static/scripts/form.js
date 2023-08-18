@@ -4,7 +4,7 @@ import data from '../json/exercises_pt.json' assert { type: 'json' };
 const FormArea = document.getElementById('form-container');
 const AwnserListArea = document.getElementById('awnser-list');
 
-let form_num = data.length; // Change this if you don't want the size to be the same as in the JSON but don't go over the size of the JSON
+let form_num = 5; // Change this if you don't want the size to be the same as in the JSON but don't go over the size of the JSON
 let count = 0;
 
 // Randomize the question to be used in the form
