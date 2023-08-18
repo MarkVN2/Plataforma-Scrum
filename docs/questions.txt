@@ -4,13 +4,13 @@ b) Software
 c) Metodologia Ágil
 
 2. Quais são os três pilares do Scrum?
-a) Adapatação, proatividade e cooperação
+a) Adaptação, proatividade e cooperação
 b) Transparência, inspeção e adaptação
 c) Inovação, transparência e comunicação
 
 3. Das seguintes afirmações, qual não faz parte dos 4 valores principais do Manifesto Ágil:
 
-a) Comunicação eficaz mais que 
+a) Comunicação eficaz mais que designação de tarefas
 b) Software em funcionamento mais que documentação abrangente
 c) Responder a mudanças mais que seguir um plano
 
@@ -30,12 +30,32 @@ a) I, II, III
 b) I, II
 c) II, III
 
-6) MVP
+6) Qual a importância do MVP para a metodologia Scrum?
 
-7) Burndown
+a) Capacidade de medir desempenho dos membros da equipe
+b) Agiliza a entrega do produto final
+c) Estabelece entregas de valor incremental do produto
 
-8) Sprint Planning, Sprint Review e Sprint Retrospective
+7) O Burndown é um artefato Scrum essencial para o desenvolvimento do projeto na metodologia Scrum, pois ele é responsável por:
 
-9) Backlog
+a) Fazer a gestão das tarefas estabelecidas pelo grupo
+b) Organizar em ordem de prioridade os requisitos que irão compor o produto 
+c) Armazenar os dados identificados e definidos pelo cliente
 
-10) DOD e DOR
+8) O desenvolvimento de uma Sprint é composto pot Sprint Planning, Sprint Review e Sprint Retrospective. O que cada uma dessas etapas corresponde respectivamente?
+
+a) Estabelece aquilo que será feito na Sprint, avalia o desempenho da equipe na Sprint e entrega aquilo que foi desenvolvido durante a Sprint
+b) Estabelece aquilo que será feito na Sprint, entrega aquilo que foi desenvolvido durante a Sprint e avalia o desempenho da equipe na Sprint
+c) Avalia o desempenho da equipe na Sprint, estabelece aquilo que será feito na Sprint e entrega aquilo que foi desenvolvido durante
+
+9) Das seguintes afirmações sobre Backlog, qual é falsa?
+
+a) O Backlog pode passar por várias alterações
+b) No Backlog são listados as tarefas a serem feitas pela equipe
+c) O cliente pode fazer alterações no Backlog
+
+10) Qual a diferença entre Definição de Feito e Definição de Pronto?
+
+a) Definição de Feito faz referência a requisitos em desenvolvimento e Definição de Pronto a tarefas prontas para entrega
+b) Definição de Feito faz referência a requisitos dados como concluídos e Definição de Pronto a requisitos aptos a serem iniciados
+c) Definição de Feito faz referência a requisitos aptos a serem iniciados e Definição de Pronto a requisitos dados como concluídos
