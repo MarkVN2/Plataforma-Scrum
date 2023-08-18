@@ -314,6 +314,14 @@ ul li a {
 }
 
 /* Modal Footer */
+.btn-footer-modal {
+  background: rgb(207, 226, 255, 0.5);
+  border: rgb(207, 226, 255, 0.5);
+}
+.btn-footer-modal:hover {
+  background-color: rgba(0, 0, 0, 0.17);
+  border: rgba(0, 0, 0, 0.17);
+}
 .modal-memb {
   margin: .1rem;
   padding: 1rem;
