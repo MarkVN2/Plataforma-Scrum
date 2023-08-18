@@ -45,7 +45,62 @@
 },
 {
     "exercise_id": "4",
-	"exercise_title": "Quais são os três cargos de uma equipe Scrum?",
+	"exercise_title": "Das afirmações abaixo, quais estão corretas?",
+    "exercise_text": "I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados. \nII - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário \nIII - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto. \nQuais as afirmativas estão corretas?", 
+	"answer": "C",
+	"answers": { 
+        "A":"I, II, III",
+        "B":"I, II",
+        "C":"II, III"
+    }
+},
+{
+    "exercise_id": "5",
+	"exercise_title": "Qual a importância do MVP para a metodologia Scrum?",
+    "exercise_text": "", 
+	"answer": "C",
+	"answers": { 
+        "A":"Capacidade de medir desempenho dos membros da equipe",
+        "B":"Agiliza a entrega do produto final",
+        "C":"Estabelece entregas de valor incremental do produto"
+    }
+},
+{
+    "exercise_id": "6",
+	"exercise_title": "O Burndown é um artefato Scrum essencial para o desenvolvimento do projeto na metodologia Scrum, pois ele é responsável por:",
+    "exercise_text": "", 
+	"answer": "C",
+	"answers": { 
+        "A":"Fazer a gestão das tarefas estabelecidas pelo grupo",
+        "B":"Organizar em ordem de prioridade os requisitos que irão compor o produto",
+        "C":"Armazenar os dados identificados e definidos pelo cliente"
+    }
+},
+{
+    "exercise_id": "7",
+	"exercise_title": "O desenvolvimento de uma Sprint é composto pot Sprint Planning, Sprint Review e Sprint Retrospective. O que cada uma dessas etapas corresponde respectivamente?",
+    "exercise_text": "", 
+	"answer": "C",
+	"answers": { 
+        "A":"Estabelece aquilo que será feito na Sprint, avalia o desempenho da equipe na Sprint e entrega aquilo que foi desenvolvido durante a Sprint",
+        "B":"Estabelece aquilo que será feito na Sprint, entrega aquilo que foi desenvolvido durante a Sprint e avalia o desempenho da equipe na Sprint",
+        "C":"Avalia o desempenho da equipe na Sprint, estabelece aquilo que será feito na Sprint e entrega aquilo que foi desenvolvido durante"
+    }
+},
+{
+    "exercise_id": "8",
+	"exercise_title": "Das afirmações abaixo, quais estão corretas?",
+    "exercise_text": "I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados. \nII - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário \nIII - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto. \nQuais as afirmativas estão corretas?", 
+	"answer": "C",
+	"answers": { 
+        "A":"I, II, III",
+        "B":"I, II",
+        "C":"II, III"
+    }
+},
+{
+    "exercise_id": "9",
+	"exercise_title": "Das afirmações abaixo, quais estão corretas?",
     "exercise_text": "I - Toda equipe Scrum é liderada pelo Scrum Master. Ele é o responsável por orientar a equipe quanto aos passos que serão tomados. \nII - User Stories são formas de descrever funcionalidades do produto da perspectiva de um usuário \nIII - Uma Sprint é um período de tempo definido em que a equipe se empenha para entregar um quantia definidade de funcionalidades e aprimoramentos do produto. \nQuais as afirmativas estão corretas?", 
 	"answer": "C",
 	"answers": { 
