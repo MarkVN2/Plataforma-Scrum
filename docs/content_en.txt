@@ -1,0 +1,473 @@
+HOME
+The agile methodology is capable of accomplishing complex projects in a simple and manageable way.
+Start your journey with these tool, revolutionize the way your team works and start having double the performancedos.
+
+METODOLOGIA - INTRODUCTION
+In the current accelerated and innovative market, for a company to stay modern, it needs to adapt itself to changes that tecnology is implementing and find, in midst of this hectic scenario, opportunities to accomplish a relevant work.
+
+Having this point of view is crucial for an institution of success to establish adequate methods that will guide the actions that will be taken in its work environment.
+
+In the past, the main methodology adopted by many institutions became popularly known as "Assembly line" or "Cascade method"
+(GIF REVOLUÇÃO INDUSTRIAL/LINHA DE PRODUÇÃO/FORDISMO)
+
+This traditional production system was inherited from the fordist development, during the second industrial revolution, and had as a principle the establishment of specific and repetitive tasks, designated to certain individuals that would little by little be added until they resulted in the expected final product.
+
+This proceedure kept going for a while, however it was shown to be inefficient and certain inconstancies that delayed the process were revealed, mainly during the executions of more complex tasks.
+
+(CONTEÚDO EXTRA - ONE STEP FORWARD... BUT ON THE OPPOSITE DIRECTION Some examples of disadvantages in the cascade method of production are:
+- Late evaluation (Being late to sinalize flaws in the process)
+- Stagnation of the process (leaving part of the work force idle while they await for the moment to carry out their task)
+
+IMAGEM - COMMUNICATION AND PROCESS FAILURE
+
+What's the point of making multiple advancements, if they go against what the client really wants? the sum of these gaps in the production process are translated as delays and damages for the company, and insatisfaction for the client.
+)
+
+METODOLOGIA - WHAT IS SCRUM?
+It was designed to obtain a way of increasing the performance and profitability in the development, and companies started adopting the so called Agile Methodologies, Tools that aim to offer better work conditions and the resolution of tasks with more cost-effectiveness. In midst of them, there's the methodology which we will be addressing in this content.
+
+SCRUM
+
+Unlike other methodologies, this framework has as a foundation, the establishment of a self-managing team, adaptable to changes and that lets go of the entire reinforced structure of professional hierarchy, in favor of promoting a better dynamicity and flow for the team, aiming to carry out more meaningful deliveries to the project.
+
+(IMAGEM DO SCRUM RUGBY)
+
+The name Scrum comes from a game of rugby, in which the players of a team get together and break through the obstacles of the opposing team until they reach the score line, all done strategically and collaboratively. This is the essence that Scrum brings to the workplace.
+
+METODOLOGIA - VISION
+In a Scrum team, everyone is aware of the product vision, the objectives to be achieved and the requirements that have been determined to be executed. 
+
+There is no member who has any level of leadership or authority to impose instructions on the others (with the exception of cases where there is an external person responsible for coordinating the progress of the project, who is not a member of the team).
+
+Thus, it is up to the members to manage for themselves the ways in which they will organize themselves, what each individual's responsibilities will be and the metrics for evaluating performance.
+
+The application of this methodology is based on the Agile Manifesto and its 4 main values:
+
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
+
+METODOLOGIA - PILLARS
+At all times, Scrum prioritizes the delivery of elements which, even if they have not reached the expected projection for the final product, already have functionality and can be applied.
+
+In order to achieve this goal, the so-called Scrum Artifacts are established, which are fundamental elements in project management and will be detailed one by one throughout this content.
+
+This whole methodology is based on the MVP principle, or Minimum Viable Product. Its aim is to promote successive incremental deliveries that add value to the client, and in some cases are even capable of generating a profitable return on investment in the early stages of the project.
+
+(CONTEÚDO EXTRA - HOW TO DEFINE THE MVP
+Production based on the MVP will always aim to make gradual deliveries that meet customer demand. As in the example below. 
+
+(IMAGEM SKATE/PATINS/CARRO)
+
+A customer who wants a car to get around won't be completely satisfied when they receive a skateboard on the first delivery, but they will already have a usable item in their hands that adds value. The opposite happens in the other case, where even after three deliveries, the customer still can't get any use out of what they've received so far.
+)
+
+What's more, because of this constant validation with the client, if any of their expectations are not met or there is any kind of failure in the execution, it can be remedied in its early stages.
+
+Finally, another crucial feature of Scrum is that there are no interruptions in production to wait for another task to be developed. Tasks are delegated, but they are independent of each other.
+
+This whole theory is based on the following pillars:
+
+Transparency: The members of the group need to be transparent at all times about the progress of their task, their needs and their perceptions. This team integration is essential, as no one can know what the other is going through unless they speak up and ask for help.
+(ÍCONE - APERTO DE MÃOS)
+
+Inspection: The process is made up of iteration, trial and error. It is therefore necessary for the group to frequently assess whether the decisions and planning chosen are delivering the expected result.
+(ÍCONE - LUPA)
+
+Adaptation: Scrum development is full of changes. Naturally, some planned elements will lose the value they had when they were first conceived, making a series of adaptations necessary. Remember, this method encourages dynamism, not rigidity.
+(ÍCONE - CICLO DE MUDANÇAS DE FORMAS)
+
+METODOLOGIA - Self-evaluation
+The essence of Scrum teams is their ability to be self-managing. 
+
+This skill allows them to abstract themselves from the situations and scenarios in which they find themselves so that they can analyze the process from a critical point of view. 
+
+This is a fundamental stage of production, because after long hours of development, in which the developers are absorbed in their creativity and ideas, the moments of alignment of vision will be important to ensure that the project maintains the identity and objectives that have been established.
+
+Therefore, when the Sprint's closing date arrives, the team will hold its Sprint Review, in which everything that has been developed during this period will be presented to everyone involved in the project. At this point, the team will be able to receive external feedback on the development of the work, from which they can direct their future resolutions.
+
+(IMAGEM REUNIÃO AUTOAVALIAÇÃO)
+
+A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desenrolando. 
+
+(CONTEÚDO EXTRA - COLOCANDO A CASA EM ORDEM
+Nesse processo de 'lavagem de roupa suja' é importante que os indíviduos não apenas ressaltem os pontos negativos, mas também levantem pontos postivos do grupo e enaltaçam os destaques individuais. 
+(GIF LAVAGEM DE ROUPA)
+Além disso, esse é o momento propício para expressar ideias e opiniões.)
+
+Esse é o momento no qual cada um dos integrantes da equipe poderá avaliar o desempenho de seus colegas e receber os feedbacks de como tem sido a sua colaboração no projeto.
+
+Alguns pontos individuais que podem ser considerados são entrega de resultados, autonomia, cooperação, proatividade, entre outros.
+
+(CONTEÚDO EXTRA - EXEMPLO DE QUADRO DE AUTOAVALIAÇÃO
+
+Esse é um exemplo de quadro que pode ser atualizado para ter uma visão geral de como sua equipe se desempenhou. Nos quadro serão apontados aquilo que deu certo e é aquilo que não foi legal na sprint, podendo ser questões gerais ou individuais. Já nos inferiores serão compatilhadas as ideias que surgirem e levantados quem foram os destaque dos grupo.
+
+(IMAGEM QUADRO RETROSPECTIVA DE SPRINT)
+
+Como o objetivo da avaliação é criar evoluir e não regredir, o ideal é realizar o preenchimento desse quadro de forma anônimo para que os comentários possam ser impessoais.
+)
+
+Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
+
+ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF
+(DROPDOWN - GIF CONTRUÇÃO PRÉDIO
+Se associarmos o produto que está sendo desenvolvido a um prédio em construção, o Kick Off assertivamente poderia ser relacionado ao alicerce que é feito, o qual representará essa base forte que fundamentará as demais etapas que comporão as etapas superiores.
+Nessa etapa, o cliente apresentará os porquês de seu interesse no projeto, qual a visão geral do produto, as necessidades, os desejos e as expectativas que foram geradas.)
+
+DÊ OPINIÕES E IDEIAS
+(DROPDOWN - IMAGEM REUNIÃO DE BRAINSTORMING/IDEIAS
+Opiniões e críticas respeitosas e construtivas serão sempre bem-vindas. Durante a avaliação interna do grupo, é normal que apareçam divergências de opinião e conflitos de ideias em relação a alguns pontos do projeto (conflitos não em referência a brigas e ofensas, mas a contradições e dilemas). 
+Essas discussões devem ser tidas por positivas, pois esses pensamentos desiguais levarão a equipe a sair da zona de conforto, forçando-a a buscar possíveis resoluções para o dilema em questão. Essas situações sempre terão por resultado o crescimento da equipe e uma série de possíveis aprimoramentos e novas ideias.)
+
+ADAPTE-SE
+(DROPDOWN - IMAGEM CAMALEÃO
+Mesmo que você esteja tendo seu primeiro contato com Scrum a partir desse material, supõe-se que já tenha entendido o quanto a adaptabilidade será fundamental para o sucesso do seu projeto. Uma das maiores vantagens dessa metodologia é essa autonomia que ela fornece à equipe para que alterações sejam feitas durante o desenvolvimento do projeto. 
+Tudo isso vai acontecendo naturalmente. Uma nova ideia surge, novas perspectivas sendo acessadas conforme o projeto progride, aquilo que outrora fazia muito sentido e era tido por essencial vai perdendo a importância e ficando em segundo plano e tudo vai se reformulando e sendo aprimorado.)
+
+METODOLOGIA - TEAM
+Em todo início de projeto a equipe irá, a partir da visão do produto passada pelo cliente, estabelecer requisitos, os quais se referem aos fatores que promovem uma solução ou satisfazem as necessidades do cliente. 
+
+Esse estágio é mais conhecido como Kick Off. A composição desses fatores será o produto final. Os requisitos são ordenados em uma lista de prioridades chamada Backlog, a qual iremos discorrer com detalhes mais adiante.
+
+(CONTEÚDO EXTRA - A IMPORTÃNCIA DO KICK OFF/PREPAROS PARA LARGADA
+O Kick Off pode ser associado aos preparativos feitos por um corredor antes de uma corrida. Realizar a análise do percurso a ser trilhado e estudar qual a melhor estratégia a ser adotada são medidas que preparam o atleta e aumentam suas chances de obter bons resultados.
+
+Da mesma forma acontece no Kick Off. O time irá estudar os objetivos a serem alcançados e elaborar estratégias para que possam estruturar uma forma de desenvolvimento organizada e alinhada às expectativas do cliente para quando for dada a largada.
+
+(GIF CORREDORES)
+)
+
+Após estabelecer a importância de cada uma dessas tarefas, inicia-se a produção, dando prioridade às que forem qualificadas como imprescindíveis, que não podem faltar no produto e assim suscessivamente.
+
+Os requisitos são divididos em períodos de produção, os quais são conhecidos como Sprints.
+
+O projeto completo será composto por uma série de Sprints, tendo a quantia variada de acordo com a complexidade do produto.
+
+(IMAGEM - ETAPAS SCRUM)
+
+No início de cada Sprint, os integrantes se reunirão para juntos alinharem as tarefas e a estratégia que serão adotadas. Essa etapa é conhecida como Sprint Planning - Planejamento de Sprint.
+
+Já ao final será realizada a já citada Retrospectiva de Sprint, a qual fornece um panorama geral de como a equipe se comportou e analisa os prós e os contras da etapa de desenvolvimento em questão.
+
+Quanto aos membros da equipe, eles serão divididos em cargos de acordo com a função que exercerão no time.
+
+Como no time Scrum não há nenhuma estrutura hierárquica, enfatiza-se que esses papéis se referem às responsabilidades que serão designadas para cada um.
+
+Os cargos que todo Scrum Team precisa ter são: 
+
+Scrum Master 
+(ÍCONE - SM)
+
+Product Owner 
+(ÍCONE - PO)
+
+Development Team 
+(ÍCONE - DEV TEAM). 
+ 
+A seguir, iremos discorrer com mais detalhes cada uma dessas funções.
+
+PRODUCT OWNER - PRORIZANDO O VALOR DO PRODUTO
+O Proprietário do Produto, mais conhecido como P.O., é o responsável pelo produto em sua totalidade e deverá esclarecer para seu grupo quais são as expectativas e a visão geral que o cliente tem para o projeto e que deverão ser supridas durante o período de desenvolvimento para que o produto atinja os objetivos finais de aprovação.
+
+Sua atuação é de um interlocutor entre os membros de sua equipe e o cliente em questão. Ele será o responsável por captar os requisitos que forem levantados pelo contratante, levando em consideração suas necessidades e desejos, e encaminhá-los de forma clara e concisa ao grupo.
+
+(CONTEÚDO EXTRA - A BOA COMUNICAÇÃO 
+Você se lembra daquela brincadeira infantil em grupo chamada telefone sem fio? Nela uma das crianças define uma frase que será passada de uma criança para a outra sussurrando até que chegue na última criança, que falará o que ouviu em alta voz.
+
+(IMAGEM FALANDO NO OUVIDO)
+
+O desafio é fazer com que a frase chegue completa aos ouvidos da última criança, mas uma pequena desatenção ou interpretação errada pode mudar compltamente o sentido da frase. Assim, é no trabalho de um P.O.
+
+Ele é responsável por garantir que não haja equívocos na passagem dos requisitos e objetivos, de modo que o que foi passado pelo cliente seja preservado.
+)
+
+Em seguida, os membros realizarão juntos a análise técnica daquilo que foi levantado e definirão a estratégia que será adotada e quais medidas tomarão para desempenhar aquilo que foi requerido.
+
+(IMAGEM DE UMA REUNIÃO DE NEGÓCIOS)
+
+É muito importante salientar que mesmo que a equipe faça a análise conjunta de cada uma das particularidades do processo e decida priorizar certos requisitos em detrimento de outros, sempre será o cliente a dar a palavra final quanto ao que é essencial e o que não é para o projeto. Assim, caberá ao P.O. representar o seu posicionamento dentro do ambiente de equipe, pois é ele o responsável por dominar aquilo que possui maior valor para o contratante. Portanto, uma característica indispensável para um bom P.O. é possuir o conhecimento aprofundado de cada uma das facetas do produto/serviço com o qual a equipe lidará.
+
+Outras competências necessárias para desempenhar essa função são boa comunicação, habilidades interpessoais, facilidade em expressar, tanto para o cliente quanto para a equipe, as ideias e requisitos propostos.
+
+A principal ferramenta com a qual o P.O. irá interagir durante todo o período de desenvolvimento do projeto é o Backlog do Produto.
+
+PRODUCT OWNER - BACKLOG
+O Backlog nada mais é do que uma planilha na qual são listados todos os requisitos do projeto em ordem decrescente de prioridade (das tarefas mais importantes para as menos).
+
+É indispensável que toda equipe tenha logo no início do projeto um Backlog bem definido para que todos consigam visualizar não apenas o que estará sendo realizado no momento presente, mas também fazer uma projeção de quais as responsabilidades que virão.
+
+É necessário ressaltar que a planilha Backlog não é uma ferramenta de gestão interna do grupo, mas um instrumento responsável por orientar tanto aqueles que estão dentro da produção como os que estão fora dela, que é o caso do cliente com o qual a equipe tem cooperado.
+
+É fundamental que o cliente e o time estejam na mesma página quanto às expectativas e execução do projeto para que possam juntos elaborar soluções que sejam eficazes e superem o esperado.
+
+(DESTAQUE 
+Lembrando que, como todos os elementos do Scrum, o Backlog também se adapta a mudanças. Uma coisa é certa: haverá mudanças nos requisitos conforme as Sprints forem sendo realizadas!
+)
+
+(CONTEÚDO EXTRA - ADAPTANDO
+Pense em uma longa viagem de carro de cerca de 10h de duração. Digamos que o indivíduo iniciou sua viagem às 12h e decidiu usar roupas mais leves devido ao calor do horário. Porém, com o passar do tempo o Sol foi se pondo e a temperatura foi esfriando, passando a fazer mais sentido para o viajante o uso de roupas mais pesadas para se esquentar.
+
+Assim é com o decorrer do projeto. Conforme ele se desenrola, alguns pontos antes estabelecidos vão perdendo o sentido, fazendo-se necessárias mudanças que fazem mais sentido na situação.
+(GIF CARRO NA ESTRADA)
+)
+
+(IMAGEM EXEMPLO DA PLANILHA DE BACKLOG)
+
+Além do Backlog geral do produto, outra planilha essencial para a gestão de tarefas e responsabilidades é a planilha de Backlog da Sprint. Ela possui a mesma essência da planilha geral, mas com algumas identificações e especificações a mais para que que haja a execução por completo das tarefas designadas.
+
+Nessa planilha, todos os requisitos são descritos por meio do que chamamos de User Stories. Essas tem a função de explicar o requisito no formato de um desejo feito por alguém sem o conhecimento técnico, mas que expõe qual a expectativa do usuário em relação ao produto que ele irá dispor futuramente.
+
+(CONTEÚDO EXTRA - OUTRA PERSPECTIVA/A VISÃO DO OUTRO
+Cada pessoa tem uma história única. Pensamentos únicos, experiências únicas, opiniões únicas e realidades únicas. Um produto de sucesso será aquele capaz de identificar essas particularidades, esses cenários distintos e trazer valor a cada um deles. Para acessar esses vários contextos é que são desenvolvidas as User Stories. 
+Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas necessidades e desejos e promover soluções que trarão uam melhor qualidade de vida ao indivíduo e experiências prazerosas.
+
+(IMAGEM LENTES)
+)
+
+O formato padrão de uma US bem formulada precisa ter as seguinte informações:
+
+(TABELA - INDIVÍDUO QUE EXPRESSA DESEJO + AÇÃO/ELEMENTO QUE DESEJO INTERAGIR + PORQUÊ/MOTIVO DA FUNCIONALIDADE, O QUE ELA IRÁ AGREGAR À EXPERIÊNCIA)
+(EXEMPLO: EU, COMO USUÁRIO ALUNO DA PLATAFORMA, DESEJO UMA PÁGINA DE CONTATO COM OS PROFESSORES PARA QUE POSSA TIRAR MINHAS DÚVIDAS QUANTO AO CONTEÚDO LECIONADO)
+
+Para que uma tarefa esteja apta para ser adicionada ao Backlog da Sprint, ela precisará passar antes pelo crivo do Definition of Ready (DoR), a Definição de Pronto, a qual possui o papel de qualificar se uma certa tarefa já poderá ser produzida ou se ainda há alguma pendência que impossibilita sua execução no momento.
+
+Outro quesito que deve ser expresso no Backlog da Sprint é a Estimativa de Esforço das tarefas. 
+
+Nesse campo será exposto qual é, segundo a perspectiva do grupo, o tempo necessário para realização da determinada tarefa em função da dificuldade que ela possui para ser concretizada.
+
+Em seguida, são colocados o respectivo requisito do Backlog do Produto que define aquela US e o seu critério de aceitação, sendo esse último uma das partes principais dessa planilha. Ele é o responsável por indicar o que chamamos de Definition of Done (DoD), ou Definição de Feito. Com base nesse critério, o grupo avalia se o requisito pode ser classificado como concluído ou não.
+
+SCRUM MASTER - A METODOLOGIA APLICADA
+O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodologia Scrum, suas práticas e princípios fundamentais.
+
+(IMAGEM - REPRESENTAÇÃO DE ESQUEMA DE PROCESSO)
+
+Sua operação se resume em reger o andamento do projeto, analisando o rendimento de cada um dos integrantes e concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas ou se alguma das partes do projeto está com alguma de suas demandas pendentes, realizando assim o principio da INSPEÇÃO.
+
+(CONTEÚDO EXTRA - REGENDO O ANDAMENTO DO PROJETO/COMO REGER?
+Um dos maiores exemplos de trabalho em equipe primoroso são as orquestras. A junção de diferentes sons, todos sincronizados em função de construir uma única experiência sonora é uma das mais belas expressões artísticas. Mas gerir uma organização dessa para que todos estejam em seu devidos lugares não é uma tarefa fácil. Por trás de toda grande orquestra sempre há um grande maestro regendo cada uma das partes.
+(IMAGEM MAESTRO)
+Em uma equipe Scrum, esse será o papel do Scrum Master. Ele é quem dita o andamento do projeto, estabelecendo o compasso com o qual todos os indivíduos desempenharão suas funções. O resultado: harmonia.
+)
+
+Outro princípio que tem a sua efetivação através do trabalho do Master é a TRANSPARÊNCIA.
+
+Algumas características importantes para o Scrum Master são organização na gestão geral das tarefas e realizações do grupo, boa habilidade comunicativa com os integrantes e caráter motivador e impulsionador da equipe, sendo capaz de identificar possíveis empecilhos e entraves no processo e encontrar métodos de minimizá-los e eliminá-los para que haja um maior rendimento do grupo.
+
+(IMAGEM - ANALISTA DE RENDIMENTO)
+
+Ele é o membro da equipe designado para fazer uso de estratégias e ferramentas capazes de realizar a integração da equipe como um todo, para que assim todos os demais integrantes estejam a par do desenvolvimento uns dos outros e possam estimar em qual estágio do projeto o grupo está e como a divisão de tarefas será estabelecida.
+
+Para que todas essas questões e princípios da metodologia sejam atendidos, o Master possui algumas ferramentas que o assistirão na verificação dos parâmetros de rendimento e servirão como instrumentos que tornam a evolução do projeto mais palpável aos demais membros. Essas ferramentas são o Burndown e o Daily Scrum.
+
+SCRUM MASTER - BURNDOWN E DAILY SCRUM
+A ferramenta Burndown tem por objetivo fundamental gerenciar a organização interna da equipe.
+
+Diferentemente do Backlog, que possui o atributo de conexão externa com o cliente, o qual também interage e responde aos requerimentos da planilha, o Burndown é de uso exclusivo dos indivíduos inerentes ao grupo.
+
+Sua funcionalidade é similar a de um método Kanban, em que pode-se quantificar visualmente o desenvolvimento gradual das tarefas.
+
+Portanto, nele a equipe poderá gerenciar tanto as tarefas que foram delegadas a partir do estabelecimento dos requisitos, mas também afazeres do desenvolvimento interno do grupo, com os quais o cliente não precisa estar inteirado, como é o caso de pesquisas de tecnologias e funcionalidades de softwares, atividades de estudo, tarefas de revisão e testagem.
+
+(IMAGEM - BURNDOWN CHART EXEMPLO)
+
+Uma particularidade dessa planilha é a sua propriedade visual, capaz de trazer uma perspectiva mais aprofundada da relação andamento do projeto e produtividade do grupo. Através do Burndown Chart, a equipe dimensiona se está atrasada, adiantada ou em dia em relação à estimativa de entregas ideal. 
+
+Já o Daily Scrum (Scrum Diário) é um método estabelecido pelo Scrum Master no qual a equipe realiza diariamente (ou periodicamente) um momento de prestação de contas em que os integrantes da equipe atualizam os demais quanto ao que estão desenvolvendo e os empecilhos que estão enfrentando, respondendo às seguintes perguntas:
+
+- O QUE FOI FEITO NO DIA ANTERIOR?
+- O QUE SERÁ FEITO HOJE?
+- QUAIS OS EMPECILHOS ENFRENTADOS?
+
+DEVELOPMENT TEAM - O CONHECIMENTO TÉCNICO APLICADO
+Por fim, o último cargo a ser abordado da metodologia Scrum é o Development Team (Time Desenvolvimento), também conhecido como Dev Team.
+
+Estão inseridos nessa função todos os integrantes do grupo que participam do projeto na frente de desenvolvimento de atividades técnicas. Esses também são popularmente referidos como Devs.
+
+(IMAGEM TRABALHO EM EQUIPE)
+
+Sua responsabilidade é identificar, através de seus conhecimentos específicos, meios para execução dos requisitos, além de possuir um repertório que agrega muito quando se está levantando funcionalidades que aprimorarão a experiência do usuário.
+
+Algumas das competências importantes para os membros do Dev Team são o conhecimento técnico das tecnologias, a capacidade de cooperação, a organização quanto aos prazos de entrega das atividades e a transparência quanto à evolução dos afazeres delegados.
+
+CONCLUSÃO
+O Scrum é essa metodologia que visa otimizar a produção em equipe, estabelecendo princípios que prezam pela:
+
+(IMAGEM EM MOTION DE CICLO)
+
+TRANSPARÊNCIA dos membros envolvidos no projeto, proporcionando essa conexão de cada frente e o progresso de suas responsabilidades.
+
+INSPEÇÃO de cada funcionalidade por meio de sucessivas aplicações, análise de erros e correções.
+
+ADAPTABILIDADE do projeto, o qual passa por alterações na estratégia de desenvolvimento com o objetivo de realizar a uma entrega de grande valor para o cliente.
+
+Além disso, é muito importante entender as responsabilidades de cada cargo e qual o seu impacto para que cada uma das Sprints de produção atendam às expectativas para aquele estágio.
+
+Portanto, agora que você já possue o conhecimento de cada um dos pontos fundamentais da metodologia, aplique o Scrum no seu projeto e possua resultados maiores e mais assertivos de maneira ágil e eficaz.
+
+A seguir, estão separados alguns conteúdos extras como retomada de termos técnicos e importantes, modelos de planilhas e sugestões de ferramentas e sistemas que irão te auxiliar em seu projeto.
+
+COLOCANDO EM PRÁTICA
+Para caso você possua alguma dúvida em como aplicar esta metodologia, selecionamos abaixo alguns métodos passo a passo sobre como realizar os Artefatos Scrum em seus projetos.
+
+Autoavalição(
+    - Primeiro passo: Identificar metas
+Identifique seus objetivos com o Scrum Master, isso pode incluir a melhoria da eficiência da equipe, a remoção de impedimentos ou a promoção da colaboração entre os integrantes
+
+    - Segundo passo: Avalie seu desempenho
+Avalie ele em relação aos objetivos identificados anteriormente, use métricas e dados concretos sempre que possível, isso pode incluir a eficiência da equipe, o tempo gasto em reuniões e a resolução de impedimentos.
+
+    - Terceiro passo: Identifique áreas de melhoria
+Depois de avaliar seu desempenho identifique áreas em que você pode melhorar. Isso pode incluir a melhora da comunicação com a equipe e a remoção de impedimentos de forma mais eficaz por exemplo. Defina metas de melhoria especificas e mensuráveis para melhoras seu desempenho como o desenvolvimento de habilidades, a implementação de práticas ágeis adicionais ou a promoção da colaboração entre os integrantes, etc.
+
+    - Quarto passo: Plano de ação e acompanhamento
+desenvolva um plano de ação e acompanhe seu progresso, desenvolva um plano de ação para alcançar suas metas e monitore o seu progresso fazendo ajustes ao plano de ação se necessário.
+)
+
+Backlog(
+Lembre se que o backlog é um documento “vivo” e deve ser atualizado regularmente para garantir que as necessidades do produto sejam atendidas. Siga os seguintes passos:
+    - Primeiro passo: Identificação
+Identifique o objetivo do projeto antes de criar o backlog, é importante entender o objetivo para criar um documento que atenda as necessidades do produto.
+
+    - Segundo passo: Requisitos do produto
+Identifique os requisitos do produto, isso pode incluir a funcionalidade do produto, os requisitos do usuário, a arquitetura, lembre se de priorizar os requisitos, sendo feito com base no valor que cada requisito traz para o produto.
+(IMAGEM BACKLOG)
+
+    - Terceiro passo: Crie as User Stories
+Crie as histórias de usuário com base nos requisitos identificados e priorizados, sejam estas descrições curtas e objetivas de uma funcionalidade do produto que descrevem o que o usuário quer e por que ele quer. 
+Lembre-se de estimar as histórias, para que o usuário tenha ideia de quanto tempo demorará para desenvolver cada uma delas. Identifique os requisitos do produto, isso pode incluir a funcionalidade do produto, os requisitos do usuário, a arquitetura, lembre se de priorizar os requisitos, sendo feito com base no valor que cada requisito traz para o produto.
+(IMAGEM USER STORIES)
+O backlog deve conter todas as histórias de usuário que serão desenvolvidas durante o sprint, portanto deve ser refinado regularmente a fins de garantir que as histórias estejam atualizadas e refletindo as necessidades do produto.
+)
+
+Daily Scrum(
+O daily scrum é uma reunião diária para manter a equipe alinhada e engajada, portanto é importante garantir que todos os membros estejam presentes e que a reunião seja realizada de maneira eficiente, para isso siga esse passo a passo:
+    - Primeiro passo: Definição
+Faça uma escolha adequada de espaço e horário, essa é uma reunião rápida de 15 minutos, portanto é importante escolher um local que possibilite boa comunicação e um horário conveniente a todos.
+Identifique o objetivo do projeto antes de criar o backlog, é importante entender o objetivo para criar um documento que atenda as necessidades do produto.
+
+    - Segundo passo: Faça as 3 perguntas
+O Scrum Master deve começar a reunião explicando o objetivo do daily scrum e lembrando a todos da equipe das três perguntas que devem ser respondidas: O que foi feito desde a última reunião? O que será feito até a próxima reunião? Existe algum impedimento atrapalhando o andamento do projeto? As respostas a essas perguntas devem ser curtas e objetivas.
+(IMAGEM REUNIÃO)
+
+    - Terceiro passo: Resolução de problemas
+Mantenha o foco e resolva impedimentos, qualquer assunto que não esteja diretamente relacionado com o a reunião deve ser discutido após a mesma. E se alguém mencionar algum impedimento que está atrapalhando o andamento o projeto, o Scrum Master deve tomar nota e discutir com a equipe como resolver o problema.
+)
+
+Gráfico Burndown(
+Logo abaixo, temos uma indicação de video do canal TI Carreiras onde você pode aprender mais sobre como fazer o seu próprio grafico burndown.
+(VIDEO BURNDOWN)
+
+    - Primeiro passo: Definição de tarefas
+Distribuir as tarefas e o peso de cada uma delas antes de realizar o gráfico, atribuindo as tarefas de cada um, estimar o esforço é o que ajudará a distribuir de forma igual, assim não pesando muito para apenas uma pessoa do grupo.
+Um exemplo para ajudar a definir um peso para uma tarefa é o <strong>planning poker</strong>, que é uma técnica que se baseia em definir uma sequencia numerica, como <strong>1, 2, 3, 5, 8, 13, 21, etc</strong>, e relacionar ela com uma estimativa de tempo. Abaixo seguem exemplos de como organizar tanto a estimativa de tarefas como também o planning poker:
+(IMAGEM TABELA PLANNING POKER)
+
+    - Segundo passo: Realização de Gráfico
+Mesmo sendo opcional, a melhor opção para visualizar de forma pontual como está o andamento da equipe é traçar um gráfico físico, onde temos uma linha do tempo que seria ideal para realizar as tarefas de forma uniforme e organizada e uma linha onde mostre como esta o andamento do projeto em relação a tempo.
+É importante notar que se a sua linha de projeto esta acima da linha ideal, então você está atrasado em relação ao projeto, caso esteja abaixo você está adiantado.
+
+    - Terceiro passo: Atualização diária
+Esse tema encaixa bem com daily scrum, o gráfico deve ser atualizado conforme as tarefas estão sendo feitas, para manter a visualização em dia assim tendo uma ideia do esforço restante.
+Avalie o progresso para identificar se a equipe está no caminho correto para concluir todas as tarefas dentro do prazo.
+)
+
+
+GLOSSÁRIO
+
+A
+Artefatos Scrum
+São todos os elemento utilizados dentro da metodologia que auxiliarão na execução do projeto de modo que esses respeitem cada um dos princípios do Scrum. Dentre eles estão o Backlog, o Burndown e as Daily Scrums.
+
+B
+Backlog
+É uma ferramenta importante para gerenciamento do projeto, permitindo que a equipe de desenvolvimento tenha clareza sobre as prioridades e as expectativas do cliente. Durante o processo de desenvolvimento, os itens do backlog são trabalhados em sprints, que são períodos de tempo definidos (geralmente de uma a quatro semanas) nos quais a equipe trabalha para entregar as funcionalidades mais importantes do backlog.
+
+Burndown
+É uma ferramenta usada no Scrum para acompanhar o progresso do projeto ao longo do tempo. Ele mostra a quantidade de trabalho que ainda precisa ser realizada (eixo y) em relação ao tempo decorrido (eixo x) durante um sprint. A ideia é que, ao longo do tempo, a quantidade de trabalho pendente vá diminuindo até chegar a zero no final do sprint.
+
+D
+Daily scrum
+É uma reunião diária no Scrum, na qual a equipe de desenvolvimento se encontra para sincronizar e planejar o trabalho do dia. Durante a reunião, cada membro da equipe compartilha o que fez no dia anterior, o que planeja fazer no dia atual e quais são os possíveis impedimentos que podem afetar o trabalho.
+
+Definition of Done (DoD)
+A Definition of Done é um conjunto de critérios que define quando uma tarefa ou uma funcionalidade é considerada concluída em metodologias ágeis. Ela descreve as etapas que devem ser concluídas para que o trabalho seja considerado finalizado, incluindo requisitos técnicos, de qualidade e de usabilidade. A DoD é geralmente definida pela equipe de desenvolvimento em conjunto com o Product Owner e é usada como uma referência para avaliar o progresso do trabalho durante uma sprint.
+
+Definition of Ready (DoR)
+Todo projeto possui um caráter progressivo, ou seja, à medida que uma tarefa, outra já terá a base necessária e passa a estar apta para execução. Essa série de requisitos prévios que possibilitam que uma tarefa seja executada correspondem à Definição de Pronto, a qual estabelece se uma tarefa já pode ser produzida e, assim, adicionada ao Backlog da Sprint ou não.
+
+F
+Framework 
+Conjunto de ferramentas, diretrizes e boas práticas que ajudam os desenvolvedores a construir aplicativos de software de forma mais rápida, fácil e consistente. Ele fornece uma estrutura geral para o desenvolvimento de software, permitindo que os desenvolvedores se concentrem mais em resolver problemas específicos do que em criar toda a estrutura do zero.
+
+K
+Kanban
+O método Kanban corresponde a uma metodologia ágil que tem por objetivo transparecer a evolução do desenvolvimento de forma visual definindo as tarefas em setores (a fazer, em execução, concluídas ect.). Sua sinalização foi comumente associada ao uso de post-its coloridos, mas atualmente já existem softwares com a mesma funcionalidade.
+
+Kick off
+No Scrum é a reunião inicial do projeto na qual a equipe e o Product Owner se encontram para alinhar expectativas e definir objetivos, escopo, requisitos, entregas e cronograma do projeto. É uma oportunidade para a equipe esclarecer dúvidas e entender melhor o produto que será desenvolvido.
+
+M
+Metodologias Ágeis
+As metodologias ágeis são um conjunto de práticas e valores que enfatizam a colaboração, a interação com o cliente, a entrega de software funcional em ciclos curtos e a capacidade de adaptação a mudanças ao longo do tempo. As metodologias ágeis mais conhecidas incluem Scrum, Kanban, XP (Extreme Programming), Lean e Crystal.
+
+P
+Planejamento de Sprint
+Nessa etapa da metodologia, toda a equipe se reune com o objetivo de estabelecer aquilo que será feito durante o período da Sprint. Nela geralmente, ocorre a divisão de tarefas (acordadas com o Backlog), estimativa de esforço, prazos e outros fatores.
+
+Produto Mínimo Viável (MVP)
+O MVP é uma técnica usada em metodologias ágeis para desenvolvimento de produtos e serviços que se concentra na criação de um produto com o mínimo de recursos necessários para satisfazer as necessidades dos usuários. O objetivo é lançar rapidamente um produto no mercado e obter feedback dos usuários, de forma a validar a ideia e identificar as funcionalidades mais importantes para futuros aprimoramentos.
+
+R
+Retrospectiva de Sprint
+A Retrospectiva de Sprint é uma reunião realizada no final de cada sprint em metodologias ágeis como o Scrum. Seu objetivo é avaliar o desempenho da equipe durante a sprint anterior e identificar oportunidades de melhoria para a próxima sprint. Durante a retrospectiva, a equipe discute o que funcionou bem, o que não funcionou e o que pode ser feito de forma diferente na próxima sprint.
+
+Revisão de Sprint
+Nesse momento serão expostos para os chamados para todos aqueles que possume algum envolvimento com o projeto (cliente, colaboradores, marketing etc.) cada um dos elementos desenvolvidos na Sprint em questão, com o objetivo de validar o produto e o processo.
+
+S
+Software
+É um conjunto de programas de computador que controlam o funcionamento de um dispositivo eletrônico, permitindo a realização de diversas atividades.
+
+Sprint
+Uma sprint no Scrum é um período de tempo definido (geralmente de uma a quatro semanas) no qual a equipe de desenvolvimento trabalha para entregar uma quantidade definida de funcionalidades ou requisitos do produto. Durante a sprint, a equipe se concentra em alcançar os objetivos definidos no início do sprint, trabalhando nas tarefas do backlog de forma iterativa e incremental.
+
+U
+User Stories
+As User Stories são uma técnica usada em metodologias ágeis para definir os requisitos de um produto de software. Elas são escritas a partir do ponto de vista do usuário, descrevendo uma funcionalidade específica que o usuário deseja que o sistema realize. As User Stories são geralmente escritas em linguagem simples e podem ser acompanhadas por critérios de aceitação que definem o que é necessário para que a funcionalidade seja considerada concluída.
+
+MATERIAIS
+Modelos de Planilha:
+Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa adotar o formato que melhor atende a demanda do seu grupo e aprender como implementá-las.
+
+
+BACKLOG
+Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.
+(ÍCONE - BACKLOG)
+
+BURNDOWN
+Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.
+(ÍCONE - BURNDOWN)
+
+Ferramentas de Apoio
+Trello
+Ferramenta excelente para gerenciar o andamento da sua equipe e visualizar como está seu progresso individual e dos demais membros em suas respectivas tarefas.
+(LOGO - TRELLO)
+
+NOTION
+Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.
+(LOGO - NOTON)
+
+GITHUB
+Essa plataforma de versionamento possibilitará que sua equipe faça suscessivas entregas de aprimoramentos do produto. Ideal para uso de programadores, mas também aplicável para demais equipes que trabalham com o sistema colaborativo.
+(LOGO - GITHUB)
+
+YOUTRACK
+Ferramenta faz “tudo” criada pela JetBrains para equipes ageis , sendo gratuita até grupos de 10 membros. A ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para organizar suas equipes.
+(LOGO YOUTRACK)
+
+AZURE OPS
+Azure Ops é a plataforma da Microsoft para equipes que utilizam o Scrum tendo ferramentas para criação de Burndown e Backlog. Sendo criada pela Microsoft á integração da plataforma com os outros serviços da Microsoft como a Azure.
+(LOGO AZURE OPS)
