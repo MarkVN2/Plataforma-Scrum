@@ -1,0 +1,81 @@
+{"en_US":{    
+    "navbar": {
+
+        "met-label":"Methodology",
+        "met-wscrum":"What is Scrum?",
+        "met-vision":"Vision",
+        "met-pillars":"Pillars",
+        "met-auto":"Autoavaliation",
+        "met-team":"Team",
+
+        "po-label":"Product Owner",
+        "po-intro":"Introduction",
+        "po-backlog":"Backlog",
+
+        "sm-intro":"Introduction",
+        "sm-burndown":"Burndown & Daily Scrum",
+
+        "dev-label":"Development Team",
+
+        "others-label":"Others",
+        "others-conclusion":"Conclusion",
+        "others-inpratice":"In pratice",
+        "others-materials":"Materials",
+        "others-glossary":"Glossary",
+        "others-forms":"Avaliation"
+    },
+    "footer": {
+    },
+    "home": {
+        "home-introtext":"The agile methodology is capable of accomplishing complex projects in a simple and manageable way. Start your journey with these tool, revolutionize the way your team works and start having double the performance.",
+        "home-icontext-met":"Start",
+        "home-icontext-sm":"Scrum-Master",
+        "home-icontext-po":"Product-Owner",
+        "home-icontext-dev":"Development-Team"
+     },
+     "methodology-intro":{
+        "content-title":"Methodology",
+        "content-subtitle":"Introduction"
+     }
+},
+"pt_BR":{
+    "navbar": {
+
+        "met-label":"Metodologia",
+        "met-wscrum":"O que é Scrum?",
+        "met-vision":"Visão",
+        "met-pillars":"Pilares",
+        "met-auto":"Autoavaliação",
+        "met-team":"Team",
+
+        "po-label":"Product Owner",
+        "po-intro":"Introdução",
+        "po-backlog":"Backlog",
+
+        "sm-intro":"Introdução",
+        "sm-burndown":"Burndown & Daily Scrum",
+
+        "dev-label":"Development Team",
+
+        "others-label":"Outros",
+        "others-conclusion":"Conclusão",
+        "others-inpratice":"Na prática",
+        "others-materials":"Materiais",
+        "others-glossary":"Glossário",
+        "others-forms":"Avaliação"
+    },
+    "footer": {
+    },
+    "home": {
+        "home-introtext":"A metodologia ágil capaz de realizar projetos complexos de forma simples e gerenciável. Inicie sua jornada por essa ferramenta, revolucione a forma do seu time trabalhar e passe a ter rendimentos dobrados.",
+        "home-icontext-met":"Começar",
+        "home-icontext-sm":"Scrum-Master",
+        "home-icontext-po":"Product-Owner",
+        "home-icontext-dev":"Development-Team"
+     },
+     "methodology-intro":{
+        "content-title":"Metodologia",
+        "content-subtitle":"Introdução"
+     }
+}
+}
