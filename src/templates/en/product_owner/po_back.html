@@ -1,7 +1,7 @@
 <!-- prettier-ignore -->
 {% extends 'template_en.html' %}
 
-{% block title %}Backlog - Product Owner | Plataforma Scrum{% endblock %}
+{% block title %}Backlog - Product Owner | Scrum Platform{% endblock %}
 {% block color %}product-owner{% endblock %}
 {% block iconName %}method{% endblock %}
 {% block contentTitle %}Product Owner{% endblock %}
@@ -11,61 +11,39 @@
 <div class="h-75 w-75 default-main po-back-main">
   <div class="default-textbox po-back-textbox">
     <p class="default-para po-back-para">
-      O Backlog nada mais é do que uma planilha na qual são <strong>listados todos os requisitos do projeto em ordem
-        decrescente
-        de prioridade</strong> (das tarefas mais importantes para as menos).
+      The Backlog is nothing more than a spreadsheet in which all the project's requirements are <strong>listed in descending order of priority </strong>(from the most important tasks to the least).
     </p>
 
     <p class="default-para po-back-para">
-      <strong>É indispensável que toda equipe tenha logo no início do projeto um Backlog bem definido</strong> para que
-      todos consigam
-      visualizar não apenas o que estará sendo realizado no momento presente, mas também fazer uma <strong>projeção de
-        quais as
-        responsabilidades que virão.</strong>
+      <strong>It is essential for the team to have a well-defined Backlog </strong>right from the start of the project so that everyone can see not only what is being done at the moment, <strong>but also what responsibilities lie ahead.</strong>
     </p>
 
     <p class="default-para po-back-para">
-      É necessário ressaltar que a <strong>planilha Backlog não é uma ferramenta de gestão interna do grupo</strong>,
-      mas um instrumento
-      responsável por <strong>orientar tanto aqueles que estão dentro da produção como os que estão fora dela</strong>,
-      que é o caso do cliente
-      com o qual a equipe tem cooperado.
+      It should be emphasized that the <strong>Backlog spreadsheet is not an internal management tool for the group</strong>, but an instrument responsible for <strong>guiding both those within production and those outside it</strong>, which is the case of the client with whom the team has been cooperating.
     </p>
 
     <p class="default-para po-back-para">
-      É fundamental que o <strong>cliente e o time estejam na mesma página quanto às expectativas e execução do
-        projeto</strong> para que
-      possam juntos elaborar soluções que sejam eficazes e superem o esperado.
-
-      <!--Conteúdo Extra-->
+      It is essential that the <strong>client and the team are on the same page with regard to the expectations and execution of the project</strong> so that together they can come up with solutions that are effective and exceed expectations.
     </p>
+    
+    <!--Conteúdo Extra-->
     <p class="default-para po-back-para po-back-para-negr">
-      Lembrando que, como todos os elementos do Scrum, o Backlog também se adapta a mudanças. Uma coisa é certa: haverá
-      mudanças nos requisitos conforme as Sprints forem sendo realizadas!
+      Remember that, like all Scrum elements, the Backlog also adapts to changes. One thing is certain: the requirements will change as the Sprints go on!
     </p>
 
     <p>
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
         aria-controls="collapseExample">
-        Adaptando
+        Adapting
       </a>
     </p>
     <div class="collapse" id="collapseExample">
       <div class="card default-card-body po-back-card-body" style="display: flex;">
         <div class="default-collapse-text po-back-collapse-text">
-          <h5>Adaptando</h5>
+          <h5>ADAPTING</h5>
           <p>
-            Pense em uma longa viagem de carro de cerca de 10h de duração. Digamos que
-            o indivíduo iniciou sua viagem às 12h e decidiu usar roupas mais leves devido ao calor do horário. Porém,
-            com o
-            passar do tempo o Sol foi se pondo e a temperatura foi esfriando, passando a fazer mais sentido para o
-            viajante
-            o uso de roupas mais pesadas para se esquentar. </p>
-          <p> Assim é com o decorrer do projeto. Conforme ele se
-            desenrola,
-            alguns pontos antes estabelecidos vão perdendo o sentido, fazendo-se necessárias mudanças que fazem mais
-            sentido
-            na situação.</p>
+            hink of a long car journey of around 10 hours. Let's say you started your journey at 12 noon and decided to wear lighter clothes because of the heat. However, as time went by, the sun went down and the temperature cooled, so it made more sense for the traveler to wear heavier clothes to keep warm. </p>
+          <p> The same applies with the course of the project. As the project unfolds, some points that were previously established lose their meaning and changes are needed that make more sense in the situation.</p>
         </div>
         <img src="../static/images/road-trip.gif" alt="">
       </div>
@@ -74,39 +52,29 @@
       width="100%" />
     <div class="po-back-split-text-block" style="margin-bottom: 0%;">
       <p class="default-para po-back-para">
-        Além do Backlog geral do produto, outra planilha essencial para a gestão de tarefas e responsabilidades é a
-        planilha de <strong>Backlog da Sprint</strong>. Ela possui a mesma essência da planilha geral, mas com algumas
-        identificações e
-        especificações a mais para que que haja a execução por completo das tarefas designadas.
+        In addition to the general Product Backlog, another essential worksheet for managing tasks and responsibilities is the  <strong>Sprint Backlog</strong> worksheet. This has the same essence as the general spreadsheet, but with a few more identifications and specifications so that the assigned tasks can be carried out in full.
       </p>
 
       <p class="default-para po-back-para">
-        Nessa planilha, todos os requisitos são descritos por meio do que chamamos de <a
-          href="/glossario#gloss-user-stories" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
-          title="Glossário: User story">User Stories</a>. Essas tem a função de explicar o requisito no formato de um
-        desejo feito por alguém sem o conhecimento técnico, mas que <strong>expõe qual a
-          expectativa do usuário em relação ao produto que ele irá dispor futuramente.</strong>
+        In this spreadsheet, all the requirements are described using what we call <a
+        href="/en/glossario#gloss-user-stories" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
+        title="Glossary: User story">User Stories</a>. These have the function of explaining the requirement in the format of a wish made by someone without technical knowledge, but which <strong>sets out the user's expectations in relation to the product they will have in the future.</strong>
       </p>
     </div>
     <button type="button" class="btn btn-primary met-pil-modal" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 7%;">
-      Outra perspectiva
+      ANOTHER PERSPECTIVE
     </button>  
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">A visão do outro</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">ANOTHER'S VIEW</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body" style="display: block;">
             <p>
-              Cada pessoa tem uma história única. Pensamentos únicos, experiências únicas, opiniões únicas e realidades
-              únicas. Um produto de sucesso será aquele capaz de identificar essas particularidades, esses cenários
-              distintos e trazer valor a cada um deles. Para acessar esses vários contextos é que são desenvolvidas as
-              User Stories.
-              Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas
-              necessidades e desejos e promover soluções que trarão uam melhor qualidade de vida ao indivíduo e
-              experiências prazerosas.
+              Each person has a unique story. Unique thoughts, unique experiences, unique opinions and unique realities. A successful product will be one that is able to identify these particularities, these different scenarios and bring value to each of them. User Stories are developed to access these various contexts. 
+              These facilitators are able to make the team look through the lens of the user, find their needs and desires and promote solutions that will bring a better quality of life to the individual and enjoyable experiences.
             </p>
             <img src="../static/images/perspective.jpg" alt="Perspectiva" class="met-auto-img-modal">
           </div>
@@ -118,48 +86,44 @@
     </div>
 
     <p class="default-para po-back-para">
-      O formato padrão de uma US bem formulada precisa ter as seguinte informações:
+      The standard format for a well-formulated US must contain the following information:
     </p>
 
     <table class="table po-back-table table-bordered">
       <thead>
         <tr>
-          <th scope="col">Individuo que expressa desejo</th>
-          <th scope="col" class="table-active">Ação/Elemento que desejo interagir</th>
-          <th scope="col">Porquê/Motivo da funcionalidade, o que ela irá agregar à experiência</th>
+          <th scope="col">INDIVIDUAL EXPRESSING DESIRE</th>
+          <th scope="col" class="table-active">ACTION/ELEMENT I WISH TO INTERACT WITH</th>
+          <th scope="col">WHY/REASON OF THE FUNCTIONALITY, WHAT IT WILL BRING TO THE EXPERIENCE</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="table-danger">Eu, como usuário aluno da plataforma,</td>
-          <td class="table-warning">desejo uma página de contato com os professores,</td>
-          <td class="table-info">para que possa tirar minhas dúvidas quanto ao conteúdo lecionado</td>
+          <td class="table-danger">I, as a student user of the platform,</td>
+          <td class="table-warning">would like a page to contact the teachers,</td>
+          <td class="table-info">so that i can ask questions about the content being taught</td>
         </tr>
       </tbody>
     </table>
 
     <P class="default-para po-back-para">
-      Para que uma tarefa esteja apta para ser adicionada ao Backlog da Sprint, ela precisará passar antes pelo crivo do <a href="/en/glossario#gloss-dor" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Definition of done">Definition of Ready (DoR)</a>, a Definição de Pronto, a qual possui o papel de <strong>qualificar se uma certa tarefa já poderá ser produzida ou se ainda há alguma pendência que impossibilita sua execução no momento.</strong>
+      For a task to be able to be added to the Sprint Backlog, it must first pass the <a href="/en/glossario#gloss-dor" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossary: Definition of done">Definition of Ready (DoR)</a> sieve, which has the role of <strong>qualifying whether a certain task can already be produced or whether there are still any pending issues that make it impossible to carry it out at the moment.</strong>
     </P>
 
     <p class="default-para po-back-para">
-      Outro quesito que deve ser expresso no Backlog da Sprint é a <strong>Estimativa de Esforço das tarefas</strong>.
+      Another item that must be included in the Sprint Backlog is the <strong>Task Effort Estimate.</strong> 
     </p>
 
     <p class="default-para po-back-para">
-      Nesse campo será exposto qual é, segundo a perspectiva do grupo, <strong>o tempo necessário para realização da
-        determinada tarefa em função da dificuldade que ela possui para ser concretizada</strong>.
+      This field will show how long it will take, from the group's point of view, <strong>to carry out a given task, given how difficult it is to accomplish.</strong>
+    </p>
+   
+    <p class="default-para po-back-para">
+      Next, the respective requirement from the Product Backlog that defines that US and its acceptance criteria are entered, the latter being one of the main parts of this spreadsheet. It is responsible for indicating what we call the <a href="/en/glossario#gloss-dod"
+    data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
+    title="Glossary: Definition of done">Definition of Done (DoD).</a> Based on these criteria, <strong>the group assesses whether the requirement can be classified as completed or not.</strong>
     </p>
 
-    <p class="default-para po-back-para">
-      Em seguida, são colocados o respectivo requisito do Backlog
-      do Produto que define aquela US e o seu critério de aceitação, sendo esse último uma das partes principais dessa
-      planilha. Ele é o responsável por indicar o que chamamos de <a href="/en/glossario#gloss-dod"
-        data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
-        title="Glossário: Definition of done">Definition of Done (DoD)</a>, ou Definição de Feito. Com base nesse
-      critério, <strong>o grupo avalia se o requisito pode ser classificado
-        como concluído ou não.</strong>
-    </p>
 
   </div>
 </div>

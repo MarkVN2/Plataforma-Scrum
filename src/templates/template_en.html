@@ -40,7 +40,7 @@
                             <li class="dropdown-item"><a href="/en/metodologia/oqueescrum">What is Scrum?</a></li>
                             <li class="dropdown-item"><a href="/en/metodologia/visao">Vision</a></li>
                             <li class="dropdown-item"><a href="/en/metodologia/pilares">Pillars</a></li>
-                            <li class="dropdown-item"><a href="/en/metodologia/autoavaliacao">Autoavaliation</a></li>
+                            <li class="dropdown-item"><a href="/en/metodologia/autoavaliacao">Self-evaluation</a></li>
                             <li class="dropdown-item"><a href="/en/metodologia/team">Team</a></li>
                         </ul>
                     </li>
@@ -112,8 +112,8 @@
     {% if buttons != False and home != True %}
     <!-- Buttons -->
     <div class="next-prev-btn" {% block buttondisplay %}{% endblock %}>
-        <a href="{%block btnback %}{%endblock%}" class="btn btn-secondary btn-back-custom btn-lg">Anterior</a>
-        <a href="{%block btnnext %}{%endblock%}" class="btn btn-secondary btn-next-custom btn-lg">Próximo</a>
+        <a href="{%block btnback %}{%endblock%}" class="btn btn-secondary btn-back-custom btn-lg">Previous</a>
+        <a href="{%block btnnext %}{%endblock%}" class="btn btn-secondary btn-next-custom btn-lg">Next</a>
     </div>
     {% endif %}
     
@@ -122,25 +122,25 @@
         <div class ="footer-content">
             <span>Copyright &copy; 2023 Byte-Boost.</span>
             <br>
-            <span>Todos os direitos reservados</span>
+            <span>All rights reserved</span>
         </div>
         <div class ="footer-content">
             <div id="footer-address-box">
-                FATEC, Endereço: Avenida Cesare Monsueto Giulio Lattes, 1350 Distrito - Eugênio de Melo, São José dos Campos - SP, 12247-014
+                FATEC, Address: Avenida Cesare Monsueto Giulio Lattes, 1350 Distrito - Eugênio de Melo, São José dos Campos - SP, 12247-014
             </div>
         </div>  
         <div class ="footer-content">
-            <a href="/">Home</a>
+            <a href="/en">Home</a>
         </div>
         <div class ="footer-content">
-            <a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank">Website oficial</a>
+            <a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank">Official Website</a>
         </div>
         <a href="https://github.com/Byte-Boost/Plataforma-Scrum" target="_blank">
             <img src="../../static/images/github-mark.png" class="github-mark" alt="Github QRCODE"> 
         </a>
         
         <button class="btn btn-primary btn-footer-modal" data-bs-toggle="modal" data-bs-target="#footerModal">
-            Quem somos
+            Who are we
         </button>
         
           <!-- Modal -->
@@ -148,7 +148,7 @@
             <div class="modal-dialog modal-dialog-scrollable">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalLabel">Quem somos</h1>
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Who are we</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
