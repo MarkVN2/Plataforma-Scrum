@@ -1,0 +1,170 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Backlog - Product Owner | Plataforma Scrum{% endblock %}
+{% block color %}product-owner{% endblock %}
+{% block iconName %}method{% endblock %}
+{% block contentTitle %}Product Owner{% endblock %}
+{% block subtitle %}Backlog{% endblock %}
+{% block content %}
+
+<div class="h-75 w-75 default-main po-back-main">
+  <div class="default-textbox po-back-textbox">
+    <p class="default-para po-back-para">
+      O Backlog nada mais é do que uma planilha na qual são <strong>listados todos os requisitos do projeto em ordem
+        decrescente
+        de prioridade</strong> (das tarefas mais importantes para as menos).
+    </p>
+
+    <p class="default-para po-back-para">
+      <strong>É indispensável que toda equipe tenha logo no início do projeto um Backlog bem definido</strong> para que
+      todos consigam
+      visualizar não apenas o que estará sendo realizado no momento presente, mas também fazer uma <strong>projeção de
+        quais as
+        responsabilidades que virão.</strong>
+    </p>
+
+    <p class="default-para po-back-para">
+      É necessário ressaltar que a <strong>planilha Backlog não é uma ferramenta de gestão interna do grupo</strong>,
+      mas um instrumento
+      responsável por <strong>orientar tanto aqueles que estão dentro da produção como os que estão fora dela</strong>,
+      que é o caso do cliente
+      com o qual a equipe tem cooperado.
+    </p>
+
+    <p class="default-para po-back-para">
+      É fundamental que o <strong>cliente e o time estejam na mesma página quanto às expectativas e execução do
+        projeto</strong> para que
+      possam juntos elaborar soluções que sejam eficazes e superem o esperado.
+
+      <!--Conteúdo Extra-->
+    </p>
+    <p class="default-para po-back-para po-back-para-negr">
+      Lembrando que, como todos os elementos do Scrum, o Backlog também se adapta a mudanças. Uma coisa é certa: haverá
+      mudanças nos requisitos conforme as Sprints forem sendo realizadas!
+    </p>
+
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+        aria-controls="collapseExample">
+        Adaptando
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card default-card-body po-back-card-body" style="display: flex;">
+        <div class="default-collapse-text po-back-collapse-text">
+          <h5>Adaptando</h5>
+          <p>
+            Pense em uma longa viagem de carro de cerca de 10h de duração. Digamos que
+            o indivíduo iniciou sua viagem às 12h e decidiu usar roupas mais leves devido ao calor do horário. Porém,
+            com o
+            passar do tempo o Sol foi se pondo e a temperatura foi esfriando, passando a fazer mais sentido para o
+            viajante
+            o uso de roupas mais pesadas para se esquentar. </p>
+          <p> Assim é com o decorrer do projeto. Conforme ele se
+            desenrola,
+            alguns pontos antes estabelecidos vão perdendo o sentido, fazendo-se necessárias mudanças que fazem mais
+            sentido
+            na situação.</p>
+        </div>
+        <img src="../static/images/road-trip.gif" alt="">
+      </div>
+    </div>
+    <img src="../static/images/po-back.png" alt="(IMAGEM EXEMPLO DA PLANILHA DE BACKLOG)" class="po-back-img"
+      width="100%" />
+    <div class="po-back-split-text-block" style="margin-bottom: 0%;">
+      <p class="default-para po-back-para">
+        Além do Backlog geral do produto, outra planilha essencial para a gestão de tarefas e responsabilidades é a
+        planilha de <strong>Backlog da Sprint</strong>. Ela possui a mesma essência da planilha geral, mas com algumas
+        identificações e
+        especificações a mais para que que haja a execução por completo das tarefas designadas.
+      </p>
+
+      <p class="default-para po-back-para">
+        Nessa planilha, todos os requisitos são descritos por meio do que chamamos de <a
+          href="/glossario#gloss-user-stories" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
+          title="Glossário: User story">User Stories</a>. Essas tem a função de explicar o requisito no formato de um
+        desejo feito por alguém sem o conhecimento técnico, mas que <strong>expõe qual a
+          expectativa do usuário em relação ao produto que ele irá dispor futuramente.</strong>
+      </p>
+    </div>
+    <button type="button" class="btn btn-primary met-pil-modal" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 7%;">
+      Outra perspectiva
+    </button>  
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">A visão do outro</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" style="display: block;">
+            <p>
+              Cada pessoa tem uma história única. Pensamentos únicos, experiências únicas, opiniões únicas e realidades
+              únicas. Um produto de sucesso será aquele capaz de identificar essas particularidades, esses cenários
+              distintos e trazer valor a cada um deles. Para acessar esses vários contextos é que são desenvolvidas as
+              User Stories.
+              Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas
+              necessidades e desejos e promover soluções que trarão uam melhor qualidade de vida ao indivíduo e
+              experiências prazerosas.
+            </p>
+            <img src="../static/images/perspective.jpg" alt="Perspectiva" class="met-auto-img-modal">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Seguir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="default-para po-back-para">
+      O formato padrão de uma US bem formulada precisa ter as seguinte informações:
+    </p>
+
+    <table class="table po-back-table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Individuo que expressa desejo</th>
+          <th scope="col" class="table-active">Ação/Elemento que desejo interagir</th>
+          <th scope="col">Porquê/Motivo da funcionalidade, o que ela irá agregar à experiência</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="table-danger">Eu, como usuário aluno da plataforma,</td>
+          <td class="table-warning">desejo uma página de contato com os professores,</td>
+          <td class="table-info">para que possa tirar minhas dúvidas quanto ao conteúdo lecionado</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <P class="default-para po-back-para">
+      Para que uma tarefa esteja apta para ser adicionada ao Backlog da Sprint, ela precisará passar antes pelo crivo do <a href="/en/glossario#gloss-dor" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Definition of done">Definition of Ready (DoR)</a>, a Definição de Pronto, a qual possui o papel de <strong>qualificar se uma certa tarefa já poderá ser produzida ou se ainda há alguma pendência que impossibilita sua execução no momento.</strong>
+    </P>
+
+    <p class="default-para po-back-para">
+      Outro quesito que deve ser expresso no Backlog da Sprint é a <strong>Estimativa de Esforço das tarefas</strong>.
+    </p>
+
+    <p class="default-para po-back-para">
+      Nesse campo será exposto qual é, segundo a perspectiva do grupo, <strong>o tempo necessário para realização da
+        determinada tarefa em função da dificuldade que ela possui para ser concretizada</strong>.
+    </p>
+
+    <p class="default-para po-back-para">
+      Em seguida, são colocados o respectivo requisito do Backlog
+      do Produto que define aquela US e o seu critério de aceitação, sendo esse último uma das partes principais dessa
+      planilha. Ele é o responsável por indicar o que chamamos de <a href="/en/glossario#gloss-dod"
+        data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
+        title="Glossário: Definition of done">Definition of Done (DoD)</a>, ou Definição de Feito. Com base nesse
+      critério, <strong>o grupo avalia se o requisito pode ser classificado
+        como concluído ou não.</strong>
+    </p>
+
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en/product-owner/introducao{% endblock %}
+{% block btnnext %}/en/scrum-master/introducao{% endblock %}

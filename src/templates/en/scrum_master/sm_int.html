@@ -1,0 +1,104 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Introdução - Scrum Master | Plataforma Scrum{% endblock %}
+{% block color %}scrum-master{% endblock %}
+{% block iconName %}scrum{% endblock %}
+{% block contentTitle %}Scrum Master{% endblock %}
+{% block subtitle %}A metodologia aplicada{% endblock %}
+{% block content %}
+
+<div class="h-75 w-75 default-main sm-int-main">
+  <div class="default-textbox sm-int-textbox">
+    <p class="default-para sm-int-para">
+      O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodologia Scrum, suas práticas e
+      princípios fundamentais.
+    </p>
+
+    <div class="default-image-block sm-int-image-block" style="margin-bottom: 2%;">
+
+      <div class="sm-int-circular-container">
+        <img src="../static/images/sm_brainstorm_square.jpg" alt="sm_int_brainstorm" class="sm-image"
+          id="sm-int-image-1" />
+      </div>
+      <p class="default-para sm-int-para">
+        Sua operação se resume em <strong> reger o andamento do projeto</strong>, analisando o rendimento de cada um dos
+        integrantes e
+        concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas ou se alguma das partes
+        do projeto está com alguma de suas demandas pendentes, realizando assim o principio da
+        <strong>INSPEÇÃO</strong>.
+      </p>
+
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary met-pil-modal" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-bottom: 5%;">
+      Regendo o  andamento do projeto
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Como reger?</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Um dos maiores exemplos de trabalho em equipe primoroso são as orquestras. A junção de diferentes sons,
+              todos sincronizados em função de construir uma única experiência sonora é uma das mais belas expressões
+              artísticas. Mas gerir uma organização dessa para que todos estejam em seu devidos lugares não é uma tarefa
+              fácil.
+              Por trás de toda grande orquestra sempre há um grande maestro regendo cada uma das partes.</p>
+            <img src="../static/images/maestro.jpg" alt="Maestro" class="met-auto-img-modal">
+            <p>
+              Em uma equipe Scrum, esse será o papel do Scrum Master. Ele é quem dita o andamento do projeto,
+              estabelecendo o compasso com o qual todos os indivíduos desempenharão suas funções. O resultado: harmonia.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Seguir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="default-para sm-int-para">
+      Outro princípio que tem a sua efetivação através do trabalho do Master é a <strong>TRANSPARÊNCIA</strong>.
+    </p>
+
+    <div class="default-image-block sm-int-image-block">
+      <p class="default-para sm-int-para">
+        Algumas características importantes para o Scrum Master são <strong>organização na gestão geral das tarefas e
+          realizações do grupo, boa habilidade comunicativa com os integrantes e caráter motivador e impulsionador da
+          equipe</strong>, sendo capaz de identificar possíveis empecilhos e entraves no processo e encontrar métodos de
+        minimizá-los e eliminá-los para que haja um maior rendimento do grupo.
+      </p>
+      <img src="../static/images/scrum_master_crop.png" alt="sm_int_scrum_master" class="sm-image"
+        id="sm-int-image-2" />
+    </div>
+
+    <p class="default-para sm-int-para">
+      Ele é o membro da equipe designado para fazer uso de estratégias e ferramentas capazes de realizar a
+      <strong>integração da
+        equipe como um todo</strong>, para que assim <strong>todos os demais integrantes estejam a par do
+        desenvolvimento uns dos outros</strong> e
+      possam estimar em qual estágio do projeto o grupo está e como a divisão de tarefas será estabelecida.
+    </p>
+
+    <p class="default-para sm-int-para">
+      Para que todas essas questões e princípios da metodologia sejam atendidos, o Master possui algumas ferramentas que
+      o assistirão na <strong>verificação dos parâmetros de rendimento</strong> e servirão como instrumentos que
+      <strong>tornam a evolução do
+        projeto mais palpável aos demais membros.</strong> Essas ferramentas são o <a href="/glossario#gloss-burndown"
+        data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag"
+        title="Glossário: Burndown">Burndown</a> e o <a href="/glossario#gloss-daily-scrum" data-bs-toggle="tooltip"
+        data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Daily scrum">Daily Scrum</a>.
+    </p>
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en/product-owner/backlog{% endblock %}
+{% block btnnext %}/en/scrum-master/burndown{% endblock %}

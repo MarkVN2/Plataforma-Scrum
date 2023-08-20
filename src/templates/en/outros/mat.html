@@ -1,0 +1,162 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Materiais - Outros | PLATAFORMA Scrum{% endblock %}
+{% block color %}outros{% endblock %}
+{% block iconName %}method{% endblock %}
+{% block contentTitle %}Materais{% endblock %}
+{% block subtitle %}{% endblock %}
+{% block content %}
+<div class="h-75 w-75 default-main met-auto-main">
+    <div class="mat-content-limit">
+        <!-- Planilhas -->
+        <h1 class="mat-subtitle">Modelos de planilha</h1>
+        <p class="default-para">Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa adotar o formato que melhor atende a demanda do seu grupo e aprender como implementá-las.</p>
+        
+        <div id="matCard">
+            <!-- Cards -->
+            <div class="mat-model-cards">
+                <div class="card mb-3" style="max-width: 40%;">
+                    <div class="row g-0">
+                        <div class="col-md-4 mat-card-img-wrapper">
+                        <img src="../static/images/backlog.png" class="mat-card-img img-fluid rounded-start" alt="backlog image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="mat-card-title">Backlog</h5>
+                                <p class="card-text">Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.</p>
+                                <button type="button" class="btn btn-primary collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Expandir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 40%;">
+                    <div class="row g-0">
+                        <div class="col-md-4 mat-card-img-wrapper">
+                        <img src="../static/images/burndown_icon.png" class="mat-card-img img-fluid rounded-start" alt="backlog image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="mat-card-title">Burndown</h5>
+                                <p class="card-text">Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.</p>
+                                <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Expandir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Downloads -->
+
+            <div class="accordion-item mat-model-cards">
+                <!-- Backlog downloads -->
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="mat-card-title">Stake Holder Map</h5>
+                          <a href="https://www.stakeholdermap.com/agile-templates/product-backlog-template.xlsx">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="mat-card-title">Smartsheet</h5>
+                          <a href="https://www.smartsheet.com/sites/default/files/2022-09/IC-Product-Backlog-11532.xlsx">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="mat-card-title">Modelo de Backlog</h5>
+                          <a href="https://docs.google.com/spreadsheets/d/1jwPbNo-ZcM1YDRRh3ggv_9hx371VxQUK/edit?usp=drive_link&ouid=105178044020523310035&rtpof=true&sd=true">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <div class="accordion-item mat-model-cards">
+                <!-- Burndown downloads -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="mat-card-title">Automate Excel</h5>
+                          <a href="https://www.automateexcel.com/blockedfolder/charts/burndown_chart.xlsx">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="mat-card-title">Stake Holder map</h5>
+                          <a href="https://www.stakeholdermap.com/agile-templates/burndown-chart-template.xlsx">Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#matCard">
+                    <div class="card text-center" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="mat-card-title">Modelo de Burndown</h5>
+                          <a href="https://docs.google.com/spreadsheets/d/1IPvfknwvCBJdBnNjTIHWPU2dFTB9YfQ2/edit?usp=drive_link&ouid=105178044020523310035&rtpof=true&sd=true">Download</a>
+                        </div>
+                    </div>
+                </div>
+           
+
+                <!-- -->
+            </div>
+        </div>
+        
+        <!-- Ferramentas -->
+        <hr class="mt-5 mb-5">
+        <h1 class="mat-subtitle">Ferramentas de apoio</h1>
+
+        <div class="container text-center">
+            <div class="row row-cols-3">
+                <div class="col">
+                    <div class="mat-fer-block">
+                        <h4>Trello</h4>
+                        <a href="https://trello.com/" target="_blank"><img src="../static/images/icons8-trello-250.png" alt="trello icon" class="mat-fer-img"></a>
+                        <p class="mat-fer-block-text">Ferramenta excelente para gerenciar o andamento da sua equipe e visualizar como está seu progresso individual e dos demais membros em suas respectivas tarefas.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mat-fer-block">
+                        <h4>Notion</h4>
+                        <a href="https://www.notion.so/" target="_blank"><img src="../static/images/icons8-notion-250.png" alt="notion icon" class="mat-fer-img"></a>
+                        <p class="mat-fer-block-text">Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mat-fer-block">
+                        <h4>Github</h4>
+                        <a href="https://github.com/" target="_blank"><img src="../static/images/github-mark.png" alt="github icon" class="mat-fer-img"></a>
+                        <p class="mat-fer-block-text">Essa plataforma de versionamento possibilitará que sua equipe faça sucessivas entregas de aprimoramentos do produto. Ideal para uso de programadores, mas também aplicável para demais equipes que trabalham com o sistema colaborativo.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mat-fer-block">
+                        <h4>Youtrack</h4>
+                        <a href="https://www.jetbrains.com/pt-br/youtrack/" target="_blank"><img src="../static/images/Youtrack.png" alt="youtrack icon" class="mat-fer-img"></a>
+                        <p class="mat-fer-block-text">Ferramenta faz “tudo” criada pela JetBrains para equipes ageis , sendo gratuita até grupos de 10 membros. A ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para organizar suas equipes.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mat-fer-block">
+                        <h4>Azure Ops</h4>
+                        <a href="https://azure.microsoft.com/pt-br/products/devops" target="_blank"><img src="../static/images/Azure Devops.png" alt="azure ops icon" class="mat-fer-img"></a>
+                        <p class="mat-fer-block-text">Azure Ops é a plataforma da Microsoft para equipes que utilizam o Scrum tendo ferramentas para criação de Burndown e Backlog. Sendo criada pela Microsoft á integração da plataforma com os outros serviços da Microsoft como a Azure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block btnback %}#{% endblock %}
+{% block btnnext %}#{% endblock %}
