@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='./css/normalize.css') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='./css/style.css') }}">
-    <link rel="icon" href="../static/images/fav_icon.png">
+    <link rel="icon" href="../../static/images/fav_icon.png">
   </head>   
 
   <body class="vh-100" data-section-color="{% block color %}{% endblock %}">
@@ -28,7 +28,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-logo" href="/en">
-                <img src="../static/images/home.png" alt="navbarlogo" width="50px" height="50px" class="d-inline-block align-text-top">
+                <img src="../../static/images/home.png" alt="navbarlogo" width="50px" height="50px" class="d-inline-block align-text-top">
             </a>
             <div class="collapse navbar-collapse" id="navcontent">
                 <ul class="navbar-nav p-2">
@@ -76,6 +76,7 @@
                     </li>
                 </ul>
             </div>  
+            <img src="../../static/images/globe.png" id="langBtn" data-current-lang="en"></img>
             <div class="form-check form-switch">
                 <input class="form-check-input" type="checkbox" role="switch" id="themeSwitch">
                 <label class="form-check-label" for="themeSwitch" id="themeSwitchLabel">Light/Dark mode</label>
@@ -90,7 +91,7 @@
           <div id="texture" class="w-100 mh-100 d-flex justify-content-center">
             <div class="wrapper" style="width: 65%;">
                 <div class="content-icon-back" >
-                    <img src="../static/images/{% block iconName %}{% endblock %}.png" alt="icon" class="content-icon">
+                    <img src="../../static/images/{% block iconName %}{% endblock %}.png" alt="icon" class="content-icon">
                 </div>
                 <div class="content-title-block">
                 <h1 class="display-1 content-title" ><strong>{% block contentTitle %} {% endblock %}</strong></h1>
@@ -135,7 +136,7 @@
             <a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank">Website oficial</a>
         </div>
         <a href="https://github.com/Byte-Boost/Plataforma-Scrum" target="_blank">
-            <img src="../static/images/github-mark.png" class="github-mark" alt="Github QRCODE"> 
+            <img src="../../static/images/github-mark.png" class="github-mark" alt="Github QRCODE"> 
         </a>
         
         <button class="btn btn-primary btn-footer-modal" data-bs-toggle="modal" data-bs-target="#footerModal">
@@ -162,7 +163,7 @@
                     <ul class="footer-modal-memb">
                         <li class="footer-modal-item">
                             <div class="modal-memb memb-po">
-                                <img src="../static/images/gabriel.png" alt="Foto Gabriel" class="memb-img">
+                                <img src="../../static/images/gabriel.png" alt="Foto Gabriel" class="memb-img">
 
                                 <div class="memb-cont">
                                     <h4 class="memb-nome">Gabriel Alves de Souza</h4>
@@ -170,12 +171,12 @@
                                     <ul class="memb-link">
                                         <li class="memb-link-item">
                                             <a href="https://github.com/gabriel15asouza" target="_blank">
-                                                <img src="../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
+                                                <img src="../../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
                                             </a>
                                         </li>
                                         <li class="memb-link-item">
                                             <a href="https://www.linkedin.com/in/gabriel-alves-de-souza-5b7747267/" target="_blank">
-                                                <img src="../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
+                                                <img src="../../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
                                             </a>
                                         </li>
                                     </ul>
@@ -184,7 +185,7 @@
                         </li>
                         <li class="footer-modal-item">
                             <div class="modal-memb memb-sm">
-                                <img src="../static/images/markos.png" alt="Foto Markos" class="memb-img">
+                                <img src="../../static/images/markos.png" alt="Foto Markos" class="memb-img">
 
                                 <div class="memb-cont">
                                     <h4 class="memb-nome">Markos Vinícius Nunes</h4>
@@ -192,12 +193,12 @@
                                     <ul class="memb-link">
                                         <li class="memb-link-item">
                                             <a href="https://github.com/MarkVN2" target="_blank">
-                                                <img src="../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
+                                                <img src="../../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
                                             </a>
                                         </li>
                                         <li class="memb-link-item">
                                             <a href="https://www.linkedin.com/in/markos-vin%C3%ADcius-nunes-230448268/" target="_blank">
-                                                <img src="../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
+                                                <img src="../../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
                                             </a>
                                         </li>
                                     </ul>  
@@ -206,7 +207,7 @@
                         </li>
                         <li class="footer-modal-item">
                             <div class="modal-memb memb-dev">
-                                <img src="../static/images/vinicius.png" alt="Foto Vinícius" class="memb-img">
+                                <img src="../../static/images/vinicius.png" alt="Foto Vinícius" class="memb-img">
 
                                 <div class="memb-cont">
                                     <h4 class="memb-nome">Vinícius Felipe Forcato</h4>
@@ -214,12 +215,12 @@
                                     <ul class="memb-link">
                                         <li class="memb-link-item">
                                             <a href="https://github.com/nininhosam" target="_blank">
-                                                <img src="../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
+                                                <img src="../../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
                                             </a>
                                         </li>
                                         <li class="memb-link-item">
                                             <a href="https://www.linkedin.com/in/vin%C3%ADcius-felipe-forcato-789462268/" target="_blank">
-                                                <img src="../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
+                                                <img src="../../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
                                             </a>
                                         </li>
                                     </ul>
@@ -228,7 +229,7 @@
                         </li>
                         <li class="footer-modal-item">
                             <div class="modal-memb memb-dev">
-                                <img src="../static/images/jhuan.png" alt="Foto Gabriel" class="memb-img">
+                                <img src="../../static/images/jhuan.png" alt="Foto Gabriel" class="memb-img">
 
                                 <div class="memb-cont">
                                     <h4 class="memb-nome">Jhuan Araújo de Souza</h4>
@@ -236,12 +237,12 @@
                                     <ul class="memb-link">
                                         <li class="memb-link-item">
                                             <a href="https://github.com/TheRabbitDev" target="_blank">
-                                                <img src="../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
+                                                <img src="../../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
                                             </a>
                                         </li>
                                         <li class="memb-link-item">
                                             <a href="https://www.linkedin.com/in/jhuan-ara%C3%BAjo-de-souza-372233230/" target="_blank">
-                                                <img src="../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
+                                                <img src="../../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
                                             </a>
                                         </li>
                                     </ul>
@@ -250,7 +251,7 @@
                         </li>
                         <li class="footer-modal-item">
                             <div class="modal-memb memb-dev">
-                                <img src="../static/images/marcos.png" alt="Foto Gabriel" class="memb-img">
+                                <img src="../../static/images/marcos.png" alt="Foto Gabriel" class="memb-img">
 
                                 <div class="memb-cont">
                                     <h4 class="memb-nome">Marcos Antônio Rodrigues dos Santos</h4>
@@ -258,12 +259,12 @@
                                     <ul class="memb-link">
                                         <li class="memb-link-item">
                                             <a href="https://github.com/Marcos-Antonio-Rodrigues-dos-Santos" target="_blank">
-                                                <img src="../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
+                                                <img src="../../static/images/github-mark.png" alt="Logo Github" class="memb-link-git">
                                             </a>
                                         </li>
                                         <li class="memb-link-item">
                                             <a href="https://www.linkedin.com/in/marcos-antonio-329449268/" target="_blank">
-                                                <img src="../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
+                                                <img src="../../static/images/linkedin.png" alt="Logo Linkedin" class="memb-link-linkedin">
                                             </a>
                                         </li>
                                     </ul>

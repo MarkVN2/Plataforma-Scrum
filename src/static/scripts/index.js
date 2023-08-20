@@ -46,3 +46,11 @@ themeSwitch.addEventListener("change", el => {
     localStorage.setItem("themePref", "light")
   }
 })
+
+//handling language change
+const langBtn = document.querySelector("img#langBtn");
+langBtn.addEventListener("click", ()=>{
+  let currLang = langBtn.getAttribute("data-current-lang")
+  location.pathname == "/" ? path = "" : path = location.pathname; 
+  currLang == "br" ? location.href = `/en${path}` : location.href = `${path.slice(3)}` || `/`
+})
