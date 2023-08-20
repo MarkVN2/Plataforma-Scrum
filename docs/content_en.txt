@@ -1,6 +1,6 @@
 HOME
 The agile methodology is capable of accomplishing complex projects in a simple and manageable way.
-Start your journey with these tool, revolutionize the way your team works and start having double the performance.
+Start your journey with this tool, revolutionize the way your team works and start having double the performance.
 
 METODOLOGIA - INTRODUCTION
 In the current accelerated and innovative market, for a company to stay modern, it needs to adapt itself to changes that tecnology is implementing and find, in midst of this hectic scenario, opportunities to accomplish a relevant work.
@@ -89,73 +89,73 @@ Therefore, when the Sprint's closing date arrives, the team will hold its Sprint
 
 (IMAGEM REUNIÃO AUTOAVALIAÇÃO)
 
-A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de Sprint Retrospective (Retrospectiva de Sprint). Nela, a equipe se reunirá para ter uma visão geral de como o projeto está se desenrolando. 
+The ideal stage for the team to take stock of its own performance is the Sprint Retrospective period. Here, the team will have a meeting to get an overview of how the project is going. 
 
-(CONTEÚDO EXTRA - COLOCANDO A CASA EM ORDEM
-Nesse processo de 'lavagem de roupa suja' é importante que os indíviduos não apenas ressaltem os pontos negativos, mas também levantem pontos postivos do grupo e enaltaçam os destaques individuais. 
+(CONTEÚDO EXTRA - PUTTING THE HOUSE IN ORDER
+In this process of 'washing dirty clothes', it's important that the individuals not only highlight the negative points, but also the positive points of the group and individual highlights. 
 (GIF LAVAGEM DE ROUPA)
-Além disso, esse é o momento propício para expressar ideias e opiniões.)
+Moreover, this is the right time to express ideas and opinions).
 
-Esse é o momento no qual cada um dos integrantes da equipe poderá avaliar o desempenho de seus colegas e receber os feedbacks de como tem sido a sua colaboração no projeto.
+This is the moment when each team member can evaluate their colleagues' performance and receive feedback on how they have collaborated on the project.
 
-Alguns pontos individuais que podem ser considerados são entrega de resultados, autonomia, cooperação, proatividade, entre outros.
+Some individual points that can be taken into account are delivery of results, autonomy, cooperation, proactivity, among others.
 
-(CONTEÚDO EXTRA - EXEMPLO DE QUADRO DE AUTOAVALIAÇÃO
+(CONTEÚDO EXTRA - SELF-ASSESSMENT TABLE EXAMPLE
 
-Esse é um exemplo de quadro que pode ser atualizado para ter uma visão geral de como sua equipe se desempenhou. Nos quadro serão apontados aquilo que deu certo e é aquilo que não foi legal na sprint, podendo ser questões gerais ou individuais. Já nos inferiores serão compatilhadas as ideias que surgirem e levantados quem foram os destaque dos grupo.
+This is an example of a table that you can update to get an overview of how your team performed. The tables show what went well and what didn't go well in the sprint, whether these are general or individual issues. In the lower ones, you'll share the ideas that came up and see who stood out in the group.
 
 (IMAGEM QUADRO RETROSPECTIVA DE SPRINT)
 
-Como o objetivo da avaliação é criar evoluir e não regredir, o ideal é realizar o preenchimento desse quadro de forma anônimo para que os comentários possam ser impessoais.
+As the aim of the evaluation is to create, evolve and not regress, it is best to fill in this box anonymously so that the comments can be impersonal.
 )
 
-Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:
+Given the importance of this step in the process, here are a few tips and recommendations on how to self-assess your individual performance and that of the team:
 
-ESTABELEÇA A VISÃO DO PROJETO NO KICK OFF
+ESTABLISH THE PROJECT VISION AT KICK-OFF
 (DROPDOWN - GIF CONTRUÇÃO PRÉDIO
-Se associarmos o produto que está sendo desenvolvido a um prédio em construção, o Kick Off assertivamente poderia ser relacionado ao alicerce que é feito, o qual representará essa base forte que fundamentará as demais etapas que comporão as etapas superiores.
-Nessa etapa, o cliente apresentará os porquês de seu interesse no projeto, qual a visão geral do produto, as necessidades, os desejos e as expectativas que foram geradas.)
+If we associate the product being developed with a building under construction, the Kick Off could definitely be related to the foundation that is made, which will represent the strong base that will underpin the other stages that make up the upper stages.
+At this stage, the client will present the reasons for their interest in the project, what the general vision of the product is, the needs, desires and the expectations that have been generated).
 
-DÊ OPINIÕES E IDEIAS
+GIVE OPINIONS AND IDEAS
 (DROPDOWN - IMAGEM REUNIÃO DE BRAINSTORMING/IDEIAS
-Opiniões e críticas respeitosas e construtivas serão sempre bem-vindas. Durante a avaliação interna do grupo, é normal que apareçam divergências de opinião e conflitos de ideias em relação a alguns pontos do projeto (conflitos não em referência a brigas e ofensas, mas a contradições e dilemas). 
-Essas discussões devem ser tidas por positivas, pois esses pensamentos desiguais levarão a equipe a sair da zona de conforto, forçando-a a buscar possíveis resoluções para o dilema em questão. Essas situações sempre terão por resultado o crescimento da equipe e uma série de possíveis aprimoramentos e novas ideias.)
+Respectful and constructive opinions and criticism are always welcome. During the group's internal evaluation, it is normal for different opinions and conflicts of ideas to arise regarding some points of the project (not conflicts as in fights and offenses, but as in contradictions and dilemmas). 
+These discussions should be seen as positive, as these unequal thoughts will push the team out of its comfort zone, forcing it to look for possible solutions to the dilemma in question. These situations will always result in team growth and a series of possible improvements and new ideas).
 
-ADAPTE-SE
+ADAPT YOURSELF
 (DROPDOWN - IMAGEM CAMALEÃO
-Mesmo que você esteja tendo seu primeiro contato com Scrum a partir desse material, supõe-se que já tenha entendido o quanto a adaptabilidade será fundamental para o sucesso do seu projeto. Uma das maiores vantagens dessa metodologia é essa autonomia que ela fornece à equipe para que alterações sejam feitas durante o desenvolvimento do projeto. 
-Tudo isso vai acontecendo naturalmente. Uma nova ideia surge, novas perspectivas sendo acessadas conforme o projeto progride, aquilo que outrora fazia muito sentido e era tido por essencial vai perdendo a importância e ficando em segundo plano e tudo vai se reformulando e sendo aprimorado.)
+Even if this material is your first contact with Scrum, it is assumed that you have already understood how fundamental adaptability will be to the success of your project. One of the greatest advantages of this methodology is the autonomy it gives the team to make changes during the development of the project. 
+All of this happens naturally. A new idea arises, new perspectives are accessed as the project progresses, what once made a lot of sense and was considered essential loses its importance and fades into the background, and everything is reformulated and improved).
 
 METODOLOGIA - TEAM
-Em todo início de projeto a equipe irá, a partir da visão do produto passada pelo cliente, estabelecer requisitos, os quais se referem aos fatores que promovem uma solução ou satisfazem as necessidades do cliente. 
+At the start of every project, the team will, based on the client's vision of the product, establish requirements, which refer to the factors that promote a solution or satisfy the client's needs. 
 
-Esse estágio é mais conhecido como Kick Off. A composição desses fatores será o produto final. Os requisitos são ordenados em uma lista de prioridades chamada Backlog, a qual iremos discorrer com detalhes mais adiante.
+This stage is better known as Kick Off. The composition of these factors will be the final product. The requirements are ordered in a list of priorities called the Backlog, which we will discuss in more detail later.
 
-(CONTEÚDO EXTRA - A IMPORTÃNCIA DO KICK OFF/PREPAROS PARA LARGADA
-O Kick Off pode ser associado aos preparativos feitos por um corredor antes de uma corrida. Realizar a análise do percurso a ser trilhado e estudar qual a melhor estratégia a ser adotada são medidas que preparam o atleta e aumentam suas chances de obter bons resultados.
+(CONTEÚDO EXTRA - THE IMPORTANCE OF THE KICK OFF/PREPARING FOR THE START
+The Kick Off can be associated with the preparations made by a runner before a race. Analyzing the route to be run and studying the best strategy to adopt are measures that prepare the athlete and increase their chances of achieving good results.
 
-Da mesma forma acontece no Kick Off. O time irá estudar os objetivos a serem alcançados e elaborar estratégias para que possam estruturar uma forma de desenvolvimento organizada e alinhada às expectativas do cliente para quando for dada a largada.
+The same goes for the Kick Off. The team will study the objectives to be achieved and draw up strategies so that they can structure a form of development that is organized and aligned with the client's expectations for when the start is given.
 
 (GIF CORREDORES)
 )
 
-Após estabelecer a importância de cada uma dessas tarefas, inicia-se a produção, dando prioridade às que forem qualificadas como imprescindíveis, que não podem faltar no produto e assim suscessivamente.
+After establishing the importance of each of these tasks, production begins, giving priority to those that are considered essential, that cannot be missing from the product, and so on.
 
-Os requisitos são divididos em períodos de produção, os quais são conhecidos como Sprints.
+The requirements are divided into production periods, known as sprints.
 
-O projeto completo será composto por uma série de Sprints, tendo a quantia variada de acordo com a complexidade do produto.
+The complete project will be made up of a series of Sprints, the amount of which varies according to the complexity of the product.
 
 (IMAGEM - ETAPAS SCRUM)
 
-No início de cada Sprint, os integrantes se reunirão para juntos alinharem as tarefas e a estratégia que serão adotadas. Essa etapa é conhecida como Sprint Planning - Planejamento de Sprint.
+At the start of each Sprint, the members will get together to align the tasks and strategy that will be adopted. This stage is known as Sprint Planning.
 
-Já ao final será realizada a já citada Retrospectiva de Sprint, a qual fornece um panorama geral de como a equipe se comportou e analisa os prós e os contras da etapa de desenvolvimento em questão.
+At the end, the aforementioned Sprint Retrospective will be held, which provides an overview of how the team performed and analyzes the pros and cons of the development stage in question.
 
-Quanto aos membros da equipe, eles serão divididos em cargos de acordo com a função que exercerão no time.
+As for the team members, they will be divided into positions according to their role in the team.
 
-Como no time Scrum não há nenhuma estrutura hierárquica, enfatiza-se que esses papéis se referem às responsabilidades que serão designadas para cada um.
+As there is no hierarchical structure in the Scrum team, it is emphasized that these roles refer to the responsibilities that will be assigned to each one.
 
-Os cargos que todo Scrum Team precisa ter são: 
+The positions that every Scrum Team needs to have are: 
 
 Scrum Master 
 (ÍCONE - SM)
@@ -166,78 +166,96 @@ Product Owner
 Development Team 
 (ÍCONE - DEV TEAM). 
  
-A seguir, iremos discorrer com mais detalhes cada uma dessas funções.
+We'll go into each of these functions in more detail below.
 
-PRODUCT OWNER - PRORIZANDO O VALOR DO PRODUTO
-O Proprietário do Produto, mais conhecido como P.O., é o responsável pelo produto em sua totalidade e deverá esclarecer para seu grupo quais são as expectativas e a visão geral que o cliente tem para o projeto e que deverão ser supridas durante o período de desenvolvimento para que o produto atinja os objetivos finais de aprovação.
+PRODUCT OWNER - PRIORITIZING THE PRODUCT VALUE
+The Product Owner, better known as the P.O., is responsible for the product as a whole and must clarify to his team what the client's expectations and general vision are for the project, which must be met during the development period for the product to achieve the final approval criteria.
 
-Sua atuação é de um interlocutor entre os membros de sua equipe e o cliente em questão. Ele será o responsável por captar os requisitos que forem levantados pelo contratante, levando em consideração suas necessidades e desejos, e encaminhá-los de forma clara e concisa ao grupo.
+Their role is that of an interlocutor between the members of their team and the client in question. They will be responsible for capturing the requirements raised by the contractor, taking into account their needs and desires, and forwarding them clearly and concisely to the group.
 
-(CONTEÚDO EXTRA - A BOA COMUNICAÇÃO 
-Você se lembra daquela brincadeira infantil em grupo chamada telefone sem fio? Nela uma das crianças define uma frase que será passada de uma criança para a outra sussurrando até que chegue na última criança, que falará o que ouviu em alta voz.
+(CONTEÚDO EXTRA - GOOD COMMUNICATION 
+Do you remember that children's game called telephone (also known as "Chinese whispers")? In it, one of the children chooses a sentence that will be passed from one child to the next in whispers until it reaches the last child, who will say what they heard out loud.
 
 (IMAGEM FALANDO NO OUVIDO)
 
-O desafio é fazer com que a frase chegue completa aos ouvidos da última criança, mas uma pequena desatenção ou interpretação errada pode mudar compltamente o sentido da frase. Assim, é no trabalho de um P.O.
+The challenge is to make sure that the sentence reaches the ears of the last child, but a small oversight or misinterpretation can completely change the meaning of the sentence. The same is true for the job of the P.O.
 
-Ele é responsável por garantir que não haja equívocos na passagem dos requisitos e objetivos, de modo que o que foi passado pelo cliente seja preservado.
+They are responsible for ensuring that there are no misunderstandings when passing on requirements and objectives, so that what was passed on by the client is preserved.
 )
 
-Em seguida, os membros realizarão juntos a análise técnica daquilo que foi levantado e definirão a estratégia que será adotada e quais medidas tomarão para desempenhar aquilo que foi requerido.
+Next, the members will jointly carry out a technical analysis of what has been raised and will define the strategy that will be adopted and what measures they will take to carry out what has been requested.
 
 (IMAGEM DE UMA REUNIÃO DE NEGÓCIOS)
 
-É muito importante salientar que mesmo que a equipe faça a análise conjunta de cada uma das particularidades do processo e decida priorizar certos requisitos em detrimento de outros, sempre será o cliente a dar a palavra final quanto ao que é essencial e o que não é para o projeto. Assim, caberá ao P.O. representar o seu posicionamento dentro do ambiente de equipe, pois é ele o responsável por dominar aquilo que possui maior valor para o contratante. Portanto, uma característica indispensável para um bom P.O. é possuir o conhecimento aprofundado de cada uma das facetas do produto/serviço com o qual a equipe lidará.
+It's very important to note that even if the team analyzes each of the particularities of the process together and decides to prioritize certain requirements over others, the client will always have the final say as to what is essential for the project and what is not. It will therefore be up to the P.O. to represent their position within the team environment, as they are responsible for mastering what is of greatest value to the contractor. Therefore, an indispensable characteristic for a good P.O. is to have in-depth knowledge of each facet of the product/service that the team will be dealing with.
 
-Outras competências necessárias para desempenhar essa função são boa comunicação, habilidades interpessoais, facilidade em expressar, tanto para o cliente quanto para a equipe, as ideias e requisitos propostos.
+Other skills needed to perform this role are good communication and interpersonal skills, and the ability to express ideas and proposed requirements to both the client and the team.
 
-A principal ferramenta com a qual o P.O. irá interagir durante todo o período de desenvolvimento do projeto é o Backlog do Produto.
+The main tool with which the P.O. will interact throughout the project development period is the Product Backlog.
 
 PRODUCT OWNER - BACKLOG
-O Backlog nada mais é do que uma planilha na qual são listados todos os requisitos do projeto em ordem decrescente de prioridade (das tarefas mais importantes para as menos).
+The Backlog is nothing more than a spreadsheet in which all the project's requirements are listed in descending order of priority (from the most important tasks to the least).
 
-É indispensável que toda equipe tenha logo no início do projeto um Backlog bem definido para que todos consigam visualizar não apenas o que estará sendo realizado no momento presente, mas também fazer uma projeção de quais as responsabilidades que virão.
+It is essential for the team to have a well-defined Backlog right from the start of the project so that everyone can see not only what is being done at the moment, but also what responsibilities lie ahead.
 
-É necessário ressaltar que a planilha Backlog não é uma ferramenta de gestão interna do grupo, mas um instrumento responsável por orientar tanto aqueles que estão dentro da produção como os que estão fora dela, que é o caso do cliente com o qual a equipe tem cooperado.
+It should be emphasized that the Backlog spreadsheet is not an internal management tool for the group, but an instrument responsible for guiding both those within production and those outside it, which is the case of the client with whom the team has been cooperating.
 
-É fundamental que o cliente e o time estejam na mesma página quanto às expectativas e execução do projeto para que possam juntos elaborar soluções que sejam eficazes e superem o esperado.
+It is essential that the client and the team are on the same page with regard to the expectations and execution of the project so that together they can come up with solutions that are effective and exceed expectations.
 
 (DESTAQUE 
-Lembrando que, como todos os elementos do Scrum, o Backlog também se adapta a mudanças. Uma coisa é certa: haverá mudanças nos requisitos conforme as Sprints forem sendo realizadas!
+Remember that, like all Scrum elements, the Backlog also adapts to changes. One thing is certain: the requirements will change as the Sprints go on!
 )
 
-(CONTEÚDO EXTRA - ADAPTANDO
-Pense em uma longa viagem de carro de cerca de 10h de duração. Digamos que o indivíduo iniciou sua viagem às 12h e decidiu usar roupas mais leves devido ao calor do horário. Porém, com o passar do tempo o Sol foi se pondo e a temperatura foi esfriando, passando a fazer mais sentido para o viajante o uso de roupas mais pesadas para se esquentar.
+(CONTEÚDO EXTRA - ADAPTING
+Think of a long car journey of around 10 hours. Let's say you started your journey at 12 noon and decided to wear lighter clothes because of the heat. However, as time went by, the sun went down and the temperature cooled, so it made more sense for the traveler to wear heavier clothes to keep warm.
 
-Assim é com o decorrer do projeto. Conforme ele se desenrola, alguns pontos antes estabelecidos vão perdendo o sentido, fazendo-se necessárias mudanças que fazem mais sentido na situação.
+The same applies with the course of the project. As the project unfolds, some points that were previously established lose their meaning and changes are needed that make more sense in the situation.
 (GIF CARRO NA ESTRADA)
 )
 
 (IMAGEM EXEMPLO DA PLANILHA DE BACKLOG)
 
-Além do Backlog geral do produto, outra planilha essencial para a gestão de tarefas e responsabilidades é a planilha de Backlog da Sprint. Ela possui a mesma essência da planilha geral, mas com algumas identificações e especificações a mais para que que haja a execução por completo das tarefas designadas.
+In addition to the general Product Backlog, another essential worksheet for managing tasks and responsibilities is the Sprint Backlog worksheet. This has the same essence as the general spreadsheet, but with a few more identifications and specifications so that the assigned tasks can be carried out in full.
 
-Nessa planilha, todos os requisitos são descritos por meio do que chamamos de User Stories. Essas tem a função de explicar o requisito no formato de um desejo feito por alguém sem o conhecimento técnico, mas que expõe qual a expectativa do usuário em relação ao produto que ele irá dispor futuramente.
+In this spreadsheet, all the requirements are described using what we call User Stories. These have the function of explaining the requirement in the format of a wish made by someone without technical knowledge, but which sets out the user's expectations in relation to the product they will have in the future.
 
-(CONTEÚDO EXTRA - OUTRA PERSPECTIVA/A VISÃO DO OUTRO
-Cada pessoa tem uma história única. Pensamentos únicos, experiências únicas, opiniões únicas e realidades únicas. Um produto de sucesso será aquele capaz de identificar essas particularidades, esses cenários distintos e trazer valor a cada um deles. Para acessar esses vários contextos é que são desenvolvidas as User Stories. 
-Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas necessidades e desejos e promover soluções que trarão uam melhor qualidade de vida ao indivíduo e experiências prazerosas.
+(CONTEÚDO EXTRA - ANOTHER PERSPECTIVE/ANOTHER'S VIEW
+Each person has a unique story. Unique thoughts, unique experiences, unique opinions and unique realities. A successful product will be one that is able to identify these particularities, these different scenarios and bring value to each of them. User Stories are developed to access these various contexts. 
+These facilitators are able to make the team look through the lens of the user, find their needs and desires and promote solutions that will bring a better quality of life to the individual and enjoyable experiences.
 
 (IMAGEM LENTES)
 )
 
-O formato padrão de uma US bem formulada precisa ter as seguinte informações:
+The standard format for a well-formulated US must contain the following information:
 
-(TABELA - INDIVÍDUO QUE EXPRESSA DESEJO + AÇÃO/ELEMENTO QUE DESEJO INTERAGIR + PORQUÊ/MOTIVO DA FUNCIONALIDADE, O QUE ELA IRÁ AGREGAR À EXPERIÊNCIA)
-(EXEMPLO: EU, COMO USUÁRIO ALUNO DA PLATAFORMA, DESEJO UMA PÁGINA DE CONTATO COM OS PROFESSORES PARA QUE POSSA TIRAR MINHAS DÚVIDAS QUANTO AO CONTEÚDO LECIONADO)
+(TABELA - INDIVIDUAL EXPRESSING DESIRE + ACTION/ELEMENT I WISH TO INTERACT WITH + WHY/REASON OF THE FUNCTIONALITY, WHAT IT WILL BRING TO THE EXPERIENCE)
+(EXAMPLE: I, AS A STUDENT USER OF THE PLATFORM, WOULD LIKE A PAGE TO CONTACT THE TEACHERS SO THAT I CAN ASK QUESTIONS ABOUT THE CONTENT BEING TAUGHT)
 
-Para que uma tarefa esteja apta para ser adicionada ao Backlog da Sprint, ela precisará passar antes pelo crivo do Definition of Ready (DoR), a Definição de Pronto, a qual possui o papel de qualificar se uma certa tarefa já poderá ser produzida ou se ainda há alguma pendência que impossibilita sua execução no momento.
+For a task to be able to be added to the Sprint Backlog, it must first pass the Definition of Ready (DoR) sieve, which has the role of qualifying whether a certain task can already be produced or whether there are still any pending issues that make it impossible to carry it out at the moment.
 
-Outro quesito que deve ser expresso no Backlog da Sprint é a Estimativa de Esforço das tarefas. 
+Another item that must be included in the Sprint Backlog is the Task Effort Estimate. 
 
-Nesse campo será exposto qual é, segundo a perspectiva do grupo, o tempo necessário para realização da determinada tarefa em função da dificuldade que ela possui para ser concretizada.
+This field will show how long it will take, from the group's point of view, to carry out a given task, given how difficult it is to accomplish.
 
-Em seguida, são colocados o respectivo requisito do Backlog do Produto que define aquela US e o seu critério de aceitação, sendo esse último uma das partes principais dessa planilha. Ele é o responsável por indicar o que chamamos de Definition of Done (DoD), ou Definição de Feito. Com base nesse critério, o grupo avalia se o requisito pode ser classificado como concluído ou não.
+Next, the respective requirement from the Product Backlog that defines that US and its acceptance criteria are entered, the latter being one of the main parts of this spreadsheet. It is responsible for indicating what we call the Definition of Done (DoD). Based on these criteria, the group assesses whether the requirement can be classified as completed or not.
+
+
+
+
+
+
+
+
+--------------------------------------------------------------- TRANSLATION PROGRESS ---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 SCRUM MASTER - A METODOLOGIA APLICADA
 O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodologia Scrum, suas práticas e princípios fundamentais.
