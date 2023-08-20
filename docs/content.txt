@@ -168,7 +168,7 @@ Development Team
  
 A seguir, iremos discorrer com mais detalhes cada uma dessas funções.
 
-PRODUCT OWNER - PRORIZANDO O VALOR DO PRODUTO
+PRODUCT OWNER - PRIORIZANDO O VALOR DO PRODUTO
 O Proprietário do Produto, mais conhecido como P.O., é o responsável pelo produto em sua totalidade e deverá esclarecer para seu grupo quais são as expectativas e a visão geral que o cliente tem para o projeto e que deverão ser supridas durante o período de desenvolvimento para que o produto atinja os objetivos finais de aprovação.
 
 Sua atuação é de um interlocutor entre os membros de sua equipe e o cliente em questão. Ele será o responsável por captar os requisitos que forem levantados pelo contratante, levando em consideração suas necessidades e desejos, e encaminhá-los de forma clara e concisa ao grupo.
@@ -178,7 +178,7 @@ Você se lembra daquela brincadeira infantil em grupo chamada telefone sem fio? 
 
 (IMAGEM FALANDO NO OUVIDO)
 
-O desafio é fazer com que a frase chegue completa aos ouvidos da última criança, mas uma pequena desatenção ou interpretação errada pode mudar compltamente o sentido da frase. Assim, é no trabalho de um P.O.
+O desafio é fazer com que a frase chegue completa aos ouvidos da última criança, mas uma pequena desatenção ou interpretação errada pode mudar completamente o sentido da frase. Assim, é no trabalho de um P.O.
 
 Ele é responsável por garantir que não haja equívocos na passagem dos requisitos e objetivos, de modo que o que foi passado pelo cliente seja preservado.
 )
@@ -221,7 +221,7 @@ Nessa planilha, todos os requisitos são descritos por meio do que chamamos de U
 
 (CONTEÚDO EXTRA - OUTRA PERSPECTIVA/A VISÃO DO OUTRO
 Cada pessoa tem uma história única. Pensamentos únicos, experiências únicas, opiniões únicas e realidades únicas. Um produto de sucesso será aquele capaz de identificar essas particularidades, esses cenários distintos e trazer valor a cada um deles. Para acessar esses vários contextos é que são desenvolvidas as User Stories. 
-Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas necessidades e desejos e promover soluções que trarão uam melhor qualidade de vida ao indivíduo e experiências prazerosas.
+Essas facilitadoras são capazes de fazer a equipe olhar pelas lentes do usuário, encontrar suas necessidades e desejos e promover soluções que trarão uma melhor qualidade de vida ao indivíduo e experiências prazerosas.
 
 (IMAGEM LENTES)
 )
