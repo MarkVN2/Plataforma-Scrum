@@ -1,0 +1,168 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Autoavaliation - Methodolgy | Plataforma Scrum{% endblock %}
+{% block color %}metodologia{% endblock %}
+{% block iconName %}method{% endblock %}
+{% block contentTitle %}Methodolgy{% endblock %}
+{% block subtitle %}Autoavaliation{% endblock %}
+{% block content %}
+
+<div class="h-75 w-75 default-main met-auto-main">
+  <div class="default-textbox met-auto-textbox">
+    <p class="default-para met-auto-para">
+      As equipes Scrum possuem em sua essência a capacidade de serem <strong>autogerenciáveis.</strong>
+    </p>
+
+    <p class="default-para met-auto-para">
+      Essa competência às proporciona a possibilidade de se abstraírem das situações e cenários em que estão inseridas
+      para que possam <strong>analisar o processo de um ponto de vista crítico.</strong>
+    </p>
+
+    <p class="default-para met-auto-para">
+      Esse é um estágio fundamental da produção, pois após longas horas de desenvolvimento, nas quais os desenvolvedores
+      se encontram absortos em sua criatividade e ideias, os momentos de alinhamento de visão serão importantes para
+      garantir que o <strong>projeto mantenha a identidade e os objetivos que foram estabelecidos.</strong>
+    </p>
+
+    <p class="default-para met-auto-para"> 
+      Sendo assim, chegada a data de fechamento da Sprint, a equipe irá realizar sua <a href="/glossario#gloss-sprint-rev" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Revisão de Sprint">Sprint Review</a>, na qual <strong>tudo aquilo que foi desenvolvido nesse período será apresentado a todos os envolvidos no projeto.</strong> Nesse momento a equipe poderá receber feedbacks externos ao desenvolvimento do trabalho, a partir dos quais poderá direcionar suas futuras resoluções.
+    </p>
+
+    <div class="met-auto-img-box">
+      <img src="../static/images/autoavaliacao_meeting.jpg" alt="Reunião de autoavaliação" class="met-auto-img" />
+    </div>
+
+    <!--Conteúdo Extra--> 
+    <p class="default-para met-auto-para">
+      A etapa ideal para que a equipe faça os apontamentos quanto a sua própria atuação é o período de <a href="/glossario#gloss-sprint-ret" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Retrospectiva de Sprint">Sprint Retrospective</a>. Nela, a equipe se reunirá para ter uma visão geral de como o projeto está
+      se desenrolando.
+    </p>
+    
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Colocando a casa em ordem
+      </a>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card default-card-body met-auto-card-body">
+        <div class="default-collapse-text met-auto-collapse-text">
+          <h5>Colocando a casa em ordem</h5>
+          <p>
+            Nesse processo de 'lavagem de roupa suja' é importante que os indíviduos não apenas ressaltem os pontos negativos, mas também levantem pontos positivos do grupo e enalteçam os destaques individuais. 
+          </p>
+          <div class="default-collapse-image-block met-auto-collapse-image-block">
+            <img src="../static/images/washing_machine.gif" alt="Lavando Roupa" class="default-collapse-image met-auto-collapse-image">
+          </div>
+          <p>
+            Além disso, esse é o momento propício para expressar ideias e opiniões.
+          </p>
+        </div>
+       
+      </div>
+    </div>
+
+    <p class="default-para met-auto-para">
+      Esse é o momento no qual cada um dos integrantes da equipe poderá <strong>avaliar o desempenho de seus colegas e receber
+      os feedbacks de como tem sido a sua colaboração no projeto</strong>.
+    </p>
+
+    <!--Conteúdo Extra--> 
+    <p class="default-para met-auto-para">
+      Alguns pontos individuais que podem ser considerados são <strong> entrega de resultados, autonomia, cooperação, proatividade</strong>, entre outros.
+    </p>
+
+    <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary met-pil-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Exemplo de quadro de autoavaliação
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Exemplo de quadro de autoavaliação</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Esse é um exemplo de quadro que pode ser atualizado para ter uma visão geral de como sua equipe se desempenhou. Nos quadro serão apontados aquilo que deu certo e é aquilo que não foi legal na sprint, podendo ser questões gerais ou individuais. Já nos inferiores serão compatilhadas as ideias que surgirem e levantados quem foram os destaque dos grupo.
+          </p> 
+          <img src="../static/images/restrospectiva.png" alt="Quadro de autoavaliação" class="met-auto-img-modal">
+          <p>
+            Como o objetivo da avaliação é criar, evoluir e não regredir, o ideal é realizar o preenchimento desse quadro de forma anônimo para que os comentários possam ser impessoais.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Seguir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <p class="default-para met-auto-para">
+      Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como
+      autoavaliar seu desempenho individual e o do time:
+    </p>
+  </div>
+
+  <div class="met-auto-tips-block">
+
+    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+      <li class="nav-item met-auto-tips-button" role="presentation">
+        <button class="nav-link met-auto-tips-button-text active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Estabeleça uma visão no Kick Off</button>
+      </li>
+      <li class="nav-item met-auto-tips-button" role="presentation">
+        <button class="nav-link met-auto-tips-button-text" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Dê opiniões e ideias</button>
+      </li>
+      <li class="nav-item met-auto-tips-button" role="presentation">
+        <button class="nav-link met-auto-tips-button-text" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Adapte-se</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+        <div class="default-image-block met-auto-tab-img-box">
+          <img src="../static/images/building.gif" alt="building construction" class="met-auto-tab-img">
+          <p class="default-para met-auto-para">
+            Se associarmos o produto que está sendo desenvolvido a um prédio em construção, o Kick Off assertivamente poderia ser relacionado ao alicerce que é feito, o qual representará essa base forte que fundamentará as demais etapas que comporão as etapas superiores.
+            <br><br>
+            Nessa etapa, o cliente apresentará os porquês de seu interesse no projeto, qual a visão geral do produto, as necessidades, os desejos e as expectativas que foram geradas.
+          </p>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+        <div class="default-image-block met-auto-tab-img-box">
+          <img src="../static/images/share_ideas.png" alt="brainstorming" class="met-auto-tab-img">
+          <p class="default-para met-auto-para">
+            Opiniões e críticas respeitosas e construtivas serão sempre bem-vindas. Durante a avaliação interna do grupo, é normal que apareçam divergências de opinião e conflitos de ideias em relação a alguns pontos do projeto (conflitos não em referência a brigas e ofensas, mas a contradições e dilemas). 
+            <br><br>
+            Essas discussões devem ser tidas por positivas, pois esses pensamentos desiguais levarão a equipe a sair da zona de conforto, forçando-a a buscar possíveis resoluções para o dilema em questão. Essas situações sempre terão por resultado o crescimento da equipe e uma série de possíveis aprimoramentos e novas ideias.
+          </p>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+
+        <div class="default-image-block met-auto-tab-img-box">
+          <img src="../static/images/chameleon.png" alt="camaleão" class="met-auto-tab-img">
+          <p class="default-para met-auto-para">
+            Mesmo que você esteja tendo seu primeiro contato com Scrum a partir desse material, supõe-se que já tenha entendido o quanto a adaptabilidade será fundamental para o sucesso do seu projeto. Uma das maiores vantagens dessa metodologia é essa autonomia que ela fornece à equipe para que alterações sejam feitas durante o desenvolvimento do projeto. 
+            <br><br>
+            Tudo isso vai acontecendo naturalmente. Uma nova ideia surge, novas perspectivas sendo acessadas conforme o projeto progride, aquilo que outrora fazia muito sentido e era tido por essencial vai perdendo a importância e ficando em segundo plano e tudo vai se reformulando e sendo aprimorado.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en/metodologia/pilares{% endblock %}
+{% block btnnext %}/en/metodologia/team{% endblock %}

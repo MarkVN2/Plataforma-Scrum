@@ -106,7 +106,7 @@ Esse é um exemplo de quadro que pode ser atualizado para ter uma visão geral d
 
 (IMAGEM QUADRO RETROSPECTIVA DE SPRINT)
 
-Como o objetivo da avaliação é criar evoluir e não regredir, o ideal é realizar o preenchimento desse quadro de forma anônimo para que os comentários possam ser impessoais.
+Como o objetivo da avaliação é criar, evoluir e não regredir, o ideal é realizar o preenchimento desse quadro de forma anônimo para que os comentários possam ser impessoais.
 )
 
 Tendo em vista a importância dessa etapa para o processo, segue uma série de dicas e recomendações de como autoavaliar seu desempenho individual e o do time:

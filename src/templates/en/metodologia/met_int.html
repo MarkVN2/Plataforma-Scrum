@@ -1,0 +1,86 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Introduction - Methodology | Scrum Platform{% endblock %}
+{% block color %}metodologia{% endblock %}
+{% block iconName %}method{% endblock %}
+{% block contentTitle %}Methodology{% endblock %}
+{% block subtitle %}Introduction{% endblock %}
+{% block content %}
+
+<div class="h-75 w-75 default-main met-int-main">
+  <div class="default-textbox met-int-textbox">
+    <p class="default-para met-int-para">
+      In the current accelerated and innovative market, for a company to stay modern, it needs <strong>
+        to adapt itself to changes that tecnology is implementing</strong> and find, 
+        in midst of this hectic scenario, opportunities to accomplish a relevant work.
+    </p>
+
+    <p class="default-para met-int-para">
+      Having this point of view is crucial for an institution of success to establish adequate 
+      methods that will guide the actions that will be taken in its work environment.
+    </p>
+
+    <div class="default-image-block met-int-image-block">
+      <img src="../static/images/met_int.gif" class="met-int-border" />
+
+      <p class="default-para met-int-para">
+        In the past, the main methodology adopted by many institutions became popularly known as <strong>"Assembly line" or "Cascade method".</strong>
+      </p>
+    </div>
+
+    <p class="default-para met-int-para">
+      This traditional production system was inherited from the fordist development, during the second industrial revolution, and had as a principle the establishment of <strong>specific and repetitive tasks</strong>, designated to certain individuals <strong>that would little by little be added until they resulted in the expected final product.</strong>
+    </p>
+
+
+
+    <!-- Extra Content -->
+    <p class="default-para met-int-para">
+      
+This proceedure kept going for a while, however it was shown to be inefficient and <strong>certain inconstancies that delayed the process were revealed</strong>, mainly during the executions of more complex tasks.
+
+    </p>
+
+    <button type="button" class="btn btn-primary met-pil-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      ONE STEP FORWARD...
+    </button>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">...BUT ON THE OPPOSITE DIRECTION</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Some examples of disadvantages in the cascade method of production are:
+            </p>
+  
+            <ul>
+              <li>Late evaluation (Being late to sinalize flaws in the process)</li>
+              <li>Stagnation of the process (leaving part of the work force idle while they await for the moment to carry out their task)</li>
+            </ul>
+            <div class="default-modal-image-block">
+              <img src="../static/images/expectativa_realidade_balanço.jpg" alt="Expectativa e Realidade" class="default-modal-image met-int-modal-img">
+            </div>
+            <p>
+              What's the point of making multiple advancements, if they go against what the client really wants? the sum of these gaps in the production process are translated as delays and damages for the company, and insatisfaction for the client. 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Seguir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en{% endblock %}
+{% block btnnext %}/en/metodologia/oqueescrum{% endblock %}

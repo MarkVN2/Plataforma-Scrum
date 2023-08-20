@@ -1,0 +1,67 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Burndown e Daily Scrum - Scrum Master | Plataforma Scrum{% endblock %}
+{% block color %}scrum-master{% endblock %}
+{% block iconName %}scrum{% endblock %}
+{% block contentTitle %}Scrum Master{% endblock %}
+{% block subtitle %}Burndown e Daily Scrum{% endblock %}
+{% block content %}
+
+<div class="h-75 w-75 default-main sm-burn-main">
+  <div class="default-textbox sm-burn-textbox">
+    <p class="default-para sm-burn-para">
+      A ferramenta Burndown tem por objetivo fundamental <strong>gerenciar a organização interna da equipe.</strong>
+    </p>
+
+    <p class="default-para sm-burn-para">
+      Diferentemente do Backlog, que possui o atributo de conexão externa com o cliente, o qual também interage e
+      responde aos requerimentos da planilha, <strong>o Burndown é de uso exclusivo dos indivíduos inerentes ao grupo.</strong>
+    </p>
+
+    <p class="default-para sm-burn-para">
+      Sua funcionalidade é similar a de um método <a href="/glossario#gloss-kanban" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Burndown chart">Kanban</a>, em que pode-se quantificar visualmente o desenvolvimento gradual das tarefas.
+    </p>
+
+    <p class="default-para sm-burn-para">
+      Portanto, nele a equipe poderá gerenciar tanto as tarefas que foram delegadas a partir do estabelecimento dos
+      requisitos, mas também <strong>afazeres do desenvolvimento interno do grupo, com os quais o cliente não precisa estar
+      inteirado</strong>, como é o caso de pesquisas de tecnologias e funcionalidades de softwares, atividades de estudo, tarefas
+      de revisão e testagem.
+    </p>
+
+    <div class="sm-burn-img-box">
+      <img src="../static/images/burndown_chart.png" alt="Gráfico Burndown" class="sm-burn-img"/>
+    </div>
+
+    <p class="default-para sm-burn-para">
+      Uma particularidade dessa planilha é a sua propriedade visual, capaz de trazer uma <strong>perspectiva mais aprofundada da
+      relação andamento do projeto e produtividade do grupo.</strong> Através do <a href="/glossario#gloss-burndown" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: Burndown chart">Burndown Chart</a>, a equipe
+      dimensiona se está atrasada, adiantada ou em dia em relação à estimativa de entregas ideal.
+    </p>
+
+    <p class="default-para sm-burn-para">
+      Já o <strong>Daily Scrum (Scrum Diário)</strong> é um método estabelecido pelo Scrum Master no qual a <strong>equipe realiza diariamente (ou periodicamente) um momento de prestação de contas</strong> em que os integrantes da equipe atualizam os demais quanto ao que estão
+      desenvolvendo e os empecilhos que estão enfrentando, respondendo às seguintes perguntas:
+    </p>
+
+    <ul class="default-para sm-burn-para">
+      <li>
+        <h3 class="default-para sm-burn-para">O QUE FOI FEITO NO DIA ANTERIOR?</h3>
+      </li>
+
+      <li>
+        <h3 class="default-para sm-burn-para">O QUE SERÁ FEITO HOJE?</h3>
+      </li>
+
+      <li>
+        <h3 class="default-para sm-burn-para">QUAIS OS EMPECILHOS ENFRENTADOS?</h3>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en/scrum-master/introducao{% endblock %}
+{% block btnnext %}/en/development-team{% endblock %}

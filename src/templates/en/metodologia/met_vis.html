@@ -1,0 +1,47 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Visão - Metodologia | Plataforma Scrum{% endblock %} 
+{% block color %}metodologia{% endblock %}
+{% block iconName %}method{% endblock%} 
+{% block contentTitle %}Metodologia{% endblock %}
+{% block subtitle %}Visão{%endblock %} 
+{% block content %}
+
+<div class="h-75 w-75 default-main met-vis-main">
+  <div class="default-textbox met-vis-textbox">
+    <p class="default-para met-vis-para">
+      Em uma equipe Scrum todos estão a par da <strong>visão do produto</strong>, dos <strong>objetivos a serem alcançados</strong> e dos
+      <strong>requisitos que foram determinados</strong> para serem executados.
+    </p>
+
+    <p class="default-para met-vis-para">
+      <strong>Nela não há nenhum membro que possua algum nível de liderança ou autoridade para impor instruções aos demais</strong> (com
+      exceção de casos em que haja algum responsável externo que irá coordenar o andamento do projeto, não sendo ele um
+      membro da equipe).
+    </p>
+
+    <p class="default-para met-vis-para">
+      Assim, cabe aos membros gerenciarem por si mesmos as formas com que irão se organizar, quais serão as
+      responsabilidades de cada indivíduo e as métricas para avaliar o rendimento.
+    </p>
+
+    <p class="default-para met-vis-para">
+      A aplicação dessa metodologia é fundamentada no <strong>Manifesto Ágil e em seus 4 valores principais</strong>, sendo eles:
+    </p>
+  </div>
+
+  <div class="met-vis-listbox">
+    <ul class="met-vis-list">
+      <li class="met-vis-list-item">Indivíduos e interações mais que processos e ferramentas</li>
+      <li class="met-vis-list-item">Software em funcionamento mais que documentação abrangente</li>
+      <li class="met-vis-list-item">Colaboração com o cliente mais que negociação de contratos</li>
+      <li class="met-vis-list-item">Responder a mudanças mais que seguir um plano</li>
+    </ul>
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en/metodologia/oqueescrum{% endblock %}
+{% block btnnext %}/en/metodologia/pilares{% endblock %}

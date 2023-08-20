@@ -1,0 +1,114 @@
+<!-- prettier-ignore -->
+{% extends 'template_en.html' %}
+
+{% block title %}Pilares - Metodologia | Plataforma Scrum{% endblock %} 
+{% block color %}metodologia{% endblock %}
+{% block iconName %}method{% endblock%} 
+{% block contentTitle %}Metodologia{% endblock %}
+{% block subtitle %}Pilares{%endblock %} 
+{% block content %}
+
+<div class="h-75 w-75 default-main met-pil-main">
+  <div class="default-textbox met-pil-textbox">
+    <p class="default-para met-pil-para">
+      O Scrum a todo momento prioriza a entrega de elementos que, ainda que não tenham alcançado a projeção esperada
+      para o produto final, já <strong>possuem funcionalidade e podem ser aplicados</strong>. 
+    </p>
+
+    <p class="default-para met-pil-para">
+      Para que esse objetivo se concretize, são estabelecidos os chamados <a href="/glossario#gloss-artef" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: MVP">Artefatos Scrum</a>, que são elementos fundamentais na gestão do projeto e serão detalhados um a um com o decorrer deste conteúdo.
+    </p>
+
+    <!-- Extra Content -->
+    <p class="default-para met-pil-para">
+      Toda essa metodologia é fundamentada no princípio do <a href="/glossario#gloss-mvp" data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip-a-tag" title="Glossário: MVP">MVP, ou Produto Mínimo Viável</a>. Seu objetivo é <strong> promover suscessivas entregar incrementais que agreguem valor ao cliente</strong>, sendo capaz de até mesmo gerar ainda nos estágios iniciais do projeto até mesmo um retorno rentável ao investimento feito em alguns casos.
+    </p>
+
+   <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary met-pil-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Como definir o MVP?
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Como definir o MVP?</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            A produção fundamentada no MVP sempre terá por objetivo realizar entregas gradativas que irão atender a demanda do cliente. Como no exemplo abaixo.
+          </p> 
+          <img src="../static/images/mvp-exemplo.png" alt="Valor progressivo produto" class="met-pil-image-modal">
+          <p>
+            Um cliente que deseja um carro para locomoção não fica completamente satisfeito ao receber um skate na primeira entrega, mas já possuirá em mãos um item utilizável e que agrega valor. O oposto acontece no outro caso, no qual, mesmo com três entregas feitas, o cliente ainda não consegue tirar proveito algum do que recebeu até então.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Seguir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <p class="default-para met-pil-para">
+      Além disso, devido a essa constante validação com o cliente, caso alguma de suas expectativas não seja atendida ou
+      ocorra qualquer tipo de falha na execução, essa <strong>poderá ser remediada ainda em seus estágios iniciais.</strong>
+    </p>
+
+    <p class="default-para met-pil-para">
+      Por fim, outra característica crucial do Scrum é que <strong>não há interrupções de produção para esperar que outra tarefa
+      seja desenvolvida</strong>. As tarefas são sim delegadas, mas essas possuem independência umas das outras.
+    </p>
+
+    <p class="default-para met-pil-para" style="text-align: center">
+      Toda essa teoria é baseada nos seguintes pilares:
+    </p>
+  </div>
+
+  <div class="met-pil-three-sections">
+    <div class="met-pil-section">
+      <img src="../static/images/transparencia.png" alt="Transparência" class="met-pil-img" />
+
+      <div class="met-pil-sect-textbox">
+        <h2 class="met-pil-sect-title">Transparência</h2>
+        <p class="met-pil-sect-text">
+          Os membros do grupo precisam a todo o momento <strong>transparecer como está o andamento de sua tarefa</strong>, suas
+          necessidades e suas percepções. Essa integração da equipe é essencial, pois ninguém é capaz de saber pelo o que
+          o outro está passando a menos que esse fale e peça ajuda.
+        </p>
+      </div>
+    </div>
+
+    <div class="met-pil-section">
+      <img src="../static/images/inspecao.png" alt="Inspeção" class="met-pil-img" />
+
+      <div class="met-pil-sect-textbox">
+        <h2 class="met-pil-sect-title">Inspeção</h2>
+        <p class="met-pil-sect-text">
+          O processo é composto por <strong>iteração, tentativa e erro.</strong> Sendo assim, é necessário que com frequência o grupo
+          avalie se as decisões e o planejamento escolhidos estão exprimindo o resultado esperado.
+        </p>
+      </div>
+    </div>
+
+    <div class="met-pil-section">
+      <img src="../static/images/adaptacao.png" alt="Adaptação" class="met-pil-img" />
+
+      <div class="met-pil-sect-textbox">
+        <h2 class="met-pil-sect-title">Adaptação</h2>
+        <p class="met-pil-sect-text">
+          O desenvolvimento Scrum é cheio de mudanças. Naturalmente, alguns elementos planejados perderão o valor que antes possuiam quando foram idealizados, fazendo-se necessária uma série de adaptações. Lembre-se, <strong>esse método incentiva
+          a dinamicidade, e não a rigidez.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- prettier-ignore -->
+{% endblock %}
+{% block btnback %}/en/metodologia/visao{% endblock %}
+{% block btnnext %}/en/metodologia/autoavaliacao{% endblock %}
