@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+#!PT-BR ROUTES
+
 # Normal routes
 @app.route("/")
 def index():
@@ -140,7 +142,7 @@ def materials_en():
     return render_template('en/outros/mat.html', buttons=False)
 
 @app.route('/en/glossario')
-def glossary_en():
+def glossary_en():  
     return render_template('en/outros/glossario.html', buttons=False)
 
 @app.route('/en/tutorial')
