@@ -239,6 +239,93 @@ This field will show how long it will take, from the group's point of view, to c
 
 Next, the respective requirement from the Product Backlog that defines that US and its acceptance criteria are entered, the latter being one of the main parts of this spreadsheet. It is responsible for indicating what we call the Definition of Done (DoD). Based on these criteria, the group assesses whether the requirement can be classified as completed or not.
 
+SCRUM MASTER - THE METHODOLOGY APPLIED
+The Scrum Master is a member of the team who has a good understanding of the Scrum methodology, its practices and fundamental principles.
+
+(IMAGEM - REPRESENTAÇÃO DE ESQUEMA DE PROCESSO)
+
+Its role boils down to monitoring the progress of the project, analyzing the performance of each of the members and concluding whether the development expectations are being met or if any of the parts of the project have any outstanding demands, thus carrying out the principle of INSPECTION.
+
+(CONTEÚDO EXTRA - GOVERNING THE PROGRESS OF THE PROJECT/HOW TO CONDUCT?
+One of the greatest examples of exquisite teamwork are orchestras. The combination of different sounds, all synchronized to build a single sound experience, is one of the most beautiful artistic expressions. But managing such an organization so that everyone is in their place is no easy task. Behind every great orchestra there is always a great conductor conducting each part.
+(IMAGEM MAESTRO)
+In a Scrum team, this is the role of the Scrum Master. He is the one who dictates the progress of the project, setting the pace with which all the individuals will perform their duties. The result: harmony.
+)
+
+Another principle that is put into practice through the work of the Scrum Master is TRANSPARENCY.
+
+Some important characteristics for the Scrum Master are organization in the general management of the group's tasks and achievements, good communication skills with the members and a motivating and driving character for the team, being able to identify possible obstacles and hindrances in the process and find methods of minimizing and eliminating them so that there is greater performance from the group.
+
+(IMAGEM - ANALISTA DE RENDIMENTO)
+
+They are the team member designated to make use of strategies and tools capable of integrating the team as a whole, so that all the other members are aware of each other's development and can estimate what stage of the project the group is at and how the distribution of tasks will be established.
+
+In order to ensure that all these issues and principles of the methodology are met, the Master has some tools that will help him check the performance parameters and serve as instruments that make the evolution of the project more tangible to the other members. These tools are the Burndown and the Daily Scrum.
+
+SCRUM MASTER - BURNDOWN AND DAILY SCRUM
+The main purpose of the Burndown tool is to manage the internal organization of the team.
+
+Unlike the Backlog, which has the attribute of an external connection with the client, who also interacts and responds to the spreadsheet's requirements, the Burndown is for the exclusive use of the individuals within the group.
+
+Its functionality is similar to that of the Kanban method, where you can visually quantify the gradual development of tasks.
+
+In this way, the team can manage both the tasks that have been delegated from the establishment of the requirements, but also the group's internal development tasks, which the client doesn't need to be aware of, such as research into software technologies and functionalities, study activities, revision tasks and tests.
+
+(IMAGEM - BURNDOWN CHART EXEMPLO)
+
+A special feature of this spreadsheet is its visual property, which gives a more in-depth view of the relationship between project progress and group productivity. Using the Burndown Chart, the team can see whether it is behind, ahead or on schedule in relation to the ideal delivery estimate. 
+
+The Daily Scrum, on the other hand, is a method established by the Scrum Master in which the team holds a daily (or periodic) accountability meeting in which team members update each other on what they are doing and the obstacles they are facing, answering the following questions:
+
+- WHAT WAS DONE THE DAY BEFORE?
+- WHAT WILL BE DONE TODAY?
+- WHAT ARE THE OBSTACLES?
+
+DEVELOPMENT TEAM - APPLIED TECHNICAL KNOWLEDGE
+Finally, the last position to be discussed in the Scrum methodology is the Development Team, also known as the Dev Team.
+
+This role includes all the members of the group who participate in the project on the technical development front. These are also popularly referred to as Devs.
+
+(IMAGEM TRABALHO EM EQUIPE)
+
+Their responsibility is to identify, through their specific knowledge, ways of executing the requirements, as well as having a repertoire that adds a lot when it comes to developing functionalities that will improve the user experience.
+
+Some of the important skills for members of the Dev Team are technical knowledge of the technologies, the ability to cooperate, organization with regard to deadlines and transparency regarding the progress of delegated tasks.
+
+CONCLUSÃO
+Scrum is this methodology that aims to optimize team production by establishing principles that value:
+
+(IMAGEM EM MOTION DE CICLO)
+
+TRANSPARENCY of the members involved in the project, providing this connection of each front and the progress of their responsibilities.
+
+INSPECTION of each feature through successive applications, error analysis and corrections.
+
+ADAPTABILITY of the project, which undergoes changes in development strategy in order to deliver great value to the client.
+
+In addition, it is very important to understand the responsibilities of each position and their impact so that each of the production sprints meets the expectations for that stage.
+
+So, now that you know each of the fundamental points of the methodology, apply Scrum to your project and achieve greater and more assertive results in an agile and effective way.
+
+Below is some extra content, such as a review of important technical terms, spreadsheet templates and suggestions for tools and systems that will help you in your project.
+
+PUTTING IT INTO PRACTICE
+In case you have any doubts about how to apply this methodology, below we have selected some step-by-step methods on how to implement the Scrum Artifacts in your projects.
+
+Self-assessment(
+    - First step: Identifying goals
+Identify your goals with the Scrum Master, this could include improving the efficiency of the team, removing obstacles or promoting collaboration between team members.
+
+    - Step two: Evaluate your performance
+Evaluate it in relation to the objectives identified earlier, use concrete metrics and data whenever possible, this can include the efficiency of the team, the time spent in meetings and the resolution of impediments.
+
+    - Step three: Identify areas for improvement
+After evaluating your performance, identify areas where you can improve. This could include improving communication with the team and removing impediments more effectively, for example. Set specific and measurable improvement goals to improve your performance, such as developing skills, implementing additional agile practices or promoting collaboration between team members, etc.
+
+    - Step four: Action plan and follow-up
+Develop an action plan to achieve your goals and monitor your progress by making adjustments to the action plan if necessary.
+)
+
 
 
 
@@ -256,93 +343,6 @@ Next, the respective requirement from the Product Backlog that defines that US a
 
 
 
-
-SCRUM MASTER - A METODOLOGIA APLICADA
-O Scrum Master é um integrante da equipe que tem um bom conhecimento da metodologia Scrum, suas práticas e princípios fundamentais.
-
-(IMAGEM - REPRESENTAÇÃO DE ESQUEMA DE PROCESSO)
-
-Sua operação se resume em reger o andamento do projeto, analisando o rendimento de cada um dos integrantes e concluindo se as expectativas de desenvolvimento estão sendo supridas e concretizadas ou se alguma das partes do projeto está com alguma de suas demandas pendentes, realizando assim o principio da INSPEÇÃO.
-
-(CONTEÚDO EXTRA - REGENDO O ANDAMENTO DO PROJETO/COMO REGER?
-Um dos maiores exemplos de trabalho em equipe primoroso são as orquestras. A junção de diferentes sons, todos sincronizados em função de construir uma única experiência sonora é uma das mais belas expressões artísticas. Mas gerir uma organização dessa para que todos estejam em seu devidos lugares não é uma tarefa fácil. Por trás de toda grande orquestra sempre há um grande maestro regendo cada uma das partes.
-(IMAGEM MAESTRO)
-Em uma equipe Scrum, esse será o papel do Scrum Master. Ele é quem dita o andamento do projeto, estabelecendo o compasso com o qual todos os indivíduos desempenharão suas funções. O resultado: harmonia.
-)
-
-Outro princípio que tem a sua efetivação através do trabalho do Master é a TRANSPARÊNCIA.
-
-Algumas características importantes para o Scrum Master são organização na gestão geral das tarefas e realizações do grupo, boa habilidade comunicativa com os integrantes e caráter motivador e impulsionador da equipe, sendo capaz de identificar possíveis empecilhos e entraves no processo e encontrar métodos de minimizá-los e eliminá-los para que haja um maior rendimento do grupo.
-
-(IMAGEM - ANALISTA DE RENDIMENTO)
-
-Ele é o membro da equipe designado para fazer uso de estratégias e ferramentas capazes de realizar a integração da equipe como um todo, para que assim todos os demais integrantes estejam a par do desenvolvimento uns dos outros e possam estimar em qual estágio do projeto o grupo está e como a divisão de tarefas será estabelecida.
-
-Para que todas essas questões e princípios da metodologia sejam atendidos, o Master possui algumas ferramentas que o assistirão na verificação dos parâmetros de rendimento e servirão como instrumentos que tornam a evolução do projeto mais palpável aos demais membros. Essas ferramentas são o Burndown e o Daily Scrum.
-
-SCRUM MASTER - BURNDOWN E DAILY SCRUM
-A ferramenta Burndown tem por objetivo fundamental gerenciar a organização interna da equipe.
-
-Diferentemente do Backlog, que possui o atributo de conexão externa com o cliente, o qual também interage e responde aos requerimentos da planilha, o Burndown é de uso exclusivo dos indivíduos inerentes ao grupo.
-
-Sua funcionalidade é similar a de um método Kanban, em que pode-se quantificar visualmente o desenvolvimento gradual das tarefas.
-
-Portanto, nele a equipe poderá gerenciar tanto as tarefas que foram delegadas a partir do estabelecimento dos requisitos, mas também afazeres do desenvolvimento interno do grupo, com os quais o cliente não precisa estar inteirado, como é o caso de pesquisas de tecnologias e funcionalidades de softwares, atividades de estudo, tarefas de revisão e testagem.
-
-(IMAGEM - BURNDOWN CHART EXEMPLO)
-
-Uma particularidade dessa planilha é a sua propriedade visual, capaz de trazer uma perspectiva mais aprofundada da relação andamento do projeto e produtividade do grupo. Através do Burndown Chart, a equipe dimensiona se está atrasada, adiantada ou em dia em relação à estimativa de entregas ideal. 
-
-Já o Daily Scrum (Scrum Diário) é um método estabelecido pelo Scrum Master no qual a equipe realiza diariamente (ou periodicamente) um momento de prestação de contas em que os integrantes da equipe atualizam os demais quanto ao que estão desenvolvendo e os empecilhos que estão enfrentando, respondendo às seguintes perguntas:
-
-- O QUE FOI FEITO NO DIA ANTERIOR?
-- O QUE SERÁ FEITO HOJE?
-- QUAIS OS EMPECILHOS ENFRENTADOS?
-
-DEVELOPMENT TEAM - O CONHECIMENTO TÉCNICO APLICADO
-Por fim, o último cargo a ser abordado da metodologia Scrum é o Development Team (Time Desenvolvimento), também conhecido como Dev Team.
-
-Estão inseridos nessa função todos os integrantes do grupo que participam do projeto na frente de desenvolvimento de atividades técnicas. Esses também são popularmente referidos como Devs.
-
-(IMAGEM TRABALHO EM EQUIPE)
-
-Sua responsabilidade é identificar, através de seus conhecimentos específicos, meios para execução dos requisitos, além de possuir um repertório que agrega muito quando se está levantando funcionalidades que aprimorarão a experiência do usuário.
-
-Algumas das competências importantes para os membros do Dev Team são o conhecimento técnico das tecnologias, a capacidade de cooperação, a organização quanto aos prazos de entrega das atividades e a transparência quanto à evolução dos afazeres delegados.
-
-CONCLUSÃO
-O Scrum é essa metodologia que visa otimizar a produção em equipe, estabelecendo princípios que prezam pela:
-
-(IMAGEM EM MOTION DE CICLO)
-
-TRANSPARÊNCIA dos membros envolvidos no projeto, proporcionando essa conexão de cada frente e o progresso de suas responsabilidades.
-
-INSPEÇÃO de cada funcionalidade por meio de sucessivas aplicações, análise de erros e correções.
-
-ADAPTABILIDADE do projeto, o qual passa por alterações na estratégia de desenvolvimento com o objetivo de realizar a uma entrega de grande valor para o cliente.
-
-Além disso, é muito importante entender as responsabilidades de cada cargo e qual o seu impacto para que cada uma das Sprints de produção atendam às expectativas para aquele estágio.
-
-Portanto, agora que você já possue o conhecimento de cada um dos pontos fundamentais da metodologia, aplique o Scrum no seu projeto e possua resultados maiores e mais assertivos de maneira ágil e eficaz.
-
-A seguir, estão separados alguns conteúdos extras como retomada de termos técnicos e importantes, modelos de planilhas e sugestões de ferramentas e sistemas que irão te auxiliar em seu projeto.
-
-COLOCANDO EM PRÁTICA
-Para caso você possua alguma dúvida em como aplicar esta metodologia, selecionamos abaixo alguns métodos passo a passo sobre como realizar os Artefatos Scrum em seus projetos.
-
-Autoavalição(
-    - Primeiro passo: Identificar metas
-Identifique seus objetivos com o Scrum Master, isso pode incluir a melhoria da eficiência da equipe, a remoção de impedimentos ou a promoção da colaboração entre os integrantes
-
-    - Segundo passo: Avalie seu desempenho
-Avalie ele em relação aos objetivos identificados anteriormente, use métricas e dados concretos sempre que possível, isso pode incluir a eficiência da equipe, o tempo gasto em reuniões e a resolução de impedimentos.
-
-    - Terceiro passo: Identifique áreas de melhoria
-Depois de avaliar seu desempenho identifique áreas em que você pode melhorar. Isso pode incluir a melhora da comunicação com a equipe e a remoção de impedimentos de forma mais eficaz por exemplo. Defina metas de melhoria especificas e mensuráveis para melhoras seu desempenho como o desenvolvimento de habilidades, a implementação de práticas ágeis adicionais ou a promoção da colaboração entre os integrantes, etc.
-
-    - Quarto passo: Plano de ação e acompanhamento
-desenvolva um plano de ação e acompanhe seu progresso, desenvolva um plano de ação para alcançar suas metas e monitore o seu progresso fazendo ajustes ao plano de ação se necessário.
-)
 
 Backlog(
 Lembre se que o backlog é um documento “vivo” e deve ser atualizado regularmente para garantir que as necessidades do produto sejam atendidas. Siga os seguintes passos:
