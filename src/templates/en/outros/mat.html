@@ -1,7 +1,7 @@
 <!-- prettier-ignore -->
 {% extends 'template_en.html' %}
 
-{% block title %}Materiais - Outros | PLATAFORMA Scrum{% endblock %}
+{% block title %}Materials - Others | Scrum Platform{% endblock %}
 {% block color %}outros{% endblock %}
 {% block iconName %}method{% endblock %}
 {% block contentTitle %}Materais{% endblock %}
@@ -10,8 +10,9 @@
 <div class="h-75 w-75 default-main met-auto-main">
     <div class="mat-content-limit">
         <!-- Planilhas -->
-        <h1 class="mat-subtitle">Modelos de planilha</h1>
-        <p class="default-para">Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa adotar o formato que melhor atende a demanda do seu grupo e aprender como implementá-las.</p>
+        <h1 class="mat-subtitle">Spreadsheet templates:</h1>
+        <p class="default-para">Below are some examples of Backlog and Burndown spreadsheets so that you can adopt the format that best meets your group's demands and learn how to implement them.
+        </p>
         
         <div id="matCard">
             <!-- Cards -->
@@ -24,8 +25,8 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="mat-card-title">Backlog</h5>
-                                <p class="card-text">Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.</p>
-                                <button type="button" class="btn btn-primary collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Expandir</button>
+                                <p class="card-text">Click on the icon below and choose a template to manage your projects.</p>
+                                <button type="button" class="btn btn-primary collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -38,8 +39,8 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h5 class="mat-card-title">Burndown</h5>
-                                <p class="card-text">Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.</p>
-                                <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Expandir</button>
+                                <p class="card-text">Click on the icon below and choose a template to manage your projects.</p>
+                                <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -71,7 +72,7 @@
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#matCard">
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
-                          <h5 class="mat-card-title">Modelo de Backlog</h5>
+                          <h5 class="mat-card-title">Backlog model</h5>
                           <a href="https://docs.google.com/spreadsheets/d/1jwPbNo-ZcM1YDRRh3ggv_9hx371VxQUK/edit?usp=drive_link&ouid=105178044020523310035&rtpof=true&sd=true">Download</a>
                         </div>
                     </div>
@@ -101,7 +102,7 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#matCard">
                     <div class="card text-center" style="width: 18rem;">
                         <div class="card-body">
-                          <h5 class="mat-card-title">Modelo de Burndown</h5>
+                          <h5 class="mat-card-title">Burndown model</h5>
                           <a href="https://docs.google.com/spreadsheets/d/1IPvfknwvCBJdBnNjTIHWPU2dFTB9YfQ2/edit?usp=drive_link&ouid=105178044020523310035&rtpof=true&sd=true">Download</a>
                         </div>
                     </div>
@@ -114,7 +115,7 @@
         
         <!-- Ferramentas -->
         <hr class="mt-5 mb-5">
-        <h1 class="mat-subtitle">Ferramentas de apoio</h1>
+        <h1 class="mat-subtitle">Support tools</h1>
 
         <div class="container text-center">
             <div class="row row-cols-3">
@@ -122,35 +123,35 @@
                     <div class="mat-fer-block">
                         <h4>Trello</h4>
                         <a href="https://trello.com/" target="_blank"><img src="../../static/images/icons8-trello-250.png" alt="trello icon" class="mat-fer-img"></a>
-                        <p class="mat-fer-block-text">Ferramenta excelente para gerenciar o andamento da sua equipe e visualizar como está seu progresso individual e dos demais membros em suas respectivas tarefas.</p>
+                        <p class="mat-fer-block-text">An excellent tool for managing your team's progress and visualizing how you and your team members are progressing in their respective tasks.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Notion</h4>
                         <a href="https://www.notion.so/" target="_blank"><img src="../../static/images/icons8-notion-250.png" alt="notion icon" class="mat-fer-img"></a>
-                        <p class="mat-fer-block-text">Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.</p>
+                        <p class="mat-fer-block-text">In this task organization system, your team will be able to store general information about the project, such as meeting notes, a calendar, notes and even your Backlog.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Github</h4>
                         <a href="https://github.com/" target="_blank"><img src="../../static/images/github-mark.png" alt="github icon" class="mat-fer-img"></a>
-                        <p class="mat-fer-block-text">Essa plataforma de versionamento possibilitará que sua equipe faça sucessivas entregas de aprimoramentos do produto. Ideal para uso de programadores, mas também aplicável para demais equipes que trabalham com o sistema colaborativo.</p>
+                        <p class="mat-fer-block-text">This versioning platform will enable your team to make successive deliveries of product enhancements. Ideal for use by programmers, but also applicable to other teams working with collaborative systems.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Youtrack</h4>
                         <a href="https://www.jetbrains.com/pt-br/youtrack/" target="_blank"><img src="../../static/images/Youtrack.png" alt="youtrack icon" class="mat-fer-img"></a>
-                        <p class="mat-fer-block-text">Ferramenta faz “tudo” criada pela JetBrains para equipes ageis , sendo gratuita até grupos de 10 membros. A ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para organizar suas equipes.</p>
+                        <p class="mat-fer-block-text">A "do-it-all" tool created by JetBrains for agile teams, free for groups of up to 10 members. The tool is capable of creating a burndown chart, backlog and can even be used to organize your teams.</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="mat-fer-block">
                         <h4>Azure Ops</h4>
                         <a href="https://azure.microsoft.com/pt-br/products/devops" target="_blank"><img src="../../static/images/Azure Devops.png" alt="azure ops icon" class="mat-fer-img"></a>
-                        <p class="mat-fer-block-text">Azure Ops é a plataforma da Microsoft para equipes que utilizam o Scrum tendo ferramentas para criação de Burndown e Backlog. Sendo criada pela Microsoft á integração da plataforma com os outros serviços da Microsoft como a Azure.</p>
+                        <p class="mat-fer-block-text">Azure Ops is Microsoft's platform for teams using Scrum, with tools for creating Burndowns and Backlogs. Microsoft created the platform to integrate with other Microsoft services such as Azure.</p>
                     </div>
                 </div>
             </div>
