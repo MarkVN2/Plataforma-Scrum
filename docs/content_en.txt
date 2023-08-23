@@ -313,7 +313,7 @@ PUTTING IT INTO PRACTICE
 In case you have any doubts about how to apply this methodology, below we have selected some step-by-step methods on how to implement the Scrum Artifacts in your projects.
 
 Self-assessment(
-    - First step: Identifying goals
+    - Step one: Identifying goals
 Identify your goals with the Scrum Master, this could include improving the efficiency of the team, removing obstacles or promoting collaboration between team members.
 
     - Step two: Evaluate your performance
@@ -328,23 +328,23 @@ Develop an action plan to achieve your goals and monitor your progress by making
 
 Backlog(
 Remember that the backlog is a "living" document and must be updated regularly to ensure that the product's needs are met. Follow these steps:
-    - First step: Identification
+    - Step one: Identification
 Identify the objective of the project before creating the backlog. It is important to understand the objective in order to create a document that meets the needs of the product.
 
     - Step two: Product requirements
 Identify the product requirements, this can include product functionality, user requirements, architecture, remember to prioritize the requirements, based on the value each requirement brings to the product.
 (IMAGEM BACKLOG)
 
-    - Terceiro passo: Criar as histórias de utilizador
-Crie as histórias de utilizador com base nos requisitos identificados e prioritários, que são descrições curtas e objectivas de uma caraterística do produto que descrevem o que o utilizador pretende e porque o pretende. 
-Não se esqueça de fazer uma estimativa das histórias para que o utilizador tenha uma ideia do tempo que será necessário para desenvolver cada uma delas. Identificar os requisitos do produto, o que pode incluir a funcionalidade do produto, os requisitos do utilizador, a arquitetura, e não esquecer de dar prioridade aos requisitos, com base no valor que cada requisito traz ao produto.
+    - Step three: Create the user stories
+Create the user stories based on the identified and prioritized requirements, which are short, objective descriptions of a product feature that describe what the user wants and why they want it. 
+Don't forget to estimate the stories so that the user has an idea of how long it will take to develop each one. Identify the product's requirements, which can include the product's functionality, user requirements, architecture, and don't forget to prioritize the requirements based on the value each requirement brings to the product.
 (IMAGEM USER STORIES)
 The backlog should contain all the user stories that will be developed during the sprint, so it should be refined regularly to ensure that the stories are up to date and reflect the needs of the product.
 )
 
 Daily Scrum(
 The daily scrum is a daily meeting to keep the team aligned and engaged, so it is important to ensure that all members are present and that the meeting is held efficiently, to do so, follow this step by step:
-    - First step: Definition
+    - Step one: Definition
 Make an appropriate choice of space and time, this is a quick 15-minute meeting, so it's important to choose a location that allows good communication and a convenient time for everyone.
 Identify the objective of the project before creating the backlog, it is important to understand the objective in order to create a document that meets the needs of the product.
 
@@ -360,14 +360,14 @@ Burndown chart(
 Below is a video from the TI Carreiras channel where you can learn more about making your own burndown chart.
 (VIDEO BURNDOWN)
 
-    - First step: Defining tasks
+    - Step one: Defining tasks
 Distributing the tasks and the weight of each one before making the chart, assigning the tasks to each person, estimating the effort is what will help to distribute them equally, so that they don't weigh too much for just one person in the group.
 An example to help define a weight for a task is <strong>planning poker</strong>, which is a technique based on defining a number sequence
 like<strong>1, 2, 3, 5, 8, 13, 21, etc</strong>, 
 and relate it to a time estimate. Below are examples on how to organize both task estimation and planning poker:
 (IMAGEM TABELA PLANNING POKER)
 
-    - Second step: Charting
+    - Step two: Charting
 Even though it's optional, the best option for visualizing the team's progress in a timely manner is to draw a physical graph, where you have a timeline that would be ideal for carrying out tasks in a uniform and organized manner and a line showing how the project is progressing in relation to time.
 It's important to note that if your project line is above the ideal line, then you're behind on the project, if it's below you're ahead.
 
