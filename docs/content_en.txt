@@ -326,153 +326,139 @@ After evaluating your performance, identify areas where you can improve. This co
 Develop an action plan to achieve your goals and monitor your progress by making adjustments to the action plan if necessary.
 )
 
-
-
-
-
-
-
-
---------------------------------------------------------------- TRANSLATION PROGRESS ---------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
 Backlog(
-Lembre se que o backlog é um documento “vivo” e deve ser atualizado regularmente para garantir que as necessidades do produto sejam atendidas. Siga os seguintes passos:
-    - Primeiro passo: Identificação
-Identifique o objetivo do projeto antes de criar o backlog, é importante entender o objetivo para criar um documento que atenda as necessidades do produto.
+Remember that the backlog is a "living" document and must be updated regularly to ensure that the product's needs are met. Follow these steps:
+    - First step: Identification
+Identify the objective of the project before creating the backlog. It is important to understand the objective in order to create a document that meets the needs of the product.
 
-    - Segundo passo: Requisitos do produto
-Identifique os requisitos do produto, isso pode incluir a funcionalidade do produto, os requisitos do usuário, a arquitetura, lembre se de priorizar os requisitos, sendo feito com base no valor que cada requisito traz para o produto.
+    - Step two: Product requirements
+Identify the product requirements, this can include product functionality, user requirements, architecture, remember to prioritize the requirements, based on the value each requirement brings to the product.
 (IMAGEM BACKLOG)
 
-    - Terceiro passo: Crie as User Stories
-Crie as histórias de usuário com base nos requisitos identificados e priorizados, sejam estas descrições curtas e objetivas de uma funcionalidade do produto que descrevem o que o usuário quer e por que ele quer. 
-Lembre-se de estimar as histórias, para que o usuário tenha ideia de quanto tempo demorará para desenvolver cada uma delas. Identifique os requisitos do produto, isso pode incluir a funcionalidade do produto, os requisitos do usuário, a arquitetura, lembre se de priorizar os requisitos, sendo feito com base no valor que cada requisito traz para o produto.
+    - Terceiro passo: Criar as histórias de utilizador
+Crie as histórias de utilizador com base nos requisitos identificados e prioritários, que são descrições curtas e objectivas de uma caraterística do produto que descrevem o que o utilizador pretende e porque o pretende. 
+Não se esqueça de fazer uma estimativa das histórias para que o utilizador tenha uma ideia do tempo que será necessário para desenvolver cada uma delas. Identificar os requisitos do produto, o que pode incluir a funcionalidade do produto, os requisitos do utilizador, a arquitetura, e não esquecer de dar prioridade aos requisitos, com base no valor que cada requisito traz ao produto.
 (IMAGEM USER STORIES)
-O backlog deve conter todas as histórias de usuário que serão desenvolvidas durante o sprint, portanto deve ser refinado regularmente a fins de garantir que as histórias estejam atualizadas e refletindo as necessidades do produto.
+The backlog should contain all the user stories that will be developed during the sprint, so it should be refined regularly to ensure that the stories are up to date and reflect the needs of the product.
 )
 
 Daily Scrum(
-O daily scrum é uma reunião diária para manter a equipe alinhada e engajada, portanto é importante garantir que todos os membros estejam presentes e que a reunião seja realizada de maneira eficiente, para isso siga esse passo a passo:
-    - Primeiro passo: Definição
-Faça uma escolha adequada de espaço e horário, essa é uma reunião rápida de 15 minutos, portanto é importante escolher um local que possibilite boa comunicação e um horário conveniente a todos.
-Identifique o objetivo do projeto antes de criar o backlog, é importante entender o objetivo para criar um documento que atenda as necessidades do produto.
+The daily scrum is a daily meeting to keep the team aligned and engaged, so it is important to ensure that all members are present and that the meeting is held efficiently, to do so, follow this step by step:
+    - First step: Definition
+Make an appropriate choice of space and time, this is a quick 15-minute meeting, so it's important to choose a location that allows good communication and a convenient time for everyone.
+Identify the objective of the project before creating the backlog, it is important to understand the objective in order to create a document that meets the needs of the product.
 
-    - Segundo passo: Faça as 3 perguntas
-O Scrum Master deve começar a reunião explicando o objetivo do daily scrum e lembrando a todos da equipe das três perguntas que devem ser respondidas: O que foi feito desde a última reunião? O que será feito até a próxima reunião? Existe algum impedimento atrapalhando o andamento do projeto? As respostas a essas perguntas devem ser curtas e objetivas.
+    - Step two: Ask the 3 questions
+The Scrum Master should start the meeting by explaining the purpose of the daily scrum and reminding everyone on the team of the three questions that must be answered: What has been done since the last meeting? What will be done by the next meeting? Are there any obstacles hindering the progress of the project? The answers to these questions should be short and to the point.
 (IMAGEM REUNIÃO)
 
-    - Terceiro passo: Resolução de problemas
-Mantenha o foco e resolva impedimentos, qualquer assunto que não esteja diretamente relacionado com o a reunião deve ser discutido após a mesma. E se alguém mencionar algum impedimento que está atrapalhando o andamento o projeto, o Scrum Master deve tomar nota e discutir com a equipe como resolver o problema.
+    - Step three: Problem solving
+Stay focused and tackle obstacles. Any issue that is not directly related to the meeting should be discussed after the meeting. And if someone mentions an impediment that is hindering the progress of the project, the Scrum Master should take note and discuss with the team how to solve the problem.
 )
 
-Gráfico Burndown(
-Logo abaixo, temos uma indicação de video do canal TI Carreiras onde você pode aprender mais sobre como fazer o seu próprio grafico burndown.
+Burndown chart(
+Below is a video from the TI Carreiras channel where you can learn more about making your own burndown chart.
 (VIDEO BURNDOWN)
 
-    - Primeiro passo: Definição de tarefas
-Distribuir as tarefas e o peso de cada uma delas antes de realizar o gráfico, atribuindo as tarefas de cada um, estimar o esforço é o que ajudará a distribuir de forma igual, assim não pesando muito para apenas uma pessoa do grupo.
-Um exemplo para ajudar a definir um peso para uma tarefa é o <strong>planning poker</strong>, que é uma técnica que se baseia em definir uma sequencia numerica, como <strong>1, 2, 3, 5, 8, 13, 21, etc</strong>, e relacionar ela com uma estimativa de tempo. Abaixo seguem exemplos de como organizar tanto a estimativa de tarefas como também o planning poker:
+    - First step: Defining tasks
+Distributing the tasks and the weight of each one before making the chart, assigning the tasks to each person, estimating the effort is what will help to distribute them equally, so that they don't weigh too much for just one person in the group.
+An example to help define a weight for a task is <strong>planning poker</strong>, which is a technique based on defining a number sequence
+like<strong>1, 2, 3, 5, 8, 13, 21, etc</strong>, 
+and relate it to a time estimate. Below are examples on how to organize both task estimation and planning poker:
 (IMAGEM TABELA PLANNING POKER)
 
-    - Segundo passo: Realização de Gráfico
-Mesmo sendo opcional, a melhor opção para visualizar de forma pontual como está o andamento da equipe é traçar um gráfico físico, onde temos uma linha do tempo que seria ideal para realizar as tarefas de forma uniforme e organizada e uma linha onde mostre como esta o andamento do projeto em relação a tempo.
-É importante notar que se a sua linha de projeto esta acima da linha ideal, então você está atrasado em relação ao projeto, caso esteja abaixo você está adiantado.
+    - Second step: Charting
+Even though it's optional, the best option for visualizing the team's progress in a timely manner is to draw a physical graph, where you have a timeline that would be ideal for carrying out tasks in a uniform and organized manner and a line showing how the project is progressing in relation to time.
+It's important to note that if your project line is above the ideal line, then you're behind on the project, if it's below you're ahead.
 
-    - Terceiro passo: Atualização diária
-Esse tema encaixa bem com daily scrum, o gráfico deve ser atualizado conforme as tarefas estão sendo feitas, para manter a visualização em dia assim tendo uma ideia do esforço restante.
-Avalie o progresso para identificar se a equipe está no caminho correto para concluir todas as tarefas dentro do prazo.
+    - Step three: Daily update
+This theme fits in well with daily scrum, the chart should be updated as tasks are being done, to keep the visualization up to date so that you have an idea of the remaining effort.
+Evaluate progress to see if the team is on track to complete all tasks on time.
 )
 
 
 GLOSSÁRIO
 
 A
-Artefatos Scrum
-São todos os elemento utilizados dentro da metodologia que auxiliarão na execução do projeto de modo que esses respeitem cada um dos princípios do Scrum. Dentre eles estão o Backlog, o Burndown e as Daily Scrums.
+Scrum Artifacts
+These are all the elements used within the methodology that will help in the execution of the project so that they respect each of the Scrum principles. These include the Backlog, Burndown and Daily Scrums.
+
+Agile Methodologies
+Agile methodologies are a set of practices and values that emphasize collaboration, interaction with the client, the delivery of functional software in short cycles and the ability to adapt to changes over time. The best-known agile methodologies include Scrum, Kanban, XP (Extreme Programming), Lean and Crystal.
 
 B
 Backlog
-É uma ferramenta importante para gerenciamento do projeto, permitindo que a equipe de desenvolvimento tenha clareza sobre as prioridades e as expectativas do cliente. Durante o processo de desenvolvimento, os itens do backlog são trabalhados em sprints, que são períodos de tempo definidos (geralmente de uma a quatro semanas) nos quais a equipe trabalha para entregar as funcionalidades mais importantes do backlog.
+This is an important tool for project management, allowing the development team to be clear about the priorities and expectations of the client. During the development process, backlog items are worked on in sprints, which are defined periods of time (usually one to four weeks) in which the team works to deliver the most important features of the backlog.
 
 Burndown
-É uma ferramenta usada no Scrum para acompanhar o progresso do projeto ao longo do tempo. Ele mostra a quantidade de trabalho que ainda precisa ser realizada (eixo y) em relação ao tempo decorrido (eixo x) durante um sprint. A ideia é que, ao longo do tempo, a quantidade de trabalho pendente vá diminuindo até chegar a zero no final do sprint.
+It is a tool used in Scrum to track project progress over time. It shows the amount of work that still needs to be done (y-axis) in relation to the time elapsed (x-axis) during a sprint. The idea is that, over time, the amount of outstanding work will decrease until it reaches zero at the end of the sprint.
 
 D
 Daily scrum
-É uma reunião diária no Scrum, na qual a equipe de desenvolvimento se encontra para sincronizar e planejar o trabalho do dia. Durante a reunião, cada membro da equipe compartilha o que fez no dia anterior, o que planeja fazer no dia atual e quais são os possíveis impedimentos que podem afetar o trabalho.
+This is a daily meeting in Scrum where the development team meets to synchronize and plan the day's work. During the meeting, each member of the team shares what they did the previous day, what they plan to do on the current day and what possible impediments might affect their work.
 
 Definition of Done (DoD)
-A Definition of Done é um conjunto de critérios que define quando uma tarefa ou uma funcionalidade é considerada concluída em metodologias ágeis. Ela descreve as etapas que devem ser concluídas para que o trabalho seja considerado finalizado, incluindo requisitos técnicos, de qualidade e de usabilidade. A DoD é geralmente definida pela equipe de desenvolvimento em conjunto com o Product Owner e é usada como uma referência para avaliar o progresso do trabalho durante uma sprint.
+The Definition of Done is a set of criteria that defines when a task or functionality is considered finished in agile methodologies. It describes the steps that must be completed for the work to be considered finished, including technical, quality and usability requirements. The DoD is usually defined by the development team in conjunction with the Product Owner and is used as a benchmark for assessing the progress of work during a sprint.
 
 Definition of Ready (DoR)
-Todo projeto possui um caráter progressivo, ou seja, à medida que uma tarefa, outra já terá a base necessária e passa a estar apta para execução. Essa série de requisitos prévios que possibilitam que uma tarefa seja executada correspondem à Definição de Pronto, a qual estabelece se uma tarefa já pode ser produzida e, assim, adicionada ao Backlog da Sprint ou não.
+Every project has a progressive nature, meaning that as one task is completed, another will already have the necessary basis and will be ready for execution. This series of prerequisites that make it possible for a task to be carried out corresponds to the Definition of Done, which establishes whether a task can already be produced and thus added to the Sprint Backlog or not.
 
 F
 Framework 
-Conjunto de ferramentas, diretrizes e boas práticas que ajudam os desenvolvedores a construir aplicativos de software de forma mais rápida, fácil e consistente. Ele fornece uma estrutura geral para o desenvolvimento de software, permitindo que os desenvolvedores se concentrem mais em resolver problemas específicos do que em criar toda a estrutura do zero.
+A set of tools, guidelines and good practices that help developers build software applications faster, easier and more consistently. It provides a general framework for software development, allowing developers to focus more on solving specific problems than on creating the entire structure from scratch.
 
 K
 Kanban
-O método Kanban corresponde a uma metodologia ágil que tem por objetivo transparecer a evolução do desenvolvimento de forma visual definindo as tarefas em setores (a fazer, em execução, concluídas ect.). Sua sinalização foi comumente associada ao uso de post-its coloridos, mas atualmente já existem softwares com a mesma funcionalidade.
+The Kanban method corresponds to an agile methodology that aims to show the progress of development in a visual way by defining tasks in sectors (to do, in progress, completed, etc.). Its signage was commonly associated with the use of colored post-its, but nowadays there is software with the same functionality.
 
 Kick off
-No Scrum é a reunião inicial do projeto na qual a equipe e o Product Owner se encontram para alinhar expectativas e definir objetivos, escopo, requisitos, entregas e cronograma do projeto. É uma oportunidade para a equipe esclarecer dúvidas e entender melhor o produto que será desenvolvido.
+In Scrum, this is the initial project meeting in which the team and Product Owner meet to align expectations and define the project's objectives, scope, requirements, deliverables and schedule. It is an opportunity for the team to clarify doubts and better understand the product that will be developed.
 
 M
-Metodologias Ágeis
-As metodologias ágeis são um conjunto de práticas e valores que enfatizam a colaboração, a interação com o cliente, a entrega de software funcional em ciclos curtos e a capacidade de adaptação a mudanças ao longo do tempo. As metodologias ágeis mais conhecidas incluem Scrum, Kanban, XP (Extreme Programming), Lean e Crystal.
-
-P
-Planejamento de Sprint
-Nessa etapa da metodologia, toda a equipe se reune com o objetivo de estabelecer aquilo que será feito durante o período da Sprint. Nela geralmente, ocorre a divisão de tarefas (acordadas com o Backlog), estimativa de esforço, prazos e outros fatores.
-
-Produto Mínimo Viável (MVP)
-O MVP é uma técnica usada em metodologias ágeis para desenvolvimento de produtos e serviços que se concentra na criação de um produto com o mínimo de recursos necessários para satisfazer as necessidades dos usuários. O objetivo é lançar rapidamente um produto no mercado e obter feedback dos usuários, de forma a validar a ideia e identificar as funcionalidades mais importantes para futuros aprimoramentos.
-
-R
-Retrospectiva de Sprint
-A Retrospectiva de Sprint é uma reunião realizada no final de cada sprint em metodologias ágeis como o Scrum. Seu objetivo é avaliar o desempenho da equipe durante a sprint anterior e identificar oportunidades de melhoria para a próxima sprint. Durante a retrospectiva, a equipe discute o que funcionou bem, o que não funcionou e o que pode ser feito de forma diferente na próxima sprint.
-
-Revisão de Sprint
-Nesse momento serão expostos para os chamados para todos aqueles que possume algum envolvimento com o projeto (cliente, colaboradores, marketing etc.) cada um dos elementos desenvolvidos na Sprint em questão, com o objetivo de validar o produto e o processo.
+Minimum Viable Product (MVP)
+MVP is a technique used in agile methodologies for developing products and services that focuses on creating a product with the minimum number of features needed to satisfy users' needs. The aim is to quickly launch a product on the market and get feedback from users in order to validate the idea and identify the most important features for future improvements.
 
 S
 Software
-É um conjunto de programas de computador que controlam o funcionamento de um dispositivo eletrônico, permitindo a realização de diversas atividades.
+It is a set of computer programs that control the operation of an electronic device, allowing it to carry out various activities.
 
 Sprint
-Uma sprint no Scrum é um período de tempo definido (geralmente de uma a quatro semanas) no qual a equipe de desenvolvimento trabalha para entregar uma quantidade definida de funcionalidades ou requisitos do produto. Durante a sprint, a equipe se concentra em alcançar os objetivos definidos no início do sprint, trabalhando nas tarefas do backlog de forma iterativa e incremental.
+The sprint in Scrum is a defined period of time (usually one to four weeks) in which the development team works to deliver a defined amount of functionality or product requirements. During the sprint, the team focuses on achieving the objectives defined at the start of the sprint, working on the tasks in the backlog in an iterative and incremental way.
+
+Sprint Planning
+In this stage of the methodology, the whole team meets to establish what will be done during the Sprint period. It usually involves dividing up tasks (according to the Backlog), estimating effort, deadlines and other factors.
+
+Sprint Retrospective
+The Sprint Retrospective is a meeting held at the end of each sprint in agile methodologies such as Scrum. Its purpose is to evaluate the team's performance during the previous sprint and identify opportunities for improvement for the next sprint. During the retrospective, the team discusses what worked well, what didn't and what can be done differently in the next sprint.
+
+Sprint Review
+At this point, everyone who has any involvement with the project (clients, collaborators, marketing, etc.) will be shown each of the elements developed in the Sprint in question, with the aim of validating the product and the process.
 
 U
 User Stories
-As User Stories são uma técnica usada em metodologias ágeis para definir os requisitos de um produto de software. Elas são escritas a partir do ponto de vista do usuário, descrevendo uma funcionalidade específica que o usuário deseja que o sistema realize. As User Stories são geralmente escritas em linguagem simples e podem ser acompanhadas por critérios de aceitação que definem o que é necessário para que a funcionalidade seja considerada concluída.
+User Stories are a technique used in agile methodologies to define the requirements of a software product. They are written from the user's point of view, describing a specific functionality that the user wants the system to perform. User Stories are usually written in simple language and can be accompanied by acceptance criteria that define what is required for the functionality to be considered complete.
 
-MATERIAIS
-Modelos de Planilha:
-Segue abaixo alguns exemplos de planilhas de Backlog e Burndown para que você possa adotar o formato que melhor atende a demanda do seu grupo e aprender como implementá-las.
+MATERIALS
+Spreadsheet templates:
+Below are some examples of Backlog and Burndown spreadsheets so that you can adopt the format that best meets your group's demands and learn how to implement them.
 
 
 BACKLOG
-Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.
+Click on the icon below and choose a template to manage your projects.
 (ÍCONE - BACKLOG)
 
 BURNDOWN
-Clique no ícone abaixo e escolha um modelo para gerenciar seus projetos.
+Click on the icon below and choose a template to manage your projects.
 (ÍCONE - BURNDOWN)
 
-Ferramentas de Apoio
+Support tools
 Trello
-Ferramenta excelente para gerenciar o andamento da sua equipe e visualizar como está seu progresso individual e dos demais membros em suas respectivas tarefas.
+An excellent tool for managing your team's progress and visualizing how you and your team members are progressing in their respective tasks.
 (LOGO - TRELLO)
+
+
+
+
 
 NOTION
 Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.
