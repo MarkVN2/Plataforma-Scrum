@@ -456,22 +456,18 @@ Trello
 An excellent tool for managing your team's progress and visualizing how you and your team members are progressing in their respective tasks.
 (LOGO - TRELLO)
 
-
-
-
-
 NOTION
-Nesse sistema de organização de tarefas, sua equipe poderá depositar informações gerais sobre o projeto, como anotações de reuniões, calendário, apontamentos e até mesmo seu Backlog.
+In this task organization system, your team will be able to store general information about the project, such as meeting notes, a calendar, notes and even your Backlog.
 (LOGO - NOTON)
 
 GITHUB
-Essa plataforma de versionamento possibilitará que sua equipe faça suscessivas entregas de aprimoramentos do produto. Ideal para uso de programadores, mas também aplicável para demais equipes que trabalham com o sistema colaborativo.
+This versioning platform will enable your team to make successive deliveries of product enhancements. Ideal for use by programmers, but also applicable to other teams working with collaborative systems.
 (LOGO - GITHUB)
 
 YOUTRACK
-Ferramenta faz “tudo” criada pela JetBrains para equipes ageis , sendo gratuita até grupos de 10 membros. A ferramenta é capaz de criar um grafico burndown, backlog e até mesmo pode ser utilizada para organizar suas equipes.
+A "do-it-all" tool created by JetBrains for agile teams, free for groups of up to 10 members. The tool is capable of creating a burndown chart, backlog and can even be used to organize your teams.
 (LOGO YOUTRACK)
 
 AZURE OPS
-Azure Ops é a plataforma da Microsoft para equipes que utilizam o Scrum tendo ferramentas para criação de Burndown e Backlog. Sendo criada pela Microsoft á integração da plataforma com os outros serviços da Microsoft como a Azure.
+Azure Ops is Microsoft's platform for teams using Scrum, with tools for creating Burndowns and Backlogs. Microsoft created the platform to integrate with other Microsoft services such as Azure.
 (LOGO AZURE OPS)
