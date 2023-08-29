@@ -24,9 +24,9 @@ document.addEventListener("scroll", ()=>{
 // Handling Dark-mode and Light-mode
 let themeQuery = window.matchMedia("(prefers-color-scheme: dark)");
 let favicon = document.querySelector(`link[rel="icon"]`);
-if (themeQuery.matches) favicon.setAttribute("href", "../static/images/fav_icon_light.png");
+if (themeQuery.matches) favicon.setAttribute("href", "../../static/images/fav_icon_light.png");
 themeQuery.addEventListener("change", e => {
-  e.matches ? favicon.setAttribute("href", "../static/images/fav_icon_light.png") : favicon.setAttribute("href", "../static/images/fav_icon.png");
+  e.matches ? favicon.setAttribute("href", "../../static/images/fav_icon_light.png") : favicon.setAttribute("href", "../../static/images/fav_icon.png");
 })
 
 let themePreference = localStorage.getItem("themePref")
