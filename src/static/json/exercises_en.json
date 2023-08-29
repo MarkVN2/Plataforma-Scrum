@@ -1,0 +1,113 @@
+[
+    {
+    "exercise_id": "0",
+    "exercise_title": "What is Scrum?", 
+    "exercise_text": "",
+    "answer": "C",
+	"answers": {
+        "A":"Framework",
+        "B":"Software",
+        "C":"Agile Methodology"
+    }
+},
+{
+    "exercise_id": "1",
+	"exercise_title": "What are the three pillars of Scrum?", 
+    "exercise_text": "",
+    "answer": "B",
+	"answers":{
+        "A":"Adaptation, proactivity and cooperation",
+        "B":"Transparency, inspection and adaptation",
+        "C":"Innovation, transparency and communication"
+    }
+},
+{
+    "exercise_id": "2",
+	"exercise_title": "Which of the following statements is not part of the 4 core values of the Agile Manifesto:", 
+    "exercise_text": "",
+    "answer": "A",
+	"answers": { 
+        "A":"Effective communication over a functional product",
+        "B":"Working software over comprehensive documentation",
+        "C":"Responding to change over following a plan"
+    }
+},
+{
+    "exercise_id": "3",
+	"exercise_title": "What are the three roles of a Scrum team?", 
+    "exercise_text": "",
+	"answer": "C",
+	"answers": { 
+        "A":"Marketing Leader, Dev Team and Data Analyst",
+        "B":"Manager, Scrum Master and Dev Team",
+        "C":"Scrum Master, Product Owner and Dev Team"
+    }
+},
+{
+    "exercise_id": "4",
+	"exercise_title": "Which of the statements below are correct?",
+    "exercise_text": "I - Every Scrum team is led by the Scrum Master. He is responsible for guiding the team on the steps to be taken. \nII - User Stories are ways of describing product features from a user's perspective \nIII - A Sprint is a defined period of time in which the team strives to deliver a defined amount of product features and enhancements. \nWhich statements are correct?", 
+	"answer": "C",
+	"answers": { 
+        "A":"I, II, III",
+        "B":"I, II",
+        "C":"II, III"
+    }
+},
+{
+    "exercise_id": "5",
+	"exercise_title": "What is the importance of MVP for the Scrum methodology?",
+    "exercise_text": "", 
+	"answer": "B",
+	"answers": { 
+        "A":"Ability to measure performance of team members",
+        "B":"Establish incremental product value deliveries",
+        "C":"Speeds up the delivery of the final product"
+    }
+},
+{
+    "exercise_id": "6",
+	"exercise_title": "Burndown is an essential Scrum artifact for project development in the Scrum methodology, as it is responsible for:",
+    "exercise_text": "", 
+	"answer": "C",
+	"answers": { 
+        "A":"Manage the tasks established by the group",
+        "B":"Organize in order of priority the requirements that will compose the product",
+        "C":"Store requirements identified and defined by the customer"
+    }
+},
+{
+    "exercise_id": "7",
+	"exercise_title": "The development of a Sprint consists of Sprint Planning, Sprint Review and Sprint Retrospective. What does each of these steps correspond to respectively?",
+    "exercise_text": "", 
+	"answer": "C",
+	"answers": { 
+        "A":"Establishes what will be done in the Sprint, evaluates the team's performance in the Sprint and delivers what was developed during the Sprint",
+        "B":"Establishes what will be done in the Sprint, delivers what was developed during the Sprint, and evaluates the team's performance in the Sprint",
+        "C":"Evaluate the team's performance in the Sprint, establish what will be done in the Sprint, and deliver what was developed during the Sprint."
+    }
+},
+{
+    "exercise_id": "8",
+	"exercise_title": "Which of the following statements about a Backlog is false?",
+    "exercise_text": "", 
+	"answer": "B",
+	"answers": { 
+        "A":"A Backlog can go through multiple changes",
+        "B":"The tasks to be done by the team are listed in the Backlog",
+        "C":"The customer can make changes to the Backlog"
+    }
+},
+{
+    "exercise_id": "9",
+	"exercise_title": "What is the difference between Definition of Done and Definition of Ready?",
+    "exercise_text": "", 
+	"answer": "C",
+	"answers": { 
+        "A":"Definition of Done refers to requirements under development and Definition of Ready to tasks ready for delivery",
+        "B":"Definition of Done refers to requirements that are completed and Definition of Ready refers to requirements ready to be started",
+        "C":"Definition of Done refers to requirements able to be started and Definition of Ready to requirements considered completed"
+    }
+}
+
+]
