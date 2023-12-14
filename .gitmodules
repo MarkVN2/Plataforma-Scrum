@@ -1,0 +1,3 @@
+[submodule "src/v2/ScrumPlatformMobile"]
+	path = src/v2/ScrumPlatformMobile
+	url = https://github.com/MarkVN2/ScrumPlatformMobile
