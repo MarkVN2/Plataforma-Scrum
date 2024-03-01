@@ -1,23 +1,25 @@
- import Image from 'next/image';
+import Image from 'next/image';
 import '../../globals.css'
 
 const Navbar = () => {
     return(
-        <nav className="fixed bg-transparent  backdrop-blur-sm w-screen h-20 border-solid border-b-[0.25px] border-slate-300">
-            <div className=' grid grid-flow-col'>
-                <div className='flex'>
-                    <img className='h-10 w-10' src='/logo.png' alt='logo'/>
-                    <h1 className='text-2xl font-bold text-white'>Scrum Platform</h1>
-                </div>
-                <div className=" fixed end-0">
-                        <a
-                        className=" text-white font-bold pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-                        href="https://github.com/Byte-Boost"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        by{' Byte Boost'}
+        <nav className="navbar navbar--fixed-top">
+            <div className='navbar__inner'>
+                <div className='navbar__items'>
+                    <a className='navbar__brand'> 
+                        <Image
+                        className='navbar__logo'
+                        src={'/amogus'}
+                        width={100}
+                        height={100}
+                        alt='scrum_platform_logo'
+                        />
+                        <strong className='navbar__title font-NotoSans '>by Byte-Boost</strong>
                     </a>
+                </div>
+                <div className='navbar__items navbar__items--right '>
+                    <a href="https://github.com/Byte-Boost/Plataforma-Scrum" target="_blank" rel="noopener noreferrer" className="navbar__item navbar__link">GitHub</a>
+                    <a href="https://github.com/Byte-Boost" target="_blank" rel="noopener noreferrer" className="navbar__item navbar__link">Team</a>
                 </div>
             </div>
         </nav>
