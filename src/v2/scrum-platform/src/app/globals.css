@@ -14,6 +14,7 @@
     padding: calc(1rem * 0.5 ) 1rem;
     height: 3.75rem;
     width: 100%;
+    z-index: 4;
 }
 .navbar--fixed-top{
     position: sticky;
@@ -74,4 +75,33 @@
     text-decoration: none;
     transition: color 200ms cubic-bezier(0.08,0.52,0.52,1);
 }
+.sidebar{
+    color: #18181b;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
 
+.logo-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background: rgba(28, 17, 41, 0.88);
+}
+.menu-bar{
+    height: 88vh;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    font-size: 1rem;
+    position: relative;
+}

@@ -1,11 +1,14 @@
-import { Button } from "antd";
-
+import { Layout } from "antd";
+import Sider from "antd/es/layout/Sider";
+import Logo from "../logo";
+import MenuList from "../menulist";
 
 const Sidebar = () => {
     return(
-        <div className="App">
-        <Button type="primary">Button</Button>
-        </div>
+          <Sider  className="sidebar " >
+            <Logo/>
+            <MenuList/>
+          </Sider>
     )
 }
 
