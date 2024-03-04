@@ -1,10 +1,10 @@
+import { Button } from "antd";
 
 
 const Sidebar = () => {
     return(
-        <div>
-
-
+        <div className="App">
+        <Button type="primary">Button</Button>
         </div>
     )
 }

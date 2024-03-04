@@ -9,17 +9,18 @@ const Navbar = () => {
                     <a className='navbar__brand'> 
                         <Image
                         className='navbar__logo'
-                        src={'/amogus'}
+                        src={'/ScrumLogo.svg'}
                         width={100}
                         height={100}
-                        alt='scrum_platform_logo'
+                        alt='Scrum Logo'
                         />
-                        <strong className='navbar__title font-NotoSans '>by Byte-Boost</strong>
+                        <strong className='navbar__title font-NotoSans'>by Byte-Boost</strong>
                     </a>
                 </div>
-                <div className='navbar__items navbar__items--right '>
+                <div className='navbar__items navbar__items--right font-NotoSans'>
                     <a href="https://github.com/Byte-Boost/Plataforma-Scrum" target="_blank" rel="noopener noreferrer" className="navbar__item navbar__link">GitHub</a>
                     <a href="https://github.com/Byte-Boost" target="_blank" rel="noopener noreferrer" className="navbar__item navbar__link">Team</a>
+                    <a href="https://plataforma-scrum.vercel.app/en" target="_blank" rel="noopener noreferrer" className="navbar__item navbar__link">Legacy Version</a>
                 </div>
             </div>
         </nav>
